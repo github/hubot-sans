@@ -10,7 +10,7 @@ Hubot Sans is a [variable font](https://web.dev/variable-fonts/). Variable fonts
 
 ## Usage
 
- For web, we recommend using `Mona Sans.woff2`. Define the font with a `@font-face` rule, set its **weight** and **stretch** ranges, and use it:
+ For web, we recommend using `Hubot-Sans.woff2`. Define the font with a `@font-face` rule, set its **weight** and **stretch** ranges, and use it:
 
  ```css
  @font-face {
