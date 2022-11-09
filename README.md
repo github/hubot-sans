@@ -1,12 +1,36 @@
 # Hubot Sans
 
-[Typeface microsite](http://github.com/mona-sans) ↗️
+[Download Hubot Sans](http://github.com/github/hubot-sans/releases/latest) • [Typeface microsite](http://github.com/mona-sans) ↗️
 
-Hubot is [Mona’s](https://github.com/github/mona-sans) robotic sidekick. The typeface is designed with more geometric accents to lend a technical and idiosyncratic feel—perfect for headers and pull-quotes. Designed with [Degarism](https://degarism.com/).
+**Hubot Sans** is [Mona Sans’s](https://github.com/github/mona-sans) robotic sidekick. The typeface is designed with more geometric accents to lend a technical and idiosyncratic feel—perfect for headers and pull-quotes. Made together with [Degarism](https://degarism.com/).
 
-Hubot is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are supported by all major browsers, allowing for performance benefits and granular design control of the typeface's weight, width, and slant.
+Hubot Sans is a [variable font](https://web.dev/variable-fonts/). Variable fonts enable different variations of a typeface to be incorporated into one single file, and are [supported by all major browsers](https://caniuse.com/?search=variable%20fonts).
 
 ![hubot-sans](https://user-images.githubusercontent.com/99746865/200649171-0eb80908-df45-4fd5-9fc7-53403f5709da.png)
+
+## Usage
+
+ For web, we recommend using `Mona Sans.woff2`. Define the font with a `@font-face` rule, set its **weight** and **stretch** ranges, and use it:
+
+ ```css
+ @font-face {
+   font-family: 'Hubot Sans';
+   src:
+     url('Hubot-Sans.woff2') format('woff2 supports variations'),
+     url('Hubot-Sans.woff2') format('woff2-variations');
+   font-weight: 200 900;
+   font-stretch: 75% 125%;
+ }
+ html {
+   font-family: 'Hubot Sans';
+ }
+ ```
+
+ To reduce [CLS](https://web.dev/cls/), you can preload the font in the `head` of your document:
+
+ ```html
+ <link rel="preload" href="Hubot-Sans.woff2" as="font" type="font/woff2" crossorigin>
+ ```
 
 ## Styles
 | Style Name | Italic Name | Weight | Width |
