@@ -1,0 +1,10 @@
+sources:
+  - HubotSans.glyphs
+# buildOTF: False
+# buildWebfont: False
+# buildTTF: false
+axisOrder:
+  - slnt
+  - wdth
+  - wght
+familyName: "Hubot Sans"
