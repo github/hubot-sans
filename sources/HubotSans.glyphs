@@ -1,315 +1,147 @@
 {
-.appVersion = "1356";
+.appVersion = "3146";
 classes = (
 {
 code = "";
 name = xxxx;
 }
 );
-copyright = "Copyright © 2021 by GitHub.Inc. All rights reserved.";
+copyright = "Copyright 2022 The Hubot Sans Project Authors (https://github.com/github/mona-sans), with Reserved Font Name \"Mona\"";
 customParameters = (
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Variable Font Origin";
+value = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
 {
 name = Axes;
 value = (
 {
-Name = Weight;
-Tag = wght;
+Name = Slant;
+Tag = slnt;
 },
 {
 Name = Width;
 Tag = wdth;
 },
 {
-Name = Italic;
-Tag = ital;
+Name = Weight;
+Tag = wght;
 }
 );
-},
-{
-name = "Variable Font File Name";
-value = "GitHub-No2 VAR";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
-name = "Use Line Breaks";
-value = 1;
-},
-{
-name = "Variable Font Origin";
-value = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 }
 );
 date = "2017-05-31 15:56:58 +0000";
 designer = "Deni Anggara";
 designerURL = www.degarism.com;
-familyName = "Hubot-Sans";
+familyName = "Hubot Sans";
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;
-
-languagesystem latn dflt;
-languagesystem latn AZE;
-languagesystem latn CRT;
-languagesystem latn KAZ;
-languagesystem latn TAT;
-languagesystem latn TRK;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn NLD;
-";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn NLD;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature locl;
-feature subs;
-feature sinf;
-feature sups;
-feature numr;
-feature dnom;
-feature frac;
-feature ordn;
-feature pnum;
-feature tnum;
-feature case;
-feature salt;
-feature ss01;
-feature ss04;
-";
+code = "feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature pnum;\012feature tnum;\012feature case;\012feature salt;\012feature ss01;\012feature ss04;\012";
 name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
-";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb ogonekcomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_Other_1;\012";
 name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
-	sub i by idotaccent;
-} locl_latn_0;
-
-lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-} locl_latn_1;
-
-lookup locl_latn_2 {
-	script latn;
-	language NLD;
-	sub iacute j' by jacute;
-} locl_latn_2;
-";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language NLD;\012	sub iacute j' by jacute;\012} locl_latn_2;\012";
 name = locl;
 },
 {
 automatic = 1;
-code = "sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
-";
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
 name = subs;
 },
 {
 automatic = 1;
-code = "sub zero by zeroinferior;
-sub one by oneinferior;
-sub two by twoinferior;
-sub three by threeinferior;
-sub four by fourinferior;
-sub five by fiveinferior;
-sub six by sixinferior;
-sub seven by seveninferior;
-sub eight by eightinferior;
-sub nine by nineinferior;
-";
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
 name = sinf;
 },
 {
 automatic = 1;
-code = "sub zero by zerosuperior;
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
-sub five by fivesuperior;
-sub six by sixsuperior;
-sub seven by sevensuperior;
-sub eight by eightsuperior;
-sub nine by ninesuperior;
-";
+code = "sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
 name = sups;
 },
 {
 automatic = 1;
-code = "sub zero by zero.numr;
-sub one by one.numr;
-sub two by two.numr;
-sub three by three.numr;
-sub four by four.numr;
-sub five by five.numr;
-sub six by six.numr;
-sub seven by seven.numr;
-sub eight by eight.numr;
-sub nine by nine.numr;
-";
+code = "sub zero by zero.numr;\012sub one by one.numr;\012sub two by two.numr;\012sub three by three.numr;\012sub four by four.numr;\012sub five by five.numr;\012sub six by six.numr;\012sub seven by seven.numr;\012sub eight by eight.numr;\012sub nine by nine.numr;\012";
 name = numr;
 },
 {
 automatic = 1;
-code = "sub zero by zero.dnom;
-sub one by one.dnom;
-sub two by two.dnom;
-sub three by three.dnom;
-sub four by four.dnom;
-sub five by five.dnom;
-sub six by six.dnom;
-sub seven by seven.dnom;
-sub eight by eight.dnom;
-sub nine by nine.dnom;
-";
+code = "sub zero by zero.dnom;\012sub one by one.dnom;\012sub two by two.dnom;\012sub three by three.dnom;\012sub four by four.dnom;\012sub five by five.dnom;\012sub six by six.dnom;\012sub seven by seven.dnom;\012sub eight by eight.dnom;\012sub nine by nine.dnom;\012";
 name = dnom;
 },
 {
 automatic = 1;
-code = "lookup FRAC {
-	sub slash by fraction;
-} FRAC;
-lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
-} UP;
-lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-} DOWN;
-";
+code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
 name = frac;
 },
 {
 automatic = 1;
-code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
-";
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012";
 name = ordn;
 },
 {
 automatic = 1;
-code = "sub zero.tf by zero;
-sub one.tf by one;
-sub two.tf by two;
-sub three.tf by three;
-sub four.tf by four;
-sub five.tf by five;
-sub six.tf by six;
-sub seven.tf by seven;
-sub eight.tf by eight;
-sub nine.tf by nine;
-";
+code = "sub zero.tf by zero;\012sub one.tf by one;\012sub two.tf by two;\012sub three.tf by three;\012sub four.tf by four;\012sub five.tf by five;\012sub six.tf by six;\012sub seven.tf by seven;\012sub eight.tf by eight;\012sub nine.tf by nine;\012";
 name = pnum;
 },
 {
 automatic = 1;
-code = "sub zero by zero.tf;
-sub one by one.tf;
-sub two by two.tf;
-sub three by three.tf;
-sub four by four.tf;
-sub five by five.tf;
-sub six by six.tf;
-sub seven by seven.tf;
-sub eight by eight.tf;
-sub nine by nine.tf;
-";
+code = "sub zero by zero.tf;\012sub one by one.tf;\012sub two by two.tf;\012sub three by three.tf;\012sub four by four.tf;\012sub five by five.tf;\012sub six by six.tf;\012sub seven by seven.tf;\012sub eight by eight.tf;\012sub nine by nine.tf;\012";
 name = tnum;
 },
 {
 automatic = 1;
-code = "sub parenleft by parenleft.case;
-sub parenright by parenright.case;
-sub braceleft by braceleft.case;
-sub braceright by braceright.case;
-sub bracketleft by bracketleft.case;
-sub bracketright by bracketright.case;
-";
+code = "sub parenleft by parenleft.case;\012sub parenright by parenright.case;\012sub braceleft by braceleft.case;\012sub braceright by braceright.case;\012sub bracketleft by bracketleft.case;\012sub bracketright by bracketright.case;\012";
 name = case;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f f i by f_f_i.liga;
-sub f f by f_f.liga;
-sub f t by f_t.liga;
-sub r t by r_t.liga;
-sub t i by t_i.liga;
-sub t t by t_t.liga;
-sub f i by fi;
-";
+code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i.liga;\012sub f f by f_f.liga;\012sub f t by f_t.liga;\012sub r t by r_t.liga;\012sub t i by t_i.liga;\012sub t t by t_t.liga;\012sub f i by fi;\012";
 name = liga;
 },
 {
 automatic = 1;
-code = "sub G by G.ss01;
-sub R by R.ss01;
-sub a by a.ss01;
-sub g by g.ss01;
-sub r by r.ss01;
-";
+code = "sub G by G.ss01;\012sub R by R.ss01;\012sub a by a.ss01;\012sub g by g.ss01;\012sub r by r.ss01;\012";
 name = salt;
 },
 {
 automatic = 1;
-code = "sub G by G.ss01;
-sub R by R.ss01;
-sub a by a.ss01;
-sub g by g.ss01;
-sub r by r.ss01;
-";
+code = "sub G by G.ss01;\012sub R by R.ss01;\012sub a by a.ss01;\012sub g by g.ss01;\012sub r by r.ss01;\012";
 name = ss01;
 },
 {
 automatic = 1;
-code = "sub A by A.ss04;
-sub V by V.ss04;
-sub W by W.ss04;
-";
+code = "sub A by A.ss04;\012sub V by V.ss04;\012sub W by W.ss04;\012";
 name = ss04;
 }
 );
@@ -324,7 +156,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Extra Narrow";
+custom = Extra;
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -387,9 +220,8 @@ horizontalStems = (
 58,
 54
 );
-iconName = Light_Condensed;
 id = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-name = "ExtraLight Narrow";
+name = "Condensed ExtraLight";
 userData = {
 GSOffsetHorizontal = -9;
 GSOffsetProportional = 1;
@@ -400,8 +232,9 @@ verticalStems = (
 59
 );
 weight = Light;
-weightValue = 200;
-widthValue = 50;
+weightValue = 0;
+width = Condensed;
+widthValue = 75;
 xHeight = 515;
 },
 {
@@ -414,7 +247,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Black Narrow";
+custom = Black;
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -485,8 +319,9 @@ verticalStems = (
 205,
 192
 );
-weightValue = 900;
-widthValue = 50;
+weightValue = 0;
+width = Condensed;
+widthValue = 75;
 xHeight = 544;
 },
 {
@@ -500,6 +335,7 @@ alignmentZones = (
 ascender = 800;
 capHeight = 729;
 custom = Extra;
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -577,7 +413,7 @@ verticalStems = (
 59
 );
 weight = Light;
-weightValue = 200;
+weightValue = 0;
 xHeight = 515;
 },
 {
@@ -591,6 +427,7 @@ alignmentZones = (
 ascender = 800;
 capHeight = 729;
 custom = Black;
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -659,7 +496,7 @@ verticalStems = (
 213,
 200
 );
-weightValue = 900;
+weightValue = 0;
 xHeight = 546;
 },
 {
@@ -672,7 +509,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Extra Wide";
+custom = "Expanded Extra";
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -740,14 +578,14 @@ horizontalStems = (
 );
 iconName = Light_Extended;
 id = "C1814757-B5F7-4D49-B715-04BFD84ECCF6";
-name = "ExtraLight Wide";
+name = "Expanded ExtraLight";
 verticalStems = (
 59,
 59
 );
 weight = Light;
-weightValue = 200;
-widthValue = 200;
+weightValue = 0;
+widthValue = 125;
 xHeight = 515;
 },
 {
@@ -760,7 +598,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Black Wide";
+custom = "Expanded Black";
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -826,8 +665,8 @@ verticalStems = (
 212,
 198
 );
-weightValue = 900;
-widthValue = 200;
+weightValue = 0;
+widthValue = 125;
 xHeight = 545;
 },
 {
@@ -840,8 +679,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Extra Narrow Italic";
-customValue = 10;
+custom = "Extra Italic";
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -907,10 +746,9 @@ horizontalStems = (
 58,
 54
 );
-iconName = Light_Condensed;
 id = "84BE75FC-12C8-47E9-B302-5F6D56903923";
 italicAngle = 10;
-name = "ExtraLight Narrow Italic";
+name = "Condensed ExtraLight Italic";
 userData = {
 GSOffsetHorizontal = -9;
 GSOffsetProportional = 1;
@@ -921,8 +759,9 @@ verticalStems = (
 59
 );
 weight = Light;
-weightValue = 200;
-widthValue = 50;
+weightValue = -10;
+width = Condensed;
+widthValue = 75;
 xHeight = 515;
 },
 {
@@ -935,8 +774,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Black Narrow Italic";
-customValue = 10;
+custom = "Black Italic";
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -1015,8 +854,9 @@ verticalStems = (
 205,
 192
 );
-weightValue = 900;
-widthValue = 50;
+weightValue = -10;
+width = Condensed;
+widthValue = 75;
 xHeight = 544;
 },
 {
@@ -1030,7 +870,7 @@ alignmentZones = (
 ascender = 800;
 capHeight = 729;
 custom = "Extra Italic";
-customValue = 10;
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -1102,7 +942,7 @@ verticalStems = (
 59
 );
 weight = Light;
-weightValue = 200;
+weightValue = -10;
 xHeight = 515;
 },
 {
@@ -1116,7 +956,7 @@ alignmentZones = (
 ascender = 800;
 capHeight = 729;
 custom = "Black Italic";
-customValue = 10;
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -1190,7 +1030,7 @@ verticalStems = (
 207,
 193
 );
-weightValue = 900;
+weightValue = -10;
 xHeight = 545;
 },
 {
@@ -1203,8 +1043,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Extra Wide Italic";
-customValue = 10;
+custom = "Expanded Extra Italic";
+customValue = 200;
 customParameters = (
 {
 name = underlinePosition;
@@ -1270,14 +1110,14 @@ horizontalStems = (
 iconName = Light_Extended;
 id = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
 italicAngle = 10;
-name = "ExtraLight Wide Italic";
+name = "Expanded ExtraLight Italic";
 verticalStems = (
 59,
 59
 );
 weight = Light;
-weightValue = 200;
-widthValue = 200;
+weightValue = -10;
+widthValue = 125;
 xHeight = 515;
 },
 {
@@ -1290,8 +1130,8 @@ alignmentZones = (
 );
 ascender = 800;
 capHeight = 729;
-custom = "Black Wide Italic";
-customValue = 10;
+custom = "Expanded Black Italic";
+customValue = 900;
 customParameters = (
 {
 name = underlinePosition;
@@ -1361,8 +1201,8 @@ verticalStems = (
 213,
 199
 );
-weightValue = 900;
-widthValue = 200;
+weightValue = -10;
+widthValue = 125;
 xHeight = 545;
 }
 );
@@ -63319,7 +63159,7 @@ nodes = (
 );
 };
 layerId = "78D67D80-5437-4B88-BDA4-0450E32E9678";
-name = "[300]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -63427,7 +63267,7 @@ nodes = (
 );
 };
 layerId = "BBCA8E90-5105-44BA-9009-4557B08093EC";
-name = "[300]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -133727,7 +133567,7 @@ unicode = 201A;
 },
 {
 glyphname = quotedblbase;
-lastChange = "2022-06-05 15:23:09 +0000";
+lastChange = "2022-11-17 13:26:46 +0000";
 layers = (
 {
 components = (
@@ -133814,10 +133654,11 @@ width = 356;
 {
 components = (
 {
-alignment = 1;
+alignment = -1;
 name = comma;
 },
 {
+alignment = -1;
 name = comma;
 transform = "{1, 0, 0, 1, 150, 0}";
 }
@@ -140847,7 +140688,7 @@ width = 465;
 {
 associatedMasterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 layerId = "B5C61074-85CA-4FF8-92CB-F990B3AE1AD4";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -140950,7 +140791,7 @@ width = 368;
 {
 associatedMasterId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 layerId = "E7955A13-85F3-4BFF-AE91-501875404779";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141119,7 +140960,7 @@ width = 369;
 {
 associatedMasterId = "84BE75FC-12C8-47E9-B302-5F6D56903923";
 layerId = "C8E54D00-4E88-482A-83BB-F1B13351C7E8";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141222,7 +141063,7 @@ width = 464;
 {
 associatedMasterId = "3257632A-050A-40C2-B21A-C728868BC46F";
 layerId = "DB42009B-28F4-43BB-84D0-3B1F4FC5ED5F";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141325,7 +141166,7 @@ width = 582;
 {
 associatedMasterId = "33C7CA81-8DED-4513-9072-CA0E40765DD9";
 layerId = "ECAA0122-9F2B-4FA2-B122-C9B128224D08";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141382,7 +141223,7 @@ width = 582;
 {
 associatedMasterId = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 layerId = "9FA23247-9312-4BF6-94DD-03B7C20E4971";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141505,7 +141346,7 @@ width = 638;
 {
 associatedMasterId = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
 layerId = "24594FE8-C0C0-40A3-8F2A-94C9800A8B62";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141608,7 +141449,7 @@ width = 657;
 {
 associatedMasterId = "C1814757-B5F7-4D49-B715-04BFD84ECCF6";
 layerId = "EB16AA01-9901-4469-8FF2-B4C957F66B81";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141757,7 +141598,7 @@ width = 603;
 {
 associatedMasterId = "2359B287-0F82-447F-8C68-59A72835D733";
 layerId = "FFBC668F-2754-40CB-8A62-D8A023344A99";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141814,7 +141655,7 @@ width = 603;
 {
 associatedMasterId = "8B1B4E65-9831-4464-9A92-CA98D2219836";
 layerId = "136792AB-BBAE-4748-9F8F-58AC43ADBBBB";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -141963,7 +141804,7 @@ width = 697;
 {
 associatedMasterId = "0D69E86C-407B-4861-9815-978EE2313DB2";
 layerId = "D87AEBAE-53E6-411B-94AA-4DF11B92B4CF";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -142020,7 +141861,7 @@ width = 697;
 {
 associatedMasterId = "46DCD09A-F85A-41B9-8FAA-640012B7D4F4";
 layerId = "728F2559-8931-4478-83FD-C8CC5E6D50D2";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -142968,7 +142809,7 @@ name = S;
 }
 );
 layerId = "B6A8DBA6-993F-4C6E-A2FD-D895B979AC02";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -142999,7 +142840,7 @@ name = S;
 }
 );
 layerId = "0FAD96FA-BE45-4F9D-B3D5-8D8966C696D0";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143136,7 +142977,7 @@ name = S;
 }
 );
 layerId = "DCCB5978-81B9-4F27-BDD7-158ABCFA6942";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143187,7 +143028,7 @@ name = S;
 }
 );
 layerId = "44BB9B37-7462-4DAB-9B8E-65181121A523";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143238,7 +143079,7 @@ name = S;
 }
 );
 layerId = "B84B24F3-93B9-4879-B096-5885D7F313DE";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143269,7 +143110,7 @@ name = S;
 }
 );
 layerId = "1BD75757-EAF8-498E-975F-4CFDE3AD424A";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143386,7 +143227,7 @@ name = S;
 }
 );
 layerId = "3B7A664F-D900-4418-B9C2-BF1F8879EB63";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143437,7 +143278,7 @@ name = S;
 }
 );
 layerId = "0F9EAA92-99E4-404A-879B-E29915390366";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143508,7 +143349,7 @@ name = S;
 }
 );
 layerId = "366C60EE-89F2-46C5-8070-728AD5B7A8F2";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143539,7 +143380,7 @@ name = S;
 }
 );
 layerId = "2BEE9FDC-40F4-4B83-93ED-859D5DDF34A0";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143613,7 +143454,7 @@ name = S;
 }
 );
 layerId = "952A4DE8-5907-4DC9-A10A-F4970794AF15";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -143645,7 +143486,7 @@ name = S;
 }
 );
 layerId = "8EB59070-8C35-4360-8B39-853FB898033C";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -144880,7 +144721,7 @@ width = 738;
 hints = (
 {
 horizontal = 1;
-place = "{507, -2147483648}";
+place = "{507, 0}";
 type = Anchor;
 },
 {
@@ -144945,7 +144786,7 @@ width = 448;
 hints = (
 {
 horizontal = 1;
-place = "{384, -2147483648}";
+place = "{384, 0}";
 type = Anchor;
 },
 {
@@ -145010,7 +144851,7 @@ width = 481;
 hints = (
 {
 horizontal = 1;
-place = "{507, -2147483648}";
+place = "{507, 0}";
 type = Anchor;
 },
 {
@@ -146614,12 +146455,12 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -146629,12 +146470,12 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = "{281, -2147483648}";
+place = "{281, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -146928,12 +146769,12 @@ width = 642;
 hints = (
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -146943,12 +146784,12 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = "{281, -2147483648}";
+place = "{281, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -147099,7 +146940,7 @@ type = TTStem;
 }
 );
 layerId = "6126E0A2-77DA-4B81-82B7-41C2B512BF02";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147150,12 +146991,12 @@ associatedMasterId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 hints = (
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -147165,12 +147006,12 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = "{281, -2147483648}";
+place = "{281, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -147180,7 +147021,7 @@ type = TTStem;
 }
 );
 layerId = "5024BDA0-1E7D-420E-963C-26D8DDB4A7E9";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147229,7 +147070,7 @@ width = 828;
 {
 associatedMasterId = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 layerId = "73588211-272F-4922-9187-EB5D42B115CB";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147376,7 +147217,7 @@ type = TTStem;
 }
 );
 layerId = "533A0C52-CA6B-4500-A3FC-DA1B5CA8CAAF";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147427,12 +147268,12 @@ associatedMasterId = "3257632A-050A-40C2-B21A-C728868BC46F";
 hints = (
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -147442,12 +147283,12 @@ type = TTStem;
 },
 {
 horizontal = 1;
-place = "{281, -2147483648}";
+place = "{281, 0}";
 type = Anchor;
 },
 {
 horizontal = 1;
-place = "{393, -2147483648}";
+place = "{393, 0}";
 type = Anchor;
 },
 {
@@ -147457,7 +147298,7 @@ type = TTStem;
 }
 );
 layerId = "E9CA0DFF-76AC-405B-9538-0B9FE8B989E7";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147538,7 +147379,7 @@ type = TTStem;
 }
 );
 layerId = "49DA1457-C4F9-4597-A64F-E49CD9CE97AE";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147689,7 +147530,7 @@ type = TTStem;
 }
 );
 layerId = "E5B7870D-853B-4CC7-9DD3-99710C859F13";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -147840,7 +147681,7 @@ type = TTStem;
 }
 );
 layerId = "C7CEE809-2133-4E3B-8E59-79B94C75762D";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -148061,7 +147902,7 @@ type = TTStem;
 }
 );
 layerId = "D511B8C3-C487-4D1F-BE25-779021D1B512";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -148142,7 +147983,7 @@ type = TTStem;
 }
 );
 layerId = "981A5705-501A-499D-B0F4-4A173CBD1745";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -148363,7 +148204,7 @@ type = TTStem;
 }
 );
 layerId = "E35C10CA-6EC1-46DB-B119-17AC9E4ACF58";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -148444,7 +148285,7 @@ type = TTStem;
 }
 );
 layerId = "F68BB71A-7C61-4F71-8C35-8D6E7CB505A7";
-name = "[500]";
+name = "[]";
 paths = (
 {
 closed = 1;
@@ -180946,10 +180787,6 @@ instances = (
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -180965,30 +180802,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
-name = "Export STAT Table";
-value = 1;
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 50;
+interpolationCustom = 200;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 1;
 };
-name = "ExtraLight Narrow";
+name = ExtraLight;
 weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181004,26 +180834,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 300;
-interpolationWidth = 50;
+interpolationCustom = 300;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.85714;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.14286;
 };
-name = "Light Narrow";
+name = Light;
 weightClass = Light;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181040,25 +180867,22 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 400;
-interpolationWidth = 50;
+interpolationCustom = 400;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.71429;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.28571;
 };
-name = "Regular Narrow";
+name = Regular;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181075,26 +180899,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 500;
-interpolationWidth = 50;
+interpolationCustom = 500;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.57143;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.42857;
 };
-name = "Medium Narrow";
+name = Medium;
 weightClass = Medium;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181111,26 +180932,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 600;
-interpolationWidth = 50;
+interpolationCustom = 600;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.42857;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.57143;
 };
-name = "SemiBold Narrow";
+name = SemiBold;
 weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181147,26 +180965,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 700;
-interpolationWidth = 50;
+interpolationCustom = 700;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.28571;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.71429;
 };
-name = "Bold Narrow";
+isBold = 1;
+name = Bold;
 weightClass = Bold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181183,26 +180999,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 800;
-interpolationWidth = 50;
+interpolationCustom = 800;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.14286;
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.85714;
 };
-name = "ExtraBold Narrow";
+name = ExtraBold;
 weightClass = ExtraBold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181219,26 +181032,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationWeight = 900;
-interpolationWidth = 50;
+interpolationCustom = 900;
+interpolationWeight = 0;
+interpolationWidth = 75;
 instanceInterpolations = {
 "E787E54A-EE3E-475A-BF02-8501A6DA5144" = 1;
 };
-name = "Black Narrow";
+name = Black;
 weightClass = Black;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181252,312 +181062,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.3;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.7;
-};
-name = "ExtraLight Semi";
-weightClass = ExtraLight;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 300;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.25714;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.1;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.6;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.04286;
-};
-name = "Light Semi";
-weightClass = Light;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 400;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.21429;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.2;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.5;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.08571;
-};
-name = "Regular Semi";
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 500;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.17143;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.3;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.4;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.12857;
-};
-name = "Medium Semi";
-weightClass = Medium;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 600;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.12857;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.4;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.3;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.17143;
-};
-name = "SemiBold Semi";
-weightClass = SemiBold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 700;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.08571;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.5;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.2;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.21429;
-};
-name = "Bold Semi";
-weightClass = Bold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 800;
-interpolationWidth = 85;
-instanceInterpolations = {
-"6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.04286;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.6;
-"B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.1;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.25714;
-};
-name = "ExtraBold Semi";
-weightClass = ExtraBold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 900;
-interpolationWidth = 85;
-instanceInterpolations = {
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.7;
-"E787E54A-EE3E-475A-BF02-8501A6DA5144" = 0.3;
-};
-name = "Black Semi";
-weightClass = Black;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationWeight = 200;
+interpolationCustom = 200;
+interpolationWeight = 0;
 instanceInterpolations = {
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 1;
 };
@@ -181567,10 +181075,6 @@ weightClass = ExtraLight;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181584,13 +181088,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 300;
+interpolationCustom = 300;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.14286;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.85714;
@@ -181601,10 +181102,6 @@ weightClass = Light;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181618,13 +181115,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 400;
+interpolationCustom = 400;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.28571;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.71429;
@@ -181634,10 +181128,6 @@ name = Regular;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181651,13 +181141,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 500;
+interpolationCustom = 500;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.42857;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.57143;
@@ -181668,10 +181155,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181685,13 +181168,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 600;
+interpolationCustom = 600;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.57143;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.42857;
@@ -181702,10 +181182,6 @@ weightClass = SemiBold;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181719,13 +181195,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 700;
+interpolationCustom = 700;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.71429;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.28571;
@@ -181737,10 +181210,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181754,13 +181223,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 800;
+interpolationCustom = 800;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.85714;
 "B743CB11-DC16-45F2-BA04-3635CB00F7DA" = 0.14286;
@@ -181771,10 +181237,6 @@ weightClass = ExtraBold;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181788,13 +181250,10 @@ a,
 n,
 s
 );
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
 }
 );
-interpolationWeight = 900;
+interpolationCustom = 900;
+interpolationWeight = 0;
 instanceInterpolations = {
 "8B1B4E65-9831-4464-9A92-CA98D2219836" = 1;
 };
@@ -181804,10 +181263,6 @@ weightClass = Black;
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181823,26 +181278,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 200;
+interpolationCustom = 200;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 1;
 };
-name = "ExtraLight Wide";
+name = ExtraLight;
 weightClass = ExtraLight;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -181858,26 +181310,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 300;
-interpolationWidth = 200;
+interpolationCustom = 300;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.14286;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.85714;
 };
-name = "Light Wide";
+name = Light;
 weightClass = Light;
 widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181894,25 +181343,22 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 400;
-interpolationWidth = 200;
+interpolationCustom = 400;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.28571;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.71429;
 };
-name = "Regular Wide";
+name = Regular;
 widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181929,26 +181375,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 500;
-interpolationWidth = 200;
+interpolationCustom = 500;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.42857;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.57143;
 };
-name = "Medium Wide";
+name = Medium;
 weightClass = Medium;
 widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -181965,26 +181408,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 600;
-interpolationWidth = 200;
+interpolationCustom = 600;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.57143;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.42857;
 };
-name = "SemiBold Wide";
+name = SemiBold;
 weightClass = SemiBold;
 widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182001,26 +181441,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 700;
-interpolationWidth = 200;
+interpolationCustom = 700;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.71429;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.28571;
 };
-name = "Bold Wide";
+isBold = 1;
+name = Bold;
 weightClass = Bold;
 widthClass = Expanded;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182037,27 +181475,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 800;
-interpolationWidth = 200;
+interpolationCustom = 800;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 0.85714;
 "C1814757-B5F7-4D49-B715-04BFD84ECCF6" = 0.14286;
 };
-name = "ExtraBold Wide";
+name = ExtraBold;
 weightClass = ExtraBold;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182073,26 +181508,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationWeight = 900;
-interpolationWidth = 200;
+interpolationCustom = 900;
+interpolationWeight = 0;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46DCD09A-F85A-41B9-8FAA-640012B7D4F4" = 1;
 };
-name = "Black Wide";
+name = Black;
 weightClass = Black;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182108,27 +181540,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 200;
-interpolationWidth = 50;
+interpolationCustom = 200;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 1;
 };
-name = "ExtraLight Narrow Italic";
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
 weightClass = ExtraLight;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182144,27 +181578,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 300;
-interpolationWidth = 50;
+interpolationCustom = 300;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.14286;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.85714;
 };
-name = "Light Narrow Italic";
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
 weightClass = Light;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182181,26 +181617,27 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 400;
-interpolationWidth = 50;
+interpolationCustom = 400;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.28571;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.71429;
 };
-name = "Regular Narrow Italic";
+isItalic = 1;
+name = Italic;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182217,27 +181654,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 500;
-interpolationWidth = 50;
+interpolationCustom = 500;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.42857;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.57143;
 };
-name = "Medium Narrow Italic";
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
 weightClass = Medium;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182254,27 +181693,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 600;
-interpolationWidth = 50;
+interpolationCustom = 600;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.57143;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.42857;
 };
-name = "SemiBold Narrow Italic";
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182291,27 +181732,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 700;
-interpolationWidth = 50;
+interpolationCustom = 700;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.71429;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.28571;
 };
-name = "Bold Narrow Italic";
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
 weightClass = Bold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182328,27 +181771,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 800;
-interpolationWidth = 50;
+interpolationCustom = 800;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 0.85714;
 "84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.14286;
 };
-name = "ExtraBold Narrow Italic";
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 widthClass = Condensed;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182365,27 +181810,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Condensed";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 900;
-interpolationWidth = 50;
+interpolationCustom = 900;
+interpolationWeight = -10;
+interpolationWidth = 75;
 instanceInterpolations = {
 "3257632A-050A-40C2-B21A-C728868BC46F" = 1;
 };
-name = "Black Narrow Italic";
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
 weightClass = Black;
 widthClass = Condensed;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182401,332 +181848,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 200;
-interpolationWidth = 85;
-instanceInterpolations = {
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.7;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.3;
-};
-name = "ExtraLight Semi Italic";
-weightClass = ExtraLight;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 300;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.1;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.04286;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.6;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.25714;
-};
-name = "Light Semi Italic";
-weightClass = Light;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 400;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.2;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.08571;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.5;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.21429;
-};
-name = "Regular Semi Italic";
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 500;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.3;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.12857;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.4;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.17143;
-};
-name = "Medium Semi Italic";
-weightClass = Medium;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 600;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.4;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.17143;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.3;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.12857;
-};
-name = "SemiBold Semi Italic";
-weightClass = SemiBold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 700;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.5;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.21429;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.2;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.08571;
-};
-name = "Bold Semi Italic";
-weightClass = Bold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 800;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.6;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.25714;
-"33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.1;
-"84BE75FC-12C8-47E9-B302-5F6D56903923" = 0.04286;
-};
-name = "ExtraBold Semi Italic";
-weightClass = ExtraBold;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 900;
-interpolationWidth = 85;
-instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.7;
-"3257632A-050A-40C2-B21A-C728868BC46F" = 0.3;
-};
-name = "Black Semi Italic";
-weightClass = Black;
-widthClass = SemiCondensed;
-},
-{
-customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
-{
-name = "Instance Preview";
-value = (
-H,
-u,
-b,
-o,
-t,
-space,
-S,
-a,
-n,
-s
-);
-},
-{
-name = Filter;
-value = "RemoveOverlap;";
-}
-);
-interpolationCustom = 10;
-interpolationWeight = 200;
+interpolationCustom = 200;
+interpolationWeight = -10;
 instanceInterpolations = {
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 1;
 };
+isItalic = 1;
+linkStyle = ExtraLight;
 name = "ExtraLight Italic";
 weightClass = ExtraLight;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182742,26 +181880,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 300;
+interpolationCustom = 300;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.14286;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.85714;
 };
+isItalic = 1;
+linkStyle = Light;
 name = "Light Italic";
 weightClass = Light;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182777,24 +181913,21 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 400;
+interpolationCustom = 400;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.28571;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.71429;
 };
-name = "Regular Italic";
+isItalic = 1;
+name = Italic;
 },
 {
 customParameters = (
-{
-name = familyName;
-value = "Hubot-Sans";
-},
 {
 name = "Instance Preview";
 value = (
@@ -182811,26 +181944,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 500;
+interpolationCustom = 500;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.42857;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.57143;
 };
+isItalic = 1;
+linkStyle = Medium;
 name = "Medium Italic";
 weightClass = Medium;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182846,26 +181977,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 600;
+interpolationCustom = 600;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.57143;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.42857;
 };
+isItalic = 1;
+linkStyle = SemiBold;
 name = "SemiBold Italic";
 weightClass = SemiBold;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182881,27 +182010,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 700;
+interpolationCustom = 700;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.71429;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.28571;
 };
 isBold = 1;
+isItalic = 1;
 name = "Bold Italic";
 weightClass = Bold;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182917,26 +182043,24 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 800;
+interpolationCustom = 800;
+interpolationWeight = -10;
 instanceInterpolations = {
 "2359B287-0F82-447F-8C68-59A72835D733" = 0.85714;
 "33C7CA81-8DED-4513-9072-CA0E40765DD9" = 0.14286;
 };
+isItalic = 1;
+linkStyle = ExtraBold;
 name = "ExtraBold Italic";
 weightClass = ExtraBold;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182952,26 +182076,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
 }
 );
-interpolationCustom = 8;
-interpolationWeight = 900;
+interpolationCustom = 900;
+interpolationWeight = -10;
 instanceInterpolations = {
-"2359B287-0F82-447F-8C68-59A72835D733" = 0.8;
-"8B1B4E65-9831-4464-9A92-CA98D2219836" = 0.2;
+"2359B287-0F82-447F-8C68-59A72835D733" = 1;
 };
+isItalic = 1;
+linkStyle = Black;
 name = "Black Italic";
 weightClass = Black;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -182987,27 +182108,29 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 200;
-interpolationWidth = 200;
+interpolationCustom = 200;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 1;
 };
-name = "ExtraLight Wide Italic";
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
 weightClass = ExtraLight;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183023,28 +182146,30 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 300;
-interpolationWidth = 200;
+interpolationCustom = 300;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.14286;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.85714;
 };
-name = "Light Wide Italic";
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
 weightClass = Light;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183060,27 +182185,28 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 400;
-interpolationWidth = 200;
+interpolationCustom = 400;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.28571;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.71429;
 };
-name = "Regular Wide Italic";
+isItalic = 1;
+name = Italic;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183096,28 +182222,30 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 500;
-interpolationWidth = 200;
+interpolationCustom = 500;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.42857;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.57143;
 };
-name = "Medium Wide Italic";
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
 weightClass = Medium;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183133,28 +182261,30 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 600;
-interpolationWidth = 200;
+interpolationCustom = 600;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.57143;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.42857;
 };
-name = "SemiBold Wide Italic";
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
 weightClass = SemiBold;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183170,28 +182300,30 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 700;
-interpolationWidth = 200;
+interpolationCustom = 700;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.71429;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.28571;
 };
-name = "Bold Wide Italic";
+isBold = 1;
+isItalic = 1;
+name = "Bold Italic";
 weightClass = Bold;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183207,28 +182339,30 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 800;
-interpolationWidth = 200;
+interpolationCustom = 800;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 0.85714;
 "46C13DED-2BAB-471A-8D19-A1FA49A5501E" = 0.14286;
 };
-name = "ExtraBold Wide Italic";
+isItalic = 1;
+linkStyle = ExtraBold;
+name = "ExtraBold Italic";
 weightClass = ExtraBold;
 widthClass = Expanded;
 },
 {
 customParameters = (
 {
-name = familyName;
-value = "Hubot-Sans";
-},
-{
 name = "Instance Preview";
 value = (
 H,
@@ -183244,17 +182378,23 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
+name = italicAngle;
+value = "10";
+},
+{
+name = familyName;
+value = "Hubot Sans Expanded";
 }
 );
-interpolationCustom = 10;
-interpolationWeight = 900;
-interpolationWidth = 200;
+interpolationCustom = 900;
+interpolationWeight = -10;
+interpolationWidth = 125;
 instanceInterpolations = {
 "0D69E86C-407B-4861-9815-978EE2313DB2" = 1;
 };
-name = "Black Wide Italic";
+isItalic = 1;
+linkStyle = Black;
+name = "Black Italic";
 weightClass = Black;
 widthClass = Expanded;
 }
@@ -226056,9 +225196,9 @@ three = -9;
 };
 };
 };
-manufacturer = "GitHub, Inc., Subsidiary of Microsoft Corporation";
+manufacturer = GitHub;
 manufacturerURL = www.github.com;
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
