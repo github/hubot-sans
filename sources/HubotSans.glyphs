@@ -1,11 +1,7 @@
 {
-.appVersion = "3146";
+.appVersion = "3202";
 .formatVersion = 3;
 axes = (
-{
-name = Slant;
-tag = slnt;
-},
 {
 name = Width;
 tag = wdth;
@@ -13,6 +9,10 @@ tag = wdth;
 {
 name = Weight;
 tag = wght;
+},
+{
+name = Slant;
+tag = slnt;
 }
 );
 customParameters = (
@@ -73,9 +73,9 @@ tag = aalt;
 automatic = 1;
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
 } ccmp_Other_1;
 
 lookup ccmp_latn_1 {
@@ -89,37 +89,34 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language NLD;
 lookup locl_latn_2 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 } locl_latn_2;
 ";
@@ -310,9 +307,9 @@ tag = ss04;
 fontMaster = (
 {
 axesValues = (
-0,
 75,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -414,9 +411,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-0,
 75,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -515,9 +512,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-0,
 100,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -622,9 +619,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
-0,
 100,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -721,9 +718,9 @@ stemValues = (
 },
 {
 axesValues = (
-0,
 125,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -823,9 +820,9 @@ stemValues = (
 },
 {
 axesValues = (
-0,
 125,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -919,9 +916,9 @@ stemValues = (
 },
 {
 axesValues = (
--10,
 75,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -1027,9 +1024,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
--10,
 75,
-900
+900,
+-10
 );
 customParameters = (
 {
@@ -1136,9 +1133,9 @@ GSOffsetVertical = 10;
 },
 {
 axesValues = (
--10,
 100,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -1237,9 +1234,9 @@ stemValues = (
 },
 {
 axesValues = (
--10,
 100,
-900
+900,
+-10
 );
 customParameters = (
 {
@@ -1341,9 +1338,9 @@ stemValues = (
 },
 {
 axesValues = (
--10,
 125,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -1441,9 +1438,9 @@ stemValues = (
 },
 {
 axesValues = (
--10,
 125,
-900
+900,
+-10
 );
 customParameters = (
 {
@@ -135415,7 +135412,7 @@ layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
 angle = 180;
-pos = (378,730);
+pos = (378,729);
 ref = parenleft.case;
 }
 );
@@ -135426,7 +135423,7 @@ layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
 angle = 180;
-pos = (308,730);
+pos = (308,729);
 ref = parenleft.case;
 }
 );
@@ -135437,7 +135434,7 @@ layerId = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 shapes = (
 {
 angle = 180;
-pos = (314,730);
+pos = (314,729);
 ref = parenleft.case;
 }
 );
@@ -135468,18 +135465,18 @@ layerId = "84BE75FC-12C8-47E9-B302-5F6D56903923";
 shapes = (
 {
 angle = 180;
-pos = (353,730);
+pos = (354,729);
 ref = parenleft.case;
 }
 );
-width = 315;
+width = 316;
 },
 {
 layerId = "3257632A-050A-40C2-B21A-C728868BC46F";
 shapes = (
 {
 angle = 180;
-pos = (400,730);
+pos = (400,729);
 ref = parenleft.case;
 }
 );
@@ -135490,29 +135487,29 @@ layerId = "33C7CA81-8DED-4513-9072-CA0E40765DD9";
 shapes = (
 {
 angle = 180;
-pos = (361,730);
+pos = (362,729);
 ref = parenleft.case;
 }
 );
-width = 323;
+width = 324;
 },
 {
 layerId = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
 shapes = (
 {
 angle = 180;
-pos = (322,730);
+pos = (323,729);
 ref = parenleft.case;
 }
 );
-width = 284;
+width = 285;
 },
 {
 layerId = "C1814757-B5F7-4D49-B715-04BFD84ECCF6";
 shapes = (
 {
 angle = 180;
-pos = (277,730);
+pos = (277,729);
 ref = parenleft.case;
 }
 );
@@ -135523,7 +135520,7 @@ layerId = "8B1B4E65-9831-4464-9A92-CA98D2219836";
 shapes = (
 {
 angle = 180;
-pos = (377,730);
+pos = (377,729);
 ref = parenleft.case;
 }
 );
@@ -135534,11 +135531,11 @@ layerId = "2359B287-0F82-447F-8C68-59A72835D733";
 shapes = (
 {
 angle = 180;
-pos = (409,730);
+pos = (408,729);
 ref = parenleft.case;
 }
 );
-width = 377;
+width = 376;
 },
 {
 layerId = "46DCD09A-F85A-41B9-8FAA-640012B7D4F4";
@@ -136195,7 +136192,7 @@ layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
 angle = 180;
-pos = (374,730);
+pos = (374,729);
 ref = braceleft.case;
 }
 );
@@ -136206,7 +136203,7 @@ layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
 angle = 180;
-pos = (269,730);
+pos = (269,729);
 ref = braceleft.case;
 }
 );
@@ -136217,7 +136214,7 @@ layerId = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 shapes = (
 {
 angle = 180;
-pos = (380,730);
+pos = (380,729);
 ref = braceleft.case;
 }
 );
@@ -136318,51 +136315,51 @@ layerId = "84BE75FC-12C8-47E9-B302-5F6D56903923";
 shapes = (
 {
 angle = 180;
-pos = (307,730);
+pos = (308,729);
 ref = braceleft.case;
 }
 );
-width = 269;
+width = 270;
 },
 {
 layerId = "3257632A-050A-40C2-B21A-C728868BC46F";
 shapes = (
 {
 angle = 180;
-pos = (407,730);
+pos = (407,729);
 ref = braceleft.case;
 }
 );
-width = 375;
+width = 374;
 },
 {
 layerId = "33C7CA81-8DED-4513-9072-CA0E40765DD9";
 shapes = (
 {
 angle = 180;
-pos = (418,730);
-ref = braceleft.case;
-}
-);
-width = 380;
-},
-{
-layerId = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
-shapes = (
-{
-angle = 180;
-pos = (419,730);
+pos = (419,729);
 ref = braceleft.case;
 }
 );
 width = 381;
 },
 {
+layerId = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
+shapes = (
+{
+angle = 180;
+pos = (420,729);
+ref = braceleft.case;
+}
+);
+width = 382;
+},
+{
 layerId = "C1814757-B5F7-4D49-B715-04BFD84ECCF6";
 shapes = (
 {
 angle = 180;
-pos = (389,730);
+pos = (389,729);
 ref = braceleft.case;
 }
 );
@@ -136373,7 +136370,7 @@ layerId = "8B1B4E65-9831-4464-9A92-CA98D2219836";
 shapes = (
 {
 angle = 180;
-pos = (459,730);
+pos = (459,729);
 ref = braceleft.case;
 }
 );
@@ -136384,7 +136381,7 @@ layerId = "2359B287-0F82-447F-8C68-59A72835D733";
 shapes = (
 {
 angle = 180;
-pos = (492,730);
+pos = (491,729);
 ref = braceleft.case;
 }
 );
@@ -136716,7 +136713,7 @@ layerId = "E787E54A-EE3E-475A-BF02-8501A6DA5144";
 shapes = (
 {
 angle = 180;
-pos = (329,730);
+pos = (329,729);
 ref = bracketleft.case;
 }
 );
@@ -136727,7 +136724,7 @@ layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
 angle = 180;
-pos = (185,730);
+pos = (185,729);
 ref = bracketleft.case;
 }
 );
@@ -136738,7 +136735,7 @@ layerId = "B743CB11-DC16-45F2-BA04-3635CB00F7DA";
 shapes = (
 {
 angle = 180;
-pos = (368,730);
+pos = (368,729);
 ref = bracketleft.case;
 }
 );
@@ -136785,7 +136782,7 @@ layerId = "84BE75FC-12C8-47E9-B302-5F6D56903923";
 shapes = (
 {
 angle = 180;
-pos = (223,730);
+pos = (224,729);
 ref = bracketleft.case;
 }
 );
@@ -136796,7 +136793,7 @@ layerId = "3257632A-050A-40C2-B21A-C728868BC46F";
 shapes = (
 {
 angle = 180;
-pos = (391,730);
+pos = (391,729);
 ref = bracketleft.case;
 }
 );
@@ -136807,7 +136804,7 @@ layerId = "33C7CA81-8DED-4513-9072-CA0E40765DD9";
 shapes = (
 {
 angle = 180;
-pos = (406,730);
+pos = (407,729);
 ref = bracketleft.case;
 }
 );
@@ -136818,7 +136815,7 @@ layerId = "46C13DED-2BAB-471A-8D19-A1FA49A5501E";
 shapes = (
 {
 angle = 180;
-pos = (394,730);
+pos = (395,729);
 ref = bracketleft.case;
 }
 );
@@ -136829,7 +136826,7 @@ layerId = "C1814757-B5F7-4D49-B715-04BFD84ECCF6";
 shapes = (
 {
 angle = 180;
-pos = (364,730);
+pos = (364,729);
 ref = bracketleft.case;
 }
 );
@@ -136840,7 +136837,7 @@ layerId = "8B1B4E65-9831-4464-9A92-CA98D2219836";
 shapes = (
 {
 angle = 180;
-pos = (403,730);
+pos = (403,729);
 ref = bracketleft.case;
 }
 );
@@ -136851,7 +136848,7 @@ layerId = "2359B287-0F82-447F-8C68-59A72835D733";
 shapes = (
 {
 angle = 180;
-pos = (437,730);
+pos = (436,729);
 ref = bracketleft.case;
 }
 );
@@ -152343,9 +152340,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -152457,9 +152454,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -152637,9 +152634,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -152751,9 +152748,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -152865,9 +152862,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -152933,9 +152930,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153067,9 +153064,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153181,9 +153178,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153341,9 +153338,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153409,9 +153406,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153569,9 +153566,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -153637,9 +153634,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154589,9 +154586,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154629,9 +154626,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154771,9 +154768,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154829,9 +154826,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154887,9 +154884,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -154927,9 +154924,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155051,9 +155048,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155109,9 +155106,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155185,9 +155182,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155225,9 +155222,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155303,9 +155300,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155344,9 +155341,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -155927,7 +155924,7 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-place = (211, 173);
+place = (211,173);
 type = TTStem;
 },
 {
@@ -155993,12 +155990,12 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-place = (280.732, 59.071);
+place = (280.732,59.071);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (687.643, 1066.179);
+place = (687.643,1066.179);
 type = TTStem;
 }
 );
@@ -156137,17 +156134,17 @@ width = 738;
 hints = (
 {
 horizontal = 1;
-place = (507, 0);
+place = (507,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (280.732, 59.071);
+place = (280.732,59.071);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (687.643, 1066.179);
+place = (687.643,1066.179);
 type = TTStem;
 }
 );
@@ -156202,17 +156199,17 @@ width = 448;
 hints = (
 {
 horizontal = 1;
-place = (384, 0);
+place = (384,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (211, 173);
+place = (211,173);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (613, 84);
+place = (613,84);
 type = TTStem;
 }
 );
@@ -156267,17 +156264,17 @@ width = 481;
 hints = (
 {
 horizontal = 1;
-place = (507, 0);
+place = (507,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (295.803, 71.428);
+place = (295.803,71.428);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (731.429, 1060.179);
+place = (731.429,1060.179);
 type = TTStem;
 }
 );
@@ -156332,17 +156329,17 @@ width = 759;
 hints = (
 {
 horizontal = 1;
-place = (507, 2000);
+place = (507,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (285.555, 63.026);
+place = (285.555,63.026);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (701.655, 1064.259);
+place = (701.655,1064.259);
 type = TTStem;
 }
 );
@@ -156402,12 +156399,12 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-place = (203.999, 42.925);
+place = (203.999,42.925);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (499.688, 774.757);
+place = (499.688,774.757);
 type = TTStem;
 }
 );
@@ -156467,12 +156464,12 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 }
 );
@@ -156527,17 +156524,17 @@ width = 638;
 hints = (
 {
 horizontal = 1;
-place = (-28.971, 2000);
+place = (-28.971,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (-16.903, -4.082);
+place = (-16.903,-4.082);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (-41.796, -60.582);
+place = (-41.796,-60.582);
 type = TTStem;
 }
 );
@@ -156597,12 +156594,12 @@ type = TTSnap;
 },
 {
 horizontal = 1;
-place = (156.094, 134.308);
+place = (156.094,134.308);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (557.07, -2000);
+place = (557.07,-2000);
 type = TTStem;
 }
 );
@@ -156657,17 +156654,17 @@ width = 684;
 hints = (
 {
 horizontal = 1;
-place = (581.833, 2000);
+place = (581.833,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (139.395, 123.415);
+place = (139.395,123.415);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (677.596, 671.715);
+place = (677.596,671.715);
 type = TTStem;
 }
 );
@@ -157876,32 +157873,32 @@ layers = (
 hints = (
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 393);
+place = (0,393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (281, 0);
+place = (281,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 281);
+place = (0,281);
 type = TTStem;
 }
 );
@@ -157946,32 +157943,32 @@ width = 828;
 hints = (
 {
 horizontal = 1;
-place = (320.322, 2000);
+place = (320.322,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (371.393, 2000);
+place = (371.393,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 101.304);
+place = (0,101.304);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (5.017, 2000);
+place = (5.017,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (723, 2000);
+place = (723,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 97.34);
+place = (0,97.34);
 type = TTStem;
 }
 );
@@ -158120,32 +158117,32 @@ width = 984;
 hints = (
 {
 horizontal = 1;
-place = (320.322, 2000);
+place = (320.322,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (371.393, 2000);
+place = (371.393,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 101.304);
+place = (0,101.304);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (5.017, 2000);
+place = (5.017,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (723, 2000);
+place = (723,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 97.34);
+place = (0,97.34);
 type = TTStem;
 }
 );
@@ -158190,32 +158187,32 @@ width = 642;
 hints = (
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 393);
+place = (0,393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (281, 0);
+place = (281,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 281);
+place = (0,281);
 type = TTStem;
 }
 );
@@ -158260,32 +158257,32 @@ width = 828;
 hints = (
 {
 horizontal = 1;
-place = (348.393, -2000);
+place = (348.393,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (399.464, -2000);
+place = (399.464,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 129.375);
+place = (0,129.375);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (25.089, -2000);
+place = (25.089,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (751.071, -2000);
+place = (751.071,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 117.411);
+place = (0,117.411);
 type = TTStem;
 }
 );
@@ -158333,41 +158330,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (320.322, 2000);
+place = (320.322,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (371.393, 2000);
+place = (371.393,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 101.304);
+place = (0,101.304);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (5.017, 2000);
+place = (5.017,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (723, 2000);
+place = (723,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 97.34);
+place = (0,97.34);
 type = TTStem;
 }
 );
@@ -158425,41 +158422,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 393);
+place = (0,393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (281, 0);
+place = (281,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 281);
+place = (0,281);
 type = TTStem;
 }
 );
@@ -158517,9 +158514,9 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
@@ -158643,41 +158640,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (320.322, 2000);
+place = (320.322,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (371.393, 2000);
+place = (371.393,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 101.304);
+place = (0,101.304);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (5.017, 2000);
+place = (5.017,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (723, 2000);
+place = (723,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 97.34);
+place = (0,97.34);
 type = TTStem;
 }
 );
@@ -158735,41 +158732,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 393);
+place = (0,393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (281, 0);
+place = (281,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (393, 0);
+place = (393,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 281);
+place = (0,281);
 type = TTStem;
 }
 );
@@ -158827,41 +158824,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (348.393, -2000);
+place = (348.393,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (399.464, -2000);
+place = (399.464,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 129.375);
+place = (0,129.375);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (25.089, -2000);
+place = (25.089,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (751.071, -2000);
+place = (751.071,-2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 117.411);
+place = (0,117.411);
 type = TTStem;
 }
 );
@@ -158916,32 +158913,32 @@ width = 990;
 hints = (
 {
 horizontal = 1;
-place = (329.305, 720);
+place = (329.305,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (380.376, 720);
+place = (380.376,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 110.287);
+place = (0,110.287);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (11.44, 720);
+place = (11.44,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (731.983, 720);
+place = (731.983,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 103.763);
+place = (0,103.763);
 type = TTStem;
 }
 );
@@ -158989,41 +158986,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (329.305, 720);
+place = (329.305,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (380.376, 720);
+place = (380.376,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 110.287);
+place = (0,110.287);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (11.44, 720);
+place = (11.44,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (731.983, 720);
+place = (731.983,720);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 103.763);
+place = (0,103.763);
 type = TTStem;
 }
 );
@@ -159078,32 +159075,32 @@ width = 1022;
 hints = (
 {
 horizontal = 1;
-place = (232.767, 1453.333);
+place = (232.767,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (269.879, 1453.333);
+place = (269.879,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 73.613);
+place = (0,73.613);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (3.645, 1453.333);
+place = (3.645,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (525.38, 1453.333);
+place = (525.38,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 70.734);
+place = (0,70.734);
 type = TTStem;
 }
 );
@@ -159151,41 +159148,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (232.767, 1453.333);
+place = (232.767,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (269.879, 1453.333);
+place = (269.879,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 73.613);
+place = (0,73.613);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (3.645, 1453.333);
+place = (3.645,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (525.38, 1453.333);
+place = (525.38,1453.333);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 70.734);
+place = (0,70.734);
 type = TTStem;
 }
 );
@@ -159240,32 +159237,32 @@ width = 1046;
 hints = (
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 }
 );
@@ -159310,32 +159307,32 @@ width = 973;
 hints = (
 {
 horizontal = 1;
-place = (-19.908, 114.286);
+place = (-19.908,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (-22.827, 114.286);
+place = (-22.827,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, -7.393);
+place = (0,-7.393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (-1.434, 114.286);
+place = (-1.434,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (-42.918, 114.286);
+place = (-42.918,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, -6.709);
+place = (0,-6.709);
 type = TTStem;
 }
 );
@@ -159383,41 +159380,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (-19.908, 114.286);
+place = (-19.908,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (-22.827, 114.286);
+place = (-22.827,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, -7.393);
+place = (0,-7.393);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (-1.434, 114.286);
+place = (-1.434,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (-42.918, 114.286);
+place = (-42.918,114.286);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, -6.709);
+place = (0,-6.709);
 type = TTStem;
 }
 );
@@ -159475,41 +159472,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 0);
+place = (0,0);
 type = TTStem;
 }
 );
@@ -159564,32 +159561,32 @@ width = 973;
 hints = (
 {
 horizontal = 1;
-place = (298.223, 2000);
+place = (298.223,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (296.335, 2000);
+place = (296.335,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 306.321);
+place = (0,306.321);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (221.516, 2000);
+place = (221.516,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (283.335, 2000);
+place = (283.335,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 218.102);
+place = (0,218.102);
 type = TTStem;
 }
 );
@@ -159634,32 +159631,32 @@ width = 1135;
 hints = (
 {
 horizontal = 1;
-place = (270.432, -333.143);
+place = (270.432,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (267.709, -333.143);
+place = (267.709,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 282.113);
+place = (0,282.113);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (205.307, -333.143);
+place = (205.307,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (248.958, -333.143);
+place = (248.958,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 200.384);
+place = (0,200.384);
 type = TTStem;
 }
 );
@@ -159707,41 +159704,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (298.223, 2000);
+place = (298.223,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (296.335, 2000);
+place = (296.335,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 306.321);
+place = (0,306.321);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (221.516, 2000);
+place = (221.516,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (283.335, 2000);
+place = (283.335,2000);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 218.102);
+place = (0,218.102);
 type = TTStem;
 }
 );
@@ -159799,41 +159796,41 @@ axisRules = (
 {
 },
 {
+min = 500;
 },
 {
-min = 500;
 }
 );
 };
 hints = (
 {
 horizontal = 1;
-place = (270.432, -333.143);
+place = (270.432,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (267.709, -333.143);
+place = (267.709,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 282.113);
+place = (0,282.113);
 type = TTStem;
 },
 {
 horizontal = 1;
-place = (205.307, -333.143);
+place = (205.307,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (248.958, -333.143);
+place = (248.958,-333.143);
 type = TTSnap;
 },
 {
 horizontal = 1;
-place = (0, 200.384);
+place = (0,200.384);
 type = TTStem;
 }
 );
@@ -181371,9 +181368,9 @@ source = one;
 instances = (
 {
 axesValues = (
-0,
 75,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -181412,9 +181409,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-300
+300,
+0
 );
 customParameters = (
 {
@@ -181454,9 +181451,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-400
+400,
+0
 );
 customParameters = (
 {
@@ -181495,9 +181492,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-500
+500,
+0
 );
 customParameters = (
 {
@@ -181537,9 +181534,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-600
+600,
+0
 );
 customParameters = (
 {
@@ -181579,9 +181576,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-700
+700,
+0
 );
 customParameters = (
 {
@@ -181622,9 +181619,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-800
+800,
+0
 );
 customParameters = (
 {
@@ -181664,9 +181661,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 75,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -181705,9 +181702,9 @@ widthClass = 3;
 },
 {
 axesValues = (
-0,
 100,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -181734,9 +181731,9 @@ weightClass = 200;
 },
 {
 axesValues = (
-0,
 100,
-300
+300,
+0
 );
 customParameters = (
 {
@@ -181764,9 +181761,9 @@ weightClass = 300;
 },
 {
 axesValues = (
-0,
 100,
-400
+400,
+0
 );
 customParameters = (
 {
@@ -181793,9 +181790,9 @@ name = Regular;
 },
 {
 axesValues = (
-0,
 100,
-500
+500,
+0
 );
 customParameters = (
 {
@@ -181823,9 +181820,9 @@ weightClass = 500;
 },
 {
 axesValues = (
-0,
 100,
-600
+600,
+0
 );
 customParameters = (
 {
@@ -181853,9 +181850,9 @@ weightClass = 600;
 },
 {
 axesValues = (
-0,
 100,
-700
+700,
+0
 );
 customParameters = (
 {
@@ -181884,9 +181881,9 @@ weightClass = 700;
 },
 {
 axesValues = (
-0,
 100,
-800
+800,
+0
 );
 customParameters = (
 {
@@ -181914,9 +181911,9 @@ weightClass = 800;
 },
 {
 axesValues = (
-0,
 100,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -181943,9 +181940,9 @@ weightClass = 900;
 },
 {
 axesValues = (
-0,
 125,
-200
+200,
+0
 );
 customParameters = (
 {
@@ -181984,9 +181981,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-300
+300,
+0
 );
 customParameters = (
 {
@@ -182026,9 +182023,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-400
+400,
+0
 );
 customParameters = (
 {
@@ -182067,9 +182064,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-500
+500,
+0
 );
 customParameters = (
 {
@@ -182109,9 +182106,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-600
+600,
+0
 );
 customParameters = (
 {
@@ -182151,9 +182148,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-700
+700,
+0
 );
 customParameters = (
 {
@@ -182194,9 +182191,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-800
+800,
+0
 );
 customParameters = (
 {
@@ -182236,9 +182233,9 @@ widthClass = 7;
 },
 {
 axesValues = (
-0,
 125,
-900
+900,
+0
 );
 customParameters = (
 {
@@ -182277,9 +182274,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 75,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -182324,9 +182321,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-300
+300,
+-10
 );
 customParameters = (
 {
@@ -182372,9 +182369,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-400
+400,
+-10
 );
 customParameters = (
 {
@@ -182418,9 +182415,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-500
+500,
+-10
 );
 customParameters = (
 {
@@ -182466,9 +182463,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-600
+600,
+-10
 );
 customParameters = (
 {
@@ -182514,9 +182511,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-700
+700,
+-10
 );
 customParameters = (
 {
@@ -182562,9 +182559,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-800
+800,
+-10
 );
 customParameters = (
 {
@@ -182610,9 +182607,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 75,
-900
+900,
+-10
 );
 customParameters = (
 {
@@ -182657,9 +182654,9 @@ widthClass = 3;
 },
 {
 axesValues = (
--10,
 100,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -182692,9 +182689,9 @@ weightClass = 200;
 },
 {
 axesValues = (
--10,
 100,
-300
+300,
+-10
 );
 customParameters = (
 {
@@ -182728,9 +182725,9 @@ weightClass = 300;
 },
 {
 axesValues = (
--10,
 100,
-400
+400,
+-10
 );
 customParameters = (
 {
@@ -182762,9 +182759,9 @@ name = Italic;
 },
 {
 axesValues = (
--10,
 100,
-500
+500,
+-10
 );
 customParameters = (
 {
@@ -182798,9 +182795,9 @@ weightClass = 500;
 },
 {
 axesValues = (
--10,
 100,
-600
+600,
+-10
 );
 customParameters = (
 {
@@ -182834,9 +182831,9 @@ weightClass = 600;
 },
 {
 axesValues = (
--10,
 100,
-700
+700,
+-10
 );
 customParameters = (
 {
@@ -182870,9 +182867,9 @@ weightClass = 700;
 },
 {
 axesValues = (
--10,
 100,
-800
+800,
+-10
 );
 customParameters = (
 {
@@ -182906,9 +182903,9 @@ weightClass = 800;
 },
 {
 axesValues = (
--10,
 100,
-900
+900,
+-10
 );
 customParameters = (
 {
@@ -182941,9 +182938,9 @@ weightClass = 900;
 },
 {
 axesValues = (
--10,
 125,
-200
+200,
+-10
 );
 customParameters = (
 {
@@ -182988,9 +182985,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-300
+300,
+-10
 );
 customParameters = (
 {
@@ -183036,9 +183033,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-400
+400,
+-10
 );
 customParameters = (
 {
@@ -183082,9 +183079,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-500
+500,
+-10
 );
 customParameters = (
 {
@@ -183130,9 +183127,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-600
+600,
+-10
 );
 customParameters = (
 {
@@ -183178,9 +183175,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-700
+700,
+-10
 );
 customParameters = (
 {
@@ -183226,9 +183223,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-800
+800,
+-10
 );
 customParameters = (
 {
@@ -183274,9 +183271,9 @@ widthClass = 7;
 },
 {
 axesValues = (
--10,
 125,
-900
+900,
+-10
 );
 customParameters = (
 {
