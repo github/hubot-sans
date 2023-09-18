@@ -6,4 +6,4 @@
 # Name or Organization <email address>
 
 Deni Anggara <studio@degarism.com>
-Github <tobiasahlin@github.com>
+GitHub <tobiasahlin@github.com>
