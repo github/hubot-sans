@@ -1,0 +1,194 @@
+{
+glyphname = fraction;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+paths = (
+{
+closed = 1;
+nodes = (
+"-97 -46 LINE",
+"299 768 LINE",
+"266 768 LINE",
+"-130 -46 LINE"
+);
+}
+);
+width = 169;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+paths = (
+{
+closed = 1;
+nodes = (
+"-77 -46 LINE",
+"301 768 LINE",
+"241 768 LINE",
+"-137 -46 LINE"
+);
+}
+);
+width = 164;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+paths = (
+{
+closed = 1;
+nodes = (
+"-40 -46 LINE",
+"294 768 LINE",
+"177 768 LINE",
+"-154 -46 LINE"
+);
+}
+);
+width = 140;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+paths = (
+{
+closed = 1;
+nodes = (
+"-160 -46 LINE",
+"382 768 LINE",
+"338 768 LINE",
+"-201 -46 LINE"
+);
+}
+);
+width = 181;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+paths = (
+{
+closed = 1;
+nodes = (
+"-131 -46 LINE",
+"408 768 LINE",
+"282 768 LINE",
+"-257 -46 LINE"
+);
+}
+);
+width = 151;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+paths = (
+{
+closed = 1;
+nodes = (
+"-152 -46 LINE",
+"384 768 LINE",
+"317 768 LINE",
+"-216 -46 LINE"
+);
+}
+);
+width = 167;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+paths = (
+{
+closed = 1;
+nodes = (
+"-108 -46 LINE",
+"400 768 LINE",
+"283 768 LINE",
+"-222 -46 LINE"
+);
+}
+);
+width = 141;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+paths = (
+{
+closed = 1;
+nodes = (
+"-222 -46 LINE",
+"493 768 LINE",
+"448 768 LINE",
+"-266 -46 LINE"
+);
+}
+);
+width = 184;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+paths = (
+{
+closed = 1;
+nodes = (
+"-196.4 -46 LINE",
+"511.2 768 LINE",
+"426.2 768 LINE",
+"-282 -46 LINE"
+);
+}
+);
+width = 188.6;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+paths = (
+{
+closed = 1;
+nodes = (
+"-195 -46 LINE",
+"518 768 LINE",
+"388 768 LINE",
+"-325 -46 LINE"
+);
+}
+);
+width = 155;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+paths = (
+{
+closed = 1;
+nodes = (
+"-137 -46 LINE",
+"415 768 LINE",
+"350 768 LINE",
+"-202 -46 LINE"
+);
+}
+);
+width = 170;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+paths = (
+{
+closed = 1;
+nodes = (
+"-161 -46 LINE",
+"409 768 LINE",
+"375 768 LINE",
+"-195 -46 LINE"
+);
+}
+);
+width = 170;
+}
+);
+leftKerningGroup = fraction;
+rightKerningGroup = fraction;
+unicode = 2044;
+userData = {
+KernOnSpecialSpacing = {
+L = fraction;
+R = fraction;
+};
+};
+}

@@ -1,0 +1,218 @@
+{
+glyphname = threequarters;
+layers = (
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 200, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 303, 0}";
+}
+);
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+width = 543;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 252, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 361, 0}";
+}
+);
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+width = 640;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 294, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 384, 0}";
+}
+);
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+width = 706;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 346, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 454, 0}";
+}
+);
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+width = 824;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 389, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 487, 0}";
+}
+);
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+width = 910;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 367, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 482, 0}";
+}
+);
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+width = 876;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 308, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 407, 0}";
+}
+);
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+width = 729;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 355, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 484, 0}";
+}
+);
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+width = 865;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 387, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 518, 0}";
+}
+);
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+width = 921;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 413, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 529, 0}";
+}
+);
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+width = 961;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 259, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 380, 0}";
+}
+);
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+width = 659;
+},
+{
+components = (
+{
+name = three.numr;
+},
+{
+name = fraction;
+transform = "{1, 0, 0, 1, 226, 0}";
+},
+{
+name = four.dnom;
+transform = "{1, 0, 0, 1, 334, 0}";
+}
+);
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+width = 573;
+}
+);
+leftMetricsKey = three.numr;
+rightMetricsKey = three.numr;
+unicode = 00BE;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

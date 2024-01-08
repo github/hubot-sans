@@ -1,0 +1,193 @@
+{
+glyphname = underscore;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+paths = (
+{
+closed = 1;
+nodes = (
+"255 -25 LINE",
+"255 0 LINE",
+"5 0 LINE",
+"5 -25 LINE"
+);
+}
+);
+width = 260;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+paths = (
+{
+closed = 1;
+nodes = (
+"286 -62 LINE",
+"286 0 LINE",
+"4 0 LINE",
+"4 -62 LINE"
+);
+}
+);
+width = 290;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+paths = (
+{
+closed = 1;
+nodes = (
+"363 -156 LINE",
+"363 0 LINE",
+"1 0 LINE",
+"1 -156 LINE"
+);
+}
+);
+width = 364;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+paths = (
+{
+closed = 1;
+nodes = (
+"361 -36 LINE",
+"361 0 LINE",
+"-1 0 LINE",
+"-1 -36 LINE"
+);
+}
+);
+width = 360;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+paths = (
+{
+closed = 1;
+nodes = (
+"429 -166 LINE",
+"429 0 LINE",
+"-1 0 LINE",
+"-1 -166 LINE"
+);
+}
+);
+width = 428;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+paths = (
+{
+closed = 1;
+nodes = (
+"376 -78 LINE",
+"376 0 LINE",
+"-1 0 LINE",
+"-1 -78 LINE"
+);
+}
+);
+width = 375;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+paths = (
+{
+closed = 1;
+nodes = (
+"272 -156 LINE",
+"306 0 LINE",
+"-56 0 LINE",
+"-90 -156 LINE"
+);
+}
+);
+width = 365;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+paths = (
+{
+closed = 1;
+nodes = (
+"302 -36 LINE",
+"310 0 LINE",
+"-52 0 LINE",
+"-60 -36 LINE"
+);
+}
+);
+width = 367;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+paths = (
+{
+closed = 1;
+nodes = (
+"312.4 -78 LINE",
+"329.2 0 LINE",
+"-49 0 LINE",
+"-64.6 -78 LINE"
+);
+}
+);
+width = 391.8;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+paths = (
+{
+closed = 1;
+nodes = (
+"356 -166 LINE",
+"391 0 LINE",
+"-42 0 LINE",
+"-77 -166 LINE"
+);
+}
+);
+width = 465;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+paths = (
+{
+closed = 1;
+nodes = (
+"217 -62 LINE",
+"231 0 LINE",
+"-51 0 LINE",
+"-65 -62 LINE"
+);
+}
+);
+width = 291;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+paths = (
+{
+closed = 1;
+nodes = (
+"195 -25 LINE",
+"201 0 LINE",
+"-49 0 LINE",
+"-55 -25 LINE"
+);
+}
+);
+width = 261;
+}
+);
+rightKerningGroup = underscore;
+unicode = 005F;
+userData = {
+KernOnSpecialSpacing = {
+L = underscore;
+R = underscore;
+};
+};
+}

@@ -1,0 +1,140 @@
+{
+glyphname = parenright.case;
+layers = (
+{
+components = (
+{
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 347, 729}";
+}
+);
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+width = 347;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 356, 729}";
+}
+);
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+width = 356;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 370, 730}";
+}
+);
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+width = 370;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 273, 729}";
+}
+);
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+width = 273;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 379, 730}";
+}
+);
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+width = 379;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 303, 729}";
+}
+);
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+width = 303;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 431.22, 730}";
+}
+);
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+width = 392.22;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 318.064, 729}";
+}
+);
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+width = 273.064;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 488, 729}";
+}
+);
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+width = 444;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 439, 730}";
+}
+);
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+width = 399;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 392, 729}";
+}
+);
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+width = 348;
+},
+{
+components = (
+{
+alignment = -1;
+name = parenleft.case;
+transform = "{-1, 0, 0, -1, 394, 729}";
+}
+);
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+width = 348;
+}
+);
+leftKerningGroup = parenright.case;
+leftMetricsKey = parenright;
+rightKerningGroup = parenright.case;
+rightMetricsKey = parenright;
+}
