@@ -22,11 +22,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (368,626);
+pos = (316,626);
 ref = parenleft;
 }
 );
-width = 368;
+width = 316;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -34,11 +34,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (367,626);
+pos = (350,626);
 ref = parenleft;
 }
 );
-width = 367;
+width = 350;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -46,11 +46,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (293,626);
+pos = (306,626);
 ref = parenleft;
 }
 );
-width = 293;
+width = 306;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -82,11 +82,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (425,626);
+pos = (393,626);
 ref = parenleft;
 }
 );
-width = 408;
+width = 376;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -94,11 +94,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (317,626);
+pos = (332,626);
 ref = parenleft;
 }
 );
-width = 294;
+width = 309;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -106,11 +106,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (486,626);
+pos = (356,626);
 ref = parenleft;
 }
 );
-width = 465;
+width = 335;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -130,11 +130,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (397,626);
+pos = (342,626);
 ref = parenleft;
 }
 );
-width = 375;
+width = 320;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -142,11 +142,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (395,626);
+pos = (330,626);
 ref = parenleft;
 }
 );
-width = 371;
+width = 306;
 }
 );
 metricLeft = "=|parenleft";

@@ -488,6 +488,7 @@ unicode = 176;
 userData = {
 KernOnSpecialSpacing = {
 L = superiors;
+R = superiors;
 };
 };
 }

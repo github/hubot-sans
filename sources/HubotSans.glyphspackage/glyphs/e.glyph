@@ -125,7 +125,7 @@ nodes = (
 );
 }
 );
-width = 374;
+width = 377;
 },
 {
 anchors = (
@@ -878,7 +878,4 @@ width = 367;
 );
 note = e;
 unicode = 101;
-userData = {
-KernOnName = e;
-};
 }

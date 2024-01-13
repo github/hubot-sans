@@ -583,8 +583,8 @@ metricRight = "=40";
 subCategory = "";
 userData = {
 KernOnSpecialSpacing = {
-L = symbols;
-R = symbols;
+L = dashes;
+R = dashes;
 };
 };
 }

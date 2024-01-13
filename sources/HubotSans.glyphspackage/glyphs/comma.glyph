@@ -8,15 +8,15 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (-11,0);
+pos = (-10,0);
 },
 {
 name = "#exit";
-pos = (98,0);
+pos = (99,0);
 },
 {
 name = top;
-pos = (65,515);
+pos = (66,515);
 }
 );
 background = {
@@ -24,13 +24,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(49,-144,l),
-(85,0,l),
-(85,54,l),
-(47,54,l),
-(47,0,l),
-(65,0,l),
-(27,-144,l)
+(50,-144,l),
+(86,0,l),
+(86,54,l),
+(48,54,l),
+(48,0,l),
+(66,0,l),
+(28,-144,l)
 );
 }
 );
@@ -40,17 +40,17 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(47,-145,l),
-(88,0,l),
-(88,61,l),
-(42,61,l),
-(42,0,l),
-(67,0,l),
-(23,-145,l)
+(48,-145,l),
+(89,0,l),
+(89,61,l),
+(43,61,l),
+(43,0,l),
+(68,0,l),
+(24,-145,l)
 );
 }
 );
-width = 130;
+width = 132;
 },
 {
 anchors = (
@@ -451,9 +451,9 @@ nodes = (
 width = 129;
 }
 );
-metricRight = period;
 unicode = 44;
 userData = {
+KernOnName = comma;
 KernOnSpecialSpacing = {
 L = period;
 R = period;

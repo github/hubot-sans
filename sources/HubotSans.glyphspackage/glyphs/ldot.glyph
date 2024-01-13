@@ -535,6 +535,8 @@ width = 556;
 );
 unicode = 320;
 userData = {
-KernOnName = ldot;
+KernOnSpecialSpacing = {
+R = NoKerning;
+};
 };
 }

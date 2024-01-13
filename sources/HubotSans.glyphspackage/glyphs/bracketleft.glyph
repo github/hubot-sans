@@ -234,6 +234,7 @@ width = 248;
 metricRight = braceleft;
 unicode = 91;
 userData = {
+KernOnName = bracketleft;
 KernOnSpecialSpacing = {
 L = NoKerning;
 R = parenthesis;

@@ -152,7 +152,7 @@ weight = -45;
 width = 55;
 };
 };
-width = 305;
+width = 307;
 },
 {
 background = {
@@ -228,7 +228,7 @@ weight = -330;
 width = 55;
 };
 };
-width = 315;
+width = 317;
 },
 {
 background = {
@@ -297,7 +297,7 @@ pos = (0,328);
 ref = six.dnom;
 }
 );
-width = 408;
+width = 410;
 },
 {
 background = {
@@ -504,7 +504,7 @@ pos = (70,328);
 ref = six.dnom;
 }
 );
-width = 315;
+width = 316;
 },
 {
 background = {
@@ -573,7 +573,7 @@ pos = (70,328);
 ref = six.dnom;
 }
 );
-width = 415;
+width = 417;
 },
 {
 background = {
@@ -642,7 +642,7 @@ pos = (70,328);
 ref = six.dnom;
 }
 );
-width = 436;
+width = 438;
 },
 {
 background = {
@@ -849,7 +849,7 @@ pos = (70,328);
 ref = six.dnom;
 }
 );
-width = 282;
+width = 283;
 }
 );
 metricLeft = six.dnom;

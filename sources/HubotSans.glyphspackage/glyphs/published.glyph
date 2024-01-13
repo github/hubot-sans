@@ -1158,4 +1158,9 @@ width = 560;
 metricLeft = copyright;
 metricRight = copyright;
 unicode = 8471;
+userData = {
+KernOnSpecialSpacing = {
+R = symbols;
+};
+};
 }

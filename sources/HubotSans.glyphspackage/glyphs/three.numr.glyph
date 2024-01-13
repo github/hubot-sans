@@ -36,7 +36,7 @@ weight = -45;
 width = 55;
 };
 };
-width = 295;
+width = 297;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -65,7 +65,7 @@ pos = (0,328);
 ref = three.dnom;
 }
 );
-width = 384;
+width = 386;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -98,7 +98,7 @@ pos = (70,328);
 ref = three.dnom;
 }
 );
-width = 307;
+width = 309;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -109,7 +109,7 @@ pos = (70,328);
 ref = three.dnom;
 }
 );
-width = 390;
+width = 392;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -120,7 +120,7 @@ pos = (70,328);
 ref = three.dnom;
 }
 );
-width = 412;
+width = 413;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -153,7 +153,7 @@ pos = (70,328);
 ref = three.dnom;
 }
 );
-width = 269;
+width = 271;
 }
 );
 metricLeft = three.dnom;

@@ -49,11 +49,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (0,454);
+pos = (1,454);
 ref = period;
 }
 );
-width = 130;
+width = 132;
 },
 {
 background = {
@@ -101,11 +101,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (1,419);
+pos = (0,419);
 ref = period;
 }
 );
-width = 179;
+width = 162;
 },
 {
 background = {
@@ -153,11 +153,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (1,365);
+pos = (0,365);
 ref = period;
 }
 );
-width = 219;
+width = 211;
 },
 {
 background = {
@@ -205,11 +205,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (7,452);
+pos = (1,452);
 ref = period;
 }
 );
-width = 157;
+width = 143;
 },
 {
 background = {
@@ -361,11 +361,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (78,364);
+pos = (75,364);
 ref = period;
 }
 );
-width = 219;
+width = 209;
 },
 {
 background = {
@@ -413,11 +413,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (102,452);
+pos = (95,452);
 ref = period;
 }
 );
-width = 157;
+width = 142;
 },
 {
 background = {
@@ -465,11 +465,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (95,419);
+pos = (88,419);
 ref = period;
 }
 );
-width = 219;
+width = 202;
 },
 {
 background = {
@@ -569,11 +569,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (90,418);
+pos = (88,418);
 ref = period;
 }
 );
-width = 178;
+width = 162;
 },
 {
 background = {
@@ -621,11 +621,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (100,454);
+pos = (96,454);
 ref = period;
 }
 );
-width = 149;
+width = 129;
 }
 );
 metricLeft = comma;

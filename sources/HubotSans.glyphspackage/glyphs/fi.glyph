@@ -439,7 +439,4 @@ width = 354;
 metricLeft = f;
 metricRight = "=l@100";
 unicode = 64257;
-userData = {
-KernOnName = fi;
-};
 }

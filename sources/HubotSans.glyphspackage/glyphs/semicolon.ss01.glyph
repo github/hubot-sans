@@ -23,11 +23,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (-10,469);
+pos = (100,0);
 ref = period.ss01;
 }
 );
-width = 130;
+width = 247;
 },
 {
 background = {
@@ -49,11 +49,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (0,424);
+pos = (165,0);
 ref = period.ss01;
 }
 );
-width = 178;
+width = 343;
 },
 {
 background = {
@@ -75,11 +75,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (0,369);
+pos = (236,0);
 ref = period.ss01;
 }
 );
-width = 248;
+width = 484;
 },
 {
 background = {
@@ -101,11 +101,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (1,462);
+pos = (125,0);
 ref = period.ss01;
 }
 );
-width = 156;
+width = 279;
 },
 {
 background = {
@@ -129,11 +129,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (-7,368);
+pos = (283,0);
 ref = period.ss01;
 }
 );
-width = 298;
+width = 591;
 },
 {
 background = {
@@ -157,11 +157,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (-3,425);
+pos = (186,0);
 ref = period.ss01;
 }
 );
-width = 207;
+width = 398;
 },
 {
 background = {
@@ -185,11 +185,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (79,369);
+pos = (287,0);
 ref = period.ss01;
 }
 );
-width = 249;
+width = 536;
 },
 {
 background = {
@@ -213,11 +213,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (98,462);
+pos = (186,0);
 ref = period.ss01;
 }
 );
-width = 150;
+width = 336;
 },
 {
 background = {
@@ -241,11 +241,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (89,426);
+pos = (242,0);
 ref = period.ss01;
 }
 );
-width = 214;
+width = 458;
 },
 {
 background = {
@@ -270,11 +270,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (71,368);
+pos = (355,0);
 ref = period.ss01;
 }
 );
-width = 308;
+width = 674;
 },
 {
 background = {
@@ -298,11 +298,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (90,424);
+pos = (221,0);
 ref = period.ss01;
 }
 );
-width = 180;
+width = 401;
 },
 {
 background = {
@@ -326,11 +326,11 @@ ref = comma.ss01;
 },
 {
 alignment = 1;
-pos = (100,469);
+pos = (162,0);
 ref = period.ss01;
 }
 );
-width = 152;
+width = 314;
 }
 );
 metricLeft = comma.ss01;

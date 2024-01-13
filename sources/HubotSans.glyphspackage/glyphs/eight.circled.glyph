@@ -55,7 +55,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (147,164);
+pos = (146,164);
 ref = eight.dnom;
 }
 );
@@ -108,7 +108,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (270,164);
+pos = (269,164);
 ref = eight.dnom;
 }
 );
@@ -135,7 +135,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (249,164);
+pos = (248,164);
 ref = eight.dnom;
 }
 );
@@ -215,7 +215,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (313,164);
+pos = (312,164);
 ref = eight.dnom;
 }
 );

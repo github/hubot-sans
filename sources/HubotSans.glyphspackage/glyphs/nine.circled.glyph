@@ -59,7 +59,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (452,566);
+pos = (453,566);
 ref = six.dnom;
 }
 );
@@ -87,7 +87,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (480,566);
+pos = (481,566);
 ref = six.dnom;
 }
 );
@@ -116,7 +116,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (676,566);
+pos = (677,566);
 ref = six.dnom;
 }
 );
@@ -145,7 +145,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (688,566);
+pos = (689,566);
 ref = six.dnom;
 }
 );
@@ -174,7 +174,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (675,566);
+pos = (676,566);
 ref = six.dnom;
 }
 );
@@ -202,7 +202,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (488,566);
+pos = (489,566);
 ref = six.dnom;
 }
 );
@@ -231,7 +231,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (704,566);
+pos = (705,566);
 ref = six.dnom;
 }
 );
@@ -260,7 +260,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (704,566);
+pos = (705,566);
 ref = six.dnom;
 }
 );
@@ -345,7 +345,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (427,566);
+pos = (428,566);
 ref = six.dnom;
 }
 );

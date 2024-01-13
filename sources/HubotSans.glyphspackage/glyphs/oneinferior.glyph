@@ -235,6 +235,7 @@ width = 181;
 );
 unicode = 8321;
 userData = {
+KernOnName = oneinferior;
 KernOnSpecialSpacing = {
 L = superiors;
 R = superiors;

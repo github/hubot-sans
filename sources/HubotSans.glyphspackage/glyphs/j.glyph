@@ -115,7 +115,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (18,0);
+pos = (19,0);
 ref = dotaccentcomb;
 }
 );
@@ -163,7 +163,4 @@ width = 150;
 );
 note = j;
 unicode = 106;
-userData = {
-KernOnName = j;
-};
 }

@@ -41,11 +41,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (428,523);
+pos = (421,523);
 ref = guillemetleft;
 }
 );
-width = 428;
+width = 421;
 },
 {
 background = {
@@ -63,11 +63,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (581,543);
+pos = (570,543);
 ref = guillemetleft;
 }
 );
-width = 581;
+width = 570;
 },
 {
 background = {
@@ -85,11 +85,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (375,518);
+pos = (383,518);
 ref = guillemetleft;
 }
 );
-width = 375;
+width = 383;
 },
 {
 background = {
@@ -151,11 +151,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (573,543);
+pos = (561,543);
 ref = guillemetleft;
 }
 );
-width = 573;
+width = 561;
 },
 {
 background = {
@@ -173,11 +173,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (380,518);
+pos = (387,518);
 ref = guillemetleft;
 }
 );
-width = 380;
+width = 387;
 },
 {
 background = {
@@ -195,11 +195,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (449,527);
+pos = (454,527);
 ref = guillemetleft;
 }
 );
-width = 449;
+width = 454;
 },
 {
 background = {
@@ -239,11 +239,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (427,523);
+pos = (418,523);
 ref = guillemetleft;
 }
 );
-width = 427;
+width = 418;
 },
 {
 background = {
@@ -261,11 +261,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (368,516);
+pos = (364,516);
 ref = guillemetleft;
 }
 );
-width = 368;
+width = 364;
 }
 );
 metricLeft = "=|guillemetleft";

@@ -1017,7 +1017,4 @@ width = 426;
 );
 note = six;
 unicode = 54;
-userData = {
-KernOnName = six;
-};
 }

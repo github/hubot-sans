@@ -54,7 +54,7 @@ pos = (170,0);
 ref = comma.ss01;
 }
 );
-width = 348;
+width = 341;
 },
 {
 background = {
@@ -80,7 +80,7 @@ pos = (248,0);
 ref = comma.ss01;
 }
 );
-width = 496;
+width = 474;
 },
 {
 background = {
@@ -106,7 +106,7 @@ pos = (130,0);
 ref = comma.ss01;
 }
 );
-width = 286;
+width = 278;
 },
 {
 background = {
@@ -190,7 +190,7 @@ pos = (242,0);
 ref = comma.ss01;
 }
 );
-width = 491;
+width = 469;
 },
 {
 background = {
@@ -218,7 +218,7 @@ pos = (133,0);
 ref = comma.ss01;
 }
 );
-width = 283;
+width = 281;
 },
 {
 background = {
@@ -246,7 +246,7 @@ pos = (190,0);
 ref = comma.ss01;
 }
 );
-width = 404;
+width = 398;
 },
 {
 background = {
@@ -302,7 +302,7 @@ pos = (170,0);
 ref = comma.ss01;
 }
 );
-width = 350;
+width = 344;
 },
 {
 background = {
@@ -330,12 +330,9 @@ pos = (118,0);
 ref = comma.ss01;
 }
 );
-width = 270;
+width = 250;
 }
 );
 metricLeft = comma.ss01;
 metricRight = comma.ss01;
-userData = {
-KernOnName = quotedblbase.ss01;
-};
 }

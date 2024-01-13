@@ -185,6 +185,7 @@ width = 261;
 );
 unicode = 95;
 userData = {
+KernOnName = underscore;
 KernOnSpecialSpacing = {
 L = underscore;
 R = underscore;

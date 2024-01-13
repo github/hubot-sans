@@ -108,7 +108,7 @@ pos = (0,419);
 ref = period;
 }
 );
-width = 178;
+width = 162;
 },
 {
 background = {
@@ -161,7 +161,7 @@ pos = (0,365);
 ref = period;
 }
 );
-width = 219;
+width = 211;
 },
 {
 background = {
@@ -214,7 +214,7 @@ pos = (0,452);
 ref = period;
 }
 );
-width = 150;
+width = 142;
 },
 {
 background = {
@@ -369,11 +369,11 @@ ref = period;
 {
 alignment = 1;
 anchor = top;
-pos = (78,364);
+pos = (77,364);
 ref = period;
 }
 );
-width = 220;
+width = 212;
 },
 {
 background = {
@@ -426,7 +426,7 @@ pos = (96,452);
 ref = period;
 }
 );
-width = 151;
+width = 143;
 },
 {
 background = {
@@ -479,7 +479,7 @@ pos = (89,419);
 ref = period;
 }
 );
-width = 214;
+width = 204;
 },
 {
 background = {
@@ -585,7 +585,7 @@ pos = (89,418);
 ref = period;
 }
 );
-width = 177;
+width = 163;
 },
 {
 background = {
@@ -638,13 +638,14 @@ pos = (97,454);
 ref = period;
 }
 );
-width = 147;
+width = 131;
 }
 );
 metricLeft = period;
 metricRight = period;
 unicode = 58;
 userData = {
+KernOnName = colon;
 KernOnSpecialSpacing = {
 L = "spaced-off";
 R = "spaced-off";

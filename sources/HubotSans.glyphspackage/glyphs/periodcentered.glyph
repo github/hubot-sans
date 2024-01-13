@@ -64,7 +64,7 @@ pos = (0,224);
 ref = period;
 }
 );
-width = 178;
+width = 162;
 },
 {
 background = {
@@ -96,7 +96,7 @@ pos = (0,187);
 ref = period;
 }
 );
-width = 219;
+width = 211;
 },
 {
 background = {
@@ -128,7 +128,7 @@ pos = (0,246);
 ref = period;
 }
 );
-width = 150;
+width = 142;
 },
 {
 background = {
@@ -203,7 +203,7 @@ pos = (40,187);
 ref = period;
 }
 );
-width = 220;
+width = 212;
 },
 {
 background = {
@@ -235,7 +235,7 @@ pos = (52,246);
 ref = period;
 }
 );
-width = 151;
+width = 143;
 },
 {
 background = {
@@ -267,7 +267,7 @@ pos = (48,225);
 ref = period;
 }
 );
-width = 214;
+width = 204;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -289,7 +289,7 @@ pos = (48,224);
 ref = period;
 }
 );
-width = 177;
+width = 163;
 },
 {
 background = {
@@ -321,7 +321,7 @@ pos = (53,247);
 ref = period;
 }
 );
-width = 147;
+width = 131;
 }
 );
 unicode = 183;

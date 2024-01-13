@@ -600,8 +600,8 @@ width = 500;
 metricWidth = plus;
 userData = {
 KernOnSpecialSpacing = {
-L = math;
-R = math;
+L = underscore;
+R = underscore;
 };
 };
 }

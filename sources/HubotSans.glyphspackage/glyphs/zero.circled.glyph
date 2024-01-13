@@ -22,7 +22,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (144,164);
+pos = (143,164);
 ref = zero.dnom;
 }
 );
@@ -48,7 +48,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (256,164);
+pos = (255,164);
 ref = zero.dnom;
 }
 );
@@ -87,7 +87,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (161,164);
+pos = (160,164);
 ref = zero.dnom;
 }
 );
@@ -100,7 +100,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (178,164);
+pos = (177,164);
 ref = zero.dnom;
 }
 );
@@ -126,7 +126,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (300,164);
+pos = (299,164);
 ref = zero.dnom;
 }
 );

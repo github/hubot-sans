@@ -136,7 +136,7 @@ pos = (330,0);
 ref = period;
 }
 );
-width = 508;
+width = 492;
 },
 {
 background = {
@@ -203,7 +203,7 @@ pos = (416,0);
 ref = period;
 }
 );
-width = 635;
+width = 627;
 },
 {
 background = {
@@ -270,7 +270,7 @@ pos = (272,0);
 ref = period;
 }
 );
-width = 422;
+width = 414;
 },
 {
 background = {
@@ -472,7 +472,7 @@ pos = (430,0);
 ref = period;
 }
 );
-width = 650;
+width = 642;
 },
 {
 background = {
@@ -540,7 +540,7 @@ pos = (290,0);
 ref = period;
 }
 );
-width = 441;
+width = 433;
 },
 {
 background = {
@@ -608,7 +608,7 @@ pos = (402,0);
 ref = period;
 }
 );
-width = 616;
+width = 606;
 },
 {
 background = {
@@ -744,7 +744,7 @@ pos = (330,0);
 ref = period;
 }
 );
-width = 507;
+width = 493;
 },
 {
 background = {
@@ -812,7 +812,7 @@ pos = (270,0);
 ref = period;
 }
 );
-width = 417;
+width = 401;
 }
 );
 metricLeft = period;

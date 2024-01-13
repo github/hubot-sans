@@ -188,6 +188,7 @@ metricLeft = hyphen;
 metricRight = hyphen;
 unicode = 8211;
 userData = {
+KernOnName = endash;
 KernOnSpecialSpacing = {
 L = dashes;
 R = dashes;

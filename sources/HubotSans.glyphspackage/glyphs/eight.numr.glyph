@@ -36,7 +36,7 @@ weight = -45;
 width = 55;
 };
 };
-width = 303;
+width = 305;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -65,7 +65,7 @@ pos = (0,328);
 ref = eight.dnom;
 }
 );
-width = 398;
+width = 400;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -109,7 +109,7 @@ pos = (70,328);
 ref = eight.dnom;
 }
 );
-width = 410;
+width = 411;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -142,7 +142,7 @@ pos = (70,328);
 ref = eight.dnom;
 }
 );
-width = 302;
+width = 303;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -153,7 +153,7 @@ pos = (70,328);
 ref = eight.dnom;
 }
 );
-width = 274;
+width = 275;
 }
 );
 metricLeft = eight.dnom;

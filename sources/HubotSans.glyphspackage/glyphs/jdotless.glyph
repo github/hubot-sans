@@ -4,10 +4,6 @@ layers = (
 {
 anchors = (
 {
-name = bottom;
-pos = (65,-250);
-},
-{
 name = top;
 pos = (76,515);
 }
@@ -34,10 +30,6 @@ width = 151;
 {
 anchors = (
 {
-name = bottom;
-pos = (80,-250);
-},
-{
 name = top;
 pos = (87,524);
 }
@@ -63,10 +55,6 @@ width = 173;
 },
 {
 anchors = (
-{
-name = bottom;
-pos = (119,-250);
-},
 {
 name = top;
 pos = (116,546);
@@ -112,10 +100,6 @@ width = 232;
 {
 anchors = (
 {
-name = bottom;
-pos = (155,-249);
-},
-{
 name = top;
 pos = (85,516);
 }
@@ -141,10 +125,6 @@ width = 169;
 },
 {
 anchors = (
-{
-name = bottom;
-pos = (134,-199);
-},
 {
 name = top;
 pos = (163,545);
@@ -172,10 +152,6 @@ width = 325;
 {
 anchors = (
 {
-name = bottom;
-pos = (142,-235);
-},
-{
 name = top;
 pos = (109,525);
 }
@@ -201,10 +177,6 @@ width = 217;
 },
 {
 anchors = (
-{
-name = bottom;
-pos = (31,-250);
-},
 {
 name = top;
 pos = (170,545);
@@ -232,10 +204,6 @@ width = 225;
 {
 anchors = (
 {
-name = bottom;
-pos = (75,-249);
-},
-{
 name = top;
 pos = (139,516);
 }
@@ -262,12 +230,8 @@ width = 169;
 {
 anchors = (
 {
-name = bottom;
-pos = (62,-235);
-},
-{
 name = top;
-pos = (163,525);
+pos = (164,525);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -291,10 +255,6 @@ width = 218;
 },
 {
 anchors = (
-{
-name = bottom;
-pos = (61,-199);
-},
 {
 name = top;
 pos = (223,545);
@@ -322,10 +282,6 @@ width = 331;
 {
 anchors = (
 {
-name = bottom;
-pos = (2,-250);
-},
-{
 name = top;
 pos = (140,523);
 }
@@ -351,10 +307,6 @@ width = 170;
 },
 {
 anchors = (
-{
-name = bottom;
-pos = (-14,-250);
-},
 {
 name = top;
 pos = (130,515);

@@ -738,7 +738,7 @@ metricLeft = "=40";
 metricRight = "=40";
 userData = {
 KernOnSpecialSpacing = {
-R = symbols;
+R = dashes;
 };
 };
 }

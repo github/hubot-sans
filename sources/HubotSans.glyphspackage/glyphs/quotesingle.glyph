@@ -318,7 +318,6 @@ width = 173;
 );
 unicode = 39;
 userData = {
-KernOnName = quotesingle;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

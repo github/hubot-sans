@@ -27,7 +27,7 @@ pos = (109,0);
 ref = comma;
 }
 );
-width = 239;
+width = 241;
 },
 {
 background = {
@@ -55,7 +55,7 @@ pos = (141,0);
 ref = comma;
 }
 );
-width = 320;
+width = 303;
 },
 {
 background = {
@@ -83,7 +83,7 @@ pos = (221,0);
 ref = comma;
 }
 );
-width = 440;
+width = 432;
 },
 {
 background = {
@@ -111,7 +111,7 @@ pos = (159,0);
 ref = comma;
 }
 );
-width = 316;
+width = 302;
 },
 {
 background = {
@@ -195,7 +195,7 @@ pos = (221,0);
 ref = comma;
 }
 );
-width = 440;
+width = 430;
 },
 {
 background = {
@@ -223,7 +223,7 @@ pos = (159,0);
 ref = comma;
 }
 );
-width = 316;
+width = 301;
 },
 {
 background = {
@@ -251,7 +251,7 @@ pos = (190,0);
 ref = comma;
 }
 );
-width = 409;
+width = 392;
 },
 {
 background = {
@@ -307,7 +307,7 @@ pos = (141,0);
 ref = comma;
 }
 );
-width = 319;
+width = 303;
 },
 {
 background = {
@@ -335,7 +335,7 @@ pos = (109,0);
 ref = comma;
 }
 );
-width = 258;
+width = 238;
 }
 );
 metricLeft = comma;

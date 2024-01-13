@@ -989,6 +989,7 @@ width = 645;
 );
 unicode = 64;
 userData = {
+KernOnName = at;
 KernOnSpecialSpacing = {
 L = symbols;
 R = symbols;
