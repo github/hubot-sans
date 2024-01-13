@@ -2,127 +2,297 @@
 glyphname = caroncomb;
 layers = (
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (124,672);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-width = 239;
+shapes = (
+{
+closed = 1;
+nodes = (
+(138,750,l),
+(209,886,l),
+(179,886,l),
+(124,779,l),
+(69,886,l),
+(40,886,l),
+(110,750,l)
+);
+}
+);
+width = 249;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (150,674);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-width = 261;
+shapes = (
+{
+closed = 1;
+nodes = (
+(188,745,l),
+(261,879,l),
+(196,879,l),
+(150,790,l),
+(105,879,l),
+(40,879,l),
+(113,745,l)
+);
+}
+);
+width = 301;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (229,679);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-width = 418;
+shapes = (
+{
+closed = 1;
+nodes = (
+(335,719,l),
+(418,862,l),
+(260,862,l),
+(229,798,l),
+(198,862,l),
+(40,862,l),
+(123,719,l)
+);
+}
+);
+width = 458;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (186,672);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-width = 362;
+shapes = (
+{
+closed = 1;
+nodes = (
+(204,750,l),
+(332,886,l),
+(282,886,l),
+(186,785,l),
+(90,886,l),
+(40,886,l),
+(168,750,l)
+);
+}
+);
+width = 372;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (324,680);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-width = 551;
+shapes = (
+{
+closed = 1;
+nodes = (
+(441,731,l),
+(605,860,l),
+(403,860,l),
+(324,816,l),
+(245,860,l),
+(40,860,l),
+(208,731,l)
+);
+}
+);
+width = 645;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (233,675);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-width = 436;
+shapes = (
+{
+closed = 1;
+nodes = (
+(283,752,l),
+(426,878,l),
+(319,878,l),
+(233,804,l),
+(147,878,l),
+(40,878,l),
+(182,752,l)
+);
+}
+);
+width = 466;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (307,679);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-width = 418;
+shapes = (
+{
+closed = 1;
+nodes = (
+(421,719,l),
+(543,862,l),
+(372,862,l),
+(327,801,l),
+(313,862,l),
+(165,862,l),
+(210,719,l)
+);
+}
+);
+width = 458;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (274,672);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-width = 362;
+shapes = (
+{
+closed = 1;
+nodes = (
+(310,750,l),
+(465,885,l),
+(413,885,l),
+(297,782,l),
+(218,885,l),
+(173,885,l),
+(278,750,l)
+);
+}
+);
+width = 372;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (319,672);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-width = 438;
+shapes = (
+{
+closed = 1;
+nodes = (
+(387,750,l),
+(548,876,l),
+(441,876,l),
+(341,803,l),
+(267,876,l),
+(170,876,l),
+(284,750,l)
+);
+}
+);
+width = 458;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (441,680);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-width = 607;
+shapes = (
+{
+closed = 1;
+nodes = (
+(542,731,l),
+(732,860,l),
+(527,860,l),
+(440,816,l),
+(367,860,l),
+(165,860,l),
+(309,731,l)
+);
+}
+);
+width = 647;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (229,674);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-width = 269;
+shapes = (
+{
+closed = 1;
+nodes = (
+(284,745,l),
+(390,879,l),
+(323,879,l),
+(250,781,l),
+(227,879,l),
+(171,879,l),
+(204,745,l)
+);
+}
+);
+width = 299;
 },
 {
-components = (
+anchors = (
 {
-alignment = 1;
-name = caron;
+name = _top;
+pos = (211,672);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-width = 247;
+shapes = (
+{
+closed = 1;
+nodes = (
+(245,750,l),
+(351,886,l),
+(319,886,l),
+(230,769,l),
+(201,886,l),
+(174,886,l),
+(209,750,l)
+);
 }
 );
-unicode = 030C;
+width = 257;
+}
+);
+metricLeft = "=40";
+metricRight = "=40";
+unicode = 780;
 userData = {
 KernOnSpecialSpacing = {
 L = NoKerning;

@@ -6,18 +6,18 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{153, 292}";
+pos = (153,292);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"249 278 LINE",
-"249 305 LINE",
-"56 305 LINE",
-"56 278 LINE"
+(249,278,l),
+(249,305,l),
+(56,305,l),
+(56,278,l)
 );
 }
 );
@@ -27,18 +27,18 @@ width = 305;
 anchors = (
 {
 name = _center;
-position = "{162, 295}";
+pos = (162,295);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"272 265 LINE",
-"272 324 LINE",
-"51 324 LINE",
-"51 265 LINE"
+(272,265,l),
+(272,324,l),
+(51,324,l),
+(51,265,l)
 );
 }
 );
@@ -48,18 +48,18 @@ width = 323;
 anchors = (
 {
 name = _center;
-position = "{204, 277}";
+pos = (204,277);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"348 207 LINE",
-"348 346 LINE",
-"59 346 LINE",
-"59 207 LINE"
+(348,207,l),
+(348,346,l),
+(59,346,l),
+(59,207,l)
 );
 }
 );
@@ -69,18 +69,18 @@ width = 407;
 anchors = (
 {
 name = _center;
-position = "{186, 298}";
+pos = (186,298);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"352 279 LINE",
-"352 316 LINE",
-"53 316 LINE",
-"53 279 LINE"
+(352,279,l),
+(352,316,l),
+(53,316,l),
+(53,279,l)
 );
 }
 );
@@ -90,18 +90,18 @@ width = 405;
 anchors = (
 {
 name = _center;
-position = "{261, 264}";
+pos = (261,264);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"492 192 LINE",
-"492 336 LINE",
-"45 336 LINE",
-"45 192 LINE"
+(492,192,l),
+(492,336,l),
+(45,336,l),
+(45,192,l)
 );
 }
 );
@@ -111,18 +111,18 @@ width = 537;
 anchors = (
 {
 name = _center;
-position = "{214, 286}";
+pos = (214,286);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"394 246 LINE",
-"394 325 LINE",
-"56 325 LINE",
-"56 246 LINE"
+(394,246,l),
+(394,325,l),
+(56,325,l),
+(56,246,l)
 );
 }
 );
@@ -132,18 +132,18 @@ width = 449;
 anchors = (
 {
 name = _center;
-position = "{250, 327}";
+pos = (250,327);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"385 258 LINE",
-"414 395 LINE",
-"114 395 LINE",
-"86 258 LINE"
+(385,258,l),
+(414,395,l),
+(114,395,l),
+(86,258,l)
 );
 }
 );
@@ -153,18 +153,18 @@ width = 476;
 anchors = (
 {
 name = _center;
-position = "{220, 323}";
+pos = (220,323);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"383 304 LINE",
-"390 341 LINE",
-"85 341 LINE",
-"78 304 LINE"
+(383,304,l),
+(390,341,l),
+(85,341,l),
+(78,304,l)
 );
 }
 );
@@ -174,39 +174,39 @@ width = 440;
 anchors = (
 {
 name = _center;
-position = "{226, 326.8}";
+pos = (226,327);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"403.6 286.8 LINE",
-"419.2 367 LINE",
-"74 367 LINE",
-"57.2 286.8 LINE"
+(404,287,l),
+(419,367,l),
+(74,367,l),
+(57,287,l)
 );
 }
 );
-width = 450.2;
+width = 450;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{279, 328}";
+pos = (279,328);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"501 251 LINE",
-"532 398 LINE",
-"75 398 LINE",
-"45 251 LINE"
+(501,251,l),
+(532,398,l),
+(75,398,l),
+(45,251,l)
 );
 }
 );
@@ -216,18 +216,18 @@ width = 553;
 anchors = (
 {
 name = _center;
-position = "{182, 297}";
+pos = (182,297);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"294 269 LINE",
-"305 326 LINE",
-"87 326 LINE",
-"76 269 LINE"
+(294,269,l),
+(305,326,l),
+(87,326,l),
+(76,269,l)
 );
 }
 );
@@ -237,18 +237,18 @@ width = 367;
 anchors = (
 {
 name = _center;
-position = "{195, 302}";
+pos = (195,302);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"293 288 LINE",
-"299 315 LINE",
-"107 315 LINE",
-"101 288 LINE"
+(293,288,l),
+(299,315,l),
+(107,315,l),
+(101,288,l)
 );
 }
 );

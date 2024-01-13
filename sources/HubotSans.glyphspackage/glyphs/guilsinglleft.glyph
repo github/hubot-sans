@@ -1,18 +1,20 @@
 {
 glyphname = guilsinglleft;
+kernLeft = guillemetleft;
+kernRight = guillemetleft;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"182 0 LINE",
-"73 258 LINE",
-"182 516 LINE",
-"154 516 LINE",
-"44 258 LINE",
-"154 0 LINE"
+(182,0,l),
+(73,258,l),
+(182,516,l),
+(154,516,l),
+(44,258,l),
+(154,0,l)
 );
 }
 );
@@ -20,16 +22,16 @@ width = 226;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"218 0 LINE",
-"110 262 LINE",
-"218 523 LINE",
-"151 523 LINE",
-"39 262 LINE",
-"151 0 LINE"
+(218,0,l),
+(110,262,l),
+(218,523,l),
+(151,523,l),
+(39,262,l),
+(151,0,l)
 );
 }
 );
@@ -37,16 +39,16 @@ width = 254;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"308 0 LINE",
-"202 272 LINE",
-"308 543 LINE",
-"142 543 LINE",
-"24 272 LINE",
-"142 0 LINE"
+(308,0,l),
+(202,272,l),
+(308,543,l),
+(142,543,l),
+(24,272,l),
+(142,0,l)
 );
 }
 );
@@ -54,16 +56,16 @@ width = 323;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"195 0 LINE",
-"77 259 LINE",
-"195 518 LINE",
-"161 518 LINE",
-"41 259 LINE",
-"161 0 LINE"
+(195,0,l),
+(77,259,l),
+(195,518,l),
+(161,518,l),
+(41,259,l),
+(161,0,l)
 );
 }
 );
@@ -71,16 +73,16 @@ width = 231;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"339 0 LINE",
-"222 275 LINE",
-"339 545 LINE",
-"155 545 LINE",
-"24 275 LINE",
-"155 0 LINE"
+(339,0,l),
+(222,275,l),
+(339,545,l),
+(155,545,l),
+(24,275,l),
+(155,0,l)
 );
 }
 );
@@ -88,16 +90,16 @@ width = 362;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"235 0 LINE",
-"118 264 LINE",
-"235 527 LINE",
-"158 527 LINE",
-"36 264 LINE",
-"158 0 LINE"
+(235,0,l),
+(118,264,l),
+(235,527,l),
+(158,527,l),
+(36,264,l),
+(158,0,l)
 );
 }
 );
@@ -105,16 +107,16 @@ width = 268;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"260 0 LINE",
-"200 272 LINE",
-"364 543 LINE",
-"195 543 LINE",
-"28 290 LINE",
-"111 0 LINE"
+(260,0,l),
+(200,272,l),
+(364,543,l),
+(195,543,l),
+(28,290,l),
+(111,0,l)
 );
 }
 );
@@ -122,50 +124,50 @@ width = 333;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"137.93 0 LINE",
-"76.93 254 LINE",
-"251.93 518 LINE",
-"215.93 518 LINE",
-"40.93 259 LINE",
-"105.93 0 LINE"
+(138,0,l),
+(77,254,l),
+(252,518,l),
+(216,518,l),
+(41,259,l),
+(106,0,l)
 );
 }
 );
-width = 232.928;
+width = 233;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"182 0 LINE",
-"119 262.8 LINE",
-"291.2 525.8 LINE",
-"213 525.8 LINE",
-"37 266.4 LINE",
-"111 0 LINE"
+(182,0,l),
+(119,263,l),
+(291,526,l),
+(213,526,l),
+(37,266,l),
+(111,0,l)
 );
 }
 );
-width = 270.97;
+width = 271;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"274.996 0 LINE",
-"222.996 273 LINE",
-"402.996 544 LINE",
-"209.996 544 LINE",
-"23.996 274 LINE",
-"99.996 0 LINE"
+(274.996,0,l),
+(222.996,273,l),
+(402.996,544,l),
+(209.996,544,l),
+(23.996,274,l),
+(99.996,0,l)
 );
 }
 );
@@ -173,16 +175,16 @@ width = 369;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"164 0 LINE",
-"105 258 LINE",
-"259 523 LINE",
-"194 523 LINE",
-"39 262 LINE",
-"108 0 LINE"
+(164,0,l),
+(105,258,l),
+(259,523,l),
+(194,523,l),
+(39,262,l),
+(108,0,l)
 );
 }
 );
@@ -190,27 +192,25 @@ width = 256;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"128.608 0 LINE",
-"74.608 255 LINE",
-"241.608 515 LINE",
-"209.608 515 LINE",
-"44.608 261 LINE",
-"101.608 0 LINE"
+(129,0,l),
+(75,255,l),
+(242,515,l),
+(210,515,l),
+(45,261,l),
+(102,0,l)
 );
 }
 );
 width = 231;
 }
 );
-leftKerningGroup = guillemetleft;
-leftMetricsKey = guillemetleft;
-rightKerningGroup = guillemetleft;
-rightMetricsKey = guillemetleft;
-unicode = 2039;
+metricLeft = guillemetleft;
+metricRight = guillemetleft;
+unicode = 8249;
 userData = {
 KernOnSpecialSpacing = {
 L = quotes;

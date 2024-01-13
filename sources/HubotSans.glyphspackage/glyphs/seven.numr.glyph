@@ -4,21 +4,11 @@ glyphname = seven.numr;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"210 701 LINE",
-"210 729 LINE",
-"16 729 LINE",
-"16 615 LINE",
-"43 615 LINE",
-"43 703 LINE",
-"179 703 LINE",
-"179 699 LINE",
-"50 328 LINE",
-"81 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 userData = {
@@ -32,21 +22,11 @@ width = 226;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"245 669 LINE",
-"245 729 LINE",
-"14 729 LINE",
-"14 592 LINE",
-"76 592 LINE",
-"76 672 LINE",
-"175 672 LINE",
-"175 665 LINE",
-"57 328 LINE",
-"130 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 userData = {
@@ -60,21 +40,11 @@ width = 259;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"286 632 LINE",
-"286 729 LINE",
-"10 729 LINE",
-"10 564 LINE",
-"113 564 LINE",
-"113 635 LINE",
-"169 635 LINE",
-"169 624 LINE",
-"64 328 LINE",
-"185 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 userData = {
@@ -88,196 +58,106 @@ width = 295;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"312 691 LINE",
-"312 729 LINE",
-"12 729 LINE",
-"12 621 LINE",
-"42 621 LINE",
-"42 694 LINE",
-"268 694 LINE",
-"268 687 LINE",
-"75 328 LINE",
-"120 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 width = 324;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"377 611 LINE",
-"377 729 LINE",
-"5 729 LINE",
-"5 560 LINE",
-"111 560 LINE",
-"111 614 LINE",
-"210 614 LINE",
-"210 605 LINE",
-"58 328 LINE",
-"235 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 width = 381;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"342 654 LINE",
-"342 729 LINE",
-"10 729 LINE",
-"10 592 LINE",
-"75 592 LINE",
-"75 657 LINE",
-"244 657 LINE",
-"244 650 LINE",
-"69 328 LINE",
-"173 328 LINE"
-);
+alignment = 3;
+pos = (0,328);
+ref = seven.dnom;
 }
 );
 width = 352;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"367 632 LINE",
-"388 729 LINE",
-"107 729 LINE",
-"73 564 LINE",
-"176 564 LINE",
-"190 635 LINE",
-"255 635 LINE",
-"248 624 LINE",
-"75 328 LINE",
-"203 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
 width = 300;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"412 693 LINE",
-"419 729 LINE",
-"112 729 LINE",
-"90 623 LINE",
-"121 623 LINE",
-"136 695 LINE",
-"365 695 LINE",
-"363 688 LINE",
-"90 328 LINE",
-"138 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
-width = 331.28;
+width = 331;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"432 655 LINE",
-"447 729 LINE",
-"109 729 LINE",
-"82 594 LINE",
-"148 594 LINE",
-"161 658 LINE",
-"329 658 LINE",
-"328 650 LINE",
-"81 328 LINE",
-"188 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
-width = 359;
+width = 357;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"451 606 LINE",
-"476 729 LINE",
-"102 729 LINE",
-"67 560 LINE",
-"175 560 LINE",
-"187 615 LINE",
-"279 615 LINE",
-"278 605 LINE",
-"62 328 LINE",
-"246 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
 width = 384;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"335 669 LINE",
-"347 729 LINE",
-"113 729 LINE",
-"85 592 LINE",
-"147 592 LINE",
-"163 672 LINE",
-"266 672 LINE",
-"263 664 LINE",
-"71 328 LINE",
-"148 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
-width = 262;
+width = 263;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
-closed = 1;
-nodes = (
-"305 701 LINE",
-"311 729 LINE",
-"116 729 LINE",
-"93 615 LINE",
-"119 615 LINE",
-"138 703 LINE",
-"274 703 LINE",
-"273 698 LINE",
-"65 328 LINE",
-"99 328 LINE"
-);
+alignment = 3;
+pos = (70,328);
+ref = seven.dnom;
 }
 );
 width = 227;
 }
 );
-leftMetricsKey = seven.dnom;
-rightMetricsKey = seven.dnom;
+metricLeft = seven.dnom;
+metricRight = seven.dnom;
 userData = {
 RMXScaler = {
 source = seven;

@@ -1,12 +1,26 @@
 {
 .appVersion = "3234";
+.formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+},
+{
+name = Italic;
+tag = ital;
+}
+);
 classes = (
 {
 code = "";
 name = xxxx;
 }
 );
-copyright = "Copyright © 2021 by GitHub.Inc. All rights reserved.";
 customParameters = (
 {
 name = "Use Typo Metrics";
@@ -17,27 +31,12 @@ name = "Use Line Breaks";
 value = 1;
 },
 {
-name = Axes;
-value = (
-{
-Name = Weight;
-Tag = wght;
-},
-{
-Name = Width;
-Tag = wdth;
-},
-{
-Name = Italic;
-Tag = ital;
-}
-);
+name = "Write DisplayStrings";
+value = 0;
 }
 );
 date = "2017-05-31 15:56:58 +0000";
-designer = "Deni Anggara";
-designerURL = www.degarism.com;
-familyName = "Hubot-Sans";
+familyName = "Hubot Sans";
 featurePrefixes = (
 {
 automatic = 1;
@@ -76,7 +75,7 @@ feature ss01;
 feature ss02;
 feature ss03;
 ";
-name = aalt;
+tag = aalt;
 },
 {
 automatic = 1;
@@ -102,7 +101,7 @@ lookup ccmp_latn_1 {
 script latn;
 lookup ccmp_latn_1;
 ";
-name = ccmp;
+tag = ccmp;
 },
 {
 automatic = 1;
@@ -147,7 +146,7 @@ lookup locl_latn_3 {
 	sub iacute j' by jacute;
 } locl_latn_3;
 ";
-name = locl;
+tag = locl;
 },
 {
 automatic = 1;
@@ -162,7 +161,7 @@ sub seven by seveninferior;
 sub eight by eightinferior;
 sub nine by nineinferior;
 ";
-name = subs;
+tag = subs;
 },
 {
 automatic = 1;
@@ -177,7 +176,7 @@ sub seven by seveninferior;
 sub eight by eightinferior;
 sub nine by nineinferior;
 ";
-name = sinf;
+tag = sinf;
 },
 {
 automatic = 1;
@@ -192,7 +191,7 @@ sub seven by sevensuperior;
 sub eight by eightsuperior;
 sub nine by ninesuperior;
 ";
-name = sups;
+tag = sups;
 },
 {
 automatic = 1;
@@ -207,7 +206,7 @@ sub seven by seven.numr;
 sub eight by eight.numr;
 sub nine by nine.numr;
 ";
-name = numr;
+tag = numr;
 },
 {
 automatic = 1;
@@ -222,7 +221,7 @@ sub seven by seven.dnom;
 sub eight by eight.dnom;
 sub nine by nine.dnom;
 ";
-name = dnom;
+tag = dnom;
 },
 {
 automatic = 1;
@@ -237,7 +236,7 @@ lookup DOWN {
 	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
 } DOWN;
 ";
-name = frac;
+tag = frac;
 },
 {
 automatic = 1;
@@ -245,7 +244,7 @@ code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfem
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 sub N o period by numero;
 ";
-name = ordn;
+tag = ordn;
 },
 {
 automatic = 1;
@@ -260,7 +259,7 @@ sub seven.tf by seven;
 sub eight.tf by eight;
 sub nine.tf by nine;
 ";
-name = pnum;
+tag = pnum;
 },
 {
 automatic = 1;
@@ -275,7 +274,7 @@ sub seven by seven.tf;
 sub eight by eight.tf;
 sub nine by nine.tf;
 ";
-name = tnum;
+tag = tnum;
 },
 {
 automatic = 1;
@@ -289,7 +288,7 @@ sub hyphen by hyphen.case;
 sub endash by endash.case;
 sub emdash by emdash.case;
 ";
-name = case;
+tag = case;
 },
 {
 automatic = 1;
@@ -300,7 +299,12 @@ sub f f by f_f.liga;
 sub f i by fi;
 sub f l by fl;
 ";
-name = liga;
+tag = liga;
+},
+{
+automatic = 1;
+code = "";
+tag = salt;
 },
 {
 automatic = 1;
@@ -370,112 +374,56 @@ sub quotedblright by quotedblright.ss01;
 sub quoteleft by quoteleft.ss01;
 sub quoteright by quoteright.ss01;
 sub divide by divide.ss01;
+sub dieresiscomb by dieresiscomb.ss01;
+sub dotaccentcomb by dotaccentcomb.ss01;
 sub dotbelowcomb by dotbelowcomb.ss01;
-sub dieresis by dieresis.ss01;
-sub dotaccent by dotaccent.ss01;
 ";
-name = salt;
-},
+labels = (
 {
-automatic = 1;
-code = "sub Abrevedotbelow by Abrevedotbelow.ss01;
-sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;
-sub Adieresis by Adieresis.ss01;
-sub Adotbelow by Adotbelow.ss01;
-sub Cdotaccent by Cdotaccent.ss01;
-sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;
-sub Edieresis by Edieresis.ss01;
-sub Edotaccent by Edotaccent.ss01;
-sub Edotbelow by Edotbelow.ss01;
-sub Gdotaccent by Gdotaccent.ss01;
-sub I by I.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub Idotbelow by Idotbelow.ss01;
-sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss01;
-sub Odieresis by Odieresis.ss01;
-sub Odotbelow by Odotbelow.ss01;
-sub Ohorndotbelow by Ohorndotbelow.ss01;
-sub Q by Q.ss01;
-sub Udieresis by Udieresis.ss01;
-sub Udotbelow by Udotbelow.ss01;
-sub Wdieresis by Wdieresis.ss01;
-sub Ydieresis by Ydieresis.ss01;
-sub Ydotbelow by Ydotbelow.ss01;
-sub Zdotaccent by Zdotaccent.ss01;
-sub abrevedotbelow by abrevedotbelow.ss01;
-sub acircumflexdotbelow by acircumflexdotbelow.ss01;
-sub adieresis by adieresis.ss01;
-sub adotbelow by adotbelow.ss01;
-sub cdotaccent by cdotaccent.ss01;
-sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;
-sub edieresis by edieresis.ss01;
-sub edotaccent by edotaccent.ss01;
-sub edotbelow by edotbelow.ss01;
-sub gdotaccent by gdotaccent.ss01;
-sub i by i.ss01;
-sub idieresis by idieresis.ss01;
-sub idotbelow by idotbelow.ss01;
-sub j by j.ss01;
-sub ocircumflexdotbelow by ocircumflexdotbelow.ss01;
-sub odieresis by odieresis.ss01;
-sub odotbelow by odotbelow.ss01;
-sub ohorndotbelow by ohorndotbelow.ss01;
-sub udieresis by udieresis.ss01;
-sub uhorndotbelow by uhorndotbelow.ss01;
-sub wdieresis by wdieresis.ss01;
-sub y by y.ss01;
-sub yacute by yacute.ss01;
-sub ycircumflex by ycircumflex.ss01;
-sub ydieresis by ydieresis.ss01;
-sub ydotbelow by ydotbelow.ss01;
-sub ygrave by ygrave.ss01;
-sub period by period.ss01;
-sub comma by comma.ss01;
-sub colon by colon.ss01;
-sub semicolon by semicolon.ss01;
-sub ellipsis by ellipsis.ss01;
-sub question by question.ss01;
-sub questiondown by questiondown.ss01;
-sub quotesinglbase by quotesinglbase.ss01;
-sub quotedblbase by quotedblbase.ss01;
-sub quotedblleft by quotedblleft.ss01;
-sub quotedblright by quotedblright.ss01;
-sub quoteleft by quoteleft.ss01;
-sub quoteright by quoteright.ss01;
-sub divide by divide.ss01;
-sub dotbelowcomb by dotbelowcomb.ss01;
-sub dieresis by dieresis.ss01;
-sub dotaccent by dotaccent.ss01;
-";
-name = ss01;
+language = dflt;
+value = "";
+}
+);
+tag = ss01;
 },
 {
 automatic = 1;
 code = "sub l by l.ss02;
 ";
-name = ss02;
+tag = ss02;
 },
 {
 automatic = 1;
 code = "sub r by r.ss03;
 ";
-name = ss03;
+tag = ss03;
 }
 );
 fontMaster = (
 {
-alignmentZones = (
-"{800, 6}",
-"{729, 6}",
-"{515, 6}",
-"{0, -6}",
-"{-167, -6}"
+axesValues = (
+200,
+1,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Extra Narrow";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -557,14 +505,38 @@ name = superscriptYSize;
 value = 700;
 }
 );
-descender = -200;
-horizontalStems = (
-28,
-27
-);
 iconName = Light_Condensed;
 id = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+metricValues = (
+{
+over = 6;
+pos = 729;
+},
+{
+over = 6;
+pos = 729;
+},
+{
+over = 6;
+pos = 515;
+},
+{
+over = -6;
+},
+{
+over = -6;
+pos = -167;
+},
+{
+}
+);
 name = "ExtraLight Narrow";
+stemValues = (
+28,
+27,
+31,
+31
+);
 userData = {
 GSOffsetHorizontal = 15;
 GSOffsetKeepCompatible = 1;
@@ -592,27 +564,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-31,
-31
-);
-weight = Light;
-weightValue = 200;
-widthValue = 1;
-xHeight = 515;
 },
 {
-alignmentZones = (
-"{800, 7}",
-"{729, 7}",
-"{524, 7}",
-"{0, -7}",
-"{-167, -7}"
+axesValues = (
+400,
+1,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Regular Narrow";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -694,13 +670,38 @@ name = superscriptYSize;
 value = 650;
 }
 );
-descender = -200;
-horizontalStems = (
-63,
-58
-);
 iconName = Condensed;
 id = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+metricValues = (
+{
+over = 7;
+pos = 729;
+},
+{
+over = 7;
+pos = 729;
+},
+{
+over = 7;
+pos = 524;
+},
+{
+over = -7;
+},
+{
+over = -7;
+pos = -167;
+},
+{
+}
+);
+name = "Regular Narrow";
+stemValues = (
+63,
+58,
+73,
+73
+);
 userData = {
 KernOnModels = (
 "seven four",
@@ -736,26 +737,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-73,
-73
-);
-weightValue = 400;
-widthValue = 1;
-xHeight = 524;
 },
 {
-alignmentZones = (
-"{800, 9}",
-"{729, 9}",
-"{546, 10}",
-"{0, -9}",
-"{-167, -9}"
+axesValues = (
+900,
+1,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Black Narrow";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -837,13 +843,38 @@ name = superscriptYSize;
 value = 605;
 }
 );
-descender = -200;
-horizontalStems = (
-148,
-139
-);
 iconName = Bold_Condensed;
 id = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+metricValues = (
+{
+over = 9;
+pos = 729;
+},
+{
+over = 9;
+pos = 729;
+},
+{
+over = 10;
+pos = 546;
+},
+{
+over = -9;
+},
+{
+over = -9;
+pos = -167;
+},
+{
+}
+);
+name = "Black Narrow";
+stemValues = (
+148,
+139,
+179,
+176
+);
 userData = {
 KernOnIndependentPairs = (
 "I H",
@@ -887,26 +918,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-179,
-176
-);
-weightValue = 900;
-widthValue = 1;
-xHeight = 546;
 },
 {
-alignmentZones = (
-"{800, 10}",
-"{729, 10}",
-"{516, 10}",
-"{0, -10}",
-"{-167, -10}"
+axesValues = (
+200,
+10,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Extra Wide";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -988,14 +1024,38 @@ name = superscriptYSize;
 value = 698;
 }
 );
-descender = -200;
-horizontalStems = (
-39,
-36
-);
 iconName = Light_Extended;
 id = "5908592F-1119-4296-AF9E-8219C1C10A44";
+metricValues = (
+{
+over = 10;
+pos = 729;
+},
+{
+over = 10;
+pos = 729;
+},
+{
+over = 10;
+pos = 516;
+},
+{
+over = -10;
+},
+{
+over = -10;
+pos = -167;
+},
+{
+}
+);
 name = "ExtraLight Wide";
+stemValues = (
+39,
+36,
+42,
+38
+);
 userData = {
 GSOffsetHorizontal = 19;
 GSOffsetKeepCompatible = 1;
@@ -1038,27 +1098,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-42,
-38
-);
-weight = Light;
-weightValue = 200;
-widthValue = 10;
-xHeight = 516;
 },
 {
-alignmentZones = (
-"{800, 12}",
-"{729, 12}",
-"{525, 12}",
-"{0, -12}",
-"{-167, -12}"
+axesValues = (
+400,
+10,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Regular Wide";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1140,13 +1204,38 @@ name = superscriptYSize;
 value = 657;
 }
 );
-descender = -200;
-horizontalStems = (
-87,
-79
-);
 iconName = Extended;
 id = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+metricValues = (
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 525;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -167;
+},
+{
+}
+);
+name = "Regular Wide";
+stemValues = (
+87,
+79,
+101,
+99
+);
 userData = {
 KernOnModels = (
 "A V",
@@ -1173,26 +1262,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-101,
-99
-);
-weightValue = 400;
-widthValue = 10;
-xHeight = 525;
 },
 {
-alignmentZones = (
-"{800, 12}",
-"{729, 12}",
-"{545, 13}",
-"{0, -12}",
-"{-167, -12}"
+axesValues = (
+900,
+10,
+0
 );
-ascender = 800;
-capHeight = 729;
-custom = "Black Wide";
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1274,13 +1368,38 @@ name = superscriptYSize;
 value = 611;
 }
 );
-descender = -200;
-horizontalStems = (
-191,
-163
-);
 iconName = Bold_Extended;
 id = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+metricValues = (
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 729;
+},
+{
+over = 13;
+pos = 545;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -167;
+},
+{
+}
+);
+name = "Black Wide";
+stemValues = (
+191,
+163,
+263,
+243
+);
 userData = {
 KernOnModels = (
 "A v",
@@ -1316,27 +1435,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-263,
-243
-);
-weightValue = 900;
-widthValue = 10;
-xHeight = 545;
 },
 {
-alignmentZones = (
-"{800, 6}",
-"{729, 6}",
-"{515, 6}",
-"{0, -6}",
-"{-167, -6}"
+axesValues = (
+200,
+1,
+12
 );
-ascender = 800;
-capHeight = 729;
-custom = "Extra Narrow Italic";
-customValue = 12;
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1418,15 +1541,39 @@ name = superscriptYSize;
 value = 700;
 }
 );
-descender = -200;
-horizontalStems = (
-28,
-27
-);
 iconName = Light_Condensed;
 id = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-italicAngle = 12;
+metricValues = (
+{
+over = 6;
+pos = 729;
+},
+{
+over = 6;
+pos = 729;
+},
+{
+over = 6;
+pos = 515;
+},
+{
+over = -6;
+},
+{
+over = -6;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
 name = "ExtraLight Narrow Italic";
+stemValues = (
+28,
+27,
+31,
+31
+);
 userData = {
 KernOnModels = (
 "L T",
@@ -1443,21 +1590,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-31,
-31
-);
-weight = Light;
-weightValue = 200;
-widthValue = 1;
-xHeight = 515;
 },
 {
-ascender = 800;
-capHeight = 729;
-custom = "Regular Narrow Italic";
-customValue = 12;
+axesValues = (
+400,
+1,
+12
+);
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1539,14 +1696,39 @@ name = superscriptYSize;
 value = 650;
 }
 );
-descender = -200;
-horizontalStems = (
-82,
-90
-);
 iconName = Condensed;
 id = "DE16639F-02D9-40F6-995B-45753FE85645";
-italicAngle = 12;
+metricValues = (
+{
+over = 7;
+pos = 729;
+},
+{
+over = 7;
+pos = 729;
+},
+{
+over = 7;
+pos = 523;
+},
+{
+over = -7;
+},
+{
+over = -7;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
+name = "Regular Narrow Italic";
+stemValues = (
+82,
+90,
+97,
+0
+);
 userData = {
 KernOnIndependentPairs = (
 "O O",
@@ -1576,27 +1758,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-97,
-0
-);
-weightValue = 400;
-widthValue = 1;
-xHeight = 523;
 },
 {
-alignmentZones = (
-"{800, 9}",
-"{729, 9}",
-"{545, 10}",
-"{0, -9}",
-"{-167, -9}"
+axesValues = (
+900,
+1,
+12
 );
-ascender = 800;
-capHeight = 729;
-custom = "Black Narrow Italic";
-customValue = 12;
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1678,14 +1864,39 @@ name = superscriptYSize;
 value = 601;
 }
 );
-descender = -200;
-horizontalStems = (
-156,
-175
-);
 iconName = Bold_Condensed;
 id = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-italicAngle = 12;
+metricValues = (
+{
+over = 9;
+pos = 729;
+},
+{
+over = 9;
+pos = 729;
+},
+{
+over = 10;
+pos = 545;
+},
+{
+over = -9;
+},
+{
+over = -9;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
+name = "Black Narrow Italic";
+stemValues = (
+156,
+175,
+197,
+0
+);
 userData = {
 KernOnModels = (
 "A V",
@@ -1719,27 +1930,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-197,
-0
-);
-weightValue = 900;
-widthValue = 1;
-xHeight = 545;
 },
 {
-alignmentZones = (
-"{800, 10}",
-"{729, 10}",
-"{516, 10}",
-"{0, -10}",
-"{-167, -10}"
+axesValues = (
+200,
+10,
+12
 );
-ascender = 800;
-capHeight = 729;
-custom = "Extra Wide Italic";
-customValue = 12;
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1821,15 +2036,39 @@ name = superscriptYSize;
 value = 698;
 }
 );
-descender = -200;
-horizontalStems = (
-39,
-36
-);
 iconName = Light_Extended;
 id = "83818878-ED40-419E-99CD-108DAFFBE778";
-italicAngle = 12;
+metricValues = (
+{
+over = 10;
+pos = 729;
+},
+{
+over = 10;
+pos = 729;
+},
+{
+over = 10;
+pos = 516;
+},
+{
+over = -10;
+},
+{
+over = -10;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
 name = "ExtraLight Wide Italic";
+stemValues = (
+39,
+36,
+42,
+38
+);
 userData = {
 KernOnModels = (
 "k g",
@@ -1855,28 +2094,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-42,
-38
-);
-weight = Light;
-weightValue = 200;
-widthValue = 10;
-xHeight = 516;
 },
 {
-alignmentZones = (
-"{800, 12}",
-"{729, 12}",
-"{525, 12}",
-"{0, -12}",
-"{-167, -12}"
+axesValues = (
+400,
+10,
+12
 );
-ascender = 800;
-capHeight = 729;
-custom = "Regular Wide Italic";
-customValue = 12;
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -1958,14 +2200,39 @@ name = superscriptYSize;
 value = 657;
 }
 );
-descender = -200;
-horizontalStems = (
-87,
-79
-);
 iconName = Extended;
 id = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-italicAngle = 12;
+metricValues = (
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 525;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
+name = "Regular Wide Italic";
+stemValues = (
+87,
+79,
+101,
+99
+);
 userData = {
 KernOnModels = (
 "A v",
@@ -1999,27 +2266,31 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-101,
-99
-);
-weightValue = 400;
-widthValue = 10;
-xHeight = 525;
 },
 {
-alignmentZones = (
-"{800, 12}",
-"{729, 12}",
-"{545, 13}",
-"{0, -12}",
-"{-167, -12}"
+axesValues = (
+900,
+10,
+12
 );
-ascender = 800;
-capHeight = 729;
-custom = "Black Wide Italic";
-customValue = 12;
 customParameters = (
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
+}
+);
+},
 {
 name = hheaAscender;
 value = 878;
@@ -2101,14 +2372,39 @@ name = superscriptYSize;
 value = 611;
 }
 );
-descender = -200;
-horizontalStems = (
-191,
-161
-);
 iconName = Bold_Extended;
 id = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-italicAngle = 12;
+metricValues = (
+{
+over = 12;
+pos = 729;
+},
+{
+over = 12;
+pos = 729;
+},
+{
+over = 13;
+pos = 545;
+},
+{
+over = -12;
+},
+{
+over = -12;
+pos = -167;
+},
+{
+pos = 12;
+}
+);
+name = "Black Wide Italic";
+stemValues = (
+191,
+161,
+262,
+237
+);
 userData = {
 KernOnIndependentPairs = (
 "n o",
@@ -2147,17 +2443,15 @@ KernOnUserSetAutopairs = (
 "V ohungarumlaut"
 );
 };
-verticalStems = (
-262,
-237
-);
-weightValue = 900;
-widthValue = 10;
-xHeight = 545;
 }
 );
 instances = (
 {
+axesValues = (
+200,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2179,20 +2473,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = Condensed;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 1;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 3;
 },
 {
+axesValues = (
+300,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2214,21 +2535,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 300;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.5;
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.5;
 };
 name = Light;
-weightClass = Light;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 3;
 },
 {
+axesValues = (
+400,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2250,19 +2598,46 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 400;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 1;
 };
 name = Regular;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+widthClass = 3;
 },
 {
+axesValues = (
+500,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2284,21 +2659,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 500;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.8;
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.2;
 };
 name = Medium;
-weightClass = Medium;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 3;
 },
 {
+axesValues = (
+600,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2320,21 +2722,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 600;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.6;
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.4;
 };
 name = SemiBold;
-weightClass = SemiBold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 3;
 },
 {
+axesValues = (
+700,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2356,22 +2785,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 700;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.4;
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.6;
 };
 isBold = 1;
 name = Bold;
-weightClass = Bold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 3;
 },
 {
+axesValues = (
+800,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2393,21 +2849,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 800;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.2;
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.8;
 };
 name = ExtraBold;
-weightClass = ExtraBold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 3;
 },
 {
+axesValues = (
+900,
+1,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2429,20 +2912,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 900;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 1;
 };
 name = Black;
-weightClass = Black;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 3;
 },
 {
+axesValues = (
+200,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2464,20 +2974,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5908592F-1119-4296-AF9E-8219C1C10A44" = 0.66667;
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.33333;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 200;
 },
 {
+axesValues = (
+300,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2499,12 +3036,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 300;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5908592F-1119-4296-AF9E-8219C1C10A44" = 0.33333;
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.16667;
@@ -2512,9 +3060,25 @@ instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.33333;
 };
 name = Light;
-weightClass = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 300;
 },
 {
+axesValues = (
+400,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2536,23 +3100,46 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = weightClass;
-value = 370;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
 },
 {
-name = familyName;
-value = "Hubot Sans";
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 400;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.33333;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.66667;
 };
 name = Regular;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
 },
 {
+axesValues = (
+500,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2574,12 +3161,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 500;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.26667;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.53333;
@@ -2587,9 +3185,25 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.06667;
 };
 name = Medium;
-weightClass = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 500;
 },
 {
+axesValues = (
+600,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2611,12 +3225,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 600;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.2;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.4;
@@ -2624,9 +3249,25 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.13333;
 };
 name = SemiBold;
-weightClass = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 600;
 },
 {
+axesValues = (
+700,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2648,12 +3289,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 700;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.13333;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.26667;
@@ -2662,9 +3314,25 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
-weightClass = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 700;
 },
 {
+axesValues = (
+800,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2686,12 +3354,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 800;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "5CD2F84A-2568-4CD8-B351-D9C938FC152A" = 0.06667;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.13333;
@@ -2699,9 +3378,25 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.26667;
 };
 name = ExtraBold;
-weightClass = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 800;
 },
 {
+axesValues = (
+900,
+7,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2723,20 +3418,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 900;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 0.66667;
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.33333;
 };
 name = Black;
-weightClass = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 900;
 },
 {
+axesValues = (
+200,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2758,20 +3480,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = Expanded;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 200;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "5908592F-1119-4296-AF9E-8219C1C10A44" = 1;
 };
 name = ExtraLight;
-weightClass = ExtraLight;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = Expanded;
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 7;
 },
 {
+axesValues = (
+300,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2793,21 +3542,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 300;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "5908592F-1119-4296-AF9E-8219C1C10A44" = 0.5;
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.5;
 };
 name = Light;
-weightClass = Light;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 7;
 },
 {
+axesValues = (
+400,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2829,23 +3605,46 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = weightClass;
-value = 370;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 400;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 1;
 };
 name = Regular;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+widthClass = 7;
 },
 {
+axesValues = (
+500,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2867,21 +3666,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 500;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.8;
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 0.2;
 };
 name = Medium;
-weightClass = Medium;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 7;
 },
 {
+axesValues = (
+600,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2903,21 +3729,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 600;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.6;
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 0.4;
 };
 name = SemiBold;
-weightClass = SemiBold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 7;
 },
 {
+axesValues = (
+700,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2939,22 +3792,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 700;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.4;
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 0.6;
 };
 isBold = 1;
 name = Bold;
-weightClass = Bold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 7;
 },
 {
+axesValues = (
+800,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -2976,21 +3856,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 800;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.2;
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 0.8;
 };
 name = ExtraBold;
-weightClass = ExtraBold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 7;
 },
 {
+axesValues = (
+900,
+10,
+0
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3012,20 +3919,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 0;
 }
 );
-interpolationWeight = 900;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = 1;
 };
 name = Black;
-weightClass = Black;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 7;
 },
 {
+axesValues = (
+200,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3047,22 +3981,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 200;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4" = 1;
 };
 isItalic = 1;
 name = "ExtraLight Italic";
-weightClass = ExtraLight;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 3;
 },
 {
+axesValues = (
+300,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3084,23 +4044,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 300;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4" = 0.5;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.5;
 };
 isItalic = 1;
 name = "Light Italic";
-weightClass = Light;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 3;
 },
 {
+axesValues = (
+400,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3122,21 +4108,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 400;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "DE16639F-02D9-40F6-995B-45753FE85645" = 1;
 };
 isItalic = 1;
 name = "Regular Italic";
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+widthClass = 3;
 },
 {
+axesValues = (
+500,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3158,23 +4170,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 500;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.2;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.8;
 };
 isItalic = 1;
 name = "Medium Italic";
-weightClass = Medium;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 3;
 },
 {
+axesValues = (
+600,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3196,23 +4234,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 600;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.4;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.6;
 };
 isItalic = 1;
 name = "SemiBold Italic";
-weightClass = SemiBold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 3;
 },
 {
+axesValues = (
+700,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3234,13 +4298,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 700;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.6;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.4;
@@ -3248,10 +4322,26 @@ instanceInterpolations = {
 isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
-weightClass = Bold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 3;
 },
 {
+axesValues = (
+800,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3273,23 +4363,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 800;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.8;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.2;
 };
 isItalic = 1;
 name = "ExtraBold Italic";
-weightClass = ExtraBold;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 3;
 },
 {
+axesValues = (
+900,
+1,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3311,22 +4427,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Condensed";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 80;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 900;
-interpolationWidth = 1;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 1;
 };
 isItalic = 1;
 name = "Black Italic";
-weightClass = Black;
-widthClass = Condensed;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Condensed";
+}
+);
+}
+);
+weightClass = 900;
+widthClass = 3;
 },
 {
+axesValues = (
+200,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3348,22 +4490,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 200;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "83818878-ED40-419E-99CD-108DAFFBE778" = 0.66667;
 "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4" = 0.33333;
 };
 isItalic = 1;
 name = "ExtraLight Italic";
-weightClass = ExtraLight;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 200;
 },
 {
+axesValues = (
+300,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3385,13 +4553,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 300;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.33333;
 "83818878-ED40-419E-99CD-108DAFFBE778" = 0.33333;
@@ -3400,9 +4578,25 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "Light Italic";
-weightClass = Light;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 300;
 },
 {
+axesValues = (
+400,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3424,25 +4618,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = weightClass;
-value = 370;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
 },
 {
-name = familyName;
-value = "Hubot Sans";
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 400;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.66667;
 "DE16639F-02D9-40F6-995B-45753FE85645" = 0.33333;
 };
 isItalic = 1;
 name = Italic;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
 },
 {
+axesValues = (
+500,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3464,13 +4680,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 500;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.06667;
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.53333;
@@ -3479,9 +4705,25 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "Medium Italic";
-weightClass = Medium;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 500;
 },
 {
+axesValues = (
+600,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3503,13 +4745,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 600;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.13333;
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.4;
@@ -3518,9 +4770,25 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "SemiBold Italic";
-weightClass = SemiBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 600;
 },
 {
+axesValues = (
+700,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3542,13 +4810,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 700;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.2;
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.26667;
@@ -3558,9 +4836,25 @@ instanceInterpolations = {
 isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
-weightClass = Bold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 700;
 },
 {
+axesValues = (
+800,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3582,13 +4876,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 800;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.26667;
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.13333;
@@ -3597,9 +4901,25 @@ instanceInterpolations = {
 };
 isItalic = 1;
 name = "ExtraBold Italic";
-weightClass = ExtraBold;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 800;
 },
 {
+axesValues = (
+900,
+7,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3621,22 +4941,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 100;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 900;
-interpolationWidth = 7;
+}
+);
 instanceInterpolations = {
 "3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = 0.33333;
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 0.66667;
 };
 isItalic = 1;
 name = "Black Italic";
-weightClass = Black;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans";
+}
+);
+}
+);
+weightClass = 900;
 },
 {
+axesValues = (
+200,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3658,22 +5004,48 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 200;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 200;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "83818878-ED40-419E-99CD-108DAFFBE778" = 1;
 };
 isItalic = 1;
 name = "ExtraLight Italic";
-weightClass = ExtraLight;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 200;
+widthClass = 7;
 },
 {
+axesValues = (
+300,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3695,23 +5067,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 300;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 300;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.5;
 "83818878-ED40-419E-99CD-108DAFFBE778" = 0.5;
 };
 isItalic = 1;
 name = "Light Italic";
-weightClass = Light;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 300;
+widthClass = 7;
 },
 {
+axesValues = (
+400,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3733,25 +5131,47 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = weightClass;
-value = 370;
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 400;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 1;
 };
 isItalic = 1;
 name = "Regular Italic";
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+widthClass = 7;
 },
 {
+axesValues = (
+500,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3773,23 +5193,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 500;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 500;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.8;
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 0.2;
 };
 isItalic = 1;
 name = "Medium Italic";
-weightClass = Medium;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 500;
+widthClass = 7;
 },
 {
+axesValues = (
+600,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3811,23 +5257,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 600;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 600;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.6;
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 0.4;
 };
 isItalic = 1;
 name = "SemiBold Italic";
-weightClass = SemiBold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 600;
+widthClass = 7;
 },
 {
+axesValues = (
+700,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3849,13 +5321,23 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 700;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 700;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.4;
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 0.6;
@@ -3863,10 +5345,26 @@ instanceInterpolations = {
 isBold = 1;
 isItalic = 1;
 name = "Bold Italic";
-weightClass = Bold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 700;
+widthClass = 7;
 },
 {
+axesValues = (
+800,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3888,23 +5386,49 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 800;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 800;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = 0.2;
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 0.8;
 };
 isItalic = 1;
 name = "ExtraBold Italic";
-weightClass = ExtraBold;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
+}
+);
+}
+);
+weightClass = 800;
+widthClass = 7;
 },
 {
+axesValues = (
+900,
+10,
+12
+);
 customParameters = (
 {
 name = "Instance Preview";
@@ -3926,23 +5450,44 @@ name = Filter;
 value = "RemoveOverlap;";
 },
 {
-name = familyName;
-value = "Hubot Sans Expanded";
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+},
+{
+Axis = Width;
+Location = 120;
+},
+{
+Axis = Italic;
+Location = 1;
 }
 );
-interpolationCustom = 12;
-interpolationWeight = 900;
-interpolationWidth = 10;
+}
+);
 instanceInterpolations = {
 "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = 1;
 };
 isItalic = 1;
 name = "Black Italic";
-weightClass = Black;
-widthClass = Expanded;
+properties = (
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Hubot Sans Expanded";
 }
 );
-kerning = {
+}
+);
+weightClass = 900;
+widthClass = 7;
+}
+);
+kerningLTR = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = {
 "@MMK_L_A" = {
 "@MMK_R_A" = 18;
@@ -7856,7 +9401,6 @@ kerning = {
 "@MMK_R_e" = 96;
 "@MMK_R_exclam" = 43;
 "@MMK_R_foursuperior" = 9;
-"@MMK_R_i" = 94;
 "@MMK_R_parenright" = -39;
 "@MMK_R_period" = -35;
 "@MMK_R_period.ss01" = -34;
@@ -18242,7 +19786,6 @@ Y = -63;
 "@MMK_R_e" = 149;
 "@MMK_R_exclam" = 91;
 "@MMK_R_foursuperior" = 71;
-"@MMK_R_i" = 127;
 "@MMK_R_parenright" = -8;
 "@MMK_R_period" = 0;
 "@MMK_R_period.ss01" = -12;
@@ -28628,7 +30171,6 @@ Y = -74;
 "@MMK_R_e" = 198;
 "@MMK_R_exclam" = 183;
 "@MMK_R_foursuperior" = 129;
-"@MMK_R_i" = 202;
 "@MMK_R_parenright" = 69;
 "@MMK_R_period" = -13;
 "@MMK_R_period.ss01" = -21;
@@ -39014,7 +40556,6 @@ Y = -93;
 "@MMK_R_e" = 135;
 "@MMK_R_exclam" = 146;
 "@MMK_R_foursuperior" = 36;
-"@MMK_R_i" = 136;
 "@MMK_R_parenright" = 65;
 "@MMK_R_period" = -9;
 "@MMK_R_period.ss01" = -25;
@@ -49399,7 +50940,6 @@ Y = -153;
 "@MMK_R_e" = 195;
 "@MMK_R_exclam" = 190;
 "@MMK_R_foursuperior" = 105;
-"@MMK_R_i" = 183;
 "@MMK_R_parenright" = 61;
 "@MMK_R_period" = -13;
 "@MMK_R_period.ss01" = -13;
@@ -59785,7 +61325,6 @@ Y = -131;
 "@MMK_R_e" = 211;
 "@MMK_R_exclam" = 209;
 "@MMK_R_foursuperior" = 120;
-"@MMK_R_i" = 223;
 "@MMK_R_parenright" = 149;
 "@MMK_R_period" = 0;
 "@MMK_R_period.ss01" = -17;
@@ -70169,7 +71708,6 @@ Y = -178;
 "@MMK_R_e" = 32;
 "@MMK_R_exclam" = 0;
 "@MMK_R_foursuperior" = 0;
-"@MMK_R_i" = 32;
 "@MMK_R_parenright" = -44;
 "@MMK_R_period" = -22;
 "@MMK_R_period.ss01" = -20;
@@ -80554,7 +82092,6 @@ Y = -87;
 "@MMK_R_e" = 145;
 "@MMK_R_exclam" = 89;
 "@MMK_R_foursuperior" = 72;
-"@MMK_R_i" = 129;
 "@MMK_R_parenright" = -12;
 "@MMK_R_period" = -19;
 "@MMK_R_period.ss01" = -14;
@@ -90939,7 +92476,6 @@ Y = -74;
 "@MMK_R_e" = 224;
 "@MMK_R_exclam" = 186;
 "@MMK_R_foursuperior" = 159;
-"@MMK_R_i" = 213;
 "@MMK_R_parenright" = 51;
 "@MMK_R_period" = -9;
 "@MMK_R_period.ss01" = -13;
@@ -101324,7 +102860,6 @@ Y = -94;
 "@MMK_R_e" = 170;
 "@MMK_R_exclam" = 155;
 "@MMK_R_foursuperior" = 62;
-"@MMK_R_i" = 145;
 "@MMK_R_parenright" = 17;
 "@MMK_R_period" = -16;
 "@MMK_R_period.ss01" = -13;
@@ -111709,7 +113244,6 @@ Y = -180;
 "@MMK_R_e" = 204;
 "@MMK_R_exclam" = 190;
 "@MMK_R_foursuperior" = 90;
-"@MMK_R_i" = 187;
 "@MMK_R_parenright" = -43;
 "@MMK_R_period" = -18;
 "@MMK_R_period.ss01" = -9;
@@ -122094,7 +123628,6 @@ Y = -198;
 "@MMK_R_e" = 236;
 "@MMK_R_exclam" = 214;
 "@MMK_R_foursuperior" = 149;
-"@MMK_R_i" = 224;
 "@MMK_R_parenright" = 108;
 "@MMK_R_period" = -10;
 "@MMK_R_period.ss01" = -9;
@@ -128568,13 +130101,122 @@ Y = -218;
 };
 };
 };
-manufacturer = "GitHub, Inc., Subsidiary of Microsoft Corporation";
-manufacturerURL = www.github.com;
+metrics = (
+{
+type = ascender;
+},
+{
+type = "cap height";
+},
+{
+type = "x-height";
+},
+{
+type = baseline;
+},
+{
+type = descender;
+},
+{
+type = "italic angle";
+}
+);
+properties = (
+{
+key = copyrights;
+values = (
+{
+language = dflt;
+value = "Copyright © 2021 by GitHub.Inc. All rights reserved.";
+}
+);
+},
+{
+key = designers;
+values = (
+{
+language = dflt;
+value = "Deni Anggara";
+}
+);
+},
+{
+key = designerURL;
+value = www.degarism.com;
+},
+{
+key = manufacturers;
+values = (
+{
+language = dflt;
+value = "GitHub, Inc., Subsidiary of Microsoft Corporation";
+}
+);
+},
+{
+key = manufacturerURL;
+value = www.github.com;
+}
+);
+stems = (
+{
+horizontal = 1;
+name = hStem0;
+},
+{
+horizontal = 1;
+name = hStem1;
+},
+{
+name = vStem0;
+},
+{
+name = vStem1;
+}
+);
 unitsPerEm = 1000;
 userData = {
+GSDimensionPlugin.Dimensions = {
+"3997DD6A-B1DD-4C8E-8076-A32381C7B82F" = {
+nV = "178";
+};
+"5908592F-1119-4296-AF9E-8219C1C10A44" = {
+nV = "37";
+};
+"5CD2F84A-2568-4CD8-B351-D9C938FC152A" = {
+nV = "72";
+};
+"60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3" = {
+nV = "97";
+};
+"6932EABA-00D8-4526-96D6-87ADD7AC589E" = {
+nV = "31";
+};
+"83818878-ED40-419E-99CD-108DAFFBE778" = {
+nV = "37";
+};
+"AE48F426-5A06-4069-851E-B29A4CF5AB7C" = {
+nV = "97";
+};
+"B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9" = {
+nV = "236";
+};
+"C27438A8-196C-4C9A-B899-94A1193B83E6" = {
+nV = "178";
+};
+"CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4" = {
+nV = "31";
+};
+"DE16639F-02D9-40F6-995B-45753FE85645" = {
+nV = "72";
+};
+"FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71" = {
+nV = "236";
+};
+};
 KernOnKerningWeightLimit = 36000;
 KernOnVersion = "1.21";
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 5;
 }

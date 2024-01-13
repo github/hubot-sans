@@ -5,254 +5,256 @@ layers = (
 anchors = (
 {
 name = _center;
-position = "{299, 290}";
+pos = (247,290);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"505 276 LINE",
-"505 304 LINE",
-"92 304 LINE",
-"92 276 LINE"
+(453,276,l),
+(453,304,l),
+(40,304,l),
+(40,276,l)
 );
 }
 );
-width = 600;
+width = 493;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{293, 289}";
+pos = (260,289);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"512 260 LINE",
-"512 317 LINE",
-"73 317 LINE",
-"73 260 LINE"
+(479,260,l),
+(479,317,l),
+(40,317,l),
+(40,260,l)
 );
 }
 );
-width = 587;
+width = 519;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{278, 285}";
+pos = (293,285);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"529 220 LINE",
-"529 349 LINE",
-"25 349 LINE",
-"25 220 LINE"
+(544,220,l),
+(544,349,l),
+(40,349,l),
+(40,220,l)
 );
 }
 );
-width = 555;
+width = 584;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{503, 282}";
+pos = (499,282);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"961 262 LINE",
-"961 301 LINE",
-"44 301 LINE",
-"44 262 LINE"
+(957,262,l),
+(957,301,l),
+(40,301,l),
+(40,262,l)
 );
 }
 );
-width = 965;
+width = 997;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{516, 277}";
+pos = (538,277);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1013 205 LINE",
-"1013 348 LINE",
-"18 348 LINE",
-"18 205 LINE"
+(1035,205,l),
+(1035,348,l),
+(40,348,l),
+(40,205,l)
 );
 }
 );
-width = 1033;
+width = 1075;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{489, 280}";
+pos = (482,280);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"928 244 LINE",
-"928 315 LINE",
-"47 315 LINE",
-"47 244 LINE"
+(921,244,l),
+(921,315,l),
+(40,315,l),
+(40,244,l)
 );
 }
 );
-width = 968;
+width = 961;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{275, 285}";
+pos = (295,285);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"513 220 LINE",
-"540 349 LINE",
-"36 349 LINE",
-"9 220 LINE"
+(533,220,l),
+(560,349,l),
+(56,349,l),
+(29,220,l)
 );
 }
 );
-width = 544;
+width = 584;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{499, 282}";
+pos = (504,282);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"953 262 LINE",
-"961 301 LINE",
-"44 301 LINE",
-"36 262 LINE"
+(958,262,l),
+(966,301,l),
+(49,301,l),
+(41,262,l)
 );
 }
 );
-width = 987;
+width = 997;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{476, 280}";
+pos = (486,280);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"908 244 LINE",
-"923 315 LINE",
-"41 315 LINE",
-"27 244 LINE"
+(918,244,l),
+(933,315,l),
+(51,315,l),
+(37,244,l)
 );
 }
 );
-width = 942;
+width = 962;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{518, 277}";
+pos = (538,277);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"1001 205 LINE",
-"1031 348 LINE",
-"36 348 LINE",
-"6 205 LINE"
+(1021,205,l),
+(1051,348,l),
+(56,348,l),
+(26,205,l)
 );
 }
 );
-width = 1035;
+width = 1075;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{300, 289}";
+pos = (267,289);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"514 260 LINE",
-"524 317 LINE",
-"85 317 LINE",
-"75 260 LINE"
+(481,260,l),
+(491,317,l),
+(52,317,l),
+(42,260,l)
 );
 }
 );
-width = 589;
+width = 521;
 },
 {
 anchors = (
 {
 name = _center;
-position = "{309, 290}";
+pos = (254,290);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"512 276 LINE",
-"518 304 LINE",
-"105 304 LINE",
-"99 276 LINE"
+(457,276,l),
+(463,304,l),
+(50,304,l),
+(44,276,l)
 );
 }
 );
-width = 606;
+width = 493;
 }
 );
-unicode = 0336;
+metricLeft = "=40";
+metricRight = "=40";
+unicode = 822;
 }

@@ -1,214 +1,215 @@
 {
+color = 6;
 glyphname = onequarter;
 layers = (
 {
-components = (
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 130, 0}";
+pos = (130,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 233, 0}";
+pos = (233,0);
+ref = four.dnom;
 }
 );
-layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 width = 473;
 },
 {
-components = (
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 181, 0}";
+pos = (181,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 290, 0}";
+pos = (290,0);
+ref = four.dnom;
 }
 );
-layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 width = 569;
 },
 {
-components = (
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 213, 0}";
+pos = (213,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 303, 0}";
+pos = (303,0);
+ref = four.dnom;
 }
 );
-layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 width = 625;
 },
 {
-components = (
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 193, 0}";
+pos = (193,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 301, 0}";
+pos = (301,0);
+ref = four.dnom;
 }
 );
-layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 width = 671;
 },
 {
-components = (
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 289, 0}";
+pos = (289,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 387, 0}";
+pos = (387,0);
+ref = four.dnom;
 }
 );
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 width = 810;
 },
 {
-components = (
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 251, 0}";
+pos = (251,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 366, 0}";
+pos = (366,0);
+ref = four.dnom;
 }
 );
-layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 width = 760;
 },
 {
-components = (
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 220, 0}";
+pos = (220,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 319, 0}";
+pos = (319,0);
+ref = four.dnom;
 }
 );
-layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 width = 641;
 },
 {
-components = (
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 199, 0}";
+pos = (199,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 328, 0}";
+pos = (328,0);
+ref = four.dnom;
 }
 );
-layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 width = 709;
 },
 {
-components = (
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
 {
-name = one.numr;
+ref = one.numr;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 244, 0}";
+pos = (243,0);
+ref = fraction;
 },
 {
-name = four.dnom;
-transform = "{1, 0, 0, 1, 375, 0}";
+pos = (374,0);
+ref = four.dnom;
 }
 );
-layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 width = 778;
 },
 {
-components = (
-{
-name = one.numr;
-},
-{
-name = fraction;
-transform = "{1, 0, 0, 1, 311, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 427, 0}";
-}
-);
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-width = 859;
+shapes = (
+{
+ref = one.numr;
 },
 {
-components = (
-{
-name = one.numr;
+pos = (312,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 180, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 301, 0}";
+pos = (428,0);
+ref = four.dnom;
 }
 );
+width = 860;
+},
+{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (180,0);
+ref = fraction;
+},
+{
+pos = (301,0);
+ref = four.dnom;
+}
+);
 width = 580;
 },
 {
-components = (
-{
-name = one.numr;
-},
-{
-name = fraction;
-transform = "{1, 0, 0, 1, 142, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 250, 0}";
-}
-);
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-width = 489;
+shapes = (
+{
+ref = one.numr;
+},
+{
+pos = (143,0);
+ref = fraction;
+},
+{
+pos = (251,0);
+ref = four.dnom;
 }
 );
-leftMetricsKey = one.numr;
-rightMetricsKey = one.numr;
-unicode = 00BC;
+width = 490;
+}
+);
+metricLeft = one.numr;
+metricRight = one.numr;
+unicode = 188;
 userData = {
 KernOnSpecialSpacing = {
 L = NoKerning;

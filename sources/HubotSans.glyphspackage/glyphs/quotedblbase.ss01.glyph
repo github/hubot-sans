@@ -1,183 +1,183 @@
 {
 glyphname = quotedblbase.ss01;
+kernLeft = quotedblbase.ss01;
+kernRight = quotedblbase.ss01;
 layers = (
 {
-components = (
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
 {
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 110, 0}";
+pos = (110,0);
+ref = comma.ss01;
 },
 {
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 width = 258;
 },
 {
-components = (
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
 {
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 170, 0}";
+pos = (170,0);
+ref = comma.ss01;
 },
 {
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 width = 348;
 },
 {
-components = (
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
 {
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 235, 0}";
+pos = (235,0);
+ref = comma.ss01;
 },
 {
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 width = 483;
 },
 {
-components = (
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
 {
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 130, 0}";
+pos = (130,0);
+ref = comma.ss01;
 },
 {
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 width = 286;
 },
 {
-components = (
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 290, 0}";
+pos = (290,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 width = 598;
 },
 {
-components = (
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 190, 0}";
+pos = (190,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 width = 403;
 },
 {
-components = (
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 242, 0}";
+pos = (242,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 width = 491;
 },
 {
-components = (
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 133, 0}";
+pos = (133,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
-layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 width = 283;
 },
 {
-components = (
-{
-alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 190, 0}";
-},
-{
-alignment = -1;
-name = comma.ss01;
-}
-);
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-width = 404.2;
-},
-{
-components = (
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 305, 0}";
+pos = (190,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
+width = 404;
+},
+{
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = -1;
+pos = (305,0);
+ref = comma.ss01;
+},
+{
+alignment = -1;
+ref = comma.ss01;
+}
+);
 width = 623;
 },
 {
-components = (
-{
-alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 170, 0}";
-},
-{
-alignment = -1;
-name = comma.ss01;
-}
-);
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-width = 350.064;
-},
-{
-components = (
+shapes = (
 {
 alignment = -1;
-name = comma.ss01;
-transform = "{1, 0, 0, 1, 118, 0}";
+pos = (170,0);
+ref = comma.ss01;
 },
 {
 alignment = -1;
-name = comma.ss01;
+ref = comma.ss01;
 }
 );
+width = 350;
+},
+{
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = -1;
+pos = (118,0);
+ref = comma.ss01;
+},
+{
+alignment = -1;
+ref = comma.ss01;
+}
+);
 width = 270;
 }
 );
-leftKerningGroup = quotedblbase.ss01;
-leftMetricsKey = comma.ss01;
-rightKerningGroup = quotedblbase.ss01;
-rightMetricsKey = comma.ss01;
+metricLeft = comma.ss01;
+metricRight = comma.ss01;
 userData = {
 KernOnName = quotedblbase.ss01;
 };
