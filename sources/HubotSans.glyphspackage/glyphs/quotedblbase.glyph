@@ -27,7 +27,7 @@ pos = (109,0);
 ref = comma;
 }
 );
-width = 258;
+width = 239;
 },
 {
 background = {
@@ -139,7 +139,7 @@ pos = (282,0);
 ref = comma;
 }
 );
-width = 585;
+width = 576;
 },
 {
 background = {
@@ -167,7 +167,7 @@ pos = (190,0);
 ref = comma;
 }
 );
-width = 407;
+width = 394;
 },
 {
 background = {
@@ -279,7 +279,7 @@ pos = (282,0);
 ref = comma;
 }
 );
-width = 585;
+width = 574;
 },
 {
 background = {

@@ -11,11 +11,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (71,0);
+pos = (83,0);
 ref = hungarumlautcomb;
 }
 );
-width = 354;
+width = 378;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -24,11 +24,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (59,0);
+pos = (66,0);
 ref = hungarumlautcomb;
 }
 );
-width = 388;
+width = 402;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -37,11 +37,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (39,0);
+pos = (37,0);
 ref = hungarumlautcomb;
 }
 );
-width = 474;
+width = 470;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -50,11 +50,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (203,0);
+pos = (202,0);
 ref = hungarumlautcomb;
 }
 );
-width = 654;
+width = 652;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -76,11 +76,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (125,0);
+pos = (124,0);
 ref = hungarumlautcomb;
 }
 );
-width = 666;
+width = 665;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -89,11 +89,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (2,0);
+pos = (1,0);
 ref = hungarumlautcomb;
 }
 );
-width = 459;
+width = 457;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -102,11 +102,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (169,0);
+pos = (168,0);
 ref = hungarumlautcomb;
 }
 );
-width = 659;
+width = 657;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,11 +115,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (122,0);
+pos = (121,0);
 ref = hungarumlautcomb;
 }
 );
-width = 690;
+width = 688;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -128,11 +128,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (127,0);
+pos = (126,0);
 ref = hungarumlautcomb;
 }
 );
-width = 769;
+width = 767;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +141,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (47,0);
+pos = (53,0);
 ref = hungarumlautcomb;
 }
 );
-width = 381;
+width = 394;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +154,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (70,0);
+pos = (82,0);
 ref = hungarumlautcomb;
 }
 );
-width = 350;
+width = 374;
 }
 );
 unicode = 337;

@@ -7,7 +7,7 @@ layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
 angle = 180;
-pos = (225,400);
+pos = (284,400);
 ref = six.dnom;
 }
 );
@@ -18,14 +18,14 @@ weight = -28;
 width = 55;
 };
 };
-width = 225;
+width = 284;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
 angle = 180;
-pos = (265,400);
+pos = (305,400);
 ref = six.dnom;
 }
 );
@@ -36,14 +36,14 @@ weight = -45;
 width = 55;
 };
 };
-width = 265;
+width = 305;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
 angle = 180;
-pos = (308,400);
+pos = (315,400);
 ref = six.dnom;
 }
 );
@@ -54,106 +54,106 @@ weight = -330;
 width = 55;
 };
 };
-width = 308;
+width = 315;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
 angle = 180;
-pos = (373,400);
+pos = (408,400);
 ref = six.dnom;
 }
 );
-width = 373;
+width = 408;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
 angle = 180;
-pos = (416,400);
+pos = (443,400);
 ref = six.dnom;
 }
 );
-width = 416;
+width = 443;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
 angle = 180;
-pos = (396,400);
+pos = (428,400);
 ref = six.dnom;
 }
 );
-width = 396;
+width = 428;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
 angle = 180;
-pos = (276,400);
+pos = (284,400);
 ref = six.dnom;
 }
 );
-width = 307;
+width = 315;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
 angle = 180;
-pos = (360,400);
+pos = (390,400);
 ref = six.dnom;
 }
 );
-width = 385;
+width = 415;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
 angle = 180;
-pos = (382,400);
+pos = (409,400);
 ref = six.dnom;
 }
 );
-width = 409;
+width = 436;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
 angle = 180;
-pos = (396,400);
+pos = (420,400);
 ref = six.dnom;
 }
 );
-width = 427;
+width = 451;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
 angle = 180;
-pos = (240,400);
+pos = (279,400);
 ref = six.dnom;
 }
 );
-width = 266;
+width = 305;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {
 angle = 180;
-pos = (203,400);
+pos = (258,400);
 ref = six.dnom;
 }
 );
-width = 227;
+width = 282;
 }
 );
 userData = {

@@ -11,11 +11,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (121,0);
+pos = (138,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 489;
+width = 524;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -24,11 +24,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (105,0);
+pos = (123,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 518;
+width = 555;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -37,11 +37,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (85,0);
+pos = (89,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 626;
+width = 633;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -50,11 +50,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (310,0);
+pos = (323,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 909;
+width = 936;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -63,11 +63,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (276,0);
+pos = (289,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 935;
+width = 960;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -76,11 +76,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (219,0);
+pos = (234,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 1039;
+width = 1069;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -89,11 +89,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (112,0);
+pos = (129,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 473;
+width = 509;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -102,11 +102,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (85,0);
+pos = (107,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 509;
+width = 536;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -115,11 +115,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (78,0);
+pos = (82,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 605;
+width = 612;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -128,11 +128,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (322,0);
+pos = (335,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 928;
+width = 955;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -141,11 +141,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (266,0);
+pos = (286,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 952;
+width = 978;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -154,11 +154,11 @@ shapes = (
 ref = w;
 },
 {
-pos = (212,0);
+pos = (228,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 1042;
+width = 1072;
 }
 );
 }

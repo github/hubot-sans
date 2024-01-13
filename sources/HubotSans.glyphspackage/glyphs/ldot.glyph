@@ -86,11 +86,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (174,0);
+pos = (172,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 299;
+width = 297;
 },
 {
 background = {
@@ -306,11 +306,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (153,0);
+pos = (151,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 248;
+width = 246;
 },
 {
 background = {
@@ -350,11 +350,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (172,0);
+pos = (168,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 299;
+width = 295;
 },
 {
 background = {
@@ -394,11 +394,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (227,0);
+pos = (225,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 434;
+width = 432;
 },
 {
 background = {
@@ -438,11 +438,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (172,0);
+pos = (170,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 303;
+width = 301;
 },
 {
 background = {
@@ -482,11 +482,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (221,0);
+pos = (217,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 403;
+width = 399;
 },
 {
 background = {
@@ -526,11 +526,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (334,0);
+pos = (332,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 558;
+width = 556;
 }
 );
 unicode = 320;

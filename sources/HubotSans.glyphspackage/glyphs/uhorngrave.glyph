@@ -11,11 +11,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (91,0);
+pos = (80,0);
 ref = gravecomb;
 }
 );
-width = 406;
+width = 403;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -24,11 +24,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (75,0);
+pos = (68,0);
 ref = gravecomb;
 }
 );
-width = 431;
+width = 443;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -37,7 +37,7 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (61,0);
+pos = (59,0);
 ref = gravecomb;
 }
 );
@@ -50,11 +50,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (165,0);
+pos = (176,0);
 ref = gravecomb;
 }
 );
-width = 618;
+width = 632;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -63,11 +63,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (130,0);
+pos = (125,0);
 ref = gravecomb;
 }
 );
-width = 775;
+width = 823;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -80,7 +80,7 @@ pos = (117,0);
 ref = gravecomb;
 }
 );
-width = 661;
+width = 705;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -89,11 +89,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (59,0);
+pos = (57,0);
 ref = gravecomb;
 }
 );
-width = 482;
+width = 512;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -102,11 +102,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (172,0);
+pos = (183,0);
 ref = gravecomb;
 }
 );
-width = 630;
+width = 644;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,11 +115,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (128,0);
+pos = (126,0);
 ref = gravecomb;
 }
 );
-width = 676;
+width = 713;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -128,11 +128,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (143,0);
+pos = (132,0);
 ref = gravecomb;
 }
 );
-width = 789;
+width = 840;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +141,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (74,0);
+pos = (67,0);
 ref = gravecomb;
 }
 );
-width = 424;
+width = 436;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +154,11 @@ shapes = (
 ref = uhorn;
 },
 {
-pos = (46,0);
+pos = (32,0);
 ref = gravecomb;
 }
 );
-width = 399;
+width = 396;
 }
 );
 unicode = 7915;

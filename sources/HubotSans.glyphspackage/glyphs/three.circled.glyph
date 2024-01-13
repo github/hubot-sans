@@ -22,7 +22,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (158,164);
+pos = (138,164);
 ref = three.dnom;
 }
 );
@@ -55,7 +55,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (165,164);
+pos = (153,164);
 ref = three.dnom;
 }
 );
@@ -108,7 +108,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (293,164);
+pos = (280,164);
 ref = three.dnom;
 }
 );
@@ -135,7 +135,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (267,164);
+pos = (262,164);
 ref = three.dnom;
 }
 );
@@ -162,7 +162,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (271,164);
+pos = (260,164);
 ref = three.dnom;
 }
 );
@@ -188,7 +188,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (208,164);
+pos = (209,164);
 ref = three.dnom;
 }
 );
@@ -215,7 +215,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (337,164);
+pos = (325,164);
 ref = three.dnom;
 }
 );
@@ -242,7 +242,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (316,164);
+pos = (306,164);
 ref = three.dnom;
 }
 );
@@ -269,7 +269,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (299,164);
+pos = (293,164);
 ref = three.dnom;
 }
 );
@@ -295,7 +295,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (201,164);
+pos = (190,164);
 ref = three.dnom;
 }
 );
@@ -321,7 +321,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (195,164);
+pos = (178,164);
 ref = three.dnom;
 }
 );

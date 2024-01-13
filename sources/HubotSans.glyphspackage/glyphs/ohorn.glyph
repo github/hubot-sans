@@ -11,11 +11,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (177,0);
+pos = (189,0);
 ref = horncomb;
 }
 );
-width = 354;
+width = 378;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -25,11 +25,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (202,0);
+pos = (209,0);
 ref = horncomb;
 }
 );
-width = 388;
+width = 402;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -39,7 +39,7 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (267,0);
+pos = (265,0);
 ref = horncomb;
 }
 );
@@ -53,11 +53,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (370,0);
+pos = (369,0);
 ref = horncomb;
 }
 );
-width = 654;
+width = 652;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -71,7 +71,7 @@ pos = (404,0);
 ref = horncomb;
 }
 );
-width = 749;
+width = 752;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -81,11 +81,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (381,0);
+pos = (380,0);
 ref = horncomb;
 }
 );
-width = 666;
+width = 665;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -95,7 +95,7 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (212,0);
+pos = (211,0);
 ref = horncomb;
 }
 );
@@ -109,11 +109,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (329,0);
+pos = (328,0);
 ref = horncomb;
 }
 );
-width = 659;
+width = 657;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -123,11 +123,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (337,0);
+pos = (336,0);
 ref = horncomb;
 }
 );
-width = 690;
+width = 688;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -137,11 +137,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (375,0);
+pos = (374,0);
 ref = horncomb;
 }
 );
-width = 769;
+width = 767;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -151,11 +151,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (177,0);
+pos = (183,0);
 ref = horncomb;
 }
 );
-width = 381;
+width = 394;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -165,11 +165,11 @@ alignment = -1;
 ref = o;
 },
 {
-pos = (157,0);
+pos = (169,0);
 ref = horncomb;
 }
 );
-width = 350;
+width = 374;
 }
 );
 metricLeft = o;

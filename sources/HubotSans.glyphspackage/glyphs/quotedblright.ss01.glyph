@@ -10,11 +10,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (258,1272);
+pos = (240,1272);
 ref = quotedblleft.ss01;
 }
 );
-width = 258;
+width = 240;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -58,11 +58,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (598,1120);
+pos = (588,1120);
 ref = quotedblleft.ss01;
 }
 );
-width = 598;
+width = 588;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -70,11 +70,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (403,1203);
+pos = (397,1203);
 ref = quotedblleft.ss01;
 }
 );
-width = 403;
+width = 397;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -118,11 +118,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (745,1120);
+pos = (735,1120);
 ref = quotedblleft.ss01;
 }
 );
-width = 623;
+width = 613;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

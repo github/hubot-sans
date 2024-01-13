@@ -68,11 +68,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (528,729);
+pos = (520,729);
 ref = six;
 }
 );
-width = 528;
+width = 520;
 },
 {
 background = {
@@ -138,11 +138,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (386,729);
+pos = (422,729);
 ref = six;
 }
 );
-width = 386;
+width = 422;
 },
 {
 background = {
@@ -208,11 +208,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (426,729);
+pos = (447,729);
 ref = six;
 }
 );
-width = 426;
+width = 447;
 },
 {
 background = {
@@ -278,11 +278,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (736,729);
+pos = (731,729);
 ref = six;
 }
 );
-width = 736;
+width = 731;
 },
 {
 background = {
@@ -348,11 +348,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (776,729);
+pos = (779,729);
 ref = six;
 }
 );
-width = 776;
+width = 779;
 },
 {
 background = {
@@ -418,11 +418,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (739,729);
+pos = (734,729);
 ref = six;
 }
 );
-width = 739;
+width = 734;
 },
 {
 background = {
@@ -488,11 +488,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (568,729);
+pos = (560,729);
 ref = six;
 }
 );
-width = 529;
+width = 521;
 },
 {
 background = {
@@ -558,11 +558,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (799,729);
+pos = (791,729);
 ref = six;
 }
 );
-width = 754;
+width = 746;
 },
 {
 background = {
@@ -628,11 +628,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (808,729);
+pos = (798,729);
 ref = six;
 }
 );
-width = 765;
+width = 755;
 },
 {
 background = {
@@ -768,11 +768,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (473,729);
+pos = (493,729);
 ref = six;
 }
 );
-width = 429;
+width = 449;
 },
 {
 background = {
@@ -838,11 +838,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (436,729);
+pos = (471,729);
 ref = six;
 }
 );
-width = 391;
+width = 426;
 }
 );
 note = nine;

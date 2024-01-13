@@ -43,7 +43,7 @@ pos = (140,0);
 ref = guilsinglleft;
 }
 );
-width = 366;
+width = 362;
 },
 {
 background = {
@@ -207,7 +207,7 @@ pos = (278,0);
 ref = guilsinglleft;
 }
 );
-width = 640;
+width = 645;
 },
 {
 background = {
@@ -248,7 +248,7 @@ pos = (181,0);
 ref = guilsinglleft;
 }
 );
-width = 449;
+width = 455;
 },
 {
 background = {
@@ -412,7 +412,7 @@ pos = (277,0);
 ref = guilsinglleft;
 }
 );
-width = 646;
+width = 649;
 },
 {
 background = {

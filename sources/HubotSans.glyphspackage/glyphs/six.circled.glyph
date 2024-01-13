@@ -22,7 +22,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (159,164);
+pos = (127,164);
 ref = six.dnom;
 }
 );
@@ -55,7 +55,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (166,164);
+pos = (144,164);
 ref = six.dnom;
 }
 );
@@ -81,7 +81,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (170,164);
+pos = (164,164);
 ref = six.dnom;
 }
 );
@@ -108,7 +108,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (281,164);
+pos = (262,164);
 ref = six.dnom;
 }
 );
@@ -135,7 +135,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (257,164);
+pos = (244,164);
 ref = six.dnom;
 }
 );
@@ -162,7 +162,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (259,164);
+pos = (243,164);
 ref = six.dnom;
 }
 );
@@ -188,7 +188,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (208,164);
+pos = (202,164);
 ref = six.dnom;
 }
 );
@@ -215,7 +215,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (322,164);
+pos = (304,164);
 ref = six.dnom;
 }
 );
@@ -242,7 +242,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (303,164);
+pos = (288,164);
 ref = six.dnom;
 }
 );
@@ -269,7 +269,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (292,164);
+pos = (280,164);
 ref = six.dnom;
 }
 );
@@ -295,7 +295,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (201,164);
+pos = (179,164);
 ref = six.dnom;
 }
 );
@@ -321,7 +321,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (195,164);
+pos = (165,164);
 ref = six.dnom;
 }
 );

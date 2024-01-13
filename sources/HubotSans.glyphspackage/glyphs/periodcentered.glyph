@@ -32,7 +32,7 @@ pos = (0,247);
 ref = period;
 }
 );
-width = 146;
+width = 130;
 },
 {
 background = {
@@ -160,7 +160,7 @@ pos = (0,186);
 ref = period;
 }
 );
-width = 298;
+width = 294;
 },
 {
 background = {
@@ -192,7 +192,7 @@ pos = (0,225);
 ref = period;
 }
 );
-width = 211;
+width = 203;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -278,7 +278,7 @@ pos = (40,186);
 ref = period;
 }
 );
-width = 299;
+width = 293;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

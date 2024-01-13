@@ -31,7 +31,7 @@ nodes = (
 );
 }
 );
-width = 400;
+width = 500;
 },
 {
 anchors = (
@@ -61,7 +61,7 @@ nodes = (
 );
 }
 );
-width = 450;
+width = 500;
 },
 {
 anchors = (
@@ -121,7 +121,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 720;
 },
 {
 anchors = (
@@ -151,13 +151,13 @@ nodes = (
 );
 }
 );
-width = 726;
+width = 720;
 },
 {
 anchors = (
 {
 name = center;
-pos = (352,361);
+pos = (351,361);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -165,23 +165,23 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(600,434,l),
-(600,516,l),
-(102,516,l),
-(102,434,l)
+(599,434,l),
+(599,516,l),
+(101,516,l),
+(101,434,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(600,214,l),
-(600,296,l),
-(102,296,l),
-(102,214,l)
+(599,214,l),
+(599,296,l),
+(101,296,l),
+(101,214,l)
 );
 }
 );
-width = 700;
+width = 720;
 },
 {
 anchors = (
@@ -241,7 +241,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 720;
 },
 {
 anchors = (
@@ -271,7 +271,7 @@ nodes = (
 );
 }
 );
-width = 700;
+width = 720;
 },
 {
 anchors = (
@@ -301,7 +301,7 @@ nodes = (
 );
 }
 );
-width = 726;
+width = 720;
 },
 {
 anchors = (
@@ -331,7 +331,7 @@ nodes = (
 );
 }
 );
-width = 450;
+width = 500;
 },
 {
 anchors = (
@@ -361,7 +361,7 @@ nodes = (
 );
 }
 );
-width = 400;
+width = 500;
 }
 );
 metricWidth = plus;

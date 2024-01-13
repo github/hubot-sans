@@ -10,11 +10,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-28,0);
+pos = (-16,0);
 ref = slashshortcomb;
 }
 );
-width = 354;
+width = 378;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -23,11 +23,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-27,-1);
+pos = (-20,-1);
 ref = slashshortcomb;
 }
 );
-width = 388;
+width = 402;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -36,11 +36,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-25,-5);
+pos = (-27,-5);
 ref = slashshortcomb;
 }
 );
-width = 474;
+width = 470;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -49,11 +49,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (15,-1);
+pos = (14,-1);
 ref = slashshortcomb;
 }
 );
-width = 654;
+width = 652;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -75,11 +75,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-1,-5);
+pos = (-2,-5);
 ref = slashshortcomb;
 }
 );
-width = 666;
+width = 665;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -88,11 +88,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-23,-5);
+pos = (-24,-5);
 ref = slashshortcomb;
 }
 );
-width = 459;
+width = 457;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -101,11 +101,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (28,-1);
+pos = (27,-1);
 ref = slashshortcomb;
 }
 );
-width = 659;
+width = 657;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -114,11 +114,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (16,-5);
+pos = (15,-5);
 ref = slashshortcomb;
 }
 );
-width = 690;
+width = 688;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -127,11 +127,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (1,-14);
+pos = (0,-14);
 ref = slashshortcomb;
 }
 );
-width = 769;
+width = 767;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -140,11 +140,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-35,-1);
+pos = (-29,-1);
 ref = slashshortcomb;
 }
 );
-width = 381;
+width = 394;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -153,11 +153,11 @@ shapes = (
 ref = o;
 },
 {
-pos = (-19,0);
+pos = (-7,0);
 ref = slashshortcomb;
 }
 );
-width = 350;
+width = 374;
 }
 );
 unicode = 248;

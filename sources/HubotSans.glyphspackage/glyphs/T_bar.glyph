@@ -9,11 +9,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (42,75);
+pos = (57,75);
 ref = strokeshortcomb;
 }
 );
-width = 357;
+width = 387;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -22,11 +22,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (36,75);
+pos = (49,75);
 ref = strokeshortcomb;
 }
 );
-width = 373;
+width = 399;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -35,11 +35,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (24,70);
+pos = (30,70);
 ref = strokeshortcomb;
 }
 );
-width = 417;
+width = 429;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -48,11 +48,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (167,115);
+pos = (179,115);
 ref = strokeshortcomb;
 }
 );
-width = 754;
+width = 780;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -61,11 +61,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (120,75);
+pos = (139,75);
 ref = strokeshortcomb;
 }
 );
-width = 841;
+width = 878;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -74,11 +74,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (136,115);
+pos = (150,115);
 ref = strokeshortcomb;
 }
 );
-width = 757;
+width = 786;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -87,11 +87,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (33,70);
+pos = (39,70);
 ref = strokeshortcomb;
 }
 );
-width = 403;
+width = 415;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -100,11 +100,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (202,115);
+pos = (214,115);
 ref = strokeshortcomb;
 }
 );
-width = 769;
+width = 795;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -113,11 +113,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (169,115);
+pos = (184,115);
 ref = strokeshortcomb;
 }
 );
-width = 770;
+width = 801;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -126,11 +126,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (147,75);
+pos = (165,75);
 ref = strokeshortcomb;
 }
 );
-width = 860;
+width = 895;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -139,11 +139,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (47,75);
+pos = (60,75);
 ref = strokeshortcomb;
 }
 );
-width = 362;
+width = 389;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -152,11 +152,11 @@ shapes = (
 ref = T;
 },
 {
-pos = (59,75);
+pos = (74,75);
 ref = strokeshortcomb;
 }
 );
-width = 357;
+width = 387;
 }
 );
 unicode = 358;

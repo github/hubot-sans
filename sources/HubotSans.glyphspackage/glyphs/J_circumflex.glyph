@@ -9,11 +9,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (37,214);
+pos = (34,214);
 ref = circumflexcomb;
 }
 );
-width = 241;
+width = 245;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -22,11 +22,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (20,205);
+pos = (17,205);
 ref = circumflexcomb;
 }
 );
-width = 261;
+width = 263;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -35,7 +35,7 @@ shapes = (
 ref = J;
 },
 {
-pos = (-35,183);
+pos = (-38,183);
 ref = circumflexcomb;
 }
 );
@@ -48,11 +48,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (123,213);
+pos = (119,213);
 ref = circumflexcomb;
 }
 );
-width = 400;
+width = 404;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -61,11 +61,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (94,204);
+pos = (93,204);
 ref = circumflexcomb;
 }
 );
-width = 442;
+width = 444;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -74,11 +74,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (38,184);
+pos = (45,184);
 ref = circumflexcomb;
 }
 );
-width = 545;
+width = 546;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -87,11 +87,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (73,214);
+pos = (70,214);
 ref = circumflexcomb;
 }
 );
-width = 241;
+width = 244;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -100,11 +100,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (91,206);
+pos = (88,206);
 ref = circumflexcomb;
 }
 );
-width = 291;
+width = 293;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -113,7 +113,7 @@ shapes = (
 ref = J;
 },
 {
-pos = (-1,184);
+pos = (-4,184);
 ref = circumflexcomb;
 }
 );
@@ -126,11 +126,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (173,213);
+pos = (169,213);
 ref = circumflexcomb;
 }
 );
-width = 406;
+width = 409;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -139,11 +139,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (141,204);
+pos = (140,204);
 ref = circumflexcomb;
 }
 );
-width = 448;
+width = 450;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -152,11 +152,11 @@ shapes = (
 ref = J;
 },
 {
-pos = (80,184);
+pos = (87,184);
 ref = circumflexcomb;
 }
 );
-width = 554;
+width = 555;
 }
 );
 unicode = 308;

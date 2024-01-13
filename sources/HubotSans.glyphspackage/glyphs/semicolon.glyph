@@ -49,11 +49,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (3,454);
+pos = (0,454);
 ref = period;
 }
 );
-width = 149;
+width = 130;
 },
 {
 background = {
@@ -257,11 +257,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (5,362);
+pos = (0,362);
 ref = period;
 }
 );
-width = 303;
+width = 294;
 },
 {
 background = {
@@ -309,11 +309,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (6,418);
+pos = (0,418);
 ref = period;
 }
 );
-width = 217;
+width = 204;
 },
 {
 background = {
@@ -517,11 +517,11 @@ ref = comma;
 {
 alignment = 1;
 anchor = top;
-pos = (83,367);
+pos = (78,367);
 ref = period;
 }
 );
-width = 303;
+width = 292;
 },
 {
 background = {

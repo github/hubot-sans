@@ -502,6 +502,14 @@ value = 604;
 {
 name = superscriptYSize;
 value = 700;
+},
+{
+name = paramArea;
+value = 308;
+},
+{
+name = paramDepth;
+value = 7;
 }
 );
 iconName = Light_Condensed;
@@ -667,6 +675,14 @@ value = 477;
 {
 name = superscriptYSize;
 value = 650;
+},
+{
+name = paramArea;
+value = 262;
+},
+{
+name = paramDepth;
+value = 6;
 }
 );
 iconName = Condensed;
@@ -840,6 +856,14 @@ value = 363;
 {
 name = superscriptYSize;
 value = 605;
+},
+{
+name = paramArea;
+value = 150;
+},
+{
+name = paramDepth;
+value = 4;
 }
 );
 iconName = Bold_Condensed;
@@ -1021,6 +1045,14 @@ value = 598;
 {
 name = superscriptYSize;
 value = 698;
+},
+{
+name = paramArea;
+value = 340;
+},
+{
+name = paramDepth;
+value = 9;
 }
 );
 iconName = Light_Extended;
@@ -1201,6 +1233,14 @@ value = 495;
 {
 name = superscriptYSize;
 value = 657;
+},
+{
+name = paramArea;
+value = 312;
+},
+{
+name = paramDepth;
+value = 8;
 }
 );
 iconName = Extended;
@@ -1365,6 +1405,14 @@ value = 378;
 {
 name = superscriptYSize;
 value = 611;
+},
+{
+name = paramArea;
+value = 244;
+},
+{
+name = paramDepth;
+value = 6;
 }
 );
 iconName = Bold_Extended;
@@ -1538,6 +1586,14 @@ value = 604;
 {
 name = superscriptYSize;
 value = 700;
+},
+{
+name = paramArea;
+value = 308;
+},
+{
+name = paramDepth;
+value = 7;
 }
 );
 iconName = Light_Condensed;
@@ -1574,6 +1630,7 @@ stemValues = (
 31
 );
 userData = {
+HTLSManagerLinkedMaster = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 KernOnModels = (
 "L T",
 "A v",
@@ -1693,6 +1750,14 @@ value = 477;
 {
 name = superscriptYSize;
 value = 650;
+},
+{
+name = paramArea;
+value = 262;
+},
+{
+name = paramDepth;
+value = 6;
 }
 );
 iconName = Condensed;
@@ -1729,6 +1794,7 @@ stemValues = (
 0
 );
 userData = {
+HTLSManagerLinkedMaster = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 KernOnIndependentPairs = (
 "O O",
 "n n"
@@ -1861,6 +1927,14 @@ value = 353;
 {
 name = superscriptYSize;
 value = 601;
+},
+{
+name = paramArea;
+value = 150;
+},
+{
+name = paramDepth;
+value = 4;
 }
 );
 iconName = Bold_Condensed;
@@ -1897,6 +1971,7 @@ stemValues = (
 0
 );
 userData = {
+HTLSManagerLinkedMaster = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 KernOnModels = (
 "A V",
 "A v",
@@ -2033,6 +2108,14 @@ value = 598;
 {
 name = superscriptYSize;
 value = 698;
+},
+{
+name = paramArea;
+value = 340;
+},
+{
+name = paramDepth;
+value = 9;
 }
 );
 iconName = Light_Extended;
@@ -2069,6 +2152,7 @@ stemValues = (
 38
 );
 userData = {
+HTLSManagerLinkedMaster = "5908592F-1119-4296-AF9E-8219C1C10A44";
 KernOnModels = (
 "k g",
 "k n",
@@ -2197,6 +2281,14 @@ value = 495;
 {
 name = superscriptYSize;
 value = 657;
+},
+{
+name = paramArea;
+value = 312;
+},
+{
+name = paramDepth;
+value = 8;
 }
 );
 iconName = Extended;
@@ -2233,6 +2325,7 @@ stemValues = (
 99
 );
 userData = {
+HTLSManagerLinkedMaster = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 KernOnModels = (
 "A v",
 "o v",
@@ -2369,6 +2462,14 @@ value = 379;
 {
 name = superscriptYSize;
 value = 611;
+},
+{
+name = paramArea;
+value = 244;
+},
+{
+name = paramDepth;
+value = 6;
 }
 );
 iconName = Bold_Extended;
@@ -2405,6 +2506,7 @@ stemValues = (
 237
 );
 userData = {
+HTLSManagerLinkedMaster = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 KernOnIndependentPairs = (
 "n o",
 "H D"
@@ -129892,6 +129994,151 @@ nV = "236";
 };
 KernOnKerningWeightLimit = 36000;
 KernOnVersion = "1.21";
+com.eweracs.HTLSManager.fontRules = {
+Letter = {
+312438f7decf4fc68bcbaca450e03a99 = {
+case = 2;
+filter = "";
+referenceGlyph = x;
+subcategory = Any;
+value = 1;
+};
+6a2d898c1367438986d3a6a56dff674b = {
+case = 1;
+filter = "";
+referenceGlyph = H;
+subcategory = Any;
+value = 1.2;
+};
+};
+Mark = {
+};
+Number = {
+2bd1e700934d48afa4ccdec6e58ec3e7 = {
+case = 4;
+filter = inferior;
+referenceGlyph = oneinferior;
+subcategory = Small;
+value = "1.0";
+};
+55f63e4331df4db2af4078f7d25e7c81 = {
+case = 0;
+filter = fraction;
+referenceGlyph = one.numr;
+subcategory = Fraction;
+value = "1.0";
+};
+83f21c7fa30c4bda82d83ce68797bf1e = {
+case = 4;
+filter = .dnom;
+referenceGlyph = one.dnom;
+subcategory = Fraction;
+value = "1.0";
+};
+ed5cb22a9b09400187c0feacae1f0f8f = {
+case = 0;
+filter = "";
+referenceGlyph = H;
+subcategory = "Decimal Digit";
+value = 1.2;
+};
+};
+Punctuation = {
+167668d12cdd4c8893e2ea25c8b50ee7 = {
+case = 0;
+filter = "";
+referenceGlyph = "";
+subcategory = Quote;
+value = 0.8;
+};
+473a79e894d44c599a51e7e1ece63290 = {
+case = 0;
+filter = guil;
+referenceGlyph = "";
+subcategory = Quote;
+value = 1.2;
+};
+4ec998b892f749cda9789e6906484c17 = {
+case = 0;
+filter = comma;
+referenceGlyph = period;
+subcategory = Any;
+value = "0.7";
+};
+9184a8a098a84478838c6fc128ee0a80 = {
+case = 0;
+filter = "";
+referenceGlyph = bracketleft;
+subcategory = Parenthesis;
+value = 1.2;
+};
+9d511a8382cb45d792fdbfdfc50ffffd = {
+case = 1;
+filter = "";
+referenceGlyph = H;
+subcategory = Any;
+value = 1.2;
+};
+9ec58eaef538412db8c6e39bfab814c4 = {
+case = 0;
+filter = colon;
+referenceGlyph = idotless;
+subcategory = Any;
+value = 1.2;
+};
+9f4aa33eabc048148a0062f6007b15aa = {
+case = 1;
+filter = "";
+referenceGlyph = "";
+subcategory = Parenthesis;
+value = 1.2;
+};
+c63f0f2ed1a04e758a366249316b4adc = {
+case = 0;
+filter = "";
+referenceGlyph = "";
+subcategory = Any;
+value = 0.7;
+};
+d38ed0f19582418b87419664ccbaea66 = {
+case = 0;
+filter = numbersign;
+referenceGlyph = "";
+subcategory = Any;
+value = "1";
+};
+};
+Symbol = {
+0fc37ed242184cf0bb4187ff151ca40f = {
+case = 0;
+filter = florin;
+referenceGlyph = idotless;
+subcategory = Currency;
+value = 1;
+};
+29efbbb3c5a14419ae21c4df65fbd7be = {
+case = 0;
+filter = "";
+referenceGlyph = "";
+subcategory = Math;
+value = 1;
+};
+42048483ab514efc835267f63d632f9d = {
+case = 0;
+filter = "";
+referenceGlyph = "";
+subcategory = Any;
+value = 1.3;
+};
+d186e1aee4d04436b206cbedd9f1894d = {
+case = 0;
+filter = "";
+referenceGlyph = H;
+subcategory = Currency;
+value = 1.3;
+};
+};
+};
 };
 versionMajor = 1;
 versionMinor = 5;

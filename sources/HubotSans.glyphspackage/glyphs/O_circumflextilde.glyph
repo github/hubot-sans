@@ -11,11 +11,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (58,214);
+pos = (84,214);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 382;
+width = 434;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -24,11 +24,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (58,205);
+pos = (75,205);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 416;
+width = 450;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -50,11 +50,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (284,213);
+pos = (293,213);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 924;
+width = 942;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -63,11 +63,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (193,184);
+pos = (200,184);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 974;
+width = 988;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -76,11 +76,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (226,204);
+pos = (233,204);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 920;
+width = 934;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -102,11 +102,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (244,213);
+pos = (253,213);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 886;
+width = 904;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,11 +115,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (239,204);
+pos = (247,204);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 924;
+width = 940;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -128,11 +128,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (200,184);
+pos = (207,184);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 970;
+width = 984;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +141,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (88,206);
+pos = (105,206);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 427;
+width = 461;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +154,11 @@ shapes = (
 ref = O;
 },
 {
-pos = (112,214);
+pos = (137,214);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 395;
+width = 445;
 }
 );
 unicode = 7894;

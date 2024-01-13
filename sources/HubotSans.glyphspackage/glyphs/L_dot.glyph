@@ -65,11 +65,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (322,0);
+pos = (346,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 322;
+width = 346;
 },
 {
 background = {
@@ -133,11 +133,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (323,0);
+pos = (345,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 323;
+width = 345;
 },
 {
 background = {
@@ -201,11 +201,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (329,0);
+pos = (343,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 430;
+width = 444;
 },
 {
 background = {
@@ -269,11 +269,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (674,0);
+pos = (698,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 674;
+width = 698;
 },
 {
 background = {
@@ -337,11 +337,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (683,0);
+pos = (704,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 683;
+width = 704;
 },
 {
 background = {
@@ -405,11 +405,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (753,0);
+pos = (770,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 753;
+width = 770;
 },
 {
 background = {
@@ -473,11 +473,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (324,0);
+pos = (347,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 324;
+width = 347;
 },
 {
 background = {
@@ -541,11 +541,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (318,0);
+pos = (337,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 318;
+width = 337;
 },
 {
 background = {
@@ -609,11 +609,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (321,0);
+pos = (334,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 427;
+width = 440;
 },
 {
 background = {
@@ -677,11 +677,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (688,0);
+pos = (710,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 688;
+width = 710;
 },
 {
 background = {
@@ -745,11 +745,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (699,0);
+pos = (718,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 699;
+width = 718;
 },
 {
 background = {
@@ -813,11 +813,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (770,0);
+pos = (786,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 770;
+width = 786;
 }
 );
 unicode = 319;

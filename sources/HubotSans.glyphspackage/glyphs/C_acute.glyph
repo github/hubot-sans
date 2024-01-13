@@ -11,11 +11,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (134,214);
+pos = (160,214);
 ref = acutecomb;
 }
 );
-width = 385;
+width = 426;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -24,11 +24,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (131,205);
+pos = (148,205);
 ref = acutecomb;
 }
 );
-width = 418;
+width = 442;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -41,7 +41,7 @@ pos = (130,183);
 ref = acutecomb;
 }
 );
-width = 497;
+width = 490;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -50,11 +50,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (378,213);
+pos = (387,213);
 ref = acutecomb;
 }
 );
-width = 881;
+width = 895;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -63,11 +63,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (314,184);
+pos = (321,184);
 ref = acutecomb;
 }
 );
-width = 940;
+width = 953;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -76,11 +76,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (346,204);
+pos = (353,204);
 ref = acutecomb;
 }
 );
-width = 881;
+width = 893;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -93,7 +93,7 @@ pos = (173,184);
 ref = acutecomb;
 }
 );
-width = 493;
+width = 486;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -102,11 +102,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (384,213);
+pos = (393,213);
 ref = acutecomb;
 }
 );
-width = 863;
+width = 873;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,11 +115,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (372,204);
+pos = (380,204);
 ref = acutecomb;
 }
 );
-width = 894;
+width = 902;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -128,11 +128,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (363,184);
+pos = (370,184);
 ref = acutecomb;
 }
 );
-width = 957;
+width = 967;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +141,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (184,206);
+pos = (201,206);
 ref = acutecomb;
 }
 );
-width = 418;
+width = 444;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +154,11 @@ shapes = (
 ref = C;
 },
 {
-pos = (204,214);
+pos = (229,214);
 ref = acutecomb;
 }
 );
-width = 392;
+width = 432;
 }
 );
 unicode = 262;

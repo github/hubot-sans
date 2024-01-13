@@ -8,11 +8,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (319,515);
+pos = (347,515);
 ref = question.ss01;
 }
 );
-width = 319;
+width = 347;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -56,11 +56,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (636,545);
+pos = (652,545);
 ref = question.ss01;
 }
 );
-width = 636;
+width = 652;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -68,11 +68,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (566,525);
+pos = (578,525);
 ref = question.ss01;
 }
 );
-width = 566;
+width = 578;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -116,11 +116,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (640,545);
+pos = (656,545);
 ref = question.ss01;
 }
 );
-width = 640;
+width = 656;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

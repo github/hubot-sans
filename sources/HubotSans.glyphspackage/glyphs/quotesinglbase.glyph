@@ -11,7 +11,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 149;
+width = 130;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -51,7 +51,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 303;
+width = 294;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -61,7 +61,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 217;
+width = 204;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -101,7 +101,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 303;
+width = 292;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
