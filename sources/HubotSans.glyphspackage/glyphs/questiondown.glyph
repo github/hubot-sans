@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = questiondown;
 kernRight = questiondown;
 layers = (
@@ -80,11 +81,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (437,545);
+pos = (436,545);
 ref = question;
 }
 );
-width = 437;
+width = 436;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";

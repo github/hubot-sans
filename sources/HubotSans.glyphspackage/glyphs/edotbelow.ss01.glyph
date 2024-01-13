@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = edotbelow.ss01;
 kernLeft = e;
 kernRight = e;

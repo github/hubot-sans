@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = abrevedotbelow.ss01;
 kernLeft = a;
 kernRight = a;
@@ -14,7 +15,7 @@ pos = (107,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (52,-157);
+pos = (52,0);
 ref = brevecomb;
 }
 );
@@ -31,7 +32,7 @@ pos = (104,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (50,-150);
+pos = (50,0);
 ref = brevecomb;
 }
 );
@@ -48,7 +49,7 @@ pos = (115,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (52,-133);
+pos = (52,0);
 ref = brevecomb;
 }
 );
@@ -65,7 +66,7 @@ pos = (277,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (147,-156);
+pos = (147,0);
 ref = brevecomb;
 }
 );
@@ -82,7 +83,7 @@ pos = (238,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (139,-150);
+pos = (139,0);
 ref = brevecomb;
 }
 );
@@ -99,7 +100,7 @@ pos = (232,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (113,-136);
+pos = (113,0);
 ref = brevecomb;
 }
 );
@@ -116,7 +117,7 @@ pos = (118,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (27,-157);
+pos = (61,0);
 ref = brevecomb;
 }
 );
@@ -133,7 +134,7 @@ pos = (114,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (24,-151);
+pos = (56,0);
 ref = brevecomb;
 }
 );
@@ -150,7 +151,7 @@ pos = (124,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (27,-134);
+pos = (55,0);
 ref = brevecomb;
 }
 );
@@ -167,7 +168,7 @@ pos = (268,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (94,-156);
+pos = (127,0);
 ref = brevecomb;
 }
 );
@@ -184,7 +185,7 @@ pos = (255,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (122,-147);
+pos = (153,0);
 ref = brevecomb;
 }
 );
@@ -201,7 +202,7 @@ pos = (249,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (56,-136);
+pos = (85,0);
 ref = brevecomb;
 }
 );

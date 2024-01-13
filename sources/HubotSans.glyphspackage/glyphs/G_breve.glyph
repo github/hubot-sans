@@ -11,7 +11,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (69,57);
+pos = (69,214);
 ref = brevecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (65,55);
+pos = (65,205);
 ref = brevecomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (57,50);
+pos = (57,183);
 ref = brevecomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (276,57);
+pos = (276,213);
 ref = brevecomb;
 }
 );
@@ -63,7 +63,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (204,48);
+pos = (204,184);
 ref = brevecomb;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (253,54);
+pos = (253,204);
 ref = brevecomb;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (62,50);
+pos = (90,184);
 ref = brevecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (233,57);
+pos = (266,213);
 ref = brevecomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (232,57);
+pos = (263,204);
 ref = brevecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (158,48);
+pos = (187,184);
 ref = brevecomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (64,55);
+pos = (96,206);
 ref = brevecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = G;
 },
 {
-pos = (66,57);
+pos = (100,214);
 ref = brevecomb;
 }
 );

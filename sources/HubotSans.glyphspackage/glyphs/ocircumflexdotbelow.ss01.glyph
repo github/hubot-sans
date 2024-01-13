@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ocircumflexdotbelow.ss01;
 layers = (
 {
@@ -12,7 +13,7 @@ pos = (108,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (53,-157);
+pos = (53,0);
 ref = circumflexcomb;
 }
 );
@@ -29,7 +30,7 @@ pos = (104,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (44,-150);
+pos = (44,0);
 ref = circumflexcomb;
 }
 );
@@ -46,7 +47,7 @@ pos = (109,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (8,-133);
+pos = (8,0);
 ref = circumflexcomb;
 }
 );
@@ -63,7 +64,7 @@ pos = (255,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (141,-157);
+pos = (141,0);
 ref = circumflexcomb;
 }
 );
@@ -80,7 +81,7 @@ pos = (228,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (101,-150);
+pos = (101,0);
 ref = circumflexcomb;
 }
 );
@@ -97,7 +98,7 @@ pos = (214,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (51,-135);
+pos = (51,0);
 ref = circumflexcomb;
 }
 );
@@ -114,7 +115,7 @@ pos = (119,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (10,-157);
+pos = (44,0);
 ref = circumflexcomb;
 }
 );
@@ -131,7 +132,7 @@ pos = (113,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (0,-151);
+pos = (32,0);
 ref = circumflexcomb;
 }
 );
@@ -148,7 +149,7 @@ pos = (117,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (-46,-134);
+pos = (-17,0);
 ref = circumflexcomb;
 }
 );
@@ -165,7 +166,7 @@ pos = (295,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (75,-156);
+pos = (109,0);
 ref = circumflexcomb;
 }
 );
@@ -182,7 +183,7 @@ pos = (278,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (53,-147);
+pos = (85,0);
 ref = circumflexcomb;
 }
 );
@@ -199,7 +200,7 @@ pos = (243,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (-2,-135);
+pos = (26,0);
 ref = circumflexcomb;
 }
 );

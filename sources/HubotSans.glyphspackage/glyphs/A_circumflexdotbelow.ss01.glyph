@@ -15,7 +15,7 @@ pos = (127,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (72,57);
+pos = (72,214);
 ref = circumflexcomb;
 }
 );
@@ -32,7 +32,7 @@ pos = (119,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (59,55);
+pos = (59,205);
 ref = circumflexcomb;
 }
 );
@@ -49,7 +49,7 @@ pos = (110,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (9,50);
+pos = (9,183);
 ref = circumflexcomb;
 }
 );
@@ -66,7 +66,7 @@ pos = (353,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (239,56);
+pos = (239,213);
 ref = circumflexcomb;
 }
 );
@@ -83,7 +83,7 @@ pos = (324,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (197,54);
+pos = (197,204);
 ref = circumflexcomb;
 }
 );
@@ -100,7 +100,7 @@ pos = (317,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (154,49);
+pos = (154,184);
 ref = circumflexcomb;
 }
 );
@@ -117,7 +117,7 @@ pos = (137,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (70,57);
+pos = (104,214);
 ref = circumflexcomb;
 }
 );
@@ -134,7 +134,7 @@ pos = (124,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (57,55);
+pos = (89,206);
 ref = circumflexcomb;
 }
 );
@@ -151,7 +151,7 @@ pos = (118,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (1,50);
+pos = (30,184);
 ref = circumflexcomb;
 }
 );
@@ -168,7 +168,7 @@ pos = (371,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (256,57);
+pos = (290,213);
 ref = circumflexcomb;
 }
 );
@@ -185,7 +185,7 @@ pos = (344,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (213,57);
+pos = (245,204);
 ref = circumflexcomb;
 }
 );
@@ -202,7 +202,7 @@ pos = (335,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (172,49);
+pos = (200,184);
 ref = circumflexcomb;
 }
 );

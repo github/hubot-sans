@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = umacron;
 kernLeft = u;
 kernRight = a;
@@ -10,7 +11,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (52,-156);
+pos = (52,0);
 ref = macroncomb;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (42,-150);
+pos = (42,0);
 ref = macroncomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (20,-133);
+pos = (20,0);
 ref = macroncomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (93,-155);
+pos = (93,0);
 ref = macroncomb;
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (105,-136);
+pos = (105,0);
 ref = macroncomb;
 }
 );
@@ -75,7 +76,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (100,-150);
+pos = (100,0);
 ref = macroncomb;
 }
 );
@@ -88,7 +89,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (-15,-134);
+pos = (14,0);
 ref = macroncomb;
 }
 );
@@ -101,7 +102,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (35,-155);
+pos = (68,0);
 ref = macroncomb;
 }
 );
@@ -114,7 +115,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (81,-150);
+pos = (113,0);
 ref = macroncomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (76,-136);
+pos = (105,0);
 ref = macroncomb;
 }
 );
@@ -140,7 +141,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (7,-151);
+pos = (39,0);
 ref = macroncomb;
 }
 );
@@ -153,7 +154,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (19,-156);
+pos = (52,0);
 ref = macroncomb;
 }
 );

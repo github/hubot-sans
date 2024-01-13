@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = semicolon;
 kernLeft = semicolon;
 layers = (
@@ -208,7 +209,7 @@ pos = (7,452);
 ref = period;
 }
 );
-width = 156;
+width = 157;
 },
 {
 background = {
@@ -312,7 +313,7 @@ pos = (6,418);
 ref = period;
 }
 );
-width = 216;
+width = 217;
 },
 {
 background = {
@@ -416,7 +417,7 @@ pos = (102,452);
 ref = period;
 }
 );
-width = 156;
+width = 157;
 },
 {
 background = {
@@ -468,7 +469,7 @@ pos = (95,419);
 ref = period;
 }
 );
-width = 216;
+width = 219;
 },
 {
 background = {

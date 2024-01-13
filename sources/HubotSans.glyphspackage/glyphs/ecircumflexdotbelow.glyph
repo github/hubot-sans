@@ -15,7 +15,7 @@ pos = (116,0);
 ref = dotbelowcomb;
 },
 {
-pos = (53,-157);
+pos = (53,0);
 ref = circumflexcomb;
 }
 );
@@ -32,7 +32,7 @@ pos = (113,0);
 ref = dotbelowcomb;
 },
 {
-pos = (44,-150);
+pos = (44,0);
 ref = circumflexcomb;
 }
 );
@@ -49,7 +49,7 @@ pos = (112,0);
 ref = dotbelowcomb;
 },
 {
-pos = (8,-133);
+pos = (8,0);
 ref = circumflexcomb;
 }
 );
@@ -66,7 +66,7 @@ pos = (262,0);
 ref = dotbelowcomb;
 },
 {
-pos = (141,-157);
+pos = (141,0);
 ref = circumflexcomb;
 }
 );
@@ -83,7 +83,7 @@ pos = (212,0);
 ref = dotbelowcomb;
 },
 {
-pos = (47,-135);
+pos = (47,0);
 ref = circumflexcomb;
 }
 );
@@ -100,7 +100,7 @@ pos = (242,0);
 ref = dotbelowcomb;
 },
 {
-pos = (103,-150);
+pos = (103,0);
 ref = circumflexcomb;
 }
 );
@@ -117,7 +117,7 @@ pos = (124,0);
 ref = dotbelowcomb;
 },
 {
-pos = (-48,-134);
+pos = (-19,0);
 ref = circumflexcomb;
 }
 );
@@ -134,7 +134,7 @@ pos = (301,0);
 ref = dotbelowcomb;
 },
 {
-pos = (76,-156);
+pos = (110,0);
 ref = circumflexcomb;
 }
 );
@@ -151,7 +151,7 @@ pos = (290,0);
 ref = dotbelowcomb;
 },
 {
-pos = (55,-147);
+pos = (87,0);
 ref = circumflexcomb;
 }
 );
@@ -168,7 +168,7 @@ pos = (244,0);
 ref = dotbelowcomb;
 },
 {
-pos = (-8,-135);
+pos = (20,0);
 ref = circumflexcomb;
 }
 );
@@ -185,7 +185,7 @@ pos = (117,0);
 ref = dotbelowcomb;
 },
 {
-pos = (-4,-151);
+pos = (28,0);
 ref = circumflexcomb;
 }
 );
@@ -202,7 +202,7 @@ pos = (123,0);
 ref = dotbelowcomb;
 },
 {
-pos = (0,-157);
+pos = (34,0);
 ref = circumflexcomb;
 }
 );

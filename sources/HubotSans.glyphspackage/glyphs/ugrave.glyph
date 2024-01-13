@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ugrave;
 kernLeft = u;
 kernRight = a;
@@ -10,7 +11,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (91,-157);
+pos = (91,0);
 ref = gravecomb;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (75,-150);
+pos = (75,0);
 ref = gravecomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (61,-133);
+pos = (61,0);
 ref = gravecomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (165,-156);
+pos = (165,0);
 ref = gravecomb;
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (130,-134);
+pos = (130,0);
 ref = gravecomb;
 }
 );
@@ -75,7 +76,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (117,-149);
+pos = (117,0);
 ref = gravecomb;
 }
 );
@@ -88,7 +89,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (31,-134);
+pos = (59,0);
 ref = gravecomb;
 }
 );
@@ -101,7 +102,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (139,-156);
+pos = (172,0);
 ref = gravecomb;
 }
 );
@@ -114,7 +115,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (96,-149);
+pos = (128,0);
 ref = gravecomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (114,-134);
+pos = (143,0);
 ref = gravecomb;
 }
 );
@@ -140,7 +141,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (42,-151);
+pos = (74,0);
 ref = gravecomb;
 }
 );
@@ -153,7 +154,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (12,-157);
+pos = (46,0);
 ref = gravecomb;
 }
 );

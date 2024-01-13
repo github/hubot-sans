@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = comma;
 kernLeft = comma;
 kernRight = comma;
@@ -6,8 +7,11 @@ layers = (
 {
 anchors = (
 {
-name = _topright;
-pos = (34,64);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (109,0);
 },
 {
 name = top;
@@ -50,8 +54,11 @@ width = 149;
 {
 anchors = (
 {
-name = _topright;
-pos = (9,118);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (141,0);
 },
 {
 name = top;
@@ -101,8 +108,11 @@ width = 179;
 {
 anchors = (
 {
-name = _topright;
-pos = (-16,181);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (221,0);
 },
 {
 name = top;
@@ -152,8 +162,11 @@ width = 219;
 {
 anchors = (
 {
-name = _topright;
-pos = (36,68);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (159,0);
 },
 {
 name = top;
@@ -175,13 +188,16 @@ nodes = (
 );
 }
 );
-width = 156;
+width = 157;
 },
 {
 anchors = (
 {
-name = _topright;
-pos = (-7,175);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (282,0);
 },
 {
 name = top;
@@ -208,8 +224,11 @@ width = 303;
 {
 anchors = (
 {
-name = _topright;
-pos = (1,128);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (190,0);
 },
 {
 name = top;
@@ -231,13 +250,16 @@ nodes = (
 );
 }
 );
-width = 216;
+width = 217;
 },
 {
 anchors = (
 {
-name = _topright;
-pos = (-35,181);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (221,0);
 },
 {
 name = top;
@@ -264,8 +286,11 @@ width = 219;
 {
 anchors = (
 {
-name = _topright;
-pos = (-5,68);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (159,0);
 },
 {
 name = top;
@@ -287,13 +312,16 @@ nodes = (
 );
 }
 );
-width = 156;
+width = 157;
 },
 {
 anchors = (
 {
-name = _topright;
-pos = (-27,128);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (190,0);
 },
 {
 name = top;
@@ -315,13 +343,16 @@ nodes = (
 );
 }
 );
-width = 216;
+width = 219;
 },
 {
 anchors = (
 {
-name = _topright;
-pos = (-27,175);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (282,0);
 },
 {
 name = top;
@@ -348,8 +379,11 @@ width = 303;
 {
 anchors = (
 {
-name = _topright;
-pos = (-22,118);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (141,0);
 },
 {
 name = top;
@@ -376,8 +410,11 @@ width = 178;
 {
 anchors = (
 {
-name = _topright;
-pos = (-7,64);
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (109,0);
 },
 {
 name = top;

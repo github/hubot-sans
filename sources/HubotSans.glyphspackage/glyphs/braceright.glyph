@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = braceright;
 kernLeft = braceright;
 layers = (

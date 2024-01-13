@@ -11,7 +11,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (15,-156);
+pos = (15,0);
 ref = macroncomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (13,-150);
+pos = (13,0);
 ref = macroncomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (9,-133);
+pos = (9,0);
 ref = macroncomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (122,-155);
+pos = (122,0);
 ref = macroncomb;
 }
 );
@@ -63,7 +63,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (87,-136);
+pos = (87,0);
 ref = macroncomb;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (103,-150);
+pos = (103,0);
 ref = macroncomb;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-37,-134);
+pos = (-8,0);
 ref = macroncomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (25,-155);
+pos = (58,0);
 ref = macroncomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (59,-150);
+pos = (91,0);
 ref = macroncomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (28,-136);
+pos = (57,0);
 ref = macroncomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-26,-151);
+pos = (6,0);
 ref = macroncomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = o;
 },
 {
-pos = (-20,-156);
+pos = (13,0);
 ref = macroncomb;
 }
 );

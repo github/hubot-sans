@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = ydieresis;
 kernLeft = y;
 kernRight = y;
@@ -10,7 +11,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (27,-157);
+pos = (27,0);
 ref = dieresiscomb;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (21,-150);
+pos = (21,0);
 ref = dieresiscomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (17,-133);
+pos = (17,0);
 ref = dieresiscomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (170,-156);
+pos = (170,0);
 ref = dieresiscomb;
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (118,-134);
+pos = (118,0);
 ref = dieresiscomb;
 }
 );
@@ -75,7 +76,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (155,-149);
+pos = (155,0);
 ref = dieresiscomb;
 }
 );
@@ -88,7 +89,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (-25,-134);
+pos = (3,0);
 ref = dieresiscomb;
 }
 );
@@ -101,7 +102,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (114,-156);
+pos = (147,0);
 ref = dieresiscomb;
 }
 );
@@ -114,7 +115,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (97,-150);
+pos = (129,0);
 ref = dieresiscomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (65,-134);
+pos = (94,0);
 ref = dieresiscomb;
 }
 );
@@ -140,7 +141,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (-33,-151);
+pos = (-1,0);
 ref = dieresiscomb;
 }
 );
@@ -153,7 +154,7 @@ shapes = (
 ref = y;
 },
 {
-pos = (-22,-157);
+pos = (12,0);
 ref = dieresiscomb;
 }
 );

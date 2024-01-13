@@ -11,7 +11,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (12,57);
+pos = (12,214);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (2,53);
+pos = (2,205);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (-22,50);
+pos = (-22,183);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (20,57);
+pos = (20,213);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -63,7 +63,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (10,54);
+pos = (10,204);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (11,50);
+pos = (11,184);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (24,57);
+pos = (57,214);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (2,53);
+pos = (35,206);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (-16,50);
+pos = (12,184);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (32,57);
+pos = (65,213);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (21,54);
+pos = (52,204);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = I.ss01;
 },
 {
-pos = (22,50);
+pos = (50,184);
 ref = dotaccentcomb.ss01;
 }
 );

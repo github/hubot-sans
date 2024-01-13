@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = quotesinglbase;
 kernRight = quotedblbase;
 layers = (
@@ -40,7 +41,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 156;
+width = 157;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -60,7 +61,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 216;
+width = 217;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -80,7 +81,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 156;
+width = 157;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -90,7 +91,7 @@ alignment = 1;
 ref = comma;
 }
 );
-width = 216;
+width = 219;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

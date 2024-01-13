@@ -106,11 +106,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (487,729);
+pos = (488,729);
 ref = parenleft.case;
 }
 );
-width = 444;
+width = 445;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

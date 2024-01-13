@@ -14,7 +14,7 @@ pos = (115,0);
 ref = dotbelowcomb;
 },
 {
-pos = (52,-157);
+pos = (52,0);
 ref = brevecomb;
 }
 );
@@ -31,7 +31,7 @@ pos = (113,0);
 ref = dotbelowcomb;
 },
 {
-pos = (50,-150);
+pos = (50,0);
 ref = brevecomb;
 }
 );
@@ -48,7 +48,7 @@ pos = (115,0);
 ref = dotbelowcomb;
 },
 {
-pos = (52,-133);
+pos = (52,0);
 ref = brevecomb;
 }
 );
@@ -65,7 +65,7 @@ pos = (284,0);
 ref = dotbelowcomb;
 },
 {
-pos = (147,-156);
+pos = (147,0);
 ref = brevecomb;
 }
 );
@@ -82,7 +82,7 @@ pos = (234,0);
 ref = dotbelowcomb;
 },
 {
-pos = (113,-136);
+pos = (113,0);
 ref = brevecomb;
 }
 );
@@ -99,7 +99,7 @@ pos = (251,0);
 ref = dotbelowcomb;
 },
 {
-pos = (139,-150);
+pos = (139,0);
 ref = brevecomb;
 }
 );
@@ -116,7 +116,7 @@ pos = (122,0);
 ref = dotbelowcomb;
 },
 {
-pos = (27,-134);
+pos = (55,0);
 ref = brevecomb;
 }
 );
@@ -133,7 +133,7 @@ pos = (274,0);
 ref = dotbelowcomb;
 },
 {
-pos = (94,-156);
+pos = (127,0);
 ref = brevecomb;
 }
 );
@@ -150,7 +150,7 @@ pos = (266,0);
 ref = dotbelowcomb;
 },
 {
-pos = (122,-147);
+pos = (153,0);
 ref = brevecomb;
 }
 );
@@ -167,7 +167,7 @@ pos = (246,0);
 ref = dotbelowcomb;
 },
 {
-pos = (56,-136);
+pos = (85,0);
 ref = brevecomb;
 }
 );
@@ -184,7 +184,7 @@ pos = (120,0);
 ref = dotbelowcomb;
 },
 {
-pos = (24,-151);
+pos = (56,0);
 ref = brevecomb;
 }
 );
@@ -201,7 +201,7 @@ pos = (125,0);
 ref = dotbelowcomb;
 },
 {
-pos = (27,-157);
+pos = (61,0);
 ref = brevecomb;
 }
 );

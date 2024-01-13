@@ -1,4 +1,5 @@
 {
+color = 0;
 glyphname = Thorn;
 layers = (
 {
@@ -311,7 +312,7 @@ nodes = (
 );
 }
 );
-width = 661;
+width = 662;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -350,7 +351,7 @@ nodes = (
 );
 }
 );
-width = 677;
+width = 678;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -389,7 +390,7 @@ nodes = (
 );
 }
 );
-width = 853;
+width = 852;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

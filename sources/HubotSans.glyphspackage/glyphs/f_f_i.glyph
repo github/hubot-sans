@@ -1,9 +1,19 @@
 {
-glyphname = f_f_i.liga;
+glyphname = f_f_i;
 kernLeft = f;
 kernRight = fi;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (176,0);
+},
+{
+name = caret_2;
+pos = (352,0);
+}
+);
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
@@ -47,6 +57,16 @@ nodes = (
 width = 528;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (204.667,0);
+},
+{
+name = caret_2;
+pos = (409.333,0);
+}
+);
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
@@ -90,6 +110,16 @@ nodes = (
 width = 614;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (265.667,0);
+},
+{
+name = caret_2;
+pos = (531.333,0);
+}
+);
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
@@ -133,6 +163,16 @@ nodes = (
 width = 797;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (262,0);
+},
+{
+name = caret_2;
+pos = (524,0);
+}
+);
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
@@ -176,6 +216,16 @@ nodes = (
 width = 786;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (383.333,0);
+},
+{
+name = caret_2;
+pos = (766.667,0);
+}
+);
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
@@ -219,6 +269,16 @@ nodes = (
 width = 1150;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (295.333,0);
+},
+{
+name = caret_2;
+pos = (590.667,0);
+}
+);
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -262,6 +322,16 @@ nodes = (
 width = 886;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (266.667,0);
+},
+{
+name = caret_2;
+pos = (533.333,0);
+}
+);
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
@@ -305,6 +375,16 @@ nodes = (
 width = 800;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (274.333,0);
+},
+{
+name = caret_2;
+pos = (548.667,0);
+}
+);
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
@@ -348,6 +428,16 @@ nodes = (
 width = 823;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (297,0);
+},
+{
+name = caret_2;
+pos = (594,0);
+}
+);
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
@@ -391,6 +481,16 @@ nodes = (
 width = 891;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (391.667,0);
+},
+{
+name = caret_2;
+pos = (783.333,0);
+}
+);
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
@@ -434,6 +534,16 @@ nodes = (
 width = 1175;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (200.667,0);
+},
+{
+name = caret_2;
+pos = (401.333,0);
+}
+);
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -477,6 +587,16 @@ nodes = (
 width = 602;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (173.667,0);
+},
+{
+name = caret_2;
+pos = (347.333,0);
+}
+);
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {

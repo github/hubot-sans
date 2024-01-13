@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = idotbelow.ss01;
 layers = (
 {
@@ -51,7 +52,7 @@ pos = (13,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 168;
+width = 169;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -64,7 +65,7 @@ pos = (3,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 216;
+width = 217;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -77,7 +78,7 @@ pos = (2,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 327;
+width = 326;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -128,7 +129,7 @@ pos = (16,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 172;
+width = 173;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -154,7 +155,7 @@ pos = (7,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 335;
+width = 334;
 }
 );
 }

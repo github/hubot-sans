@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = uring;
 kernLeft = u;
 kernRight = a;
@@ -10,7 +11,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (111,-157);
+pos = (111,0);
 ref = ringcomb;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (106,-150);
+pos = (106,0);
 ref = ringcomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (95,-133);
+pos = (95,0);
 ref = ringcomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (147,-156);
+pos = (147,0);
 ref = ringcomb;
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (208,-134);
+pos = (208,0);
 ref = ringcomb;
 }
 );
@@ -75,7 +76,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (173,-150);
+pos = (173,0);
 ref = ringcomb;
 }
 );
@@ -88,7 +89,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (59,-134);
+pos = (87,0);
 ref = ringcomb;
 }
 );
@@ -101,7 +102,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (84,-156);
+pos = (117,0);
 ref = ringcomb;
 }
 );
@@ -114,7 +115,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (145,-147);
+pos = (177,0);
 ref = ringcomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (169,-134);
+pos = (198,0);
 ref = ringcomb;
 }
 );
@@ -140,7 +141,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (48,-151);
+pos = (80,0);
 ref = ringcomb;
 }
 );
@@ -153,7 +154,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (78,-157);
+pos = (111,0);
 ref = ringcomb;
 }
 );

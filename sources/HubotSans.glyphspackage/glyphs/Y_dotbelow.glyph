@@ -62,7 +62,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (303,0);
+pos = (307,0);
 ref = dotbelowcomb;
 }
 );
@@ -75,7 +75,7 @@ shapes = (
 ref = Y;
 },
 {
-pos = (299,0);
+pos = (301,0);
 ref = dotbelowcomb;
 }
 );

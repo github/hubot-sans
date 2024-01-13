@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = colon;
 kernLeft = colon;
 kernRight = colon;
@@ -213,7 +214,7 @@ pos = (0,452);
 ref = period;
 }
 );
-width = 149;
+width = 150;
 },
 {
 background = {
@@ -319,7 +320,7 @@ pos = (0,418);
 ref = period;
 }
 );
-width = 210;
+width = 211;
 },
 {
 background = {
@@ -425,7 +426,7 @@ pos = (96,452);
 ref = period;
 }
 );
-width = 150;
+width = 151;
 },
 {
 background = {
@@ -478,7 +479,7 @@ pos = (89,419);
 ref = period;
 }
 );
-width = 211;
+width = 214;
 },
 {
 background = {

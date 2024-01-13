@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = u;
 kernLeft = u;
 kernRight = a;
@@ -251,7 +252,7 @@ pos = (396,525);
 },
 {
 name = topright;
-pos = (570,525);
+pos = (572,525);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -338,7 +339,7 @@ pos = (269,515);
 },
 {
 name = topright;
-pos = (364,515);
+pos = (361,515);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";

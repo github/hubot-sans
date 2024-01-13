@@ -1,4 +1,5 @@
 {
+color = 6;
 glyphname = utilde;
 kernLeft = u;
 kernRight = a;
@@ -10,7 +11,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (38,-157);
+pos = (38,0);
 ref = tildecomb;
 }
 );
@@ -23,7 +24,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (28,-150);
+pos = (28,0);
 ref = tildecomb;
 }
 );
@@ -36,7 +37,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (3,-133);
+pos = (3,0);
 ref = tildecomb;
 }
 );
@@ -49,7 +50,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (121,-156);
+pos = (121,0);
 ref = tildecomb;
 }
 );
@@ -62,7 +63,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (153,-134);
+pos = (153,0);
 ref = tildecomb;
 }
 );
@@ -75,7 +76,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (118,-150);
+pos = (118,0);
 ref = tildecomb;
 }
 );
@@ -88,7 +89,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (-31,-134);
+pos = (-2,0);
 ref = tildecomb;
 }
 );
@@ -101,7 +102,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (89,-156);
+pos = (122,0);
 ref = tildecomb;
 }
 );
@@ -114,7 +115,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (92,-150);
+pos = (124,0);
 ref = tildecomb;
 }
 );
@@ -127,7 +128,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (130,-134);
+pos = (158,0);
 ref = tildecomb;
 }
 );
@@ -140,7 +141,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (-2,-151);
+pos = (30,0);
 ref = tildecomb;
 }
 );
@@ -153,7 +154,7 @@ shapes = (
 ref = u;
 },
 {
-pos = (-24,-157);
+pos = (42,0);
 ref = tildecomb;
 }
 );

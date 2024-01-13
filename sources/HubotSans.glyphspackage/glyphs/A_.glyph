@@ -6,6 +6,10 @@ layers = (
 {
 anchors = (
 {
+name = "#exit";
+pos = (287,0);
+},
+{
 name = bottom;
 pos = (238,0);
 },
@@ -49,6 +53,10 @@ width = 477;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (348,0);
+},
 {
 name = bottom;
 pos = (196,0);
@@ -94,6 +102,10 @@ width = 392;
 {
 anchors = (
 {
+name = "#exit";
+pos = (331,0);
+},
+{
 name = bottom;
 pos = (209,0);
 },
@@ -137,6 +149,10 @@ width = 418;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (789,0);
+},
 {
 name = bottom;
 pos = (425,0);
@@ -182,6 +198,10 @@ width = 849;
 {
 anchors = (
 {
+name = "#exit";
+pos = (700,0);
+},
+{
 name = bottom;
 pos = (478,0);
 },
@@ -225,6 +245,10 @@ width = 955;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (746,0);
+},
 {
 name = bottom;
 pos = (430,0);
@@ -270,6 +294,10 @@ width = 860;
 {
 anchors = (
 {
+name = "#exit";
+pos = (226,0);
+},
+{
 name = bottom;
 pos = (183,0);
 },
@@ -313,6 +341,10 @@ width = 463;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (752,0);
+},
 {
 name = bottom;
 pos = (387,0);
@@ -358,6 +390,10 @@ width = 865;
 {
 anchors = (
 {
+name = "#exit";
+pos = (708,0);
+},
+{
 name = bottom;
 pos = (392,0);
 },
@@ -401,6 +437,10 @@ width = 877;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (664,0);
+},
 {
 name = bottom;
 pos = (440,0);
@@ -446,6 +486,10 @@ width = 976;
 {
 anchors = (
 {
+name = "#exit";
+pos = (268,0);
+},
+{
 name = bottom;
 pos = (156,0);
 },
@@ -489,6 +533,10 @@ width = 404;
 },
 {
 anchors = (
+{
+name = "#exit";
+pos = (285,0);
+},
 {
 name = bottom;
 pos = (151,0);

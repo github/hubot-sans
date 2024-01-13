@@ -90,7 +90,7 @@ pos = (90,423);
 ref = eightinferior;
 }
 );
-width = 467;
+width = 468;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -112,7 +112,7 @@ pos = (90,423);
 ref = eightinferior;
 }
 );
-width = 491;
+width = 490;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -134,7 +134,7 @@ pos = (90,423);
 ref = eightinferior;
 }
 );
-width = 277;
+width = 278;
 }
 );
 metricLeft = eight;

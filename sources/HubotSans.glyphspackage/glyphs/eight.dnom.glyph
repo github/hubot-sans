@@ -3,6 +3,12 @@ color = 4;
 glyphname = eight.dnom;
 layers = (
 {
+anchors = (
+{
+name = _center;
+pos = (112,201);
+}
+);
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
@@ -85,6 +91,12 @@ width = 55;
 width = 225;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (136,201);
+}
+);
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
@@ -167,6 +179,12 @@ width = 55;
 width = 273;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (161,201);
+}
+);
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
@@ -249,6 +267,12 @@ width = 55;
 width = 322;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (175,201);
+}
+);
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
@@ -324,6 +348,12 @@ nodes = (
 width = 350;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (202,201);
+}
+);
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
@@ -399,6 +429,12 @@ nodes = (
 width = 402;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (189,201);
+}
+);
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -474,6 +510,12 @@ nodes = (
 width = 377;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (146,201);
+}
+);
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
@@ -549,6 +591,12 @@ nodes = (
 width = 325;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (165,201);
+}
+);
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
@@ -624,6 +672,12 @@ nodes = (
 width = 363;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (181,201);
+}
+);
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
@@ -699,6 +753,12 @@ nodes = (
 width = 391;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (195,201);
+}
+);
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
@@ -774,6 +834,12 @@ nodes = (
 width = 417;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (124,201);
+}
+);
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -849,6 +915,12 @@ nodes = (
 width = 272;
 },
 {
+anchors = (
+{
+name = _center;
+pos = (100,201);
+}
+);
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {

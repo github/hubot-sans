@@ -11,7 +11,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (44,-157);
+pos = (44,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -24,7 +24,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (44,-150);
+pos = (44,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -37,7 +37,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (8,-132);
+pos = (8,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -50,7 +50,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (149,-156);
+pos = (149,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -63,7 +63,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (77,-128);
+pos = (77,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -76,7 +76,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (103,-147);
+pos = (103,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-38,-133);
+pos = (-10,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (70,-156);
+pos = (104,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (60,-147);
+pos = (91,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (12,-128);
+pos = (40,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (-4,-151);
+pos = (28,0);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = e;
 },
 {
-pos = (1,-157);
+pos = (34,0);
 ref = circumflexcomb_tildecomb;
 }
 );

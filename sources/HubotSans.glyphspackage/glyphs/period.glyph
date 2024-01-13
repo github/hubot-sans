@@ -1,4 +1,5 @@
 {
+color = 4;
 glyphname = period;
 kernLeft = period;
 kernRight = period;
@@ -129,7 +130,7 @@ nodes = (
 );
 }
 );
-width = 149;
+width = 150;
 },
 {
 anchors = (
@@ -193,7 +194,7 @@ nodes = (
 );
 }
 );
-width = 210;
+width = 211;
 },
 {
 anchors = (
@@ -259,7 +260,7 @@ nodes = (
 );
 }
 );
-width = 150;
+width = 151;
 },
 {
 anchors = (
@@ -292,7 +293,7 @@ nodes = (
 );
 }
 );
-width = 211;
+width = 214;
 },
 {
 anchors = (

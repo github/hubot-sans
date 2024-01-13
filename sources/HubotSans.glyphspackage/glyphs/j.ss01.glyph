@@ -11,11 +11,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-28,-133);
+pos = (-24,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 228;
+width = 232;
 },
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -24,11 +24,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (15,-157);
+pos = (7,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 159;
+width = 151;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -37,11 +37,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (3,-152);
+pos = (-1,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 179;
+width = 175;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -50,11 +50,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (9,-156);
+pos = (13,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 164;
+width = 169;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -63,11 +63,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (0,-134);
+pos = (-10,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 336;
+width = 325;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -76,11 +76,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (8,-150);
+pos = (3,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 221;
+width = 217;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -89,11 +89,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-56,-134);
+pos = (-28,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 228;
+width = 227;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -102,11 +102,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-23,-156);
+pos = (14,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 166;
+width = 171;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,11 +115,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-25,-150);
+pos = (1,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 227;
+width = 222;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -128,11 +128,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-27,-134);
+pos = (-9,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 344;
+width = 333;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,7 +141,7 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-45,-153);
+pos = (-12,0);
 ref = dotaccentcomb.ss01;
 }
 );
@@ -154,11 +154,11 @@ shapes = (
 ref = jdotless;
 },
 {
-pos = (-19,-157);
+pos = (7,0);
 ref = dotaccentcomb.ss01;
 }
 );
-width = 159;
+width = 152;
 }
 );
 note = j;

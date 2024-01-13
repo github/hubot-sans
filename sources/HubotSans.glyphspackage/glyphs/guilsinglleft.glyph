@@ -4,6 +4,15 @@ kernLeft = guillemetleft;
 kernRight = guillemetleft;
 layers = (
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (140,0);
+}
+);
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
@@ -21,6 +30,15 @@ nodes = (
 width = 226;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (174,0);
+}
+);
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
@@ -38,6 +56,15 @@ nodes = (
 width = 254;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (258,0);
+}
+);
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
@@ -55,6 +82,15 @@ nodes = (
 width = 323;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (144,0);
+}
+);
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
@@ -72,6 +108,15 @@ nodes = (
 width = 231;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (278,0);
+}
+);
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
@@ -89,6 +134,15 @@ nodes = (
 width = 362;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (181,0);
+}
+);
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -106,6 +160,15 @@ nodes = (
 width = 268;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (240,0);
+}
+);
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
@@ -123,6 +186,15 @@ nodes = (
 width = 333;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (147,0);
+}
+);
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
@@ -140,6 +212,15 @@ nodes = (
 width = 233;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (178,0);
+}
+);
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
@@ -157,6 +238,15 @@ nodes = (
 width = 271;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (277,0);
+}
+);
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
@@ -174,6 +264,15 @@ nodes = (
 width = 369;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (171,0);
+}
+);
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -191,6 +290,15 @@ nodes = (
 width = 256;
 },
 {
+anchors = (
+{
+name = "#entry";
+},
+{
+name = "#exit";
+pos = (137,0);
+}
+);
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {
@@ -208,8 +316,6 @@ nodes = (
 width = 231;
 }
 );
-metricLeft = guillemetleft;
-metricRight = guillemetleft;
 unicode = 8249;
 userData = {
 KernOnSpecialSpacing = {
