@@ -82,11 +82,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (213,562);
+pos = (215,562);
 ref = quotesinglbase;
 }
 );
-width = 209;
+width = 211;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -153,7 +153,6 @@ metricLeft = quotedblleft;
 metricRight = quotedblleft;
 unicode = 8216;
 userData = {
-KernOnName = quoteleft;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

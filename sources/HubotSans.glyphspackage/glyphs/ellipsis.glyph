@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ellipsis;
-kernLeft = period;
+kernLeft = ellipsis;
 kernRight = ellipsis;
 layers = (
 {
@@ -69,7 +69,7 @@ pos = (238,0);
 ref = period;
 }
 );
-width = 368;
+width = 364;
 },
 {
 background = {
@@ -472,7 +472,7 @@ pos = (430,0);
 ref = period;
 }
 );
-width = 642;
+width = 640;
 },
 {
 background = {
@@ -540,7 +540,7 @@ pos = (290,0);
 ref = period;
 }
 );
-width = 433;
+width = 431;
 },
 {
 background = {
@@ -812,7 +812,7 @@ pos = (270,0);
 ref = period;
 }
 );
-width = 401;
+width = 397;
 }
 );
 metricLeft = period;

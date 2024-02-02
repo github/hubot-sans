@@ -82,11 +82,11 @@ shapes = (
 {
 alignment = 3;
 angle = 180;
-pos = (434,562);
+pos = (436,562);
 ref = quotedblbase;
 }
 );
-width = 430;
+width = 432;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";

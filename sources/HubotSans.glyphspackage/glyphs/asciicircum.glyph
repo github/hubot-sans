@@ -1,5 +1,6 @@
 {
 glyphname = asciicircum;
+kernLeft = asciicircum;
 kernRight = asciicircum;
 layers = (
 {

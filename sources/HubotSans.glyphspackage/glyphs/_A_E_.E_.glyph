@@ -3,8 +3,6 @@ category = "";
 color = 4;
 export = 0;
 glyphname = _AE.E;
-kernLeft = A;
-kernRight = E;
 layers = (
 {
 anchors = (

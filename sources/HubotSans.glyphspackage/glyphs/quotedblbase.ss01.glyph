@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = quotedblbase.ss01;
-kernLeft = quotedblbase.ss01;
 kernRight = quotedblbase.ss01;
 layers = (
 {

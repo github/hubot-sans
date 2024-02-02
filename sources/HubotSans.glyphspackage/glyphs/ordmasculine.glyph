@@ -1,7 +1,6 @@
 {
 color = 0;
 glyphname = ordmasculine;
-kernRight = ordmasculine;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

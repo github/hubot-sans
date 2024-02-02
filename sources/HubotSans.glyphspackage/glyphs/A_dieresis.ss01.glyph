@@ -154,11 +154,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (247,184);
+pos = (251,184);
 ref = dieresiscomb.ss01;
 }
 );
-width = 1028;
+width = 1032;
 }
 );
 }

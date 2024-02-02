@@ -1,6 +1,6 @@
 {
 glyphname = l.ss02;
-kernLeft = i;
+kernLeft = l;
 kernRight = l.ss02;
 layers = (
 {
@@ -496,7 +496,7 @@ nodes = (
 );
 }
 );
-width = 185;
+width = 181;
 }
 );
 note = l;

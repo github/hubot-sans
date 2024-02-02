@@ -119,7 +119,7 @@ nodes = (
 );
 }
 );
-width = 469;
+width = 462;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -219,7 +219,7 @@ nodes = (
 );
 }
 );
-width = 470;
+width = 463;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -259,7 +259,7 @@ nodes = (
 );
 }
 );
-width = 220;
+width = 204;
 }
 );
 note = r.001;

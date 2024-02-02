@@ -198,15 +198,15 @@ shapes = (
 ref = A;
 },
 {
-pos = (361,0);
+pos = (365,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (226,184);
+pos = (230,184);
 ref = circumflexcomb;
 }
 );
-width = 1028;
+width = 1032;
 }
 );
 }

@@ -93,7 +93,7 @@ pos = (76,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 375;
+width = 374;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -106,7 +106,7 @@ pos = (48,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 401;
+width = 400;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -119,7 +119,7 @@ pos = (21,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 475;
+width = 474;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -132,7 +132,7 @@ pos = (167,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 650;
+width = 649;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -145,7 +145,7 @@ pos = (159,0);
 ref = dieresiscomb.ss01;
 }
 );
-width = 692;
+width = 691;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

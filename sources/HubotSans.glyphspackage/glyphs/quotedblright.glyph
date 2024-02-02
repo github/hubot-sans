@@ -2,7 +2,7 @@
 color = 6;
 glyphname = quotedblright;
 kernLeft = quoteright;
-kernRight = quoteright;
+kernRight = quotedblright;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -79,7 +79,7 @@ pos = (116,548);
 ref = quotedblbase;
 }
 );
-width = 430;
+width = 432;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";

@@ -1,6 +1,7 @@
 {
 color = 0;
 glyphname = trademark;
+kernLeft = trademark;
 layers = (
 {
 guides = (

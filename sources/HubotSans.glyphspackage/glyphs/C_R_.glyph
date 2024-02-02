@@ -51,4 +51,10 @@ width = 261;
 }
 );
 unicode = 13;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
 }

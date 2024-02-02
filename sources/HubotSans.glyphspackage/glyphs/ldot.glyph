@@ -1,8 +1,7 @@
 {
 color = 6;
 glyphname = ldot;
-kernLeft = i;
-kernRight = ldot;
+kernLeft = l;
 layers = (
 {
 background = {
@@ -86,11 +85,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (172,0);
+pos = (174,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 297;
+width = 299;
 },
 {
 background = {
@@ -130,11 +129,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (234,0);
+pos = (241,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 436;
+width = 443;
 },
 {
 background = {
@@ -218,11 +217,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (217,0);
+pos = (222,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 398;
+width = 403;
 },
 {
 background = {
@@ -262,11 +261,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (326,0);
+pos = (342,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 551;
+width = 567;
 },
 {
 background = {
@@ -350,11 +349,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (168,0);
+pos = (170,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 295;
+width = 297;
 },
 {
 background = {
@@ -394,11 +393,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (225,0);
+pos = (230,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 432;
+width = 437;
 },
 {
 background = {
@@ -438,11 +437,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (170,0);
+pos = (172,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 301;
+width = 303;
 },
 {
 background = {
@@ -482,11 +481,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (217,0);
+pos = (222,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 399;
+width = 404;
 },
 {
 background = {
@@ -526,11 +525,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (332,0);
+pos = (347,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 556;
+width = 571;
 }
 );
 unicode = 320;

@@ -2,7 +2,7 @@
 color = 6;
 glyphname = ycircumflex.ss01;
 kernLeft = y.ss01;
-kernRight = y.ss01;
+kernRight = y;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

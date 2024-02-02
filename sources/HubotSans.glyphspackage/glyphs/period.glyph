@@ -8,19 +8,19 @@ layers = (
 anchors = (
 {
 name = "#entry";
-pos = (-8,0);
+pos = (-10,0);
 },
 {
 name = "#exit";
-pos = (111,0);
+pos = (109,0);
 },
 {
 name = _top;
-pos = (65,61);
+pos = (63,61);
 },
 {
 name = top;
-pos = (65,515);
+pos = (63,515);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -28,14 +28,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(88,0,l),
-(88,61,l),
-(42,61,l),
-(42,0,l)
+(86,0,l),
+(86,61,l),
+(40,61,l),
+(40,0,l)
 );
 }
 );
-width = 130;
+width = 126;
 },
 {
 anchors = (
@@ -206,19 +206,19 @@ width = 203;
 anchors = (
 {
 name = "#entry";
-pos = (-61,0);
+pos = (-62,0);
 },
 {
 name = "#exit";
-pos = (154,0);
+pos = (153,0);
 },
 {
 name = _top;
-pos = (87,181);
+pos = (86,181);
 },
 {
 name = top;
-pos = (164,545);
+pos = (163,545);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -226,32 +226,32 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(134,0,l),
-(172,181,l),
-(1,181,l),
-(-37,0,l)
+(133,0,l),
+(171,181,l),
+(0,181,l),
+(-38,0,l)
 );
 }
 );
-width = 212;
+width = 210;
 },
 {
 anchors = (
 {
 name = "#entry";
-pos = (-58,0);
+pos = (-59,0);
 },
 {
 name = "#exit";
-pos = (87,0);
+pos = (86,0);
 },
 {
 name = _top;
-pos = (30,64);
+pos = (29,64);
 },
 {
 name = top;
-pos = (126,516);
+pos = (125,516);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -259,14 +259,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(42,0,l),
-(55,64,l),
-(5,64,l),
-(-8,0,l)
+(41,0,l),
+(54,64,l),
+(4,64,l),
+(-9,0,l)
 );
 }
 );
-width = 143;
+width = 141;
 },
 {
 anchors = (
@@ -371,19 +371,19 @@ width = 163;
 anchors = (
 {
 name = "#entry";
-pos = (-62,0);
+pos = (-64,0);
 },
 {
 name = "#exit";
-pos = (73,0);
+pos = (71,0);
 },
 {
 name = _top;
-pos = (23,61);
+pos = (21,61);
 },
 {
 name = top;
-pos = (120,515);
+pos = (118,515);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -391,14 +391,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(34,0,l),
-(46,61,l),
-(0,61,l),
-(-12,0,l)
+(32,0,l),
+(44,61,l),
+(-2,61,l),
+(-14,0,l)
 );
 }
 );
-width = 131;
+width = 127;
 }
 );
 metricRight = "=|";

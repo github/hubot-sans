@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = AE;
+kernLeft = A;
+kernRight = E;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -152,11 +154,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (591,0);
+pos = (595,0);
 ref = _AE.E;
 }
 );
-width = 1273;
+width = 1277;
 }
 );
 unicode = 198;

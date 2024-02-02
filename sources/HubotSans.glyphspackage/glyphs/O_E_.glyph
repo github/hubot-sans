@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = OE;
+kernLeft = O;
 kernRight = E;
 layers = (
 {

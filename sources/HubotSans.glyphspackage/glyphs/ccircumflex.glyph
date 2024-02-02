@@ -1,6 +1,8 @@
 {
 color = 6;
 glyphname = ccircumflex;
+kernLeft = egrave;
+kernRight = c;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -152,11 +154,11 @@ shapes = (
 ref = c;
 },
 {
-pos = (57,0);
+pos = (56,0);
 ref = circumflexcomb;
 }
 );
-width = 756;
+width = 754;
 }
 );
 unicode = 265;

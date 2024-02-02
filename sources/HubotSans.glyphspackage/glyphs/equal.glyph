@@ -368,6 +368,7 @@ metricRight = "=|";
 metricWidth = plus;
 unicode = 61;
 userData = {
+KernOnName = equal;
 KernOnSpecialSpacing = {
 L = math;
 R = math;

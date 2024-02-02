@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = emacron;
-kernLeft = otilde;
+kernLeft = egrave;
 kernRight = e;
 layers = (
 {

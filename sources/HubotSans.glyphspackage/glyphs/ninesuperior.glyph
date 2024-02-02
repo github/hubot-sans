@@ -2,7 +2,6 @@
 color = 6;
 glyphname = ninesuperior;
 kernLeft = ninesuperior;
-kernRight = ninesuperior;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

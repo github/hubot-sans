@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = six;
-kernLeft = six;
+kernLeft = zero;
 kernRight = six;
 layers = (
 {

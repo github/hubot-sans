@@ -1,5 +1,6 @@
 {
 glyphname = underscore;
+kernLeft = underscore;
 kernRight = underscore;
 layers = (
 {

@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = nineinferior;
-kernLeft = ninesuperior;
-kernRight = ninesuperior;
 layers = (
 {
 background = {

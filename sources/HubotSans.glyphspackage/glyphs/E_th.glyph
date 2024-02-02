@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = Eth;
-kernLeft = Dcroat;
+kernLeft = Eth;
 kernRight = D;
 layers = (
 {

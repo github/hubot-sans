@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = Ycircumflex;
+kernLeft = Y;
 kernRight = Y;
 layers = (
 {
@@ -23,11 +24,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (76,205);
+pos = (74,205);
 ref = circumflexcomb;
 }
 );
-width = 451;
+width = 447;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -36,11 +37,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (37,183);
+pos = (28,183);
 ref = circumflexcomb;
 }
 );
-width = 532;
+width = 514;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -62,11 +63,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (174,184);
+pos = (161,184);
 ref = circumflexcomb;
 }
 );
-width = 983;
+width = 957;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -88,11 +89,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (57,184);
+pos = (49,184);
 ref = circumflexcomb;
 }
 );
-width = 515;
+width = 502;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -127,11 +128,11 @@ shapes = (
 ref = Y;
 },
 {
-pos = (206,184);
+pos = (185,184);
 ref = circumflexcomb;
 }
 );
-width = 1003;
+width = 966;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

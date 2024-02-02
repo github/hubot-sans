@@ -2,7 +2,6 @@
 color = 4;
 glyphname = fraction;
 kernLeft = fraction;
-kernRight = fraction;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

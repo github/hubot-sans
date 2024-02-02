@@ -28,7 +28,7 @@ pos = (117,0);
 ref = quotesingle;
 }
 );
-width = 290;
+width = 239;
 },
 {
 background = {
@@ -56,7 +56,7 @@ pos = (150,0);
 ref = quotesingle;
 }
 );
-width = 333;
+width = 290;
 },
 {
 background = {
@@ -84,7 +84,7 @@ pos = (216,0);
 ref = quotesingle;
 }
 );
-width = 425;
+width = 413;
 },
 {
 background = {
@@ -112,7 +112,7 @@ pos = (159,0);
 ref = quotesingle;
 }
 );
-width = 333;
+width = 295;
 },
 {
 background = {
@@ -140,7 +140,7 @@ pos = (250,0);
 ref = quotesingle;
 }
 );
-width = 574;
+width = 484;
 },
 {
 background = {
@@ -168,7 +168,7 @@ pos = (186,0);
 ref = quotesingle;
 }
 );
-width = 402;
+width = 348;
 },
 {
 background = {
@@ -196,7 +196,7 @@ pos = (216,0);
 ref = quotesingle;
 }
 );
-width = 426;
+width = 412;
 },
 {
 background = {
@@ -224,7 +224,7 @@ pos = (148,0);
 ref = quotesingle;
 }
 );
-width = 322;
+width = 284;
 },
 {
 background = {
@@ -252,7 +252,7 @@ pos = (186,0);
 ref = quotesingle;
 }
 );
-width = 401;
+width = 348;
 },
 {
 background = {
@@ -280,7 +280,7 @@ pos = (250,0);
 ref = quotesingle;
 }
 );
-width = 575;
+width = 484;
 },
 {
 background = {
@@ -308,7 +308,7 @@ pos = (150,0);
 ref = quotesingle;
 }
 );
-width = 334;
+width = 291;
 },
 {
 background = {
@@ -334,7 +334,7 @@ pos = (120,0);
 ref = quotesingle;
 }
 );
-width = 293;
+width = 242;
 }
 );
 unicode = 34;

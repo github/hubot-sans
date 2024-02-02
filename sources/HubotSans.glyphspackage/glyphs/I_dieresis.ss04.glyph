@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = Idieresis.ss04;
-kernLeft = I;
-kernRight = I;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

@@ -1,5 +1,6 @@
 {
 glyphname = asciitilde;
+kernLeft = asciitilde;
 kernRight = asciitilde;
 layers = (
 {

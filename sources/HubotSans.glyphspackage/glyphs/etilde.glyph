@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = etilde;
-kernLeft = otilde;
+kernLeft = egrave;
 kernRight = e;
 layers = (
 {

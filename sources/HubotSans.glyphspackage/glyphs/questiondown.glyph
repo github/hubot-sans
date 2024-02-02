@@ -9,11 +9,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (347,515);
+pos = (336,515);
 ref = question;
 }
 );
-width = 347;
+width = 336;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -21,11 +21,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (372,524);
+pos = (365,524);
 ref = question;
 }
 );
-width = 372;
+width = 365;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -45,11 +45,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (560,516);
+pos = (546,516);
 ref = question;
 }
 );
-width = 560;
+width = 546;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -57,11 +57,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (652,545);
+pos = (645,545);
 ref = question;
 }
 );
-width = 652;
+width = 645;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -69,11 +69,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (578,525);
+pos = (566,525);
 ref = question;
 }
 );
-width = 578;
+width = 566;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -93,11 +93,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (565,516);
+pos = (556,516);
 ref = question;
 }
 );
-width = 565;
+width = 556;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -105,11 +105,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (590,525);
+pos = (584,525);
 ref = question;
 }
 );
-width = 590;
+width = 584;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -129,11 +129,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (361,523);
+pos = (356,523);
 ref = question;
 }
 );
-width = 361;
+width = 356;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -141,11 +141,11 @@ shapes = (
 {
 alignment = 1;
 angle = 180;
-pos = (349,515);
+pos = (343,515);
 ref = question;
 }
 );
-width = 349;
+width = 343;
 }
 );
 metricLeft = "=|question";

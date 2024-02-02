@@ -1,8 +1,7 @@
 {
 color = 6;
 glyphname = lacute.ss02;
-kernLeft = i;
-kernRight = i;
+kernRight = l.ss02;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -158,7 +157,7 @@ pos = (65,214);
 ref = acutecomb;
 }
 );
-width = 185;
+width = 181;
 }
 );
 }

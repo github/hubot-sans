@@ -1,7 +1,7 @@
 {
 glyphname = minus;
-kernLeft = plus;
-kernRight = plus;
+kernLeft = minus;
+kernRight = minus;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

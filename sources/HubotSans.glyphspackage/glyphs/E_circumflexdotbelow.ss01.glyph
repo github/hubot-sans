@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Ecircumflexdotbelow.ss01;
-kernLeft = H;
 kernRight = E;
 layers = (
 {

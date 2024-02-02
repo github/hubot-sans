@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = semicolon.ss01;
-kernLeft = colon.ss01;
+kernLeft = semicolon.ss01;
 layers = (
 {
 background = {

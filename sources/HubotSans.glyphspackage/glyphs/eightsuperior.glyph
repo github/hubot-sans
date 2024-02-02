@@ -2,7 +2,7 @@
 color = 6;
 glyphname = eightsuperior;
 kernLeft = eightsuperior;
-kernRight = eightsuperior;
+kernRight = threesuperior;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

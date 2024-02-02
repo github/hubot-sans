@@ -32,7 +32,7 @@ pos = (0,247);
 ref = period;
 }
 );
-width = 130;
+width = 126;
 },
 {
 background = {
@@ -203,7 +203,7 @@ pos = (40,187);
 ref = period;
 }
 );
-width = 212;
+width = 210;
 },
 {
 background = {
@@ -235,7 +235,7 @@ pos = (52,246);
 ref = period;
 }
 );
-width = 143;
+width = 141;
 },
 {
 background = {
@@ -321,7 +321,7 @@ pos = (53,247);
 ref = period;
 }
 );
-width = 131;
+width = 127;
 }
 );
 unicode = 183;

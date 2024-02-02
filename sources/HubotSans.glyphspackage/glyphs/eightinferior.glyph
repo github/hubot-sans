@@ -1,8 +1,6 @@
 {
 color = 4;
 glyphname = eightinferior;
-kernLeft = eightsuperior;
-kernRight = eightsuperior;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

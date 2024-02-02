@@ -128,11 +128,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (265,184);
+pos = (269,184);
 ref = brevecomb;
 }
 );
-width = 1028;
+width = 1032;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

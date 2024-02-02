@@ -2,7 +2,6 @@
 color = 6;
 glyphname = colon;
 kernLeft = colon;
-kernRight = colon;
 layers = (
 {
 background = {
@@ -55,7 +54,7 @@ pos = (0,454);
 ref = period;
 }
 );
-width = 130;
+width = 126;
 },
 {
 background = {
@@ -373,7 +372,7 @@ pos = (77,364);
 ref = period;
 }
 );
-width = 212;
+width = 210;
 },
 {
 background = {
@@ -426,7 +425,7 @@ pos = (96,452);
 ref = period;
 }
 );
-width = 143;
+width = 141;
 },
 {
 background = {
@@ -638,7 +637,7 @@ pos = (97,454);
 ref = period;
 }
 );
-width = 131;
+width = 127;
 }
 );
 metricLeft = period;

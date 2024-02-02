@@ -134,7 +134,7 @@ ref = Y;
 },
 {
 alignment = 1;
-pos = (30,0);
+pos = (28,0);
 ref = _yen.bars;
 }
 );
@@ -203,7 +203,7 @@ ref = Y;
 },
 {
 alignment = 1;
-pos = (35,0);
+pos = (26,0);
 ref = _yen.bars;
 }
 );
@@ -341,7 +341,7 @@ ref = Y;
 },
 {
 alignment = 1;
-pos = (136,0);
+pos = (123,0);
 ref = _yen.bars;
 }
 );
@@ -479,7 +479,7 @@ ref = Y;
 },
 {
 alignment = 1;
-pos = (32,0);
+pos = (24,0);
 ref = _yen.bars;
 }
 );
@@ -686,7 +686,7 @@ ref = Y;
 },
 {
 alignment = 1;
-pos = (150,0);
+pos = (129,0);
 ref = _yen.bars;
 }
 );
