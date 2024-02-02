@@ -158,7 +158,7 @@ pos = (107,0);
 ref = dotaccentcomb;
 }
 );
-width = 302;
+width = 301;
 }
 );
 unicode = 380;

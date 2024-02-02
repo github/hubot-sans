@@ -18,7 +18,7 @@ weight = -28;
 width = 55;
 };
 };
-width = 277;
+width = 273;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -159,6 +159,10 @@ width = 275;
 metricLeft = eight.dnom;
 metricRight = eight.dnom;
 userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
 RMXScaler = {
 source = eight;
 };

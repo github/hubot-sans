@@ -1,5 +1,4 @@
 {
-color = 3;
 glyphname = l.ss02;
 kernLeft = i;
 kernRight = l.ss02;
@@ -8,7 +7,7 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (113,0);
+pos = (143,0);
 },
 {
 name = center;
@@ -59,7 +58,7 @@ width = 262;
 anchors = (
 {
 name = bottom;
-pos = (75,0);
+pos = (108,0);
 },
 {
 name = center;
@@ -97,7 +96,7 @@ width = 185;
 anchors = (
 {
 name = bottom;
-pos = (93,0);
+pos = (125,0);
 },
 {
 name = center;
@@ -199,7 +198,7 @@ width = 230;
 anchors = (
 {
 name = bottom;
-pos = (163,0);
+pos = (207,0);
 },
 {
 name = center;
@@ -237,7 +236,7 @@ width = 382;
 anchors = (
 {
 name = bottom;
-pos = (133,0);
+pos = (171,0);
 },
 {
 name = center;
@@ -275,7 +274,7 @@ width = 284;
 anchors = (
 {
 name = bottom;
-pos = (51,0);
+pos = (81,0);
 },
 {
 name = center;
@@ -351,7 +350,7 @@ width = 229;
 anchors = (
 {
 name = bottom;
-pos = (76,0);
+pos = (111,0);
 },
 {
 name = center;
@@ -389,7 +388,7 @@ width = 284;
 anchors = (
 {
 name = bottom;
-pos = (103,0);
+pos = (157,0);
 },
 {
 name = center;
@@ -427,7 +426,7 @@ width = 405;
 anchors = (
 {
 name = bottom;
-pos = (32,0);
+pos = (61,0);
 },
 {
 name = center;
@@ -465,7 +464,7 @@ width = 203;
 anchors = (
 {
 name = bottom;
-pos = (20,0);
+pos = (55,0);
 },
 {
 name = center;
@@ -501,4 +500,7 @@ width = 185;
 }
 );
 note = l;
+userData = {
+KernOnName = l.ss02;
+};
 }

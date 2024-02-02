@@ -421,9 +421,12 @@ nodes = (
 );
 }
 );
-width = 302;
+width = 301;
 }
 );
 note = z;
 unicode = 122;
+userData = {
+KernOnName = z;
+};
 }

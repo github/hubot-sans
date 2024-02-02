@@ -24,7 +24,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (417,566);
+pos = (411,566);
 ref = six.dnom;
 }
 );
@@ -87,7 +87,7 @@ ref = _CircleNumbers;
 },
 {
 angle = 180;
-pos = (481,566);
+pos = (477,566);
 ref = six.dnom;
 }
 );

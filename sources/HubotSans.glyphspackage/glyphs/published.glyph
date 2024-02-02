@@ -188,7 +188,7 @@ pos = (-6,0);
 ref = _CircleNumbers;
 },
 {
-pos = (149,0);
+pos = (159,0);
 ref = _published.P;
 }
 );
@@ -284,7 +284,7 @@ pos = (-14,0);
 ref = _CircleNumbers;
 },
 {
-pos = (137,0);
+pos = (142,0);
 ref = _published.P;
 }
 );
@@ -380,7 +380,7 @@ pos = (6,0);
 ref = _CircleNumbers;
 },
 {
-pos = (294,0);
+pos = (274,0);
 ref = _published.P;
 }
 );
@@ -476,7 +476,7 @@ pos = (-6,0);
 ref = _CircleNumbers;
 },
 {
-pos = (216,0);
+pos = (219,0);
 ref = _published.P;
 }
 );
@@ -572,7 +572,7 @@ pos = (4,0);
 ref = _CircleNumbers;
 },
 {
-pos = (270,0);
+pos = (248,0);
 ref = _published.P;
 }
 );
@@ -668,7 +668,7 @@ pos = (-15,0);
 ref = _CircleNumbers;
 },
 {
-pos = (140,0);
+pos = (143,0);
 ref = _published.P;
 }
 );
@@ -1052,7 +1052,7 @@ pos = (-7,0);
 ref = _CircleNumbers;
 },
 {
-pos = (158,0);
+pos = (152,0);
 ref = _published.P;
 }
 );
@@ -1148,7 +1148,7 @@ pos = (6,0);
 ref = _CircleNumbers;
 },
 {
-pos = (168,0);
+pos = (157,0);
 ref = _published.P;
 }
 );

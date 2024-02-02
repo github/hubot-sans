@@ -161,7 +161,7 @@ nodes = (
 );
 }
 );
-width = 585;
+width = 582;
 },
 {
 background = {

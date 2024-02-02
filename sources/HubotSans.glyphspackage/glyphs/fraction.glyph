@@ -55,14 +55,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-184,-46,l),
-(358,768,l),
-(314,768,l),
-(-225,-46,l)
+(-164,-46,l),
+(378,768,l),
+(334,768,l),
+(-205,-46,l)
 );
 }
 );
-width = 133;
+width = 173;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -145,14 +145,14 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-173,-46,l),
-(540,768,l),
-(410,768,l),
-(-303,-46,l)
+(-175,-46,l),
+(538,768,l),
+(408,768,l),
+(-305,-46,l)
 );
 }
 );
-width = 200;
+width = 196;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -188,6 +188,7 @@ width = 118;
 metricRight = "=|";
 unicode = 8260;
 userData = {
+KernOnName = fraction;
 KernOnSpecialSpacing = {
 L = fraction;
 R = fraction;

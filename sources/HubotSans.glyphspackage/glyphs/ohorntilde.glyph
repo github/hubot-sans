@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 0;
 glyphname = ohorntilde;
 kernLeft = otilde;
 layers = (

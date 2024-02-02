@@ -9,7 +9,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (127,164);
+pos = (132,164);
 ref = zero.dnom;
 }
 );
@@ -35,7 +35,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (165,164);
+pos = (169,164);
 ref = zero.dnom;
 }
 );

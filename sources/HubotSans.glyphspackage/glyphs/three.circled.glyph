@@ -22,7 +22,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (138,164);
+pos = (139,164);
 ref = three.dnom;
 }
 );

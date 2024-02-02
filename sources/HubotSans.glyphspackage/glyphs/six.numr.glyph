@@ -76,7 +76,7 @@ weight = -28;
 width = 55;
 };
 };
-width = 284;
+width = 278;
 },
 {
 background = {
@@ -228,7 +228,7 @@ weight = -330;
 width = 55;
 };
 };
-width = 317;
+width = 313;
 },
 {
 background = {
@@ -855,6 +855,10 @@ width = 283;
 metricLeft = six.dnom;
 metricRight = six.dnom;
 userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
 RMXScaler = {
 source = six;
 };

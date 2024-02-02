@@ -15,7 +15,7 @@ pos = (135,621);
 },
 {
 name = top;
-pos = (247,800);
+pos = (248,729);
 }
 );
 background = {
@@ -68,7 +68,7 @@ pos = (91,611);
 },
 {
 name = top;
-pos = (200,800);
+pos = (203,729);
 }
 );
 background = {
@@ -121,7 +121,7 @@ pos = (102,611);
 },
 {
 name = top;
-pos = (214,800);
+pos = (215,729);
 }
 );
 background = {
@@ -175,7 +175,7 @@ pos = (163,616);
 },
 {
 name = top;
-pos = (309,800);
+pos = (310,729);
 }
 );
 background = {
@@ -228,7 +228,7 @@ pos = (193,629);
 },
 {
 name = top;
-pos = (387,800);
+pos = (388,729);
 }
 );
 background = {
@@ -281,7 +281,7 @@ pos = (166,625);
 },
 {
 name = top;
-pos = (330,800);
+pos = (331,729);
 }
 );
 background = {
@@ -334,7 +334,7 @@ pos = (201,621);
 },
 {
 name = top;
-pos = (363,800);
+pos = (338,729);
 }
 );
 background = {
@@ -388,7 +388,7 @@ pos = (229,616);
 },
 {
 name = top;
-pos = (439,800);
+pos = (415,729);
 }
 );
 background = {
@@ -442,7 +442,7 @@ pos = (242,625);
 },
 {
 name = top;
-pos = (462,800);
+pos = (436,729);
 }
 );
 background = {
@@ -496,7 +496,7 @@ pos = (273,629);
 },
 {
 name = top;
-pos = (515,800);
+pos = (491,729);
 }
 );
 background = {
@@ -550,7 +550,7 @@ pos = (172,611);
 },
 {
 name = top;
-pos = (332,800);
+pos = (309,729);
 }
 );
 background = {
@@ -604,7 +604,7 @@ pos = (164,611);
 },
 {
 name = top;
-pos = (324,800);
+pos = (299,729);
 }
 );
 background = {
@@ -651,7 +651,4 @@ metricLeft = l;
 metricRight = n;
 note = h;
 unicode = 104;
-userData = {
-KernOnName = h;
-};
 }

@@ -326,6 +326,10 @@ width = 178;
 );
 userData = {
 KernOnName = one.dnom;
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
 RMXScaler = {
 source = one;
 };

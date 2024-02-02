@@ -81,7 +81,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (173,164);
+pos = (174,164);
 ref = seven.dnom;
 }
 );

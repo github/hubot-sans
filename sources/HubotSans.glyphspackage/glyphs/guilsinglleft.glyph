@@ -330,7 +330,6 @@ width = 227;
 );
 unicode = 8249;
 userData = {
-KernOnName = guilsinglleft;
 KernOnSpecialSpacing = {
 L = quotes;
 R = quotes;

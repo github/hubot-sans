@@ -147,6 +147,11 @@ width = 178;
 metricLeft = one.dnom;
 metricRight = one.dnom;
 userData = {
+KernOnName = one.numr;
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
 RMXScaler = {
 source = one;
 };

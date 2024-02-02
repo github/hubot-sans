@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 0;
 glyphname = Acircumflexhookabove;
 kernLeft = A;
 kernRight = A;
@@ -37,7 +37,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (30,183);
+pos = (12,183);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -89,11 +89,11 @@ shapes = (
 ref = A;
 },
 {
-pos = (42,184);
+pos = (51,184);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 468;
+width = 469;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -102,7 +102,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (307,213);
+pos = (309,213);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (271,204);
+pos = (269,204);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (248,184);
+pos = (253,184);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (110,206);
+pos = (112,206);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = A;
 },
 {
-pos = (132,214);
+pos = (134,214);
 ref = circumflexcomb_hookabovecomb;
 }
 );

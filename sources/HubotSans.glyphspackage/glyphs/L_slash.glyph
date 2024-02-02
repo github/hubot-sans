@@ -12,8 +12,8 @@ pos = (24,0);
 ref = L;
 },
 {
-pos = (-237,-17);
-ref = _slash.L;
+pos = (-1,0);
+ref = slashshortcomb.case;
 }
 );
 width = 370;
@@ -27,8 +27,8 @@ pos = (18,0);
 ref = L;
 },
 {
-pos = (-12,-8);
-ref = _slash.L;
+pos = (-7,0);
+ref = slashshortcomb.case;
 }
 );
 width = 363;
@@ -42,8 +42,8 @@ pos = (24,0);
 ref = L;
 },
 {
-pos = (-28,-3);
-ref = _slash.L;
+pos = (-23,0);
+ref = slashshortcomb.case;
 }
 );
 width = 367;
@@ -57,8 +57,8 @@ pos = (96,0);
 ref = L;
 },
 {
-pos = (-7,9);
-ref = _slash.L;
+pos = (-2,0);
+ref = slashshortcomb.case;
 }
 );
 width = 794;
@@ -72,8 +72,8 @@ pos = (71,0);
 ref = L;
 },
 {
-pos = (-14,-11);
-ref = _slash.L;
+pos = (-9,0);
+ref = slashshortcomb.case;
 }
 );
 width = 841;
@@ -87,8 +87,8 @@ pos = (73,0);
 ref = L;
 },
 {
-pos = (-7,4);
-ref = _slash.L;
+pos = (-2,0);
+ref = slashshortcomb.case;
 }
 );
 width = 777;
@@ -102,8 +102,8 @@ pos = (29,0);
 ref = L;
 },
 {
-pos = (-8,-1);
-ref = _slash.L;
+pos = (-23,0);
+ref = slashshortcomb.case;
 }
 );
 width = 363;
@@ -117,8 +117,8 @@ pos = (88,0);
 ref = L;
 },
 {
-pos = (20,29);
-ref = _slash.L;
+pos = (-2,0);
+ref = slashshortcomb.case;
 }
 );
 width = 798;
@@ -132,8 +132,8 @@ pos = (85,0);
 ref = L;
 },
 {
-pos = (15,-2);
-ref = _slash.L;
+pos = (-2,0);
+ref = slashshortcomb.case;
 }
 );
 width = 803;
@@ -147,8 +147,8 @@ pos = (59,0);
 ref = L;
 },
 {
-pos = (7,-23);
-ref = _slash.L;
+pos = (-10,0);
+ref = slashshortcomb.case;
 }
 );
 width = 845;
@@ -162,8 +162,8 @@ pos = (18,0);
 ref = L;
 },
 {
-pos = (-14,-8);
-ref = _slash.L;
+pos = (-7,0);
+ref = slashshortcomb.case;
 }
 );
 width = 355;
@@ -177,8 +177,8 @@ pos = (25,0);
 ref = L;
 },
 {
-pos = (-10,-17);
-ref = _slash.L;
+pos = (-1,0);
+ref = slashshortcomb.case;
 }
 );
 width = 372;

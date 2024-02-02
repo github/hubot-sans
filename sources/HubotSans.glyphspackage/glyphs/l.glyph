@@ -180,11 +180,11 @@ pos = (109,365);
 },
 {
 name = top;
-pos = (157,729);
+pos = (109,729);
 },
 {
 name = topright;
-pos = (109,729);
+pos = (157,729);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";

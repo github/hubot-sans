@@ -11,8 +11,8 @@ pos = (5,0);
 ref = t;
 },
 {
-pos = (-24,-34);
-ref = _bar.t;
+pos = (-8,-34);
+ref = strokeshortcomb.t;
 }
 );
 width = 259;
@@ -26,8 +26,8 @@ pos = (6,0);
 ref = t;
 },
 {
-pos = (-22,-13);
-ref = _bar.t;
+pos = (-11,-13);
+ref = strokeshortcomb.t;
 }
 );
 width = 283;
@@ -41,8 +41,8 @@ pos = (6,0);
 ref = t;
 },
 {
-pos = (-41,-4);
-ref = _bar.t;
+pos = (-22,-4);
+ref = strokeshortcomb.t;
 }
 );
 width = 331;
@@ -56,8 +56,8 @@ pos = (7,0);
 ref = t;
 },
 {
-pos = (-21,-40);
-ref = _bar.t;
+pos = (-8,-40);
+ref = strokeshortcomb.t;
 }
 );
 width = 379;
@@ -71,8 +71,8 @@ pos = (10,0);
 ref = t;
 },
 {
-pos = (-12,15);
-ref = _bar.t;
+pos = (-7,15);
+ref = strokeshortcomb.t;
 }
 );
 width = 524;
@@ -86,8 +86,8 @@ pos = (9,0);
 ref = t;
 },
 {
-pos = (-21,-16);
-ref = _bar.t;
+pos = (-5,-16);
+ref = strokeshortcomb.t;
 }
 );
 width = 423;
@@ -101,8 +101,8 @@ pos = (6,0);
 ref = t;
 },
 {
-pos = (-81,-54);
-ref = _bar.t;
+pos = (-33,-54);
+ref = strokeshortcomb.t;
 }
 );
 width = 338;
@@ -116,8 +116,8 @@ pos = (7,0);
 ref = t;
 },
 {
-pos = (-73,-54);
-ref = _bar.t;
+pos = (-19,-54);
+ref = strokeshortcomb.t;
 }
 );
 width = 387;
@@ -131,8 +131,8 @@ pos = (9,0);
 ref = t;
 },
 {
-pos = (-24,-52);
-ref = _bar.t;
+pos = (-15,-52);
+ref = strokeshortcomb.t;
 }
 );
 width = 431;
@@ -146,8 +146,8 @@ pos = (10,0);
 ref = t;
 },
 {
-pos = (-24,-45);
-ref = _bar.t;
+pos = (-16,-45);
+ref = strokeshortcomb.t;
 }
 );
 width = 535;
@@ -161,8 +161,8 @@ pos = (5,0);
 ref = t;
 },
 {
-pos = (-49,-23);
-ref = _bar.t;
+pos = (-16,-23);
+ref = strokeshortcomb.t;
 }
 );
 width = 280;
@@ -176,8 +176,8 @@ pos = (5,0);
 ref = t;
 },
 {
-pos = (-72,-44);
-ref = _bar.t;
+pos = (-17,-44);
+ref = strokeshortcomb.t;
 }
 );
 width = 259;

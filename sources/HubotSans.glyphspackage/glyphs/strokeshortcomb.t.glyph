@@ -1,18 +1,18 @@
 {
 export = 0;
-glyphname = _bar.t;
+glyphname = strokeshortcomb.t;
 layers = (
 {
 anchors = (
 {
 name = _center;
-pos = (153,292);
+pos = (137,292);
 }
 );
 background = {
 shapes = (
 {
-pos = (44,-210);
+pos = (28,-210);
 ref = t;
 }
 );
@@ -22,26 +22,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(249,278,l),
-(249,305,l),
-(56,305,l),
-(56,278,l)
+(233,278,l),
+(233,305,l),
+(40,305,l),
+(40,278,l)
 );
 }
 );
-width = 305;
+width = 273;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (162,295);
+pos = (151,295);
 }
 );
 background = {
 shapes = (
 {
-pos = (40,-200);
+pos = (29,-200);
 ref = t;
 }
 );
@@ -51,26 +51,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(272,265,l),
-(272,324,l),
-(51,324,l),
-(51,265,l)
+(261,265,l),
+(261,324,l),
+(40,324,l),
+(40,265,l)
 );
 }
 );
-width = 323;
+width = 301;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (204,277);
+pos = (185,277);
 }
 );
 background = {
 shapes = (
 {
-pos = (50,-200);
+pos = (31,-200);
 ref = t;
 }
 );
@@ -80,26 +80,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(348,207,l),
-(348,346,l),
-(59,346,l),
-(59,207,l)
+(329,207,l),
+(329,346,l),
+(40,346,l),
+(40,207,l)
 );
 }
 );
-width = 407;
+width = 369;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (203,298);
+pos = (190,298);
 }
 );
 background = {
 shapes = (
 {
-pos = (40,-200);
+pos = (27,-200);
 ref = t;
 }
 );
@@ -109,26 +109,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(352,279,l),
-(352,316,l),
-(53,316,l),
-(53,279,l)
+(339,279,l),
+(339,316,l),
+(40,316,l),
+(40,279,l)
 );
 }
 );
-width = 405;
+width = 379;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (269,264);
+pos = (264,264);
 }
 );
 background = {
 shapes = (
 {
-pos = (26,-209);
+pos = (21,-209);
 ref = t;
 }
 );
@@ -138,26 +138,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(492,192,l),
-(492,336,l),
-(45,336,l),
-(45,192,l)
+(487,192,l),
+(487,336,l),
+(40,336,l),
+(40,192,l)
 );
 }
 );
-width = 537;
+width = 527;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (225,286);
+pos = (209,286);
 }
 );
 background = {
 shapes = (
 {
-pos = (41,-200);
+pos = (25,-200);
 ref = t;
 }
 );
@@ -167,26 +167,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(394,246,l),
-(394,325,l),
-(56,325,l),
-(56,246,l)
+(378,246,l),
+(378,325,l),
+(40,325,l),
+(40,246,l)
 );
 }
 );
-width = 449;
+width = 418;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (248,327);
+pos = (200,327);
 }
 );
 background = {
 shapes = (
 {
-pos = (47,-150);
+pos = (-1,-150);
 ref = t;
 }
 );
@@ -196,26 +196,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(381,258,l),
-(410,395,l),
-(114,395,l),
-(86,258,l)
+(333,258,l),
+(362,395,l),
+(66,395,l),
+(38,258,l)
 );
 }
 );
-width = 476;
+width = 376;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (261,323);
+pos = (207,323);
 }
 );
 background = {
 shapes = (
 {
-pos = (44,-175);
+pos = (-10,-175);
 ref = t;
 }
 );
@@ -225,26 +225,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(410,304,l),
-(417,341,l),
-(112,341,l),
-(105,304,l)
+(356,304,l),
+(363,341,l),
+(58,341,l),
+(51,304,l)
 );
 }
 );
-width = 440;
+width = 386;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (236,327);
+pos = (227,327);
 }
 );
 background = {
 shapes = (
 {
-pos = (0,-158);
+pos = (-9,-158);
 ref = t;
 }
 );
@@ -254,26 +254,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(401,288,l),
-(417,367,l),
-(71,367,l),
-(55,288,l)
+(392,288,l),
+(408,367,l),
+(62,367,l),
+(46,288,l)
 );
 }
 );
-width = 450;
+width = 427;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (289,328);
+pos = (281,328);
 }
 );
 background = {
 shapes = (
 {
-pos = (-2,-147);
+pos = (-10,-147);
 ref = t;
 }
 );
@@ -283,26 +283,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(501,251,l),
-(532,398,l),
-(75,398,l),
-(45,251,l)
+(493,251,l),
+(524,398,l),
+(67,398,l),
+(37,251,l)
 );
 }
 );
-width = 553;
+width = 538;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (190,297);
+pos = (157,297);
 }
 );
 background = {
 shapes = (
 {
-pos = (20,-197);
+pos = (-13,-197);
 ref = t;
 }
 );
@@ -312,26 +312,26 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(294,269,l),
-(305,326,l),
-(87,326,l),
-(76,269,l)
+(261,269,l),
+(272,326,l),
+(54,326,l),
+(43,269,l)
 );
 }
 );
-width = 367;
+width = 299;
 },
 {
 anchors = (
 {
 name = _center;
-pos = (200,302);
+pos = (145,302);
 }
 );
 background = {
 shapes = (
 {
-pos = (40,-200);
+pos = (-15,-200);
 ref = t;
 }
 );
@@ -341,14 +341,16 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(293,288,l),
-(299,315,l),
-(107,315,l),
-(101,288,l)
+(238,288,l),
+(244,315,l),
+(52,315,l),
+(46,288,l)
 );
 }
 );
-width = 382;
+width = 272;
 }
 );
+metricLeft = "=40";
+metricRight = "=40";
 }

@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 0;
 glyphname = Ocircumflexhookabove;
 kernLeft = O;
 kernRight = O;
@@ -37,7 +37,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (38,183);
+pos = (20,183);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -89,7 +89,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (69,184);
+pos = (75,184);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -102,7 +102,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (255,213);
+pos = (257,213);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -115,7 +115,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (247,204);
+pos = (245,204);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -128,7 +128,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (209,184);
+pos = (214,184);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -141,7 +141,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (105,206);
+pos = (107,206);
 ref = circumflexcomb_hookabovecomb;
 }
 );
@@ -154,7 +154,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (137,214);
+pos = (139,214);
 ref = circumflexcomb_hookabovecomb;
 }
 );

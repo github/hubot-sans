@@ -76,7 +76,7 @@ shapes = (
 ref = l;
 },
 {
-pos = (125,0);
+pos = (173,0);
 ref = caroncomb.alt;
 }
 );
@@ -162,4 +162,7 @@ width = 151;
 }
 );
 unicode = 318;
+userData = {
+KernOnName = lcaron;
+};
 }

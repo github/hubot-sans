@@ -511,4 +511,7 @@ width = 378;
 metricLeft = H;
 note = P;
 unicode = 80;
+userData = {
+KernOnName = P;
+};
 }

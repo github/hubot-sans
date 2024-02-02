@@ -147,15 +147,15 @@ shapes = (
 ref = A;
 },
 {
-pos = (121,0);
+pos = (124,0);
 ref = dotbelowcomb.ss01;
 },
 {
-pos = (33,184);
+pos = (36,184);
 ref = circumflexcomb;
 }
 );
-width = 468;
+width = 469;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";

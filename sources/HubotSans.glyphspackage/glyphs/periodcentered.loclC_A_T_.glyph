@@ -280,4 +280,7 @@ width = 224;
 }
 );
 metricRight = "=|";
+userData = {
+KernOnName = periodcentered.loclCAT;
+};
 }

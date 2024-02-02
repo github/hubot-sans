@@ -10,7 +10,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (-34,-8);
+pos = (45,103);
 ref = slashlongcomb;
 }
 );
@@ -24,7 +24,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (8,-8);
+pos = (29,98);
 ref = slashlongcomb;
 }
 );
@@ -38,7 +38,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (-38,-8);
+pos = (-12,83);
 ref = slashlongcomb;
 }
 );
@@ -52,7 +52,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (7,-8);
+pos = (48,102);
 ref = slashlongcomb;
 }
 );
@@ -66,7 +66,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (-18,-8);
+pos = (-22,74);
 ref = slashlongcomb;
 }
 );
@@ -80,7 +80,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (-17,-8);
+pos = (25,93);
 ref = slashlongcomb;
 }
 );
@@ -94,7 +94,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (-26,-8);
+pos = (16,83);
 ref = slashlongcomb;
 }
 );
@@ -108,7 +108,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (87,-8);
+pos = (69,102);
 ref = slashlongcomb;
 }
 );
@@ -122,7 +122,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (63,-8);
+pos = (40,93);
 ref = slashlongcomb;
 }
 );
@@ -136,7 +136,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (39,-8);
+pos = (-8,74);
 ref = slashlongcomb;
 }
 );
@@ -150,7 +150,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (20,-8);
+pos = (46,98);
 ref = slashlongcomb;
 }
 );
@@ -164,7 +164,7 @@ alignment = 1;
 ref = equal;
 },
 {
-pos = (47,-8);
+pos = (78,103);
 ref = slashlongcomb;
 }
 );

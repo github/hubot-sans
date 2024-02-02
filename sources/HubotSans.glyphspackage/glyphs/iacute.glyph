@@ -162,4 +162,7 @@ width = 151;
 }
 );
 unicode = 237;
+userData = {
+KernOnName = iacute;
+};
 }

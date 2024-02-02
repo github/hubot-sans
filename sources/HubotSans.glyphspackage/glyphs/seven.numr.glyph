@@ -54,7 +54,7 @@ weight = -330;
 width = 55;
 };
 };
-width = 305;
+width = 304;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -159,6 +159,10 @@ width = 263;
 metricLeft = seven.dnom;
 metricRight = seven.dnom;
 userData = {
+KernOnSpecialSpacing = {
+L = superiors;
+R = superiors;
+};
 RMXScaler = {
 source = seven;
 };

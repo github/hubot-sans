@@ -820,6 +820,7 @@ nodes = (
 width = 375;
 }
 );
+metricRight = l;
 note = a;
 unicode = 97;
 }

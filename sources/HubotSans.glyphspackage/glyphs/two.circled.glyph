@@ -23,7 +23,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (140,164);
+pos = (139,164);
 ref = two.dnom;
 }
 );

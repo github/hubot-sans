@@ -1,5 +1,4 @@
 {
-color = 9;
 glyphname = r.ss03;
 kernLeft = r.ss03;
 kernRight = r.ss03;
@@ -22,7 +21,7 @@ nodes = (
 );
 }
 );
-width = 221;
+width = 203;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";

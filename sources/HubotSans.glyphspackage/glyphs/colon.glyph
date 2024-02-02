@@ -528,7 +528,7 @@ ref = period;
 {
 alignment = 1;
 anchor = top;
-pos = (78,367);
+pos = (77,362);
 ref = period;
 }
 );

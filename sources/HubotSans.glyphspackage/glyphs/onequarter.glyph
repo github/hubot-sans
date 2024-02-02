@@ -17,7 +17,7 @@ pos = (295,0);
 ref = four.dnom;
 }
 );
-width = 565;
+width = 564;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -64,11 +64,11 @@ pos = (235,0);
 ref = fraction;
 },
 {
-pos = (368,0);
+pos = (408,0);
 ref = four.dnom;
 }
 );
-width = 770;
+width = 810;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -166,11 +166,11 @@ pos = (328,0);
 ref = fraction;
 },
 {
-pos = (528,0);
+pos = (524,0);
 ref = four.dnom;
 }
 );
-width = 978;
+width = 974;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";

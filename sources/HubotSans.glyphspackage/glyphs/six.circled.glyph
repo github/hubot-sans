@@ -22,7 +22,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (127,164);
+pos = (133,164);
 ref = six.dnom;
 }
 );
@@ -81,7 +81,7 @@ shapes = (
 ref = _CircleNumbers;
 },
 {
-pos = (163,164);
+pos = (167,164);
 ref = six.dnom;
 }
 );
