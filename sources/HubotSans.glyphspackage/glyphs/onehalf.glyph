@@ -30,11 +30,11 @@ pos = (205,0);
 ref = fraction;
 },
 {
-pos = (335,0);
+pos = (334,0);
 ref = two.dnom;
 }
 );
-width = 620;
+width = 619;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";

@@ -8,7 +8,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -20,7 +20,8 @@ ref = two.dnom;
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (139,164);
@@ -42,7 +43,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -54,7 +55,8 @@ ref = two.dnom;
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (154,164);
@@ -69,7 +71,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -81,7 +83,8 @@ ref = two.dnom;
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (174,164);
@@ -96,7 +99,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -108,7 +111,8 @@ ref = two.dnom;
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (278,164);
@@ -123,7 +127,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -135,7 +139,8 @@ ref = two.dnom;
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (253,164);
@@ -150,7 +155,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -162,7 +167,8 @@ ref = two.dnom;
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (255,164);
@@ -177,7 +183,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -189,7 +195,8 @@ ref = two.dnom;
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (208,164);
@@ -204,7 +211,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -216,7 +223,8 @@ ref = two.dnom;
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (321,164);
@@ -231,7 +239,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -243,7 +251,8 @@ ref = two.dnom;
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (301,164);
@@ -258,7 +267,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -270,7 +279,8 @@ ref = two.dnom;
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (286,164);
@@ -285,7 +295,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -297,7 +307,8 @@ ref = two.dnom;
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (184,164);
@@ -312,7 +323,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-1,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 alignment = -1;
@@ -324,7 +335,8 @@ ref = two.dnom;
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {
-ref = _CircleNumbers;
+alignment = 1;
+ref = whiteCircle;
 },
 {
 pos = (172,164);

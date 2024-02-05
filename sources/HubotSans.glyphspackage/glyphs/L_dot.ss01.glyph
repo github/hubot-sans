@@ -1,9 +1,63 @@
 {
 color = 6;
-glyphname = Ldot;
+glyphname = Ldot.ss01;
 kernLeft = H;
 layers = (
 {
+background = {
+anchors = (
+{
+name = _center;
+pos = (81,365);
+},
+{
+name = bottom;
+pos = (142,0);
+},
+{
+name = center;
+pos = (81,365);
+},
+{
+name = top;
+pos = (81,729);
+},
+{
+name = topright;
+pos = (128,729);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(178,346,o),
+(192,332,o),
+(213,332,cs),
+(233,332,o),
+(247,346,o),
+(247,365,cs),
+(247,384,o),
+(233,398,o),
+(213,398,cs),
+(192,398,o),
+(178,384,o),
+(178,365,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(300,28,l),
+(96,28,l),
+(96,729,l),
+(65,729,l),
+(65,0,l)
+);
+}
+);
+};
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
@@ -12,7 +66,7 @@ ref = L;
 {
 alignment = 1;
 pos = (346,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 346;
@@ -80,7 +134,7 @@ ref = L;
 {
 alignment = 1;
 pos = (345,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 345;
@@ -148,10 +202,10 @@ ref = L;
 {
 alignment = 1;
 pos = (343,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 409;
+width = 410;
 },
 {
 background = {
@@ -216,7 +270,7 @@ ref = L;
 {
 alignment = 1;
 pos = (698,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 698;
@@ -284,7 +338,7 @@ ref = L;
 {
 alignment = 1;
 pos = (704,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 704;
@@ -352,7 +406,7 @@ ref = L;
 {
 alignment = 1;
 pos = (770,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 770;
@@ -420,7 +474,7 @@ ref = L;
 {
 alignment = 1;
 pos = (347,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 347;
@@ -488,7 +542,7 @@ ref = L;
 {
 alignment = 1;
 pos = (337,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 337;
@@ -556,10 +610,10 @@ ref = L;
 {
 alignment = 1;
 pos = (334,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 401;
+width = 404;
 },
 {
 background = {
@@ -624,10 +678,10 @@ ref = L;
 {
 alignment = 1;
 pos = (710,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 811;
+width = 710;
 },
 {
 background = {
@@ -692,10 +746,10 @@ ref = L;
 {
 alignment = 1;
 pos = (718,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 862;
+width = 718;
 },
 {
 background = {
@@ -760,13 +814,12 @@ ref = L;
 {
 alignment = 1;
 pos = (786,0);
-ref = periodcentered.loclCAT.case;
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
 width = 786;
 }
 );
-unicode = 319;
 userData = {
 KernOnSpecialSpacing = {
 R = NoKerning;

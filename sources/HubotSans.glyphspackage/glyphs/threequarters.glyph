@@ -13,11 +13,11 @@ pos = (266,0);
 ref = fraction;
 },
 {
-pos = (353,0);
+pos = (354,0);
 ref = four.dnom;
 }
 );
-width = 622;
+width = 623;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";

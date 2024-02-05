@@ -1,177 +1,150 @@
 {
 color = 6;
-glyphname = zero.circled;
+glyphname = questiondown.case.ss01;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (132,164);
-ref = zero.dnom;
+angle = 180;
+pos = (347,729);
+ref = question.ss01;
 }
 );
-width = 543;
+width = 347;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (143,164);
-ref = zero.dnom;
+angle = 180;
+pos = (372,729);
+ref = question.ss01;
 }
 );
-width = 595;
+width = 372;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (169,164);
-ref = zero.dnom;
+angle = 180;
+pos = (437,729);
+ref = question.ss01;
 }
 );
-width = 644;
+width = 437;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (255,164);
-ref = zero.dnom;
+angle = 180;
+pos = (560,729);
+ref = question.ss01;
 }
 );
-width = 938;
+width = 560;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (234,164);
-ref = zero.dnom;
+angle = 180;
+pos = (578,729);
+ref = question.ss01;
 }
 );
-width = 917;
+width = 578;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (232,164);
-ref = zero.dnom;
+angle = 180;
+pos = (652,729);
+ref = question.ss01;
 }
 );
-width = 931;
+width = 652;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (160,164);
-ref = zero.dnom;
+angle = 180;
+pos = (395,729);
+ref = question.ss01;
 }
 );
-width = 548;
+width = 350;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (177,164);
-ref = zero.dnom;
+angle = 180;
+pos = (405,729);
+ref = question.ss01;
 }
 );
-width = 599;
+width = 361;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (203,164);
-ref = zero.dnom;
+angle = 180;
+pos = (481,729);
+ref = question.ss01;
 }
 );
-width = 650;
+width = 442;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (299,164);
-ref = zero.dnom;
+angle = 180;
+pos = (610,729);
+ref = question.ss01;
 }
 );
-width = 962;
+width = 565;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (282,164);
-ref = zero.dnom;
+angle = 180;
+pos = (633,729);
+ref = question.ss01;
 }
 );
-width = 950;
+width = 590;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
 alignment = 1;
-ref = whiteCircle;
-},
-{
-pos = (272,164);
-ref = zero.dnom;
+angle = 180;
+pos = (695,729);
+ref = question.ss01;
 }
 );
-width = 945;
+width = 656;
 }
 );
-metricLeft = zero;
-metricRight = zero;
-unicode = 9450;
 }

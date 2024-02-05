@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = _CircleNumbers;
+glyphname = whiteCircle;
 layers = (
 {
 anchors = (
@@ -750,6 +749,7 @@ width = 548;
 }
 );
 metricRight = "=|";
+unicode = 9675;
 userData = {
 RMXScaler = {
 source = one;

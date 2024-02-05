@@ -97,7 +97,7 @@ shapes = (
 {
 alignment = -1;
 pos = (6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (125,0);
@@ -201,7 +201,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (112,0);
@@ -305,7 +305,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-14,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (84,0);
@@ -409,7 +409,7 @@ shapes = (
 {
 alignment = -1;
 pos = (6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (189,0);
@@ -513,7 +513,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (156,0);
@@ -617,7 +617,7 @@ shapes = (
 {
 alignment = -1;
 pos = (4,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (176,0);
@@ -721,7 +721,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-15,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (86,0);
@@ -825,7 +825,7 @@ shapes = (
 {
 alignment = -1;
 pos = (5,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (194,0);
@@ -929,7 +929,7 @@ shapes = (
 {
 alignment = -1;
 pos = (2,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (180,0);
@@ -1033,7 +1033,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (160,0);
@@ -1137,7 +1137,7 @@ shapes = (
 {
 alignment = -1;
 pos = (-7,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (115,0);
@@ -1241,7 +1241,7 @@ shapes = (
 {
 alignment = -1;
 pos = (6,0);
-ref = _CircleNumbers;
+ref = whiteCircle;
 },
 {
 pos = (127,0);
