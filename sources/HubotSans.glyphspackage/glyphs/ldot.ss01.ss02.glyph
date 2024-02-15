@@ -85,11 +85,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (208,0);
+pos = (173,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 333;
+width = 298;
 },
 {
 background = {
@@ -217,11 +217,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (284,0);
+pos = (216,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 465;
+width = 397;
 },
 {
 background = {
@@ -349,11 +349,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (203,0);
+pos = (176,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 330;
+width = 303;
 },
 {
 background = {
@@ -481,11 +481,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (284,0);
+pos = (219,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 466;
+width = 401;
 },
 {
 background = {

@@ -349,11 +349,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (186,0);
+pos = (168,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 296;
+width = 278;
 },
 {
 background = {

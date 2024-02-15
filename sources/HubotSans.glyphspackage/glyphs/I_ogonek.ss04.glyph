@@ -100,7 +100,7 @@ shapes = (
 ref = I.ss04;
 },
 {
-pos = (56,10);
+pos = (-25,0);
 ref = ogonekcomb;
 }
 );
