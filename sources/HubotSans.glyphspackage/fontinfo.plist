@@ -18,7 +18,7 @@ tag = ital;
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Abrevedotbelow.ss01 Acircumflexdotbelow.ss01 Adieresis.ss01 Adotbelow.ss01 Cdotaccent.ss01 Ecircumflexdotbelow.ss01 Edieresis.ss01 Edotaccent.ss01 Edotbelow.ss01 Gdotaccent.ss01 Idieresis.ss01 Idotaccent.ss01 Idotbelow.ss01 Ldot.ss01 Ocircumflexdotbelow.ss01 Odieresis.ss01 Odotbelow.ss01 Ohorndotbelow.ss01 Q.ss01 Udieresis.ss01 Udotbelow.ss01 Wdieresis.ss01 Ydieresis.ss01 Ydotbelow.ss01 Zdotaccent.ss01 I.ss04 IJ.ss04 Iacute.ss04 Icircumflex.ss04 Idieresis.ss04 Idotaccent.ss04 Idotbelow.ss04 Igrave.ss04 Ihookabove.ss04 Imacron.ss04 Iogonek.ss04 Itilde.ss04";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adieresis Adotbelow Agrave Ahookabove Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edieresis Edotaccent Edotbelow Egrave Ehookabove Emacron Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Idotbelow Igrave Ihookabove Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odieresis Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotbelow Ygrave Yhookabove Ytilde Z Zacute Zcaron Zdotaccent Abrevedotbelow.ss01 Acircumflexdotbelow.ss01 Adieresis.ss01 Adotbelow.ss01 Cdotaccent.ss01 Ecircumflexdotbelow.ss01 Edieresis.ss01 Edotaccent.ss01 Edotbelow.ss01 Gdotaccent.ss01 Idieresis.ss01 Idotaccent.ss01 Idotbelow.ss01 Ldot.ss01 Ocircumflexdotbelow.ss01 Odieresis.ss01 Odotbelow.ss01 Ohorndotbelow.ss01 Udieresis.ss01 Udotbelow.ss01 Uhorndotbelow.ss01 Wdieresis.ss01 Ydieresis.ss01 Ydotbelow.ss01 Zdotaccent.ss01 I.ss04 IJ.ss04 Iacute.ss04 Ibreve.ss04 Icircumflex.ss04 Idieresis.ss04 Idotaccent.ss04 Idotbelow.ss04 Igrave.ss04 Ihookabove.ss04 Imacron.ss04 Iogonek.ss04 Itilde.ss04 Q.ss05 Idieresis.ss01.ss04 Idotaccent.ss01.ss04 Idotbelow.ss01.ss04";
 name = Uppercase;
 }
 );
@@ -71,6 +71,7 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
+feature ss05;
 ";
 tag = aalt;
 },
@@ -344,9 +345,9 @@ sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss01;
 sub Odieresis by Odieresis.ss01;
 sub Odotbelow by Odotbelow.ss01;
 sub Ohorndotbelow by Ohorndotbelow.ss01;
-sub Q by Q.ss01;
 sub Udieresis by Udieresis.ss01;
 sub Udotbelow by Udotbelow.ss01;
+sub Uhorndotbelow by Uhorndotbelow.ss01;
 sub Wdieresis by Wdieresis.ss01;
 sub Ydieresis by Ydieresis.ss01;
 sub Ydotbelow by Ydotbelow.ss01;
@@ -363,6 +364,7 @@ sub edotbelow by edotbelow.ss01;
 sub gdotaccent by gdotaccent.ss01;
 sub i by i.ss01;
 sub idieresis by idieresis.ss01;
+sub idotaccent by idotaccent.ss01;
 sub idotbelow by idotbelow.ss01;
 sub j by j.ss01;
 sub ldot by ldot.ss01;
@@ -371,6 +373,7 @@ sub odieresis by odieresis.ss01;
 sub odotbelow by odotbelow.ss01;
 sub ohorndotbelow by ohorndotbelow.ss01;
 sub udieresis by udieresis.ss01;
+sub udotbelow by udotbelow.ss01;
 sub uhorndotbelow by uhorndotbelow.ss01;
 sub wdieresis by wdieresis.ss01;
 sub y by y.ss01;
@@ -379,6 +382,8 @@ sub ycircumflex by ycircumflex.ss01;
 sub ydieresis by ydieresis.ss01;
 sub ydotbelow by ydotbelow.ss01;
 sub ygrave by ygrave.ss01;
+sub zdotaccent by zdotaccent.ss01;
+sub idotbelow.dotless by idotbelow.dotless.ss01;
 sub period by period.ss01;
 sub comma by comma.ss01;
 sub colon by colon.ss01;
@@ -433,6 +438,9 @@ tag = ss02;
 {
 automatic = 1;
 code = "sub r by r.ss03;
+sub racute by racute.ss03;
+sub rcaron by rcaron.ss03;
+sub rcommaaccent by rcommaaccent.ss03;
 ";
 labels = (
 {
@@ -447,6 +455,7 @@ automatic = 1;
 code = "sub I by I.ss04;
 sub IJ by IJ.ss04;
 sub Iacute by Iacute.ss04;
+sub Ibreve by Ibreve.ss04;
 sub Icircumflex by Icircumflex.ss04;
 sub Idieresis by Idieresis.ss04;
 sub Idotaccent by Idotaccent.ss04;
@@ -456,6 +465,9 @@ sub Ihookabove by Ihookabove.ss04;
 sub Imacron by Imacron.ss04;
 sub Iogonek by Iogonek.ss04;
 sub Itilde by Itilde.ss04;
+sub Idieresis.ss01 by Idieresis.ss01.ss04;
+sub Idotaccent.ss01 by Idotaccent.ss01.ss04;
+sub Idotbelow.ss01 by Idotbelow.ss01.ss04;
 ";
 labels = (
 {
@@ -464,6 +476,18 @@ value = "Serifless uppercase I";
 }
 );
 tag = ss04;
+},
+{
+automatic = 1;
+code = "sub Q by Q.ss05;
+";
+labels = (
+{
+language = dflt;
+value = "Alternate Q";
+}
+);
+tag = ss05;
 }
 );
 fontMaster = (
@@ -14740,7 +14764,7 @@ twoinferior = -39;
 Q = {
 parenright = -18;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 0;
 j.ss01 = 5;
 };
@@ -25624,7 +25648,7 @@ twoinferior = -38;
 Q = {
 parenright = -18;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 10;
 j.ss01 = 16;
 };
@@ -36508,7 +36532,7 @@ twoinferior = -37;
 Q = {
 parenright = -19;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 37;
 j.ss01 = 44;
 };
@@ -47392,7 +47416,7 @@ twoinferior = -52;
 Q = {
 parenright = -66;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 15;
 j.ss01 = 30;
 };
@@ -58276,7 +58300,7 @@ twoinferior = -46;
 Q = {
 parenright = -63;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 18;
 j.ss01 = 36;
 };
@@ -69160,7 +69184,7 @@ twoinferior = -30;
 Q = {
 parenright = -58;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 26;
 j.ss01 = 53;
 };
@@ -80044,7 +80068,7 @@ twoinferior = -28;
 Q = {
 parenright = -33;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 0;
 j.ss01 = 6;
 };
@@ -90929,7 +90953,7 @@ twoinferior = -27;
 Q = {
 parenright = -29;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 9;
 j.ss01 = 17;
 };
@@ -101817,7 +101841,7 @@ twoinferior = -25;
 Q = {
 parenright = -19;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 32;
 j.ss01 = 45;
 };
@@ -112705,7 +112729,7 @@ twoinferior = -35;
 Q = {
 parenright = -31;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 47;
 j.ss01 = 99;
 };
@@ -123593,7 +123617,7 @@ twoinferior = -29;
 Q = {
 parenright = -34;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 44;
 j.ss01 = 91;
 };
@@ -134481,7 +134505,7 @@ twoinferior = -14;
 Q = {
 parenright = -41;
 };
-Q.ss01 = {
+Q.ss05 = {
 ampersand = 35;
 j.ss01 = 70;
 };
