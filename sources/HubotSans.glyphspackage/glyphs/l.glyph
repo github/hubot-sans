@@ -1,6 +1,6 @@
 {
 glyphname = l;
-kernLeft = l;
+kernLeft = i;
 kernRight = l;
 layers = (
 {

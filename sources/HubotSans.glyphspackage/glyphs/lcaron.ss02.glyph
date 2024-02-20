@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = lcaron.ss02;
-kernLeft = l;
+kernLeft = i;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

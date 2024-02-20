@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = hcircumflex;
-kernLeft = l;
+kernLeft = i;
 kernRight = n;
 layers = (
 {

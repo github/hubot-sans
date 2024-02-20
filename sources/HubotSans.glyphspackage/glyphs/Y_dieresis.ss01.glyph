@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Ydieresis.ss01;
-kernLeft = Y;
 kernRight = Y;
 layers = (
 {

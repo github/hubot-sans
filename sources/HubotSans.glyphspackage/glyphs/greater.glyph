@@ -1,6 +1,5 @@
 {
 glyphname = greater;
-kernLeft = greater;
 kernRight = greater;
 layers = (
 {

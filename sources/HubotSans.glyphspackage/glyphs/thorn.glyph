@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = thorn;
+kernLeft = i;
 kernRight = b;
 layers = (
 {

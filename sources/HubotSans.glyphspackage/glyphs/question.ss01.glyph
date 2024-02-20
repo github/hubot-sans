@@ -1,7 +1,7 @@
 {
 color = 4;
 glyphname = question.ss01;
-kernLeft = question;
+kernLeft = question.ss01;
 kernRight = question;
 layers = (
 {

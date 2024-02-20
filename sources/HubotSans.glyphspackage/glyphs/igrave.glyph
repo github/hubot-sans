@@ -2,7 +2,7 @@
 color = 6;
 glyphname = igrave;
 kernLeft = igrave;
-kernRight = i;
+kernRight = fi;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

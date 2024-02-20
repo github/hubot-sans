@@ -98,11 +98,11 @@ pos = (321,0);
 ref = fraction;
 },
 {
-pos = (506,0);
+pos = (505,0);
 ref = eight.dnom;
 }
 );
-width = 942;
+width = 941;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -132,11 +132,11 @@ pos = (206,0);
 ref = fraction;
 },
 {
-pos = (340,0);
+pos = (339,0);
 ref = eight.dnom;
 }
 );
-width = 643;
+width = 642;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -149,11 +149,11 @@ pos = (219,0);
 ref = fraction;
 },
 {
-pos = (367,0);
+pos = (365,0);
 ref = eight.dnom;
 }
 );
-width = 691;
+width = 689;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";

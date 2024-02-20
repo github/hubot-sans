@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = Tcedilla;
+kernLeft = T;
 kernRight = T;
 layers = (
 {

@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Ecircumflexgrave;
-kernLeft = H;
 kernRight = E;
 layers = (
 {

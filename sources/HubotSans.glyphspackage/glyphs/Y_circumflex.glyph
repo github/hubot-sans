@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Ycircumflex;
-kernLeft = Y;
 kernRight = Y;
 layers = (
 {

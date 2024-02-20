@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Edotbelow;
-kernLeft = H;
 kernRight = E;
 layers = (
 {

@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ldot.ss02;
-kernLeft = l;
+kernLeft = i;
 layers = (
 {
 background = {
@@ -85,11 +85,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (175,0);
+pos = (180,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 285;
+width = 290;
 },
 {
 background = {
@@ -129,11 +129,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (228,0);
+pos = (243,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 425;
+width = 440;
 },
 {
 background = {
@@ -173,11 +173,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (166,0);
+pos = (180,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 266;
+width = 280;
 },
 {
 background = {
@@ -217,11 +217,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (220,0);
+pos = (237,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 363;
+width = 380;
 },
 {
 background = {
@@ -261,11 +261,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (318,0);
+pos = (343,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 582;
+width = 607;
 },
 {
 background = {
@@ -305,11 +305,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (145,0);
+pos = (152,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 224;
+width = 231;
 },
 {
 background = {
@@ -349,11 +349,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (168,0);
+pos = (177,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 278;
+width = 287;
 },
 {
 background = {
@@ -393,11 +393,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (224,0);
+pos = (240,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 415;
+width = 431;
 },
 {
 background = {
@@ -437,11 +437,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (165,0);
+pos = (179,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 266;
+width = 280;
 },
 {
 background = {
@@ -481,11 +481,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (214,0);
+pos = (230,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 358;
+width = 374;
 },
 {
 background = {
@@ -525,11 +525,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (319,0);
+pos = (341,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 582;
+width = 604;
 }
 );
 userData = {

@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = lcaron;
-kernLeft = l;
+kernLeft = i;
 kernRight = lcaron;
 layers = (
 {

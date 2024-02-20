@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ldot.ss01.ss02;
-kernLeft = l;
+kernLeft = i;
 layers = (
 {
 background = {
@@ -85,11 +85,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (173,0);
+pos = (175,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 298;
+width = 300;
 },
 {
 background = {
@@ -129,11 +129,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (224,0);
+pos = (232,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 442;
+width = 450;
 },
 {
 background = {
@@ -173,11 +173,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (162,0);
+pos = (176,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 292;
+width = 306;
 },
 {
 background = {
@@ -217,11 +217,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (216,0);
+pos = (229,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 397;
+width = 410;
 },
 {
 background = {
@@ -261,11 +261,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (314,0);
+pos = (326,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 573;
+width = 585;
 },
 {
 background = {
@@ -305,11 +305,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (157,0);
+pos = (151,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 252;
+width = 246;
 },
 {
 background = {
@@ -349,11 +349,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (176,0);
+pos = (172,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 303;
+width = 299;
 },
 {
 background = {
@@ -393,11 +393,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (224,0);
+pos = (226,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 445;
+width = 447;
 },
 {
 background = {
@@ -437,11 +437,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (173,0);
+pos = (175,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 310;
+width = 312;
 },
 {
 background = {
@@ -481,11 +481,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (219,0);
+pos = (223,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 401;
+width = 405;
 },
 {
 background = {
@@ -525,11 +525,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (316,0);
+pos = (325,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 572;
+width = 581;
 }
 );
 userData = {

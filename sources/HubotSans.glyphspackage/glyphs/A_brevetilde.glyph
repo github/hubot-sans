@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Abrevetilde;
-kernLeft = A;
 kernRight = A;
 layers = (
 {

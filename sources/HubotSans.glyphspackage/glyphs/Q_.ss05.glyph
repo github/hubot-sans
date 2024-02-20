@@ -2,7 +2,7 @@
 color = 6;
 glyphname = Q.ss05;
 kernLeft = O;
-kernRight = Q.ss01;
+kernRight = Q.ss05;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

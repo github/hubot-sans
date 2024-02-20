@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Nacute;
-kernLeft = H;
 kernRight = H;
 layers = (
 {
