@@ -50,8 +50,8 @@ layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 width = 120;
 }
 );
-widthMetricsKey = space;
-unicode = 00A0;
+metricWidth = space;
+unicode = 160;
 userData = {
 KernOnSpecialSpacing = {
 L = NoKerning;

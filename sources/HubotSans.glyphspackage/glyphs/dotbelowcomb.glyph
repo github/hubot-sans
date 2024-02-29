@@ -1,259 +1,260 @@
 {
-color = 5;
 glyphname = dotbelowcomb;
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-position = "{58, 0}";
+pos = (61,0);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"79 -121 LINE",
-"79 -60 LINE",
-"37 -60 LINE",
-"37 -121 LINE"
+(82,-121,l),
+(82,-60,l),
+(40,-60,l),
+(40,-121,l)
 );
 }
 );
-width = 135;
+width = 122;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{208, 0}";
+pos = (81,0);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"249 -171 LINE",
-"249 -66 LINE",
-"167 -66 LINE",
-"167 -171 LINE"
+(122,-171,l),
+(122,-66,l),
+(40,-66,l),
+(40,-171,l)
 );
 }
 );
-width = 487;
+width = 162;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{117, 0}";
+pos = (128,0);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"204 -167 LINE",
-"204 -45 LINE",
-"29 -45 LINE",
-"29 -167 LINE"
+(215,-167,l),
+(215,-45,l),
+(40,-45,l),
+(40,-167,l)
 );
 }
 );
-width = 233;
+width = 255;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{75, 0}";
+pos = (65,0);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"100 -146 LINE",
-"100 -82 LINE",
-"50 -82 LINE",
-"50 -146 LINE"
+(90,-146,l),
+(90,-82,l),
+(40,-82,l),
+(40,-146,l)
 );
 }
 );
-width = 475;
+width = 130;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{264, 0}";
+pos = (159,0);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"382 -167 LINE",
-"382 -38 LINE",
-"145 -38 LINE",
-"145 -167 LINE"
+(277,-167,l),
+(277,-38,l),
+(40,-38,l),
+(40,-167,l)
 );
 }
 );
-width = 527;
+width = 317;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{99, 0}";
+pos = (93,0);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"151 -164 LINE",
-"151 -57 LINE",
-"46 -57 LINE",
-"46 -164 LINE"
+(145,-164,l),
+(145,-57,l),
+(40,-57,l),
+(40,-164,l)
 );
 }
 );
-width = 202;
+width = 185;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{47, 0}";
+pos = (67,0);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"96 -167 LINE",
-"122 -45 LINE",
-"-47 -45 LINE",
-"-73 -167 LINE"
+(116,-167,l),
+(142,-45,l),
+(-27,-45,l),
+(-53,-167,l)
 );
 }
 );
-width = 209;
+width = 249;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{5, 0}";
+pos = (10,0);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"-1 -146 LINE",
-"13 -82 LINE",
-"-37 -82 LINE",
-"-51 -146 LINE"
+(4,-146,l),
+(18,-82,l),
+(-32,-82,l),
+(-46,-146,l)
 );
 }
 );
-width = 120;
+width = 130;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{27, 0}";
+pos = (37,0);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"46 -163 LINE",
-"68 -57 LINE",
-"-38 -57 LINE",
-"-60 -163 LINE"
+(56,-163,l),
+(78,-57,l),
+(-28,-57,l),
+(-50,-163,l)
 );
 }
 );
-width = 170;
+width = 186;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{88, 0}";
+pos = (108,0);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"177 -170 LINE",
-"205 -41 LINE",
-"-46 -41 LINE",
-"-74 -170 LINE"
+(197,-170,l),
+(225,-41,l),
+(-26,-41,l),
+(-54,-170,l)
 );
 }
 );
-width = 292;
+width = 332;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{41, 0}";
+pos = (26,0);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"46 -167 LINE",
-"68 -66 LINE",
-"-14 -66 LINE",
-"-36 -167 LINE"
+(31,-167,l),
+(53,-66,l),
+(-29,-66,l),
+(-51,-167,l)
 );
 }
 );
-width = 182;
+width = 163;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{78, 0}";
+pos = (7,0);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"73 -121 LINE",
-"86 -60 LINE",
-"44 -60 LINE",
-"31 -121 LINE"
+(2,-121,l),
+(15,-60,l),
+(-27,-60,l),
+(-40,-121,l)
 );
 }
 );
-width = 282;
+width = 122;
 }
 );
-unicode = 0323;
+metricLeft = "=40";
+metricRight = "=40";
+unicode = 803;
 }

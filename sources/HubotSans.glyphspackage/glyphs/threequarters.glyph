@@ -1,214 +1,215 @@
 {
+color = 6;
 glyphname = threequarters;
 layers = (
 {
-components = (
-{
-name = three.numr;
-},
-{
-name = fraction;
-transform = "{1, 0, 0, 1, 200, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 303, 0}";
-}
-);
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-width = 543;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (266,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 252, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 361, 0}";
+pos = (354,0);
+ref = four.dnom;
 }
 );
+width = 623;
+},
+{
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-width = 640;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (289,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 294, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 384, 0}";
+pos = (388,0);
+ref = four.dnom;
 }
 );
+width = 692;
+},
+{
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-width = 706;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (297,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 346, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 454, 0}";
+pos = (418,0);
+ref = four.dnom;
 }
 );
+width = 743;
+},
+{
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-width = 824;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (378,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 389, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 487, 0}";
+pos = (483,0);
+ref = four.dnom;
 }
 );
+width = 885;
+},
+{
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-width = 910;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (401,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 367, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 482, 0}";
+pos = (545,0);
+ref = four.dnom;
 }
 );
+width = 988;
+},
+{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-width = 876;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (393,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 308, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 407, 0}";
+pos = (479,0);
+ref = four.dnom;
 }
 );
+width = 904;
+},
+{
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-width = 729;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (305,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 355, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 484, 0}";
+pos = (427,0);
+ref = four.dnom;
 }
 );
+width = 752;
+},
+{
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-width = 865;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (392,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 387, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 518, 0}";
+pos = (470,0);
+ref = four.dnom;
 }
 );
+width = 884;
+},
+{
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-width = 921;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (413,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 413, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 529, 0}";
+pos = (529,0);
+ref = four.dnom;
 }
 );
+width = 963;
+},
+{
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-width = 961;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (428,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 259, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 380, 0}";
+pos = (581,0);
+ref = four.dnom;
 }
 );
+width = 1031;
+},
+{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-width = 659;
+shapes = (
+{
+ref = three.numr;
 },
 {
-components = (
-{
-name = three.numr;
+pos = (292,0);
+ref = fraction;
 },
 {
-name = fraction;
-transform = "{1, 0, 0, 1, 226, 0}";
-},
-{
-name = four.dnom;
-transform = "{1, 0, 0, 1, 334, 0}";
+pos = (399,0);
+ref = four.dnom;
 }
 );
+width = 703;
+},
+{
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-width = 573;
+shapes = (
+{
+ref = three.numr;
+},
+{
+pos = (269,0);
+ref = fraction;
+},
+{
+pos = (360,0);
+ref = four.dnom;
 }
 );
-leftMetricsKey = three.numr;
-rightMetricsKey = three.numr;
-unicode = 00BE;
+width = 630;
+}
+);
+metricLeft = three.numr;
+metricRight = three.numr;
+unicode = 190;
 userData = {
 KernOnSpecialSpacing = {
 L = NoKerning;

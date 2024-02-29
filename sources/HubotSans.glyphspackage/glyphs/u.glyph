@@ -1,347 +1,360 @@
 {
+color = 6;
 glyphname = u;
+kernLeft = u;
+kernRight = a;
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{248, 0}";
+pos = (246,0);
 },
 {
 name = ogonek;
-position = "{466, 0}";
+pos = (463,0);
 },
 {
 name = top;
-position = "{248, 546}";
+pos = (246,546);
 },
 {
 name = topright;
-position = "{329, 546}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 493, 546}";
+pos = (326,546);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-width = 493;
+shapes = (
+{
+angle = 180;
+pos = (491,546);
+ref = n;
+}
+);
+width = 491;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{214, 0}";
+pos = (203,0);
 },
 {
 name = ogonek;
-position = "{346, 0}";
+pos = (342,0);
 },
 {
 name = top;
-position = "{214, 515}";
+pos = (203,515);
 },
 {
 name = topright;
-position = "{315, 515}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 406, 515}";
+pos = (311,515);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-width = 406;
+shapes = (
+{
+angle = 180;
+pos = (402,515);
+ref = n;
+}
+);
+width = 402;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{223, 0}";
+pos = (216,0);
 },
 {
 name = ogonek;
-position = "{380, 0}";
+pos = (375,0);
 },
 {
 name = top;
-position = "{223, 524}";
+pos = (216,524);
 },
 {
 name = topright;
-position = "{331, 524}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 431, 524}";
+pos = (326,524);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-width = 431;
+shapes = (
+{
+angle = 180;
+pos = (425,524);
+ref = n;
+}
+);
+width = 425;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{298, 0}";
+pos = (309,0);
 },
 {
 name = ogonek;
-position = "{552, 0}";
+pos = (544,0);
 },
 {
 name = top;
-position = "{298, 516}";
+pos = (309,516);
 },
 {
 name = topright;
-position = "{515, 516}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 618, 516}";
+pos = (507,516);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-width = 618;
+shapes = (
+{
+angle = 180;
+pos = (610,516);
+ref = n;
+}
+);
+width = 610;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{393, 0}";
+pos = (388,0);
 },
 {
 name = ogonek;
-position = "{730, 0}";
+pos = (723,0);
 },
 {
 name = top;
-position = "{393, 545}";
+pos = (388,545);
 },
 {
 name = topright;
-position = "{534, 545}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 775, 545}";
+pos = (527,545);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-width = 775;
+shapes = (
+{
+angle = 180;
+pos = (768,545);
+ref = n;
+}
+);
+width = 768;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{331, 0}";
+pos = (331,0);
 },
 {
 name = ogonek;
-position = "{600, 0}";
+pos = (593,0);
 },
 {
 name = top;
-position = "{331, 525}";
+pos = (331,525);
 },
 {
 name = topright;
-position = "{521, 525}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 661, 525}";
+pos = (513,525);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-width = 661;
+shapes = (
+{
+angle = 180;
+pos = (653,525);
+ref = n;
+}
+);
+width = 653;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{183, 0}";
+pos = (181,0);
 },
 {
 name = ogonek;
-position = "{397, 0}";
+pos = (392,0);
 },
 {
 name = top;
-position = "{299, 545}";
+pos = (297,545);
 },
 {
 name = topright;
-position = "{376, 545}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 481, 545}";
+pos = (372,545);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-width = 481;
+shapes = (
+{
+angle = 180;
+pos = (477,545);
+ref = n;
+}
+);
+width = 477;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{249, 0}";
+pos = (260,0);
 },
 {
 name = ogonek;
-position = "{509, 0}";
+pos = (499,0);
 },
 {
 name = top;
-position = "{359, 516}";
+pos = (370,516);
 },
 {
 name = topright;
-position = "{579, 516}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 630, 516}";
+pos = (569,516);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-width = 630;
+shapes = (
+{
+angle = 180;
+pos = (619,516);
+ref = n;
+}
+);
+width = 619;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{284.2, 0}";
+pos = (282,0);
 },
 {
 name = ogonek;
-position = "{558, 0}";
+pos = (549,0);
 },
 {
 name = top;
-position = "{395.8, 525}";
+pos = (394,525);
 },
 {
 name = topright;
-position = "{570.2, 525}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 675, 525}";
+pos = (562,525);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-width = 675;
+shapes = (
+{
+angle = 180;
+pos = (664,525);
+ref = n;
+}
+);
+width = 664;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{343, 0}";
+pos = (332,0);
 },
 {
 name = ogonek;
-position = "{686, 0}";
+pos = (677,0);
 },
 {
 name = top;
-position = "{459, 545}";
+pos = (448,545);
 },
 {
 name = topright;
-position = "{608, 545}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 789, 545}";
+pos = (599,545);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-width = 789;
+shapes = (
+{
+angle = 180;
+pos = (779,545);
+ref = n;
+}
+);
+width = 779;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{163, 0}";
+pos = (156,0);
 },
 {
 name = ogonek;
-position = "{317, 0}";
+pos = (311,0);
 },
 {
 name = top;
-position = "{275, 523}";
+pos = (268,523);
 },
 {
 name = topright;
-position = "{375, 523}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 424, 523}";
+pos = (369,523);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-width = 424;
+shapes = (
+{
+angle = 180;
+pos = (416,523);
+ref = n;
+}
+);
+width = 416;
 },
 {
 anchors = (
 {
 name = bottom;
-position = "{159, 0}";
+pos = (145,0);
 },
 {
 name = ogonek;
-position = "{284, 0}";
+pos = (279,0);
 },
 {
 name = top;
-position = "{269, 515}";
+pos = (255,515);
 },
 {
 name = topright;
-position = "{364, 515}";
-}
-);
-components = (
-{
-name = n;
-transform = "{-1, 0, 0, -1, 399, 515}";
+pos = (359,515);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-width = 399;
+shapes = (
+{
+angle = 180;
+pos = (393,515);
+ref = n;
 }
 );
-leftKerningGroup = u;
+width = 393;
+}
+);
 note = u;
-rightKerningGroup = a;
-unicode = 0075;
+unicode = 117;
 userData = {
 KernOnName = u;
 };

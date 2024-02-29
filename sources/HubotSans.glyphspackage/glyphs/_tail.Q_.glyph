@@ -6,313 +6,315 @@ layers = (
 anchors = (
 {
 name = _bottom;
-position = "{-15, 0}";
+pos = (55,0);
 }
 );
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"92 -167 LINE",
-"92 -139 LINE",
-"-1 -139 LINE",
-"-1 4 LINE",
-"-30 4 LINE",
-"-30 -126 LINE SMOOTH",
-"-30 -151 OFFCURVE",
-"-19 -167 OFFCURVE",
-"9 -167 CURVE SMOOTH"
+(162,-167,l),
+(162,-139,l),
+(69,-139,l),
+(69,4,l),
+(40,4,l),
+(40,-126,ls),
+(40,-151,o),
+(51,-167,o),
+(79,-167,cs)
 );
 }
 );
-width = 52;
+width = 202;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{66, 0}";
+pos = (71,0);
 }
 );
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"191 -166 LINE",
-"191 -114 LINE",
-"98 -114 LINE",
-"98 12 LINE",
-"35 12 LINE",
-"35 -110 LINE SMOOTH",
-"35 -144 OFFCURVE",
-"56 -166 OFFCURVE",
-"93 -166 CURVE SMOOTH"
+(196,-166,l),
+(196,-114,l),
+(103,-114,l),
+(103,12,l),
+(40,12,l),
+(40,-110,ls),
+(40,-144,o),
+(61,-166,o),
+(98,-166,cs)
 );
 }
 );
-width = 219;
+width = 236;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{266, 0}";
+pos = (111,0);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"436 -165 LINE",
-"436 -50 LINE",
-"343 -50 LINE",
-"343 32 LINE",
-"195 32 LINE",
-"195 -71 LINE SMOOTH",
-"195 -129 OFFCURVE",
-"240 -165 OFFCURVE",
-"301 -165 CURVE SMOOTH"
+(281,-165,l),
+(281,-50,l),
+(188,-50,l),
+(188,32,l),
+(40,32,l),
+(40,-71,ls),
+(40,-129,o),
+(85,-165,o),
+(146,-165,cs)
 );
 }
 );
-width = 632;
+width = 321;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{460, 0}";
+pos = (58,0);
 }
 );
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"755 -167 LINE",
-"755 -130 LINE",
-"479 -130 LINE",
-"479 5 LINE",
-"442 5 LINE",
-"442 -120 LINE SMOOTH",
-"442 -150 OFFCURVE",
-"452 -167 OFFCURVE",
-"494 -167 CURVE SMOOTH"
+(353,-167,l),
+(353,-130,l),
+(77,-130,l),
+(77,5,l),
+(40,5,l),
+(40,-120,ls),
+(40,-150,o),
+(50,-167,o),
+(92,-167,cs)
 );
 }
 );
-width = 602;
+width = 393;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{233, 0}";
+pos = (157,0);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"575 -176 LINE",
-"575 -24 LINE",
-"349 -24 LINE",
-"349 40 LINE",
-"116 40 LINE",
-"116 -63 LINE SMOOTH",
-"116 -135 OFFCURVE",
-"154 -176 OFFCURVE",
-"230 -176 CURVE SMOOTH"
+(499,-176,l),
+(499,-24,l),
+(273,-24,l),
+(273,40,l),
+(40,40,l),
+(40,-63,ls),
+(40,-135,o),
+(78,-176,o),
+(154,-176,cs)
 );
 }
 );
-width = 570;
+width = 539;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{449, 0}";
+pos = (84,0);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"737 -170 LINE",
-"737 -93 LINE",
-"493 -93 LINE",
-"493 14 LINE",
-"405 14 LINE",
-"405 -106 LINE SMOOTH",
-"405 -146 OFFCURVE",
-"423 -170 OFFCURVE",
-"477 -170 CURVE SMOOTH"
+(372,-170,l),
+(372,-93,l),
+(128,-93,l),
+(128,14,l),
+(40,14,l),
+(40,-106,ls),
+(40,-146,o),
+(58,-170,o),
+(112,-170,cs)
 );
 }
 );
-width = 587;
+width = 412;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{210, 0}";
+pos = (55,0);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"349 -165 LINE",
-"373 -46 LINE",
-"280 -46 LINE",
-"297 33 LINE",
-"144 33 LINE",
-"122 -69 LINE SMOOTH",
-"109 -129 OFFCURVE",
-"150 -165 OFFCURVE",
-"212 -165 CURVE SMOOTH"
+(194,-165,l),
+(218,-46,l),
+(125,-46,l),
+(142,33,l),
+(-11,33,l),
+(-33,-69,ls),
+(-46,-129,o),
+(-5,-165,o),
+(57,-165,cs)
 );
 }
 );
-width = 638;
+width = 327;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{405, 0}";
+pos = (3,0);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"665 -167 LINE",
-"673 -130 LINE",
-"397 -130 LINE",
-"425 5 LINE",
-"388 5 LINE",
-"362 -120 LINE SMOOTH",
-"356 -150 OFFCURVE",
-"362 -167 OFFCURVE",
-"404 -167 CURVE SMOOTH"
+(263,-167,l),
+(271,-130,l),
+(-5,-130,l),
+(23,5,l),
+(-14,5,l),
+(-40,-120,ls),
+(-46,-150,o),
+(-40,-167,o),
+(2,-167,cs)
 );
 }
 );
-width = 603;
+width = 393;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{393.8, 0}";
+pos = (29,0);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"645.8 -170 LINE",
-"661.4 -93 LINE",
-"417.4 -93 LINE",
-"439 14 LINE",
-"352.2 14 LINE",
-"328.2 -106 LINE SMOOTH",
-"319.8 -147.2 OFFCURVE",
-"334.2 -170 OFFCURVE",
-"385.8 -170 CURVE SMOOTH"
+(281,-170,l),
+(296,-93,l),
+(52,-93,l),
+(74,14,l),
+(-13,14,l),
+(-37,-106,ls),
+(-45,-147,o),
+(-31,-170,o),
+(21,-170,cs)
 );
 }
 );
-width = 588.2;
+width = 413;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{175, 0}";
+pos = (100,0);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"480 -176 LINE",
-"511 -24 LINE",
-"285 -24 LINE",
-"299 40 LINE",
-"67 40 LINE",
-"44 -63 LINE SMOOTH",
-"28 -137 OFFCURVE",
-"62 -176 OFFCURVE",
-"136 -176 CURVE SMOOTH"
+(405,-176,l),
+(436,-24,l),
+(210,-24,l),
+(224,40,l),
+(-8,40,l),
+(-31,-63,ls),
+(-47,-137,o),
+(-13,-176,o),
+(61,-176,cs)
 );
 }
 );
-width = 570;
+width = 540;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{14, 0}";
+pos = (19,0);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"98 -166 LINE",
-"109 -115 LINE",
-"15 -115 LINE",
-"47 11 LINE",
-"-14 11 LINE",
-"-44 -111 LINE SMOOTH",
-"-52 -145 OFFCURVE",
-"-34 -166 OFFCURVE",
-"0 -166 CURVE SMOOTH"
+(103,-166,l),
+(114,-115,l),
+(20,-115,l),
+(52,11,l),
+(-9,11,l),
+(-39,-111,ls),
+(-47,-145,o),
+(-29,-166,o),
+(5,-166,cs)
 );
 }
 );
-width = 217;
+width = 234;
 },
 {
 anchors = (
 {
 name = _bottom;
-position = "{-71, 0}";
+pos = (-1,0);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-paths = (
+shapes = (
 {
 closed = 1;
 nodes = (
-"2 -167 LINE",
-"8 -139 LINE",
-"-85 -139 LINE",
-"-55 4 LINE",
-"-84 4 LINE",
-"-112 -126 LINE SMOOTH",
-"-117 -149 OFFCURVE",
-"-111 -167 OFFCURVE",
-"-81 -167 CURVE SMOOTH"
+(72,-167,l),
+(78,-139,l),
+(-15,-139,l),
+(15,4,l),
+(-14,4,l),
+(-42,-126,ls),
+(-47,-149,o),
+(-41,-167,o),
+(-11,-167,cs)
 );
 }
 );
-width = 52;
+width = 202;
 }
 );
+metricLeft = "=40";
+metricRight = "=40";
 }
