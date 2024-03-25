@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedillacomb" format="2">
+  <unicode hex="0327"/>
+  <anchor x="136" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="96" y="-250" type="curve" smooth="yes"/>
+      <point x="172" y="-250"/>
+      <point x="234" y="-206"/>
+      <point x="234" y="-125" type="curve" smooth="yes"/>
+      <point x="234" y="-52"/>
+      <point x="176" y="-8"/>
+      <point x="101" y="-21" type="curve"/>
+      <point x="162" y="-50" type="line"/>
+      <point x="182" y="9" type="line"/>
+      <point x="80" y="9" type="line"/>
+      <point x="57" y="-57" type="line"/>
+      <point x="83" y="-72" type="line"/>
+      <point x="108" y="-64"/>
+      <point x="126" y="-80"/>
+      <point x="115" y="-121" type="curve" smooth="yes"/>
+      <point x="111" y="-137"/>
+      <point x="104" y="-150"/>
+      <point x="87" y="-150" type="curve" smooth="yes"/>
+      <point x="67" y="-150"/>
+      <point x="61" y="-133"/>
+      <point x="65" y="-112" type="curve"/>
+      <point x="-42" y="-112" type="line"/>
+      <point x="-47" y="-195"/>
+      <point x="8" y="-250"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>362</integer>
+    </dict>
+  </lib>
+</glyph>

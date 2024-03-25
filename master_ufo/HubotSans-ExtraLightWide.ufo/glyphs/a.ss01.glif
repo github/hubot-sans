@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="a.ss01" format="2">
+  <advance width="600"/>
+  <note>
+a
+</note>
+  <anchor x="290" y="0" name="bottom"/>
+  <anchor x="534" y="0" name="ogonek"/>
+  <anchor x="304" y="516" name="top"/>
+  <outline>
+    <contour>
+      <point x="247" y="-10" type="curve" smooth="yes"/>
+      <point x="360" y="-10"/>
+      <point x="452" y="38"/>
+      <point x="492" y="100" type="curve"/>
+      <point x="497" y="100" type="line"/>
+      <point x="500" y="0" type="line"/>
+      <point x="534" y="0" type="line"/>
+      <point x="534" y="342" type="line" smooth="yes"/>
+      <point x="534" y="460"/>
+      <point x="450" y="526"/>
+      <point x="304" y="526" type="curve" smooth="yes"/>
+      <point x="163" y="526"/>
+      <point x="73" y="464"/>
+      <point x="57" y="358" type="curve"/>
+      <point x="95" y="358" type="line"/>
+      <point x="112" y="450"/>
+      <point x="190" y="490"/>
+      <point x="302" y="490" type="curve" smooth="yes"/>
+      <point x="430" y="490"/>
+      <point x="497" y="439"/>
+      <point x="497" y="342" type="curve" smooth="yes"/>
+      <point x="497" y="153" type="line"/>
+      <point x="456" y="74"/>
+      <point x="365" y="26"/>
+      <point x="251" y="26" type="curve" smooth="yes"/>
+      <point x="151" y="26"/>
+      <point x="95" y="68"/>
+      <point x="95" y="142" type="curve" smooth="yes"/>
+      <point x="95" y="146" type="line" smooth="yes"/>
+      <point x="95" y="233"/>
+      <point x="161" y="278"/>
+      <point x="298" y="278" type="curve" smooth="yes"/>
+      <point x="505" y="278" type="line"/>
+      <point x="508" y="313" type="line"/>
+      <point x="302" y="313" type="line" smooth="yes"/>
+      <point x="141" y="313"/>
+      <point x="53" y="256"/>
+      <point x="53" y="141" type="curve" smooth="yes"/>
+      <point x="53" y="46"/>
+      <point x="129" y="-10"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

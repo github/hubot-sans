@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="240" y="545" name="_top"/>
+  <outline>
+    <contour>
+      <point x="176" y="585" type="line"/>
+      <point x="322" y="585" type="line"/>
+      <point x="304" y="728" type="line"/>
+      <point x="137" y="728" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>296</integer>
+    </dict>
+  </lib>
+</glyph>

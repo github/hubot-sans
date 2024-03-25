@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.loclCAT.ss01" format="2">
+  <advance width="95"/>
+  <outline>
+    <contour>
+      <point x="71" y="332" type="curve" smooth="yes"/>
+      <point x="91" y="332"/>
+      <point x="105" y="346"/>
+      <point x="105" y="365" type="curve" smooth="yes"/>
+      <point x="105" y="384"/>
+      <point x="91" y="398"/>
+      <point x="71" y="398" type="curve" smooth="yes"/>
+      <point x="50" y="398"/>
+      <point x="36" y="384"/>
+      <point x="36" y="365" type="curve" smooth="yes"/>
+      <point x="36" y="346"/>
+      <point x="50" y="332"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

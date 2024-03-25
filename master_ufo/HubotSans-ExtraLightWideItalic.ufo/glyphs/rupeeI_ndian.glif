@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rupeeIndian" format="2">
+  <advance width="691"/>
+  <unicode hex="20B9"/>
+  <outline>
+    <contour>
+      <point x="463" y="0" type="line"/>
+      <point x="522" y="0" type="line"/>
+      <point x="131" y="338" type="line"/>
+      <point x="126" y="326" type="line"/>
+      <point x="326" y="326" type="line" smooth="yes"/>
+      <point x="483" y="326"/>
+      <point x="588" y="388"/>
+      <point x="606" y="520" type="curve" smooth="yes"/>
+      <point x="618" y="606"/>
+      <point x="573" y="678"/>
+      <point x="520" y="698" type="curve"/>
+      <point x="512" y="692" type="line"/>
+      <point x="735" y="692" type="line"/>
+      <point x="742" y="729" type="line"/>
+      <point x="153" y="729" type="line"/>
+      <point x="145" y="691" type="line"/>
+      <point x="412" y="691" type="line" smooth="yes"/>
+      <point x="521" y="691"/>
+      <point x="579" y="626"/>
+      <point x="559" y="528" type="curve" smooth="yes"/>
+      <point x="553" y="499" type="line" smooth="yes"/>
+      <point x="536" y="418"/>
+      <point x="469" y="364"/>
+      <point x="327" y="364" type="curve" smooth="yes"/>
+      <point x="77" y="364" type="line"/>
+      <point x="71" y="337" type="line"/>
+    </contour>
+    <contour>
+      <point x="107" y="509" type="line"/>
+      <point x="582" y="509" type="line"/>
+      <point x="589" y="546" type="line"/>
+      <point x="114" y="546" type="line"/>
+    </contour>
+    <contour>
+      <point x="582" y="509" type="line"/>
+      <point x="696" y="509" type="line"/>
+      <point x="703" y="546" type="line"/>
+      <point x="589" y="546" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>origin</key>
+          <array>
+            <integer>0</integer>
+            <integer>18</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>Anchor</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>192.14</real>
+            <real>42.416</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <real>474.345</real>
+            <real>753.524</real>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>type</key>
+          <string>TTStem</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

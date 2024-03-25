@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="I.ss04" format="2">
+  <advance width="242"/>
+  <note>
+I
+</note>
+  <anchor x="121" y="0" name="bottom"/>
+  <anchor x="170" y="0" name="ogonek"/>
+  <anchor x="121" y="729" name="top"/>
+  <anchor x="-10" y="729" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="170" y="0" type="line"/>
+      <point x="170" y="729" type="line"/>
+      <point x="72" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
