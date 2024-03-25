@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="y.ss01" format="2">
+  <advance width="687"/>
+  <note>
+y
+</note>
+  <anchor x="478" y="0" name="bottom"/>
+  <anchor x="343" y="525" name="top"/>
+  <outline>
+    <contour>
+      <point x="144" y="-167" type="line"/>
+      <point x="251" y="-167" type="line"/>
+      <point x="666" y="525" type="line"/>
+      <point x="559" y="525" type="line"/>
+      <point x="375" y="208" type="line"/>
+      <point x="344" y="150" type="line"/>
+      <point x="338" y="150" type="line"/>
+      <point x="307" y="208" type="line"/>
+      <point x="132" y="525" type="line"/>
+      <point x="21" y="525" type="line"/>
+      <point x="289" y="71" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflexgrave" format="2">
+  <advance width="775"/>
+  <unicode hex="1ED3"/>
+  <anchor x="446" y="0" name="#exit"/>
+  <anchor x="352" y="0" name="bottom"/>
+  <anchor x="391" y="273" name="center"/>
+  <anchor x="656" y="10" name="ogonek"/>
+  <anchor x="415" y="545" name="top"/>
+  <anchor x="565" y="517" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="circumflexcomb_gravecomb" xOffset="52"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

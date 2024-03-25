@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_tail.Q.ss01" format="2">
+  <advance width="475"/>
+  <anchor x="-26" y="1" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="435" y="-24" type="line"/>
+      <point x="435" y="23" type="line"/>
+      <point x="40" y="314" type="line"/>
+      <point x="40" y="267" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

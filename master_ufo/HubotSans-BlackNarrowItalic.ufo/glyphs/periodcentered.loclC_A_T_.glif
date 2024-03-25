@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.loclCAT" format="2">
+  <advance width="191"/>
+  <outline>
+    <contour>
+      <point x="12" y="280" type="line"/>
+      <point x="183" y="280" type="line"/>
+      <point x="221" y="461" type="line"/>
+      <point x="50" y="461" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

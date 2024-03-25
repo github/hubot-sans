@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.tf" format="2">
+  <advance width="500"/>
+  <outline>
+    <contour>
+      <point x="245" y="-7" type="curve" smooth="yes"/>
+      <point x="352" y="-7"/>
+      <point x="432" y="52"/>
+      <point x="432" y="197" type="curve" smooth="yes"/>
+      <point x="432" y="300"/>
+      <point x="388" y="355"/>
+      <point x="324" y="369" type="curve"/>
+      <point x="324" y="376" type="line"/>
+      <point x="385" y="393"/>
+      <point x="428" y="448"/>
+      <point x="428" y="549" type="curve" smooth="yes"/>
+      <point x="428" y="683"/>
+      <point x="354" y="736"/>
+      <point x="256" y="736" type="curve" smooth="yes"/>
+      <point x="121" y="736"/>
+      <point x="70" y="653"/>
+      <point x="70" y="502" type="curve"/>
+      <point x="141" y="502" type="line"/>
+      <point x="141" y="620"/>
+      <point x="168" y="671"/>
+      <point x="253" y="671" type="curve" smooth="yes"/>
+      <point x="312" y="671"/>
+      <point x="353" y="638"/>
+      <point x="353" y="563" type="curve" smooth="yes"/>
+      <point x="353" y="513" type="line" smooth="yes"/>
+      <point x="353" y="446"/>
+      <point x="312" y="404"/>
+      <point x="249" y="404" type="curve" smooth="yes"/>
+      <point x="192" y="404" type="line"/>
+      <point x="192" y="346" type="line"/>
+      <point x="249" y="346" type="line" smooth="yes"/>
+      <point x="310" y="346"/>
+      <point x="357" y="306"/>
+      <point x="357" y="227" type="curve" smooth="yes"/>
+      <point x="357" y="169" type="line" smooth="yes"/>
+      <point x="357" y="98"/>
+      <point x="313" y="57"/>
+      <point x="244" y="57" type="curve" smooth="yes"/>
+      <point x="161" y="57"/>
+      <point x="132" y="107"/>
+      <point x="132" y="213" type="curve"/>
+      <point x="62" y="213" type="line"/>
+      <point x="60" y="67"/>
+      <point x="117" y="-7"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>monoWidth</key>
+        <integer>450</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

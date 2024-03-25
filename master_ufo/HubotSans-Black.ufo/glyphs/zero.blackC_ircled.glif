@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zero.blackCircled" format="2">
+  <advance width="914"/>
+  <unicode hex="24FF"/>
+  <anchor x="457" y="365" name="center"/>
+  <outline>
+    <component base="blackCircle"/>
+    <component base="zero.dnom" xOffset="223" yOffset="164"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>blackCircle</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>zero</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>zero</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

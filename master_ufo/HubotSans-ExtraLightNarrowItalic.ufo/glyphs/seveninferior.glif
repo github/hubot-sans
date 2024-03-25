@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seveninferior" format="2">
+  <advance width="277"/>
+  <unicode hex="2087"/>
+  <outline>
+    <contour>
+      <point x="39" y="-60" type="line"/>
+      <point x="265" y="348" type="line"/>
+      <point x="271" y="377" type="line"/>
+      <point x="60" y="377" type="line"/>
+      <point x="35" y="254" type="line"/>
+      <point x="63" y="254" type="line"/>
+      <point x="82" y="350" type="line"/>
+      <point x="233" y="350" type="line"/>
+      <point x="231" y="346" type="line"/>
+      <point x="4" y="-60" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

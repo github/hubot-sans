@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_bitcoin.bars" format="2">
+  <advance width="349"/>
+  <anchor x="164" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="325" y="703" type="line"/>
+      <point x="395" y="703" type="line"/>
+      <point x="434" y="850" type="line"/>
+      <point x="348" y="850" type="line"/>
+    </contour>
+    <contour>
+      <point x="-41" y="-121" type="line"/>
+      <point x="44" y="-121" type="line"/>
+      <point x="66" y="24" type="line"/>
+      <point x="-3" y="24" type="line"/>
+    </contour>
+    <contour>
+      <point x="141" y="-121" type="line"/>
+      <point x="227" y="-121" type="line"/>
+      <point x="249" y="24" type="line"/>
+      <point x="180" y="24" type="line"/>
+    </contour>
+    <contour>
+      <point x="142" y="703" type="line"/>
+      <point x="212" y="703" type="line"/>
+      <point x="251" y="850" type="line"/>
+      <point x="165" y="850" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

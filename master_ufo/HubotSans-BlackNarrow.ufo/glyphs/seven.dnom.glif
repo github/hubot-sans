@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="304"/>
+  <anchor x="148" y="201" name="_center"/>
+  <outline>
+    <contour>
+      <point x="190" y="0" type="line"/>
+      <point x="291" y="304" type="line"/>
+      <point x="291" y="401" type="line"/>
+      <point x="15" y="401" type="line"/>
+      <point x="15" y="236" type="line"/>
+      <point x="118" y="236" type="line"/>
+      <point x="118" y="307" type="line"/>
+      <point x="174" y="307" type="line"/>
+      <point x="174" y="296" type="line"/>
+      <point x="69" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>55</integer>
+        <key>weight</key>
+        <integer>-330</integer>
+        <key>width</key>
+        <integer>55</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

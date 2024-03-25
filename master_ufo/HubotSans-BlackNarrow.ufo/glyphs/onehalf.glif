@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="onehalf" format="2">
+  <advance width="663"/>
+  <unicode hex="00BD"/>
+  <outline>
+    <component base="one.numr"/>
+    <component base="fraction" xOffset="219"/>
+    <component base="two.dnom" xOffset="367"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>one.numr</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>one.numr</string>
+      <key>public.markColor</key>
+      <string>0.97,1,0,1</string>
+    </dict>
+  </lib>
+</glyph>

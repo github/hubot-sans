@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven" format="2">
+  <advance width="484"/>
+  <unicode hex="0037"/>
+  <note>
+seven
+</note>
+  <outline>
+    <contour>
+      <point x="19" y="0" type="line"/>
+      <point x="219" y="0" type="line"/>
+      <point x="532" y="576" type="line"/>
+      <point x="564" y="729" type="line"/>
+      <point x="117" y="729" type="line"/>
+      <point x="59" y="447" type="line"/>
+      <point x="220" y="447" type="line"/>
+      <point x="247" y="582" type="line"/>
+      <point x="355" y="582" type="line"/>
+      <point x="345" y="564" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="K" format="2">
+  <advance width="428"/>
+  <unicode hex="004B"/>
+  <note>
+K
+</note>
+  <anchor x="143" y="0" name="bottom"/>
+  <anchor x="298" y="729" name="top"/>
+  <outline>
+    <contour>
+      <point x="18" y="0" type="line"/>
+      <point x="49" y="0" type="line"/>
+      <point x="103" y="259" type="line"/>
+      <point x="216" y="395" type="line"/>
+      <point x="303" y="0" type="line"/>
+      <point x="334" y="0" type="line"/>
+      <point x="240" y="422" type="line"/>
+      <point x="485" y="729" type="line"/>
+      <point x="451" y="729" type="line"/>
+      <point x="114" y="310" type="line"/>
+      <point x="202" y="729" type="line"/>
+      <point x="171" y="729" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>

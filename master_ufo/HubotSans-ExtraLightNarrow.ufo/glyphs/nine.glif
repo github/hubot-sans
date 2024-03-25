@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nine" format="2">
+  <advance width="422"/>
+  <unicode hex="0039"/>
+  <note>
+nine
+</note>
+  <outline>
+    <component base="six" xScale="-1" yScale="-1" xOffset="422" yOffset="729"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>six</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

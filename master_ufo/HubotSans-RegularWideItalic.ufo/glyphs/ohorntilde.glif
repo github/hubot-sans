@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohorntilde" format="2">
+  <advance width="688"/>
+  <unicode hex="1EE1"/>
+  <anchor x="494" y="0" name="#exit"/>
+  <anchor x="325" y="0" name="bottom"/>
+  <anchor x="356" y="263" name="center"/>
+  <anchor x="578" y="10" name="ogonek"/>
+  <anchor x="373" y="525" name="top"/>
+  <anchor x="499" y="504" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="tildecomb" xOffset="111"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="arrowleft" format="2">
+  <advance width="710"/>
+  <unicode hex="2190"/>
+  <outline>
+    <component base="arrowright" xScale="-1" yScale="-1" xOffset="710" yOffset="693"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>arrowright</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|arrowright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|arrowright</string>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

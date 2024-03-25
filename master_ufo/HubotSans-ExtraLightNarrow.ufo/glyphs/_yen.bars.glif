@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_yen.bars" format="2">
+  <advance width="379"/>
+  <anchor x="190" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="40" y="290" type="line"/>
+      <point x="339" y="290" type="line"/>
+      <point x="339" y="317" type="line"/>
+      <point x="40" y="317" type="line"/>
+    </contour>
+    <contour>
+      <point x="40" y="163" type="line"/>
+      <point x="339" y="163" type="line"/>
+      <point x="339" y="190" type="line"/>
+      <point x="40" y="190" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

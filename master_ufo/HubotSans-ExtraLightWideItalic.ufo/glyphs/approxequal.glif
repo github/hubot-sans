@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="approxequal" format="2">
+  <advance width="720"/>
+  <unicode hex="2248"/>
+  <outline>
+    <contour>
+      <point x="214" y="389" type="curve"/>
+      <point x="235" y="389" type="line"/>
+      <point x="240" y="430"/>
+      <point x="253" y="453"/>
+      <point x="295" y="453" type="curve" smooth="yes"/>
+      <point x="341" y="453"/>
+      <point x="418" y="390"/>
+      <point x="476" y="390" type="curve" smooth="yes"/>
+      <point x="528" y="390"/>
+      <point x="562" y="421"/>
+      <point x="563" y="489" type="curve"/>
+      <point x="542" y="489" type="line"/>
+      <point x="537" y="447"/>
+      <point x="526" y="424"/>
+      <point x="484" y="424" type="curve" smooth="yes"/>
+      <point x="439" y="424"/>
+      <point x="361" y="487"/>
+      <point x="302" y="487" type="curve" smooth="yes"/>
+      <point x="251" y="487"/>
+      <point x="216" y="457"/>
+    </contour>
+    <contour>
+      <point x="183" y="241" type="curve"/>
+      <point x="204" y="241" type="line"/>
+      <point x="208" y="281"/>
+      <point x="220" y="306"/>
+      <point x="263" y="306" type="curve" smooth="yes"/>
+      <point x="309" y="306"/>
+      <point x="387" y="243"/>
+      <point x="445" y="243" type="curve" smooth="yes"/>
+      <point x="500" y="243"/>
+      <point x="530" y="277"/>
+      <point x="532" y="341" type="curve"/>
+      <point x="511" y="341" type="line"/>
+      <point x="506" y="301"/>
+      <point x="495" y="276"/>
+      <point x="452" y="276" type="curve" smooth="yes"/>
+      <point x="407" y="276"/>
+      <point x="329" y="339"/>
+      <point x="270" y="339" type="curve" smooth="yes"/>
+      <point x="218" y="339"/>
+      <point x="184" y="308"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+    </dict>
+  </lib>
+</glyph>

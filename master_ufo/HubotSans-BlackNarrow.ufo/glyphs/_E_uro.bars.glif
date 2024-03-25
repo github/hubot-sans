@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_Euro.bars" format="2">
+  <advance width="379"/>
+  <anchor x="303" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="339" y="247" type="line"/>
+      <point x="339" y="350" type="line"/>
+      <point x="171" y="341" type="line"/>
+      <point x="171" y="256" type="line"/>
+    </contour>
+    <contour>
+      <point x="40" y="247" type="line"/>
+      <point x="171" y="256" type="line"/>
+      <point x="171" y="341" type="line"/>
+      <point x="40" y="350" type="line"/>
+    </contour>
+    <contour>
+      <point x="40" y="373" type="line"/>
+      <point x="171" y="382" type="line"/>
+      <point x="171" y="464" type="line"/>
+      <point x="40" y="473" type="line"/>
+    </contour>
+    <contour>
+      <point x="339" y="373" type="line"/>
+      <point x="339" y="473" type="line"/>
+      <point x="171" y="464" type="line"/>
+      <point x="171" y="382" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

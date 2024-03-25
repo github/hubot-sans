@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="logicalnot" format="2">
+  <advance width="721"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="480" y="121" type="line"/>
+      <point x="554" y="121" type="line"/>
+      <point x="615" y="404" type="line"/>
+      <point x="120" y="404" type="line"/>
+      <point x="102" y="324" type="line"/>
+      <point x="524" y="324" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+    </dict>
+  </lib>
+</glyph>

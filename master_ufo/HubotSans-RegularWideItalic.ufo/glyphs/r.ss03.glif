@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r.ss03" format="2">
+  <advance width="377"/>
+  <note>
+r.001
+</note>
+  <anchor x="52" y="0" name="bottom"/>
+  <anchor x="278" y="525" name="top"/>
+  <outline>
+    <contour>
+      <point x="3" y="0" type="line"/>
+      <point x="101" y="0" type="line"/>
+      <point x="195" y="446" type="line"/>
+      <point x="390" y="446" type="line"/>
+      <point x="407" y="525" type="line"/>
+      <point x="207" y="525" type="line" smooth="yes"/>
+      <point x="151" y="525"/>
+      <point x="110" y="506"/>
+      <point x="97" y="443" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>n</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="u" format="2">
+  <advance width="415"/>
+  <unicode hex="0075"/>
+  <note>
+u
+</note>
+  <anchor x="156" y="0" name="bottom"/>
+  <anchor x="311" y="0" name="ogonek"/>
+  <anchor x="268" y="523" name="top"/>
+  <anchor x="369" y="523" name="topright"/>
+  <outline>
+    <component base="n" xScale="-1" yScale="-1" xOffset="415" yOffset="523"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

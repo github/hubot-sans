@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guillemetleft" format="2">
+  <advance width="592"/>
+  <unicode hex="00AB"/>
+  <anchor x="9" y="0" name="#entry_1"/>
+  <anchor x="259" y="0" name="#entry_2"/>
+  <anchor x="259" y="0" name="#exit_1"/>
+  <anchor x="509" y="0" name="#exit_2"/>
+  <outline>
+    <component base="guilsinglleft"/>
+    <component base="guilsinglleft" xOffset="250"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>guilsinglleft</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>guilsinglleft</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

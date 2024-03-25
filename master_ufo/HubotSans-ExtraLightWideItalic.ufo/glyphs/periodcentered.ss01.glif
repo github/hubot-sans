@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="periodcentered.ss01" format="2">
+  <advance width="150"/>
+  <outline>
+    <component base="period.ss01" xOffset="52" yOffset="246"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>3</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>period.ss01</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

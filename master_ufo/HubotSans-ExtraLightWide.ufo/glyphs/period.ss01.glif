@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period.ss01" format="2">
+  <advance width="154"/>
+  <anchor x="0" y="0" name="#entry"/>
+  <anchor x="136" y="0" name="#exit"/>
+  <anchor x="77" y="54" name="_top"/>
+  <anchor x="77" y="516" name="top"/>
+  <outline>
+    <contour>
+      <point x="77" y="-3" type="curve" smooth="yes"/>
+      <point x="95" y="-3"/>
+      <point x="109" y="10"/>
+      <point x="109" y="28" type="curve" smooth="yes"/>
+      <point x="109" y="46"/>
+      <point x="95" y="59"/>
+      <point x="77" y="59" type="curve" smooth="yes"/>
+      <point x="59" y="59"/>
+      <point x="45" y="46"/>
+      <point x="45" y="28" type="curve" smooth="yes"/>
+      <point x="45" y="10"/>
+      <point x="59" y="-3"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

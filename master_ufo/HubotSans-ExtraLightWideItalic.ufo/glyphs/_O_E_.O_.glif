@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_OE.O" format="2">
+  <advance width="754"/>
+  <anchor x="578" y="0" name="#exit"/>
+  <outline>
+    <contour>
+      <point x="411" y="0" type="curve" smooth="yes"/>
+      <point x="606" y="0" type="line"/>
+      <point x="606" y="39" type="line"/>
+      <point x="394" y="39" type="line" smooth="yes"/>
+      <point x="191" y="39"/>
+      <point x="80" y="152"/>
+      <point x="120" y="362" type="curve" smooth="yes"/>
+      <point x="131" y="420" type="line" smooth="yes"/>
+      <point x="165" y="598"/>
+      <point x="311" y="690"/>
+      <point x="522" y="690" type="curve" smooth="yes"/>
+      <point x="806" y="690" type="line"/>
+      <point x="806" y="729" type="line"/>
+      <point x="531" y="729" type="line" smooth="yes"/>
+      <point x="288" y="729"/>
+      <point x="124" y="624"/>
+      <point x="83" y="409" type="curve" smooth="yes"/>
+      <point x="79" y="388" type="line" smooth="yes"/>
+      <point x="35" y="155"/>
+      <point x="146" y="0"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

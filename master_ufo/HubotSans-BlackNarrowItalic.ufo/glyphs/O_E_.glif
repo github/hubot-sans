@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
+  <advance width="665"/>
+  <unicode hex="0152"/>
+  <anchor x="252" y="0" name="#entry"/>
+  <anchor x="252" y="0" name="#exit"/>
+  <anchor x="423" y="0" name="bottom"/>
+  <anchor x="588" y="0" name="ogonek"/>
+  <anchor x="578" y="729" name="top"/>
+  <anchor x="401" y="729" name="topleft"/>
+  <outline>
+    <component base="_OE.O"/>
+    <component base="E" xOffset="276"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>E</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

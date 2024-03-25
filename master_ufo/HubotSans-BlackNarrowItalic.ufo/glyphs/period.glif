@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="period" format="2">
+  <advance width="210"/>
+  <unicode hex="002E"/>
+  <anchor x="-62" y="0" name="#entry"/>
+  <anchor x="153" y="0" name="#exit"/>
+  <anchor x="86" y="181" name="_top"/>
+  <anchor x="163" y="545" name="top"/>
+  <outline>
+    <contour>
+      <point x="-38" y="0" type="line"/>
+      <point x="133" y="0" type="line"/>
+      <point x="171" y="181" type="line"/>
+      <point x="0" y="181" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

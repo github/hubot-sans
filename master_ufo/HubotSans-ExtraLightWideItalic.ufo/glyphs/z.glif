@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="z" format="2">
+  <advance width="560"/>
+  <unicode hex="007A"/>
+  <note>
+z
+</note>
+  <anchor x="235" y="0" name="bottom"/>
+  <anchor x="290" y="258" name="center"/>
+  <anchor x="345" y="516" name="top"/>
+  <outline>
+    <contour>
+      <point x="-27" y="0" type="line"/>
+      <point x="470" y="0" type="line"/>
+      <point x="477" y="37" type="line"/>
+      <point x="40" y="37" type="line"/>
+      <point x="577" y="480" type="line"/>
+      <point x="585" y="516" type="line"/>
+      <point x="107" y="516" type="line"/>
+      <point x="100" y="479" type="line"/>
+      <point x="517" y="479" type="line"/>
+      <point x="-21" y="33" type="line"/>
+    </contour>
+  </outline>
+</glyph>

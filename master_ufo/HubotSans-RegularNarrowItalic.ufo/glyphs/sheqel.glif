@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sheqel" format="2">
+  <advance width="629"/>
+  <unicode hex="20AA"/>
+  <outline>
+    <contour>
+      <point x="162" y="0" type="line"/>
+      <point x="428" y="0" type="line" smooth="yes"/>
+      <point x="487" y="0"/>
+      <point x="515" y="28"/>
+      <point x="527" y="82" type="curve" smooth="yes"/>
+      <point x="664" y="729" type="line"/>
+      <point x="594" y="729" type="line"/>
+      <point x="454" y="66" type="line"/>
+      <point x="234" y="66" type="line"/>
+      <point x="340" y="565" type="line"/>
+      <point x="282" y="565" type="line"/>
+    </contour>
+    <contour>
+      <point x="10" y="0" type="line"/>
+      <point x="80" y="0" type="line"/>
+      <point x="220" y="663" type="line"/>
+      <point x="441" y="663" type="line"/>
+      <point x="335" y="164" type="line"/>
+      <point x="393" y="164" type="line"/>
+      <point x="496" y="647" type="line" smooth="yes"/>
+      <point x="508" y="701"/>
+      <point x="489" y="729"/>
+      <point x="430" y="729" type="curve" smooth="yes"/>
+      <point x="164" y="729" type="line"/>
+    </contour>
+  </outline>
+</glyph>

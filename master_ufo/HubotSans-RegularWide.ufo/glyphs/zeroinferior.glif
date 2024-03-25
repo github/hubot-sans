@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeroinferior" format="2">
+  <advance width="498"/>
+  <unicode hex="2080"/>
+  <outline>
+    <contour>
+      <point x="248" y="-68" type="curve" smooth="yes"/>
+      <point x="374" y="-68"/>
+      <point x="459" y="3"/>
+      <point x="459" y="153" type="curve" smooth="yes"/>
+      <point x="459" y="165" type="line" smooth="yes"/>
+      <point x="459" y="311"/>
+      <point x="378" y="385"/>
+      <point x="248" y="385" type="curve" smooth="yes"/>
+      <point x="123" y="385"/>
+      <point x="39" y="315"/>
+      <point x="39" y="165" type="curve" smooth="yes"/>
+      <point x="39" y="153" type="line" smooth="yes"/>
+      <point x="39" y="6"/>
+      <point x="120" y="-68"/>
+    </contour>
+    <contour>
+      <point x="248" y="6" type="curve" smooth="yes"/>
+      <point x="168" y="6"/>
+      <point x="130" y="51"/>
+      <point x="130" y="118" type="curve" smooth="yes"/>
+      <point x="130" y="200" type="line" smooth="yes"/>
+      <point x="130" y="265"/>
+      <point x="167" y="312"/>
+      <point x="248" y="312" type="curve" smooth="yes"/>
+      <point x="330" y="312"/>
+      <point x="368" y="265"/>
+      <point x="368" y="200" type="curve" smooth="yes"/>
+      <point x="368" y="118" type="line" smooth="yes"/>
+      <point x="368" y="52"/>
+      <point x="330" y="6"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

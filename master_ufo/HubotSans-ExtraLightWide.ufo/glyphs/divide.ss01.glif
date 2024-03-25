@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="divide.ss01" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="53" y="348" type="line"/>
+      <point x="555" y="348" type="line"/>
+      <point x="555" y="382" type="line"/>
+      <point x="53" y="382" type="line"/>
+    </contour>
+    <contour>
+      <point x="305" y="184" type="curve" smooth="yes"/>
+      <point x="320" y="184"/>
+      <point x="333" y="197"/>
+      <point x="333" y="213" type="curve" smooth="yes"/>
+      <point x="333" y="228"/>
+      <point x="320" y="241"/>
+      <point x="305" y="241" type="curve" smooth="yes"/>
+      <point x="289" y="241"/>
+      <point x="276" y="228"/>
+      <point x="276" y="213" type="curve" smooth="yes"/>
+      <point x="276" y="197"/>
+      <point x="289" y="184"/>
+    </contour>
+    <contour>
+      <point x="305" y="481" type="curve" smooth="yes"/>
+      <point x="320" y="481"/>
+      <point x="333" y="494"/>
+      <point x="333" y="510" type="curve" smooth="yes"/>
+      <point x="333" y="525"/>
+      <point x="320" y="538"/>
+      <point x="305" y="538" type="curve" smooth="yes"/>
+      <point x="289" y="538"/>
+      <point x="276" y="525"/>
+      <point x="276" y="510" type="curve" smooth="yes"/>
+      <point x="276" y="494"/>
+      <point x="289" y="481"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>plus</string>
+    </dict>
+  </lib>
+</glyph>

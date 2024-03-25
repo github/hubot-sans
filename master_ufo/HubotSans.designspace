@@ -1,0 +1,3438 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wdth" name="Width" minimum="80" maximum="120" default="80">
+      <map input="80" output="1"/>
+      <map input="120" output="10"/>
+    </axis>
+    <axis tag="wght" name="Weight" minimum="200" maximum="900" default="400"/>
+    <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0">
+      <map input="0" output="0"/>
+      <map input="1" output="12"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="HubotSans-ExtraLightNarrow.ufo" name="Hubot Sans ExtraLight Narrow" familyname="Hubot Sans" stylename="ExtraLight Narrow">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-RegularNarrow.ufo" name="Hubot Sans Regular Narrow" familyname="Hubot Sans" stylename="Regular Narrow">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-BlackNarrow.ufo" name="Hubot Sans Black Narrow" familyname="Hubot Sans" stylename="Black Narrow">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-ExtraLightWide.ufo" name="Hubot Sans ExtraLight Wide" familyname="Hubot Sans" stylename="ExtraLight Wide">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-RegularWide.ufo" name="Hubot Sans Regular Wide" familyname="Hubot Sans" stylename="Regular Wide">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-Black.ufo" name="Hubot Sans Black" familyname="Hubot Sans" stylename="Black">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="HubotSans-ExtraLightNarrowItalic.ufo" name="Hubot Sans ExtraLight Narrow Italic" familyname="Hubot Sans" stylename="ExtraLight Narrow Italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="HubotSans-RegularNarrowItalic.ufo" name="Hubot Sans Regular Narrow Italic" familyname="Hubot Sans" stylename="Regular Narrow Italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="HubotSans-BlackNarrowItalic.ufo" name="Hubot Sans Black Narrow Italic" familyname="Hubot Sans" stylename="Black Narrow Italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="HubotSans-ExtraLightWideItalic.ufo" name="Hubot Sans ExtraLight Wide Italic" familyname="Hubot Sans" stylename="ExtraLight Wide Italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="HubotSans-RegularWideItalic.ufo" name="Hubot Sans Regular Wide Italic" familyname="Hubot Sans" stylename="Regular Wide Italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="HubotSans-BlackItalic.ufo" name="Hubot Sans Black Italic" familyname="Hubot Sans" stylename="Black Italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Hubot Sans Condensed ExtraLight" familyname="Hubot Sans Condensed" stylename="ExtraLight" filename="../instance_ufo/HubotSansCondensed-ExtraLight.ufo" stylemapfamilyname="Hubot Sans Condensed ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed ExtraLight</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Light" familyname="Hubot Sans Condensed" stylename="Light" filename="../instance_ufo/HubotSansCondensed-Light.ufo" stylemapfamilyname="Hubot Sans Condensed Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Regular" familyname="Hubot Sans Condensed" stylename="Regular" filename="../instance_ufo/HubotSansCondensed-Regular.ufo" stylemapfamilyname="Hubot Sans Condensed" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Regular</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Medium" familyname="Hubot Sans Condensed" stylename="Medium" filename="../instance_ufo/HubotSansCondensed-Medium.ufo" stylemapfamilyname="Hubot Sans Condensed Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Medium</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed SemiBold" familyname="Hubot Sans Condensed" stylename="SemiBold" filename="../instance_ufo/HubotSansCondensed-SemiBold.ufo" stylemapfamilyname="Hubot Sans Condensed SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed SemiBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Bold" familyname="Hubot Sans Condensed" stylename="Bold" filename="../instance_ufo/HubotSansCondensed-Bold.ufo" stylemapfamilyname="Hubot Sans Condensed" stylemapstylename="bold">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed ExtraBold" familyname="Hubot Sans Condensed" stylename="ExtraBold" filename="../instance_ufo/HubotSansCondensed-ExtraBold.ufo" stylemapfamilyname="Hubot Sans Condensed ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed ExtraBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Black" familyname="Hubot Sans Condensed" stylename="Black" filename="../instance_ufo/HubotSansCondensed-Black.ufo" stylemapfamilyname="Hubot Sans Condensed Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Black</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans ExtraLight" familyname="Hubot Sans" stylename="ExtraLight" filename="../instance_ufo/HubotSans-ExtraLight.ufo" stylemapfamilyname="Hubot Sans ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>ExtraLight</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Light" familyname="Hubot Sans" stylename="Light" filename="../instance_ufo/HubotSans-Light.ufo" stylemapfamilyname="Hubot Sans Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Regular" familyname="Hubot Sans" stylename="Regular" filename="../instance_ufo/HubotSans-Regular.ufo" stylemapfamilyname="Hubot Sans" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Regular</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Medium" familyname="Hubot Sans" stylename="Medium" filename="../instance_ufo/HubotSans-Medium.ufo" stylemapfamilyname="Hubot Sans Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Medium</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans SemiBold" familyname="Hubot Sans" stylename="SemiBold" filename="../instance_ufo/HubotSans-SemiBold.ufo" stylemapfamilyname="Hubot Sans SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>SemiBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Bold" familyname="Hubot Sans" stylename="Bold" filename="../instance_ufo/HubotSans-Bold.ufo" stylemapfamilyname="Hubot Sans" stylemapstylename="bold">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans ExtraBold" familyname="Hubot Sans" stylename="ExtraBold" filename="../instance_ufo/HubotSans-ExtraBold.ufo" stylemapfamilyname="Hubot Sans ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>ExtraBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Black" familyname="Hubot Sans" stylename="Black" filename="../instance_ufo/HubotSans-Black.ufo" stylemapfamilyname="Hubot Sans Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Black</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded ExtraLight" familyname="Hubot Sans Expanded" stylename="ExtraLight" filename="../instance_ufo/HubotSansExpanded-ExtraLight.ufo" stylemapfamilyname="Hubot Sans Expanded ExtraLight" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded ExtraLight</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Light" familyname="Hubot Sans Expanded" stylename="Light" filename="../instance_ufo/HubotSansExpanded-Light.ufo" stylemapfamilyname="Hubot Sans Expanded Light" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Light</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Regular" familyname="Hubot Sans Expanded" stylename="Regular" filename="../instance_ufo/HubotSansExpanded-Regular.ufo" stylemapfamilyname="Hubot Sans Expanded" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Medium" familyname="Hubot Sans Expanded" stylename="Medium" filename="../instance_ufo/HubotSansExpanded-Medium.ufo" stylemapfamilyname="Hubot Sans Expanded Medium" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Medium</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded SemiBold" familyname="Hubot Sans Expanded" stylename="SemiBold" filename="../instance_ufo/HubotSansExpanded-SemiBold.ufo" stylemapfamilyname="Hubot Sans Expanded SemiBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded SemiBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Bold" familyname="Hubot Sans Expanded" stylename="Bold" filename="../instance_ufo/HubotSansExpanded-Bold.ufo" stylemapfamilyname="Hubot Sans Expanded" stylemapstylename="bold">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Bold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded ExtraBold" familyname="Hubot Sans Expanded" stylename="ExtraBold" filename="../instance_ufo/HubotSansExpanded-ExtraBold.ufo" stylemapfamilyname="Hubot Sans Expanded ExtraBold" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded ExtraBold</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Black" familyname="Hubot Sans Expanded" stylename="Black" filename="../instance_ufo/HubotSansExpanded-Black.ufo" stylemapfamilyname="Hubot Sans Expanded Black" stylemapstylename="regular">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="0"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>0</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Black</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed ExtraLight Italic" familyname="Hubot Sans Condensed" stylename="ExtraLight Italic" filename="../instance_ufo/HubotSansCondensed-ExtraLightItalic.ufo" stylemapfamilyname="Hubot Sans Condensed ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed ExtraLight Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Light Italic" familyname="Hubot Sans Condensed" stylename="Light Italic" filename="../instance_ufo/HubotSansCondensed-LightItalic.ufo" stylemapfamilyname="Hubot Sans Condensed Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Light Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Italic" familyname="Hubot Sans Condensed" stylename="Italic" filename="../instance_ufo/HubotSansCondensed-Italic.ufo" stylemapfamilyname="Hubot Sans Condensed" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Medium Italic" familyname="Hubot Sans Condensed" stylename="Medium Italic" filename="../instance_ufo/HubotSansCondensed-MediumItalic.ufo" stylemapfamilyname="Hubot Sans Condensed Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Medium Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed SemiBold Italic" familyname="Hubot Sans Condensed" stylename="SemiBold Italic" filename="../instance_ufo/HubotSansCondensed-SemiBoldItalic.ufo" stylemapfamilyname="Hubot Sans Condensed SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed SemiBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Bold Italic" familyname="Hubot Sans Condensed" stylename="Bold Italic" filename="../instance_ufo/HubotSansCondensed-BoldItalic.ufo" stylemapfamilyname="Hubot Sans Condensed" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Bold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed ExtraBold Italic" familyname="Hubot Sans Condensed" stylename="ExtraBold Italic" filename="../instance_ufo/HubotSansCondensed-ExtraBoldItalic.ufo" stylemapfamilyname="Hubot Sans Condensed ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed ExtraBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Condensed Black Italic" familyname="Hubot Sans Condensed" stylename="Black Italic" filename="../instance_ufo/HubotSansCondensed-BlackItalic.ufo" stylemapfamilyname="Hubot Sans Condensed Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="1"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>80</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Condensed Black Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans ExtraLight Italic" familyname="Hubot Sans" stylename="ExtraLight Italic" filename="../instance_ufo/HubotSans-ExtraLightItalic.ufo" stylemapfamilyname="Hubot Sans ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>ExtraLight Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Light Italic" familyname="Hubot Sans" stylename="Light Italic" filename="../instance_ufo/HubotSans-LightItalic.ufo" stylemapfamilyname="Hubot Sans Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Light Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Italic" familyname="Hubot Sans" stylename="Italic" filename="../instance_ufo/HubotSans-Italic.ufo" stylemapfamilyname="Hubot Sans" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Medium Italic" familyname="Hubot Sans" stylename="Medium Italic" filename="../instance_ufo/HubotSans-MediumItalic.ufo" stylemapfamilyname="Hubot Sans Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Medium Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans SemiBold Italic" familyname="Hubot Sans" stylename="SemiBold Italic" filename="../instance_ufo/HubotSans-SemiBoldItalic.ufo" stylemapfamilyname="Hubot Sans SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>SemiBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Bold Italic" familyname="Hubot Sans" stylename="Bold Italic" filename="../instance_ufo/HubotSans-BoldItalic.ufo" stylemapfamilyname="Hubot Sans" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Bold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans ExtraBold Italic" familyname="Hubot Sans" stylename="ExtraBold Italic" filename="../instance_ufo/HubotSans-ExtraBoldItalic.ufo" stylemapfamilyname="Hubot Sans ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>ExtraBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Black Italic" familyname="Hubot Sans" stylename="Black Italic" filename="../instance_ufo/HubotSans-BlackItalic.ufo" stylemapfamilyname="Hubot Sans Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="7"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>100</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Black Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded ExtraLight Italic" familyname="Hubot Sans Expanded" stylename="ExtraLight Italic" filename="../instance_ufo/HubotSansExpanded-ExtraLightItalic.ufo" stylemapfamilyname="Hubot Sans Expanded ExtraLight" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>200</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded ExtraLight Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Light Italic" familyname="Hubot Sans Expanded" stylename="Light Italic" filename="../instance_ufo/HubotSansExpanded-LightItalic.ufo" stylemapfamilyname="Hubot Sans Expanded Light" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>300</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Light Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Italic" familyname="Hubot Sans Expanded" stylename="Italic" filename="../instance_ufo/HubotSansExpanded-Italic.ufo" stylemapfamilyname="Hubot Sans Expanded" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="400"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>400</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Medium Italic" familyname="Hubot Sans Expanded" stylename="Medium Italic" filename="../instance_ufo/HubotSansExpanded-MediumItalic.ufo" stylemapfamilyname="Hubot Sans Expanded Medium" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="500"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>500</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Medium Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded SemiBold Italic" familyname="Hubot Sans Expanded" stylename="SemiBold Italic" filename="../instance_ufo/HubotSansExpanded-SemiBoldItalic.ufo" stylemapfamilyname="Hubot Sans Expanded SemiBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="600"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>600</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded SemiBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Bold Italic" familyname="Hubot Sans Expanded" stylename="Bold Italic" filename="../instance_ufo/HubotSansExpanded-BoldItalic.ufo" stylemapfamilyname="Hubot Sans Expanded" stylemapstylename="bold italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="700"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>700</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Bold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded ExtraBold Italic" familyname="Hubot Sans Expanded" stylename="ExtraBold Italic" filename="../instance_ufo/HubotSansExpanded-ExtraBoldItalic.ufo" stylemapfamilyname="Hubot Sans Expanded ExtraBold" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="800"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>800</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded ExtraBold Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+    <instance name="Hubot Sans Expanded Black Italic" familyname="Hubot Sans Expanded" stylename="Black Italic" filename="../instance_ufo/HubotSansExpanded-BlackItalic.ufo" stylemapfamilyname="Hubot Sans Expanded Black" stylemapstylename="italic">
+      <location>
+        <dimension name="Width" xvalue="10"/>
+        <dimension name="Weight" xvalue="900"/>
+        <dimension name="Italic" xvalue="12"/>
+      </location>
+      <kerning/>
+      <info/>
+      <lib>
+        <dict>
+          <key>com.schriftgestaltung.customParameters</key>
+          <array>
+            <array>
+              <string>Instance Preview</string>
+              <array>
+                <string>H</string>
+                <string>u</string>
+                <string>b</string>
+                <string>o</string>
+                <string>t</string>
+                <string>space</string>
+                <string>S</string>
+                <string>a</string>
+                <string>n</string>
+                <string>s</string>
+              </array>
+            </array>
+            <array>
+              <string>Filter</string>
+              <string>RemoveOverlap;</string>
+            </array>
+            <array>
+              <string>Axis Location</string>
+              <array>
+                <dict>
+                  <key>Axis</key>
+                  <string>Width</string>
+                  <key>Location</key>
+                  <integer>120</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Weight</string>
+                  <key>Location</key>
+                  <integer>900</integer>
+                </dict>
+                <dict>
+                  <key>Axis</key>
+                  <string>Italic</string>
+                  <key>Location</key>
+                  <integer>1</integer>
+                </dict>
+              </array>
+            </array>
+            <array>
+              <string>variableStyleName</string>
+              <string>Expanded Black Italic</string>
+            </array>
+          </array>
+        </dict>
+      </lib>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>GSDimensionPlugin.Dimensions</key>
+      <dict>
+        <key>3997DD6A-B1DD-4C8E-8076-A32381C7B82F</key>
+        <dict>
+          <key>nV</key>
+          <string>178</string>
+        </dict>
+        <key>5908592F-1119-4296-AF9E-8219C1C10A44</key>
+        <dict>
+          <key>nV</key>
+          <string>37</string>
+        </dict>
+        <key>5CD2F84A-2568-4CD8-B351-D9C938FC152A</key>
+        <dict>
+          <key>nV</key>
+          <string>72</string>
+        </dict>
+        <key>60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3</key>
+        <dict>
+          <key>nV</key>
+          <string>97</string>
+        </dict>
+        <key>6932EABA-00D8-4526-96D6-87ADD7AC589E</key>
+        <dict>
+          <key>HV</key>
+          <string>31</string>
+          <key>nV</key>
+          <string>31</string>
+        </dict>
+        <key>83818878-ED40-419E-99CD-108DAFFBE778</key>
+        <dict>
+          <key>nV</key>
+          <string>37</string>
+        </dict>
+        <key>AE48F426-5A06-4069-851E-B29A4CF5AB7C</key>
+        <dict>
+          <key>nV</key>
+          <string>97</string>
+        </dict>
+        <key>B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9</key>
+        <dict>
+          <key>nV</key>
+          <string>236</string>
+        </dict>
+        <key>C27438A8-196C-4C9A-B899-94A1193B83E6</key>
+        <dict>
+          <key>nV</key>
+          <string>178</string>
+        </dict>
+        <key>CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4</key>
+        <dict>
+          <key>nV</key>
+          <string>31</string>
+        </dict>
+        <key>DE16639F-02D9-40F6-995B-45753FE85645</key>
+        <dict>
+          <key>nV</key>
+          <string>72</string>
+        </dict>
+        <key>FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71</key>
+        <dict>
+          <key>nV</key>
+          <string>236</string>
+        </dict>
+      </dict>
+      <key>KernOnKerningWeightLimit</key>
+      <integer>36000</integer>
+      <key>KernOnRegenerateGroups</key>
+      <integer>1</integer>
+      <key>KernOnVersion</key>
+      <string>1.29</string>
+      <key>com.eweracs.HTLSManager.fontRules</key>
+      <dict>
+        <key>Letter</key>
+        <dict>
+          <key>312438f7decf4fc68bcbaca450e03a99</key>
+          <dict>
+            <key>case</key>
+            <integer>2</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>x</string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <integer>1</integer>
+          </dict>
+          <key>6a2d898c1367438986d3a6a56dff674b</key>
+          <dict>
+            <key>case</key>
+            <integer>1</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>H</string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+        </dict>
+        <key>Mark</key>
+        <dict/>
+        <key>Number</key>
+        <dict>
+          <key>2bd1e700934d48afa4ccdec6e58ec3e7</key>
+          <dict>
+            <key>case</key>
+            <integer>4</integer>
+            <key>filter</key>
+            <string>inferior</string>
+            <key>referenceGlyph</key>
+            <string>oneinferior</string>
+            <key>subcategory</key>
+            <string>Small</string>
+            <key>value</key>
+            <string>1.0</string>
+          </dict>
+          <key>55f63e4331df4db2af4078f7d25e7c81</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>fraction</string>
+            <key>referenceGlyph</key>
+            <string>one.numr</string>
+            <key>subcategory</key>
+            <string>Fraction</string>
+            <key>value</key>
+            <string>1.0</string>
+          </dict>
+          <key>83f21c7fa30c4bda82d83ce68797bf1e</key>
+          <dict>
+            <key>case</key>
+            <integer>4</integer>
+            <key>filter</key>
+            <string>.dnom</string>
+            <key>referenceGlyph</key>
+            <string>one.dnom</string>
+            <key>subcategory</key>
+            <string>Fraction</string>
+            <key>value</key>
+            <string>1.0</string>
+          </dict>
+          <key>ed5cb22a9b09400187c0feacae1f0f8f</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>H</string>
+            <key>subcategory</key>
+            <string>Decimal Digit</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+        </dict>
+        <key>Punctuation</key>
+        <dict>
+          <key>167668d12cdd4c8893e2ea25c8b50ee7</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Quote</string>
+            <key>value</key>
+            <real>0.8</real>
+          </dict>
+          <key>473a79e894d44c599a51e7e1ece63290</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>guil</string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Quote</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+          <key>4ec998b892f749cda9789e6906484c17</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>comma</string>
+            <key>referenceGlyph</key>
+            <string>period</string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <string>0.7</string>
+          </dict>
+          <key>9184a8a098a84478838c6fc128ee0a80</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>bracketleft</string>
+            <key>subcategory</key>
+            <string>Parenthesis</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+          <key>9d511a8382cb45d792fdbfdfc50ffffd</key>
+          <dict>
+            <key>case</key>
+            <integer>1</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>H</string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+          <key>9ec58eaef538412db8c6e39bfab814c4</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>colon</string>
+            <key>referenceGlyph</key>
+            <string>idotless</string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+          <key>9f4aa33eabc048148a0062f6007b15aa</key>
+          <dict>
+            <key>case</key>
+            <integer>1</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Parenthesis</string>
+            <key>value</key>
+            <real>1.2</real>
+          </dict>
+          <key>c63f0f2ed1a04e758a366249316b4adc</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <real>0.7</real>
+          </dict>
+          <key>d38ed0f19582418b87419664ccbaea66</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>numbersign</string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <string>1</string>
+          </dict>
+        </dict>
+        <key>Symbol</key>
+        <dict>
+          <key>0fc37ed242184cf0bb4187ff151ca40f</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string>florin</string>
+            <key>referenceGlyph</key>
+            <string>idotless</string>
+            <key>subcategory</key>
+            <string>Currency</string>
+            <key>value</key>
+            <integer>1</integer>
+          </dict>
+          <key>29efbbb3c5a14419ae21c4df65fbd7be</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Math</string>
+            <key>value</key>
+            <integer>1</integer>
+          </dict>
+          <key>42048483ab514efc835267f63d632f9d</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string></string>
+            <key>subcategory</key>
+            <string>Any</string>
+            <key>value</key>
+            <real>1.3</real>
+          </dict>
+          <key>d186e1aee4d04436b206cbedd9f1894d</key>
+          <dict>
+            <key>case</key>
+            <integer>0</integer>
+            <key>filter</key>
+            <string></string>
+            <key>referenceGlyph</key>
+            <string>H</string>
+            <key>subcategory</key>
+            <string>Currency</string>
+            <key>value</key>
+            <real>1.3</real>
+          </dict>
+        </dict>
+      </dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>_AE.E</string>
+        <string>_Euro.bars</string>
+        <string>_OE.O</string>
+        <string>_Stem.Uppercase</string>
+        <string>_bitcoin.bars</string>
+        <string>_copyright.C</string>
+        <string>_dollar.bar</string>
+        <string>_published.P</string>
+        <string>_tail.Q</string>
+        <string>_tail.Q.ss01</string>
+        <string>_yen.bars</string>
+        <string>caroncomb.alt</string>
+        <string>caroncomb.alt.t</string>
+        <string>strokeshortcomb.t</string>
+      </array>
+    </dict>
+  </lib>
+</designspace>

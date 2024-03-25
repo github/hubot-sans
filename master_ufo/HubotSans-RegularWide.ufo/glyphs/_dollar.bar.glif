@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_dollar.bar" format="2">
+  <advance width="171"/>
+  <anchor x="85" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="40" y="-121" type="line"/>
+      <point x="131" y="-121" type="line"/>
+      <point x="123" y="26" type="line"/>
+      <point x="49" y="26" type="line"/>
+    </contour>
+    <contour>
+      <point x="49" y="711" type="line"/>
+      <point x="123" y="711" type="line"/>
+      <point x="131" y="850" type="line"/>
+      <point x="40" y="850" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

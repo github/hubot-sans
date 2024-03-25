@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringcomb" format="2">
+  <unicode hex="030A"/>
+  <anchor x="103" y="515" name="_top"/>
+  <outline>
+    <contour>
+      <point x="103" y="588" type="curve" smooth="yes"/>
+      <point x="141" y="588"/>
+      <point x="166" y="620"/>
+      <point x="166" y="677" type="curve" smooth="yes"/>
+      <point x="166" y="730"/>
+      <point x="143" y="766"/>
+      <point x="103" y="766" type="curve" smooth="yes"/>
+      <point x="65" y="766"/>
+      <point x="40" y="734"/>
+      <point x="40" y="677" type="curve" smooth="yes"/>
+      <point x="40" y="624"/>
+      <point x="63" y="588"/>
+    </contour>
+    <contour>
+      <point x="103" y="613" type="curve" smooth="yes"/>
+      <point x="81" y="613"/>
+      <point x="67" y="633"/>
+      <point x="67" y="677" type="curve" smooth="yes"/>
+      <point x="67" y="715"/>
+      <point x="79" y="741"/>
+      <point x="103" y="741" type="curve" smooth="yes"/>
+      <point x="125" y="741"/>
+      <point x="139" y="721"/>
+      <point x="139" y="677" type="curve" smooth="yes"/>
+      <point x="139" y="639"/>
+      <point x="127" y="613"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>206</integer>
+    </dict>
+  </lib>
+</glyph>

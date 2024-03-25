@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="n" format="2">
+  <advance width="778"/>
+  <unicode hex="006E"/>
+  <note>
+n
+</note>
+  <anchor x="343" y="0" name="bottom"/>
+  <anchor x="458" y="545" name="top"/>
+  <outline>
+    <contour>
+      <point x="-12" y="0" type="line"/>
+      <point x="229" y="0" type="line"/>
+      <point x="304" y="356" type="line"/>
+      <point x="335" y="381"/>
+      <point x="379" y="396"/>
+      <point x="424" y="396" type="curve" smooth="yes"/>
+      <point x="489" y="396"/>
+      <point x="519" y="362"/>
+      <point x="503" y="290" type="curve" smooth="yes"/>
+      <point x="443" y="0" type="line"/>
+      <point x="684" y="0" type="line"/>
+      <point x="747" y="304" type="line" smooth="yes"/>
+      <point x="779" y="454"/>
+      <point x="706" y="557"/>
+      <point x="542" y="557" type="curve" smooth="yes"/>
+      <point x="468" y="557"/>
+      <point x="389" y="534"/>
+      <point x="334" y="493" type="curve"/>
+      <point x="328" y="493" type="line"/>
+      <point x="320" y="545" type="line"/>
+      <point x="102" y="545" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

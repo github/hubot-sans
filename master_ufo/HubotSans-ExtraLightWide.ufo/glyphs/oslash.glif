@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash" format="2">
+  <advance width="654"/>
+  <unicode hex="00F8"/>
+  <anchor x="572" y="0" name="#exit"/>
+  <anchor x="327" y="0" name="bottom"/>
+  <anchor x="327" y="258" name="center"/>
+  <anchor x="580" y="10" name="ogonek"/>
+  <anchor x="327" y="516" name="top"/>
+  <anchor x="470" y="495" name="topright"/>
+  <outline>
+    <component base="o" xOffset="1"/>
+    <component base="slashlongcomb" xOffset="15" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.18,0.16,0.78,1</string>
+    </dict>
+  </lib>
+</glyph>

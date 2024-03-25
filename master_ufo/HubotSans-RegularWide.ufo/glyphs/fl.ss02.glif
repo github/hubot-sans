@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fl.ss02" format="2">
+  <advance width="686"/>
+  <anchor x="308.5" y="0" name="caret_1"/>
+  <outline>
+    <contour>
+      <point x="136" y="0" type="line"/>
+      <point x="233" y="0" type="line"/>
+      <point x="233" y="446" type="line"/>
+      <point x="376" y="446" type="line"/>
+      <point x="376" y="525" type="line"/>
+      <point x="233" y="525" type="line"/>
+      <point x="233" y="650" type="line"/>
+      <point x="460" y="650" type="line"/>
+      <point x="460" y="79" type="line" smooth="yes"/>
+      <point x="460" y="26"/>
+      <point x="488" y="0"/>
+      <point x="542" y="0" type="curve" smooth="yes"/>
+      <point x="660" y="0" type="line"/>
+      <point x="660" y="84" type="line"/>
+      <point x="557" y="84" type="line"/>
+      <point x="557" y="729" type="line"/>
+      <point x="223" y="729" type="line" smooth="yes"/>
+      <point x="168" y="729"/>
+      <point x="136" y="700"/>
+      <point x="136" y="647" type="curve" smooth="yes"/>
+      <point x="136" y="525" type="line"/>
+      <point x="26" y="525" type="line"/>
+      <point x="26" y="446" type="line"/>
+      <point x="136" y="446" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l.ss02</string>
+    </dict>
+  </lib>
+</glyph>

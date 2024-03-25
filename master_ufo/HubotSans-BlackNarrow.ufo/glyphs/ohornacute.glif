@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ohornacute" format="2">
+  <advance width="474"/>
+  <unicode hex="1EDB"/>
+  <anchor x="278" y="0" name="#exit"/>
+  <anchor x="235" y="0" name="bottom"/>
+  <anchor x="235" y="273" name="center"/>
+  <anchor x="425" y="10" name="ogonek"/>
+  <anchor x="235" y="546" name="top"/>
+  <anchor x="335" y="516" name="topright"/>
+  <outline>
+    <component base="ohorn"/>
+    <component base="acutecomb" xOffset="117"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

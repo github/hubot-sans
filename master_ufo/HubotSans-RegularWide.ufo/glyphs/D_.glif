@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D" format="2">
+  <advance width="857"/>
+  <unicode hex="0044"/>
+  <note>
+D
+</note>
+  <anchor x="423" y="0" name="bottom"/>
+  <anchor x="172" y="365" name="center"/>
+  <anchor x="423" y="729" name="top"/>
+  <outline>
+    <contour>
+      <point x="72" y="0" type="line"/>
+      <point x="410" y="0" type="line" smooth="yes"/>
+      <point x="659" y="0"/>
+      <point x="811" y="130"/>
+      <point x="811" y="352" type="curve" smooth="yes"/>
+      <point x="811" y="378" type="line" smooth="yes"/>
+      <point x="811" y="595"/>
+      <point x="666" y="729"/>
+      <point x="410" y="729" type="curve" smooth="yes"/>
+      <point x="72" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="169" y="43" type="line"/>
+      <point x="169" y="686" type="line"/>
+      <point x="125" y="642" type="line"/>
+      <point x="414" y="642" type="line" smooth="yes"/>
+      <point x="590" y="642"/>
+      <point x="707" y="557"/>
+      <point x="707" y="403" type="curve" smooth="yes"/>
+      <point x="707" y="326" type="line" smooth="yes"/>
+      <point x="707" y="178"/>
+      <point x="597" y="87"/>
+      <point x="414" y="87" type="curve" smooth="yes"/>
+      <point x="125" y="87" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
+</glyph>
