@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = Eogonek;
-kernLeft = H;
-kernRight = E;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -15,7 +13,7 @@ pos = (188,0);
 ref = ogonekcomb;
 }
 );
-width = 355;
+width = 344;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -93,7 +91,7 @@ pos = (566,0);
 ref = ogonekcomb;
 }
 );
-width = 764;
+width = 770;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -132,7 +130,7 @@ pos = (190,0);
 ref = ogonekcomb;
 }
 );
-width = 356;
+width = 345;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";

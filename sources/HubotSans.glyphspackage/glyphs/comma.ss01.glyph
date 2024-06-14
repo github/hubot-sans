@@ -2,7 +2,7 @@
 color = 4;
 glyphname = comma.ss01;
 kernLeft = comma.ss01;
-kernRight = quotedblbase.ss01;
+kernRight = comma.ss01;
 layers = (
 {
 anchors = (

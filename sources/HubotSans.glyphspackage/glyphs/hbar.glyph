@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = hbar;
-kernLeft = hbar;
 kernRight = n;
 layers = (
 {

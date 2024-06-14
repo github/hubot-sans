@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = Kcommaaccent;
-kernLeft = H;
 kernRight = K;
 layers = (
 {

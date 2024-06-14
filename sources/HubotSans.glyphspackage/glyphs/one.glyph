@@ -2,7 +2,6 @@
 color = 4;
 glyphname = one;
 kernLeft = one;
-kernRight = one;
 layers = (
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";

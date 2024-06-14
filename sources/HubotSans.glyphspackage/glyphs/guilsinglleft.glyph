@@ -1,6 +1,6 @@
 {
 glyphname = guilsinglleft;
-kernLeft = guillemetleft;
+kernLeft = guilsinglleft;
 kernRight = guillemetleft;
 layers = (
 {

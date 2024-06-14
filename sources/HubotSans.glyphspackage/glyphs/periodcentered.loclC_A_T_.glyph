@@ -1,6 +1,7 @@
 {
 color = 4;
 glyphname = periodcentered.loclCAT;
+kernLeft = periodcentered.loclCAT;
 layers = (
 {
 background = {

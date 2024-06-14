@@ -23,6 +23,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (144,164);
 ref = five.dnom;
 }
@@ -57,6 +60,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (138,164);
 ref = five.dnom;
 }
@@ -84,6 +90,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (154,164);
 ref = five.dnom;
 }
@@ -112,6 +121,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (272,164);
 ref = five.dnom;
 }
@@ -140,6 +152,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (249,164);
 ref = five.dnom;
 }
@@ -167,6 +182,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (188,164);
 ref = five.dnom;
 }
@@ -195,6 +213,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (310,164);
 ref = five.dnom;
 }
@@ -223,6 +244,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (291,164);
 ref = five.dnom;
 }
@@ -250,6 +274,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (175,164);
 ref = five.dnom;
 }
@@ -277,6 +304,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (175,164);
 ref = five.dnom;
 }
@@ -291,6 +321,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (241,164);
 ref = five.dnom;
 }
@@ -305,6 +338,9 @@ alignment = 1;
 ref = blackCircle;
 },
 {
+attr = {
+mask = 1;
+};
 pos = (281,164);
 ref = five.dnom;
 }

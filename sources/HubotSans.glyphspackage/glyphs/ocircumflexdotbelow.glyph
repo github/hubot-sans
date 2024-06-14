@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ocircumflexdotbelow;
-kernLeft = egrave;
+kernLeft = odieresis;
 kernRight = o;
 layers = (
 {

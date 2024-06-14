@@ -1,7 +1,7 @@
 {
 glyphname = f_f_l.liga.ss02;
-kernLeft = fi;
-kernRight = fl.ss02;
+kernLeft = f;
+kernRight = l.ss02;
 layers = (
 {
 anchors = (

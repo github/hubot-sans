@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = Jcircumflex;
-kernLeft = Jcircumflex;
+kernLeft = J;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

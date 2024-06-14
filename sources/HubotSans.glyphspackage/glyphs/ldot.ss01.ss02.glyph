@@ -217,11 +217,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (231,0);
+pos = (233,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 412;
+width = 414;
 },
 {
 background = {
@@ -437,11 +437,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (226,0);
+pos = (227,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 408;
+width = 409;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -451,11 +451,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (329,0);
+pos = (334,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 590;
+width = 595;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -465,11 +465,11 @@ ref = l.ss02;
 },
 {
 alignment = 1;
-pos = (335,0);
+pos = (341,0);
 ref = periodcentered.loclCAT.ss01;
 }
 );
-width = 592;
+width = 598;
 }
 );
 userData = {

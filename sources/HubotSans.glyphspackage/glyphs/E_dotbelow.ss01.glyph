@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = Edotbelow.ss01;
-kernRight = E;
+kernRight = Eacute;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -14,7 +14,7 @@ pos = (105,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 355;
+width = 344;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -79,7 +79,7 @@ pos = (135,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 356;
+width = 345;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -118,7 +118,7 @@ pos = (321,0);
 ref = dotbelowcomb.ss01;
 }
 );
-width = 764;
+width = 770;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";

@@ -154,11 +154,11 @@ shapes = (
 ref = S;
 },
 {
-pos = (320,184);
+pos = (322,184);
 ref = acutecomb;
 }
 );
-width = 867;
+width = 869;
 }
 );
 unicode = 346;

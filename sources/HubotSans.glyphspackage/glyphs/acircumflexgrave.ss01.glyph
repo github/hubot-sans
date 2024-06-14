@@ -1,6 +1,7 @@
 {
 glyphname = acircumflexgrave.ss01;
 kernLeft = a.ss01;
+kernRight = a.ss01;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";

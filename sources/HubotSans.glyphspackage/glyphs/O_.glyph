@@ -905,7 +905,7 @@ nodes = (
 );
 }
 );
-width = 987;
+width = 986;
 },
 {
 anchors = (
@@ -978,6 +978,7 @@ nodes = (
 width = 985;
 }
 );
+metricRight = "=|";
 note = O;
 unicode = 79;
 userData = {

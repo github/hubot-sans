@@ -2,7 +2,6 @@
 color = 6;
 glyphname = colon;
 kernLeft = colon;
-kernRight = colon;
 layers = (
 {
 background = {

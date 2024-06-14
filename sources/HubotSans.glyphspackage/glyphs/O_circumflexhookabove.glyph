@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 6;
 glyphname = Ocircumflexhookabove;
 kernLeft = O;
 kernRight = O;
@@ -145,7 +145,7 @@ pos = (197,184);
 ref = circumflexcomb_hookabovecomb;
 }
 );
-width = 987;
+width = 986;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

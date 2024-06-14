@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = jcircumflex;
-kernLeft = jcircumflex;
 kernRight = icircumflex;
 layers = (
 {

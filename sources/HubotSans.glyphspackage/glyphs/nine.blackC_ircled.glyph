@@ -24,9 +24,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (415,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (137,166);
+ref = nine.dnom;
 }
 );
 userData = {
@@ -60,9 +62,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (444,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (137,166);
+ref = nine.dnom;
 }
 );
 width = 577;
@@ -89,9 +93,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (462,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (149,166);
+ref = nine.dnom;
 }
 );
 width = 614;
@@ -119,9 +125,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (681,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (271,166);
+ref = nine.dnom;
 }
 );
 width = 946;
@@ -149,9 +157,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (678,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (250,166);
+ref = nine.dnom;
 }
 );
 width = 921;
@@ -178,9 +188,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (473,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (188,166);
+ref = nine.dnom;
 }
 );
 width = 618;
@@ -208,9 +220,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (708,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (316,166);
+ref = nine.dnom;
 }
 );
 width = 968;
@@ -238,9 +252,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (704,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (293,166);
+ref = nine.dnom;
 }
 );
 width = 948;
@@ -267,9 +283,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (454,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (175,166);
+ref = nine.dnom;
 }
 );
 width = 581;
@@ -296,9 +314,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (431,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (172,166);
+ref = nine.dnom;
 }
 );
 width = 554;
@@ -311,9 +331,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (681,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (237,166);
+ref = nine.dnom;
 }
 );
 width = 914;
@@ -326,9 +348,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (696,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (275,166);
+ref = nine.dnom;
 }
 );
 width = 928;

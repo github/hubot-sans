@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = Ocircumflexdotbelow.ss01;
-kernLeft = O;
-kernRight = O;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -189,7 +187,7 @@ pos = (168,184);
 ref = circumflexcomb;
 }
 );
-width = 987;
+width = 986;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

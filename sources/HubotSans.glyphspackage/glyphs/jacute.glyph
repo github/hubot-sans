@@ -1,7 +1,6 @@
 {
 color = 6;
 glyphname = jacute;
-kernLeft = n;
 kernRight = jacute;
 layers = (
 {

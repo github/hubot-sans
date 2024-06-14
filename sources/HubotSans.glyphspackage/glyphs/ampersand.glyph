@@ -1,6 +1,5 @@
 {
 glyphname = ampersand;
-kernLeft = ampersand;
 kernRight = ampersand;
 layers = (
 {

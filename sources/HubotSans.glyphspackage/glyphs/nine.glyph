@@ -731,7 +731,4 @@ width = 797;
 );
 note = nine;
 unicode = 57;
-userData = {
-KernOnName = nine;
-};
 }

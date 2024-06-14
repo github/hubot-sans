@@ -2,7 +2,7 @@
 color = 4;
 glyphname = comma;
 kernLeft = comma;
-kernRight = comma;
+kernRight = period;
 layers = (
 {
 anchors = (

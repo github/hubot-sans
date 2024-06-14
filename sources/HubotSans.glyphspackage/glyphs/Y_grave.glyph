@@ -1,6 +1,7 @@
 {
 color = 6;
 glyphname = Ygrave;
+kernLeft = Y;
 kernRight = Y;
 layers = (
 {

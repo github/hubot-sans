@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = guillemetleft;
-kernLeft = guillemetleft;
+kernLeft = guilsinglleft;
 kernRight = guillemetleft;
 layers = (
 {

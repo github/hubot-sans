@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = OE;
-kernRight = E;
+kernRight = Eacute;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -14,7 +14,7 @@ pos = (217,0);
 ref = E;
 }
 );
-width = 572;
+width = 561;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -218,7 +218,7 @@ pos = (553,0);
 ref = E;
 }
 );
-width = 1317;
+width = 1323;
 },
 {
 background = {
@@ -383,7 +383,7 @@ pos = (217,0);
 ref = E;
 }
 );
-width = 573;
+width = 562;
 },
 {
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";

@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ecircumflextilde;
-kernLeft = egrave;
+kernLeft = odieresis;
 kernRight = e;
 layers = (
 {
