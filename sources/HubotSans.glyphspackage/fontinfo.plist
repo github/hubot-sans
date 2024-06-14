@@ -75,29 +75,12 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
-feature salt;
 ";
 tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb horncomb slashlongcomb slashshortcomb strokelongcomb strokeshortcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
-	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
-	sub @Markscomb @Markscomb' by @MarkscombCase;
-	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
-	sub @Markscomb' @MarkscombCase by @MarkscombCase;
-	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
-
-lookup ccmp_latn_1 {
+code = "lookup ccmp_DFLT_1 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -107,6 +90,37 @@ lookup ccmp_latn_1 {
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
+} ccmp_DFLT_1;
+
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub iogonek' @CombiningTopAccents by iogonek.dotless;
+	sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_Other_1;
+
+lookup ccmp_Other_2 {
+	lookupflag 0;
+	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
+	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
+	sub @Markscomb @Markscomb' by @MarkscombCase;
+	sub @Uppercase @Markscomb' by @MarkscombCase;
+} ccmp_Other_2;
+
+lookup ccmp_Other_3 {
+	lookupflag 0;
+	sub @Markscomb' @MarkscombCase by @MarkscombCase;
+	sub @MarkscombCase @Markscomb' by @MarkscombCase;
+} ccmp_Other_3;
+
+lookup ccmp_latn_1 {
+	lookupflag 0;
+	sub fi by f i;
+	sub fl by f l;
+	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
 } ccmp_latn_1;
 
 script latn;
@@ -116,44 +130,41 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by idotaccent;
-	language CRT;
-	sub i by idotaccent;
-	language KAZ;
-	sub i by idotaccent;
-	language TAT;
-	sub i by idotaccent;
-	language TRK;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
 	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language CAT;
 lookup locl_latn_2 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -318,111 +329,6 @@ sub f i by fi;
 sub f l by fl;
 ";
 tag = liga;
-},
-{
-automatic = 1;
-code = "sub Abrevedotbelow by Abrevedotbelow.ss01;
-sub Acircumflexdotbelow by Acircumflexdotbelow.ss01;
-sub Adieresis by Adieresis.ss01;
-sub Adotbelow by Adotbelow.ss01;
-sub Cdotaccent by Cdotaccent.ss01;
-sub Ecircumflexdotbelow by Ecircumflexdotbelow.ss01;
-sub Edieresis by Edieresis.ss01;
-sub Edotaccent by Edotaccent.ss01;
-sub Edotbelow by Edotbelow.ss01;
-sub Gdotaccent by Gdotaccent.ss01;
-sub Idieresis by Idieresis.ss01;
-sub Idotaccent by Idotaccent.ss01;
-sub Idotbelow by Idotbelow.ss01;
-sub Ldot by Ldot.ss01;
-sub Ocircumflexdotbelow by Ocircumflexdotbelow.ss01;
-sub Odieresis by Odieresis.ss01;
-sub Odotbelow by Odotbelow.ss01;
-sub Ohorndotbelow by Ohorndotbelow.ss01;
-sub Q by Q.ss01;
-sub Udieresis by Udieresis.ss01;
-sub Udotbelow by Udotbelow.ss01;
-sub Uhorndotbelow by Uhorndotbelow.ss01;
-sub Wdieresis by Wdieresis.ss01;
-sub Ydieresis by Ydieresis.ss01;
-sub Ydotbelow by Ydotbelow.ss01;
-sub Zdotaccent by Zdotaccent.ss01;
-sub a by a.ss01;
-sub aacute by aacute.ss01;
-sub abreve by abreve.ss01;
-sub abreveacute by abreveacute.ss01;
-sub abrevedotbelow by abrevedotbelow.ss01;
-sub abrevegrave by abrevegrave.ss01;
-sub abrevehookabove by abrevehookabove.ss01;
-sub abrevetilde by abrevetilde.ss01;
-sub acircumflex by acircumflex.ss01;
-sub acircumflexacute by acircumflexacute.ss01;
-sub acircumflexdotbelow by acircumflexdotbelow.ss01;
-sub acircumflexgrave by acircumflexgrave.ss01;
-sub acircumflexhookabove by acircumflexhookabove.ss01;
-sub acircumflextilde by acircumflextilde.ss01;
-sub adieresis by adieresis.ss01;
-sub adotbelow by adotbelow.ss01;
-sub agrave by agrave.ss01;
-sub ahookabove by ahookabove.ss01;
-sub amacron by amacron.ss01;
-sub aogonek by aogonek.ss01;
-sub aring by aring.ss01;
-sub atilde by atilde.ss01;
-sub cdotaccent by cdotaccent.ss01;
-sub ecircumflexdotbelow by ecircumflexdotbelow.ss01;
-sub edieresis by edieresis.ss01;
-sub edotaccent by edotaccent.ss01;
-sub edotbelow by edotbelow.ss01;
-sub gdotaccent by gdotaccent.ss01;
-sub i by i.ss01;
-sub idieresis by idieresis.ss01;
-sub idotaccent by idotaccent.ss01;
-sub idotbelow by idotbelow.ss01;
-sub j by j.ss01;
-sub ldot by ldot.ss01;
-sub ocircumflexdotbelow by ocircumflexdotbelow.ss01;
-sub odieresis by odieresis.ss01;
-sub odotbelow by odotbelow.ss01;
-sub ohorndotbelow by ohorndotbelow.ss01;
-sub udieresis by udieresis.ss01;
-sub udotbelow by udotbelow.ss01;
-sub uhorndotbelow by uhorndotbelow.ss01;
-sub wdieresis by wdieresis.ss01;
-sub y by y.ss01;
-sub yacute by yacute.ss01;
-sub ycircumflex by ycircumflex.ss01;
-sub ydieresis by ydieresis.ss01;
-sub ydotbelow by ydotbelow.ss01;
-sub ygrave by ygrave.ss01;
-sub zdotaccent by zdotaccent.ss01;
-sub idotbelow.dotless by idotbelow.dotless.ss01;
-sub period by period.ss01;
-sub comma by comma.ss01;
-sub colon by colon.ss01;
-sub semicolon by semicolon.ss01;
-sub ellipsis by ellipsis.ss01;
-sub exclam by exclam.ss01;
-sub exclamdown by exclamdown.ss01;
-sub question by question.ss01;
-sub questiondown by questiondown.ss01;
-sub periodcentered by periodcentered.ss01;
-sub exclamdown.case by exclamdown.case.ss01;
-sub questiondown.case by questiondown.case.ss01;
-sub periodcentered.loclCAT by periodcentered.loclCAT.ss01;
-sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss01;
-sub quotesinglbase by quotesinglbase.ss01;
-sub quotedblbase by quotedblbase.ss01;
-sub quotedblleft by quotedblleft.ss01;
-sub quotedblright by quotedblright.ss01;
-sub quoteleft by quoteleft.ss01;
-sub quoteright by quoteright.ss01;
-sub divide by divide.ss01;
-sub dieresiscomb by dieresiscomb.ss01;
-sub dotaccentcomb by dotaccentcomb.ss01;
-sub dotbelowcomb by dotbelowcomb.ss01;
-";
-tag = salt;
 },
 {
 automatic = 1;
@@ -3185,20 +3091,24 @@ instances = (
 {
 customParameters = (
 {
-name = "Name Table Entry";
-value = "1 3 1 1033; Hubot Sans Variable";
-},
-{
-name = "Name Table Entry";
-value = "2 3 1 1033; Regular";
-},
-{
-name = "Name Table Entry";
-value = "4 3 1 1033; Hubot Sans Variable Regular";
-},
-{
 name = fileName;
-value = "HubotSansVariable-Regular";
+value = "HubotSansVF-Regular";
+},
+{
+name = "Italic Style Linking";
+value = 1;
+},
+{
+name = "Axis Values";
+value = "wdth; 80.0=Condensed, 100.0=Normal*, 120.0=Expanded";
+},
+{
+name = "Axis Values";
+value = "wght; 200.0=ExtraLight, 300.0=Light, 400.0>700.0=Regular*, 500.0=Medium, 600.0=SemiBold, 700.0=Bold, 800.0=ExtraBold, 900.0=Black";
+},
+{
+name = "Axis Values";
+value = "ital; 0.0>1.0=Regular*, 1.0=Italic";
 }
 );
 name = Regular;
@@ -3208,9 +3118,13 @@ key = familyNames;
 values = (
 {
 language = dflt;
-value = "Hubot Sans Variable";
+value = "Hubot Sans VF";
 }
 );
+},
+{
+key = variationsPostScriptNamePrefix;
+value = HubotSansVF;
 }
 );
 type = variable;
@@ -3238,10 +3152,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3257,10 +3167,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed ExtraLight";
 }
 );
 instanceInterpolations = {
@@ -3274,6 +3180,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed ExtraLight";
 }
 );
 }
@@ -3304,10 +3219,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3323,10 +3234,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Light";
 }
 );
 instanceInterpolations = {
@@ -3341,6 +3248,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Light";
 }
 );
 }
@@ -3371,10 +3287,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3390,10 +3302,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Regular";
 }
 );
 instanceInterpolations = {
@@ -3407,6 +3315,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Regular";
 }
 );
 }
@@ -3436,10 +3353,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3455,10 +3368,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Medium";
 }
 );
 instanceInterpolations = {
@@ -3473,6 +3382,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Medium";
 }
 );
 }
@@ -3503,10 +3421,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3522,10 +3436,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed SemiBold";
 }
 );
 instanceInterpolations = {
@@ -3540,6 +3450,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed SemiBold";
 }
 );
 }
@@ -3570,10 +3489,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3589,10 +3504,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Bold";
 }
 );
 instanceInterpolations = {
@@ -3610,6 +3521,15 @@ language = dflt;
 value = "Hubot Sans Condensed";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Bold";
+}
+);
 }
 );
 weightClass = 700;
@@ -3638,10 +3558,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3657,10 +3573,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed ExtraBold";
 }
 );
 instanceInterpolations = {
@@ -3677,6 +3589,15 @@ language = dflt;
 value = "Hubot Sans Condensed";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed ExtraBold";
+}
+);
 }
 );
 weightClass = 800;
@@ -3705,10 +3626,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3724,10 +3641,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Black";
 }
 );
 instanceInterpolations = {
@@ -3741,6 +3654,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Black";
 }
 );
 }
@@ -3771,10 +3693,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3790,10 +3708,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = ExtraLight;
 }
 );
 instanceInterpolations = {
@@ -3801,17 +3715,6 @@ instanceInterpolations = {
 "6932EABA-00D8-4526-96D6-87ADD7AC589E" = 0.33333;
 };
 name = ExtraLight;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 200;
 },
 {
@@ -3837,10 +3740,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3856,10 +3755,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Light;
 }
 );
 instanceInterpolations = {
@@ -3869,17 +3764,6 @@ instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.33333;
 };
 name = Light;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 300;
 },
 {
@@ -3905,10 +3789,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3924,10 +3804,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Regular;
 }
 );
 instanceInterpolations = {
@@ -3935,17 +3811,6 @@ instanceInterpolations = {
 "AE48F426-5A06-4069-851E-B29A4CF5AB7C" = 0.66667;
 };
 name = Regular;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 },
 {
 axesValues = (
@@ -3970,10 +3835,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -3989,10 +3850,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Medium;
 }
 );
 instanceInterpolations = {
@@ -4002,17 +3859,6 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.06667;
 };
 name = Medium;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 500;
 },
 {
@@ -4038,10 +3884,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4057,10 +3899,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = SemiBold;
 }
 );
 instanceInterpolations = {
@@ -4070,17 +3908,6 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.13333;
 };
 name = SemiBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 600;
 },
 {
@@ -4106,10 +3933,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4125,10 +3948,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Bold;
 }
 );
 instanceInterpolations = {
@@ -4139,17 +3958,6 @@ instanceInterpolations = {
 };
 isBold = 1;
 name = Bold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 700;
 },
 {
@@ -4175,10 +3983,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4194,10 +3998,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = ExtraBold;
 }
 );
 instanceInterpolations = {
@@ -4207,17 +4007,6 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.26667;
 };
 name = ExtraBold;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 800;
 },
 {
@@ -4243,10 +4032,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4262,10 +4047,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Black;
 }
 );
 instanceInterpolations = {
@@ -4273,17 +4054,6 @@ instanceInterpolations = {
 "C27438A8-196C-4C9A-B899-94A1193B83E6" = 0.33333;
 };
 name = Black;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 900;
 },
 {
@@ -4309,10 +4079,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4328,10 +4094,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded ExtraLight";
 }
 );
 instanceInterpolations = {
@@ -4345,6 +4107,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded ExtraLight";
 }
 );
 }
@@ -4375,10 +4146,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4394,10 +4161,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Light";
 }
 );
 instanceInterpolations = {
@@ -4412,6 +4175,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Light";
 }
 );
 }
@@ -4442,10 +4214,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4461,10 +4229,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Expanded;
 }
 );
 instanceInterpolations = {
@@ -4478,6 +4242,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Regular";
 }
 );
 }
@@ -4507,10 +4280,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4526,10 +4295,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Medium";
 }
 );
 instanceInterpolations = {
@@ -4544,6 +4309,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Medium";
 }
 );
 }
@@ -4574,10 +4348,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4593,10 +4363,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded SemiBold";
 }
 );
 instanceInterpolations = {
@@ -4611,6 +4377,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded SemiBold";
 }
 );
 }
@@ -4641,10 +4416,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4660,10 +4431,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Bold";
 }
 );
 instanceInterpolations = {
@@ -4681,6 +4448,15 @@ language = dflt;
 value = "Hubot Sans Expanded";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Bold";
+}
+);
 }
 );
 weightClass = 700;
@@ -4709,10 +4485,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4728,10 +4500,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded ExtraBold";
 }
 );
 instanceInterpolations = {
@@ -4746,6 +4514,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded ExtraBold";
 }
 );
 }
@@ -4776,10 +4553,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4795,10 +4568,6 @@ Axis = Italic;
 Location = 0;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Black";
 }
 );
 instanceInterpolations = {
@@ -4812,6 +4581,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Black";
 }
 );
 }
@@ -4842,10 +4620,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4861,10 +4635,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed ExtraLight Italic";
 }
 );
 instanceInterpolations = {
@@ -4880,6 +4650,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed ExtraLight Italic";
 }
 );
 }
@@ -4910,10 +4689,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4929,10 +4704,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Light Italic";
 }
 );
 instanceInterpolations = {
@@ -4951,6 +4722,15 @@ language = dflt;
 value = "Hubot Sans Condensed";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Light Italic";
+}
+);
 }
 );
 weightClass = 300;
@@ -4979,10 +4759,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -4998,10 +4774,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Italic";
 }
 );
 instanceInterpolations = {
@@ -5017,6 +4789,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Italic";
 }
 );
 }
@@ -5046,10 +4827,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5065,10 +4842,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Medium Italic";
 }
 );
 instanceInterpolations = {
@@ -5085,6 +4858,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Medium Italic";
 }
 );
 }
@@ -5115,10 +4897,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5134,10 +4912,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed SemiBold Italic";
 }
 );
 instanceInterpolations = {
@@ -5154,6 +4928,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed SemiBold Italic";
 }
 );
 }
@@ -5184,10 +4967,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5203,10 +4982,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Bold Italic";
 }
 );
 instanceInterpolations = {
@@ -5226,6 +5001,15 @@ language = dflt;
 value = "Hubot Sans Condensed";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Bold Italic";
+}
+);
 }
 );
 weightClass = 700;
@@ -5254,10 +5038,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5273,10 +5053,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed ExtraBold Italic";
 }
 );
 instanceInterpolations = {
@@ -5295,6 +5071,15 @@ language = dflt;
 value = "Hubot Sans Condensed";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed ExtraBold Italic";
+}
+);
 }
 );
 weightClass = 800;
@@ -5323,10 +5108,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5342,10 +5123,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Condensed Black Italic";
 }
 );
 instanceInterpolations = {
@@ -5361,6 +5138,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Condensed";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Condensed Black Italic";
 }
 );
 }
@@ -5391,10 +5177,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5410,10 +5192,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "ExtraLight Italic";
 }
 );
 instanceInterpolations = {
@@ -5423,17 +5201,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = ExtraLight;
 name = "ExtraLight Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 200;
 },
 {
@@ -5459,10 +5226,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5478,10 +5241,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Light Italic";
 }
 );
 instanceInterpolations = {
@@ -5493,17 +5252,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Light;
 name = "Light Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 300;
 },
 {
@@ -5529,10 +5277,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5548,10 +5292,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = Italic;
 }
 );
 instanceInterpolations = {
@@ -5561,17 +5301,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Regular;
 name = Italic;
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 },
 {
 axesValues = (
@@ -5596,10 +5325,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5615,10 +5340,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Medium Italic";
 }
 );
 instanceInterpolations = {
@@ -5630,17 +5351,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 500;
 },
 {
@@ -5666,10 +5376,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5685,10 +5391,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "SemiBold Italic";
 }
 );
 instanceInterpolations = {
@@ -5700,17 +5402,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = SemiBold;
 name = "SemiBold Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 600;
 },
 {
@@ -5736,10 +5427,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5755,10 +5442,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Bold Italic";
 }
 );
 instanceInterpolations = {
@@ -5771,17 +5454,6 @@ isBold = 1;
 isItalic = 1;
 linkStyle = Regular;
 name = "Bold Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 700;
 },
 {
@@ -5807,10 +5479,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5826,10 +5494,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "ExtraBold Italic";
 }
 );
 instanceInterpolations = {
@@ -5841,17 +5505,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = ExtraBold;
 name = "ExtraBold Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 800;
 },
 {
@@ -5877,10 +5530,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5896,10 +5545,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Black Italic";
 }
 );
 instanceInterpolations = {
@@ -5909,17 +5554,6 @@ instanceInterpolations = {
 isItalic = 1;
 linkStyle = Black;
 name = "Black Italic";
-properties = (
-{
-key = familyNames;
-values = (
-{
-language = dflt;
-value = "Hubot Sans";
-}
-);
-}
-);
 weightClass = 900;
 },
 {
@@ -5945,10 +5579,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -5964,10 +5594,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded ExtraLight Italic";
 }
 );
 instanceInterpolations = {
@@ -5983,6 +5609,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded ExtraLight Italic";
 }
 );
 }
@@ -6013,10 +5648,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6032,10 +5663,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Light Italic";
 }
 );
 instanceInterpolations = {
@@ -6052,6 +5679,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Light Italic";
 }
 );
 }
@@ -6082,10 +5718,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6101,10 +5733,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Italic";
 }
 );
 instanceInterpolations = {
@@ -6120,6 +5748,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Italic";
 }
 );
 }
@@ -6149,10 +5786,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6168,10 +5801,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Medium Italic";
 }
 );
 instanceInterpolations = {
@@ -6188,6 +5817,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Medium Italic";
 }
 );
 }
@@ -6218,10 +5856,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6237,10 +5871,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded SemiBold Italic";
 }
 );
 instanceInterpolations = {
@@ -6257,6 +5887,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded SemiBold Italic";
 }
 );
 }
@@ -6287,10 +5926,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6306,10 +5941,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Bold Italic";
 }
 );
 instanceInterpolations = {
@@ -6329,6 +5960,15 @@ language = dflt;
 value = "Hubot Sans Expanded";
 }
 );
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Bold Italic";
+}
+);
 }
 );
 weightClass = 700;
@@ -6357,10 +5997,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6376,10 +6012,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded ExtraBold Italic";
 }
 );
 instanceInterpolations = {
@@ -6396,6 +6028,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded ExtraBold Italic";
 }
 );
 }
@@ -6426,10 +6067,6 @@ s
 );
 },
 {
-name = Filter;
-value = "RemoveOverlap;";
-},
-{
 name = "Axis Location";
 value = (
 {
@@ -6445,10 +6082,6 @@ Axis = Italic;
 Location = 1;
 }
 );
-},
-{
-name = "Variable Font Style Name";
-value = "Expanded Black Italic";
 }
 );
 instanceInterpolations = {
@@ -6464,6 +6097,15 @@ values = (
 {
 language = dflt;
 value = "Hubot Sans Expanded";
+}
+);
+},
+{
+key = variableStyleNames;
+values = (
+{
+language = dflt;
+value = "Expanded Black Italic";
 }
 );
 }
