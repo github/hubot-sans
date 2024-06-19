@@ -1,5 +1,5 @@
 {
-color = 3;
+color = 6;
 glyphname = seveneighths;
 layers = (
 {
@@ -9,15 +9,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (215,0);
+pos = (206,0);
 ref = fraction;
 },
 {
-pos = (334,0);
+pos = (325,0);
 ref = eight.dnom;
 }
 );
-width = 607;
+width = 598;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -26,15 +26,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (241,0);
+pos = (236,0);
 ref = fraction;
 },
 {
-pos = (369,0);
+pos = (364,0);
 ref = eight.dnom;
 }
 );
-width = 674;
+width = 669;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -43,15 +43,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (250,0);
+pos = (256,0);
 ref = fraction;
 },
 {
-pos = (394,0);
+pos = (400,0);
 ref = eight.dnom;
 }
 );
-width = 716;
+width = 722;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -64,11 +64,11 @@ pos = (278,0);
 ref = fraction;
 },
 {
-pos = (442,0);
+pos = (443,0);
 ref = eight.dnom;
 }
 );
-width = 842;
+width = 843;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -77,15 +77,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (307,0);
+pos = (313,0);
 ref = fraction;
 },
 {
-pos = (442,0);
+pos = (453,0);
 ref = eight.dnom;
 }
 );
-width = 862;
+width = 873;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -94,15 +94,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (221,0);
+pos = (217,0);
 ref = fraction;
 },
 {
-pos = (339,0);
+pos = (335,0);
 ref = eight.dnom;
 }
 );
-width = 614;
+width = 610;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -111,15 +111,15 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (248,0);
+pos = (245,0);
 ref = fraction;
 },
 {
-pos = (381,0);
+pos = (378,0);
 ref = eight.dnom;
 }
 );
-width = 684;
+width = 681;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -149,11 +149,11 @@ pos = (304,0);
 ref = fraction;
 },
 {
-pos = (449,0);
+pos = (445,0);
 ref = eight.dnom;
 }
 );
-width = 860;
+width = 856;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -162,49 +162,49 @@ shapes = (
 ref = seven.numr;
 },
 {
-pos = (328,0);
+pos = (332,0);
 ref = fraction;
 },
 {
-pos = (498,0);
+pos = (504,0);
 ref = eight.dnom;
 }
 );
-width = 932;
+width = 938;
 },
 {
-layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
 ref = seven.numr;
 },
 {
-pos = (329,0);
+pos = (350,0);
 ref = fraction;
 },
 {
-pos = (492,0);
+pos = (529,0);
 ref = eight.dnom;
 }
 );
-width = 929;
+width = 966;
 },
 {
-layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
 ref = seven.numr;
 },
 {
-pos = (341,0);
+pos = (354,0);
 ref = fraction;
 },
 {
-pos = (520,0);
+pos = (548,0);
 ref = eight.dnom;
 }
 );
-width = 971;
+width = 999;
 }
 );
 metricLeft = seven.numr;
