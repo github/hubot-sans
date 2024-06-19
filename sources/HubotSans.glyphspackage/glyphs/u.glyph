@@ -20,18 +20,18 @@ pos = (246,546);
 },
 {
 name = topright;
-pos = (326,546);
+pos = (357,546);
 }
 );
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
 angle = 180;
-pos = (491,546);
+pos = (490,546);
 ref = n;
 }
 );
-width = 491;
+width = 490;
 },
 {
 anchors = (
@@ -124,35 +124,6 @@ width = 610;
 anchors = (
 {
 name = bottom;
-pos = (388,0);
-},
-{
-name = ogonek;
-pos = (723,0);
-},
-{
-name = top;
-pos = (388,545);
-},
-{
-name = topright;
-pos = (527,545);
-}
-);
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-angle = 180;
-pos = (768,545);
-ref = n;
-}
-);
-width = 768;
-},
-{
-anchors = (
-{
-name = bottom;
 pos = (331,0);
 },
 {
@@ -190,22 +161,22 @@ pos = (392,0);
 },
 {
 name = top;
-pos = (297,545);
+pos = (287,545);
 },
 {
 name = topright;
-pos = (372,545);
+pos = (392,545);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
 angle = 180;
-pos = (477,545);
+pos = (476,545);
 ref = n;
 }
 );
-width = 477;
+width = 476;
 },
 {
 anchors = (
@@ -259,40 +230,11 @@ layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
 angle = 180;
-pos = (664,525);
+pos = (665,525);
 ref = n;
 }
 );
-width = 664;
-},
-{
-anchors = (
-{
-name = bottom;
-pos = (332,0);
-},
-{
-name = ogonek;
-pos = (677,0);
-},
-{
-name = top;
-pos = (448,545);
-},
-{
-name = topright;
-pos = (599,545);
-}
-);
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-angle = 180;
-pos = (779,545);
-ref = n;
-}
-);
-width = 779;
+width = 665;
 },
 {
 anchors = (
@@ -317,11 +259,11 @@ layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
 angle = 180;
-pos = (416,523);
+pos = (415,523);
 ref = n;
 }
 );
-width = 416;
+width = 415;
 },
 {
 anchors = (
@@ -351,6 +293,64 @@ ref = n;
 }
 );
 width = 393;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (388,0);
+},
+{
+name = ogonek;
+pos = (723,0);
+},
+{
+name = top;
+pos = (388,545);
+},
+{
+name = topright;
+pos = (527,545);
+}
+);
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+angle = 180;
+pos = (768,545);
+ref = n;
+}
+);
+width = 768;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (332,0);
+},
+{
+name = ogonek;
+pos = (676,0);
+},
+{
+name = top;
+pos = (448,545);
+},
+{
+name = topright;
+pos = (598,545);
+}
+);
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+angle = 180;
+pos = (778,545);
+ref = n;
+}
+);
+width = 778;
 }
 );
 note = u;

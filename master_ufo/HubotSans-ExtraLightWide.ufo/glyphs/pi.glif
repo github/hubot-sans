@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pi" format="2">
+  <advance width="642"/>
+  <unicode hex="03C0"/>
+  <outline>
+    <contour>
+      <point x="138" y="0" type="line"/>
+      <point x="176" y="0" type="line"/>
+      <point x="176" y="481" type="line"/>
+      <point x="464" y="481" type="line"/>
+      <point x="464" y="58" type="line" smooth="yes"/>
+      <point x="464" y="24"/>
+      <point x="475" y="0"/>
+      <point x="520" y="0" type="curve"/>
+      <point x="613" y="0" type="line"/>
+      <point x="613" y="36" type="line"/>
+      <point x="502" y="36" type="line"/>
+      <point x="502" y="481" type="line"/>
+      <point x="614" y="481" type="line"/>
+      <point x="614" y="516" type="line"/>
+      <point x="25" y="516" type="line"/>
+      <point x="25" y="481" type="line"/>
+      <point x="138" y="481" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>t</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>t</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

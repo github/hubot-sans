@@ -2,7 +2,7 @@
 color = 6;
 glyphname = quoteleft;
 kernLeft = quotedblleft;
-kernRight = quotedblleft;
+kernRight = quoteleft;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -53,18 +53,6 @@ ref = quotesinglbase;
 width = 143;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 3;
-angle = 180;
-pos = (294,564);
-ref = quotesinglbase;
-}
-);
-width = 294;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -113,18 +101,6 @@ ref = quotesinglbase;
 width = 202;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 3;
-angle = 180;
-pos = (296,564);
-ref = quotesinglbase;
-}
-);
-width = 292;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -147,6 +123,30 @@ ref = quotesinglbase;
 }
 );
 width = 129;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (296,564);
+ref = quotesinglbase;
+}
+);
+width = 296;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (298,564);
+ref = quotesinglbase;
+}
+);
+width = 294;
 }
 );
 metricLeft = quotedblleft;

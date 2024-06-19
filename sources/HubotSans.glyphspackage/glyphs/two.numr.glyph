@@ -68,17 +68,6 @@ ref = two.dnom;
 width = 376;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 3;
-pos = (0,328);
-ref = two.dnom;
-}
-);
-width = 418;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -123,17 +112,6 @@ ref = two.dnom;
 width = 408;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 3;
-pos = (70,328);
-ref = two.dnom;
-}
-);
-width = 428;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -154,6 +132,28 @@ ref = two.dnom;
 }
 );
 width = 265;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 3;
+pos = (0,328);
+ref = two.dnom;
+}
+);
+width = 419;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 3;
+pos = (70,328);
+ref = two.dnom;
+}
+);
+width = 429;
 }
 );
 metricLeft = two.dnom;

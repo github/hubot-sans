@@ -25,7 +25,7 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (411,566);
+pos = (415,566);
 ref = six.dnom;
 }
 );
@@ -36,7 +36,7 @@ weight = -10;
 width = 62;
 };
 };
-width = 543;
+width = 551;
 },
 {
 background = {
@@ -61,11 +61,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (453,566);
+pos = (444,566);
 ref = six.dnom;
 }
 );
-width = 595;
+width = 577;
 },
 {
 background = {
@@ -90,11 +90,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (477,566);
+pos = (462,566);
 ref = six.dnom;
 }
 );
-width = 644;
+width = 614;
 },
 {
 background = {
@@ -120,41 +120,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (677,566);
+pos = (681,566);
 ref = six.dnom;
 }
 );
-width = 938;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-1,0);
-ref = whiteCircle;
-},
-{
-alignment = -1;
-angle = 180;
-pos = (667,564);
-ref = six.dnom;
-}
-);
-};
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-ref = whiteCircle;
-},
-{
-angle = 180;
-pos = (689,566);
-ref = six.dnom;
-}
-);
-width = 931;
+width = 946;
 },
 {
 background = {
@@ -180,11 +150,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (676,566);
+pos = (678,566);
 ref = six.dnom;
 }
 );
-width = 917;
+width = 921;
 },
 {
 background = {
@@ -209,11 +179,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (489,566);
+pos = (473,566);
 ref = six.dnom;
 }
 );
-width = 650;
+width = 618;
 },
 {
 background = {
@@ -239,11 +209,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (705,566);
+pos = (708,566);
 ref = six.dnom;
 }
 );
-width = 962;
+width = 968;
 },
 {
 background = {
@@ -269,41 +239,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (705,566);
-ref = six.dnom;
-}
-);
-width = 950;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-1,0);
-ref = whiteCircle;
-},
-{
-alignment = -1;
-angle = 180;
-pos = (694,564);
-ref = six.dnom;
-}
-);
-};
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 1;
-ref = whiteCircle;
-},
-{
-angle = 180;
 pos = (704,566);
 ref = six.dnom;
 }
 );
-width = 945;
+width = 948;
 },
 {
 background = {
@@ -328,11 +268,11 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (463,566);
+pos = (454,566);
 ref = six.dnom;
 }
 );
-width = 599;
+width = 581;
 },
 {
 background = {
@@ -357,11 +297,41 @@ ref = whiteCircle;
 },
 {
 angle = 180;
-pos = (428,566);
+pos = (431,566);
 ref = six.dnom;
 }
 );
-width = 548;
+width = 554;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+angle = 180;
+pos = (681,566);
+ref = six.dnom;
+}
+);
+width = 914;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+ref = whiteCircle;
+},
+{
+angle = 180;
+pos = (696,566);
+ref = six.dnom;
+}
+);
+width = 929;
 }
 );
 unicode = 9320;

@@ -1,8 +1,6 @@
 {
 color = 6;
 glyphname = Ntilde;
-kernLeft = H;
-kernRight = H;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -11,7 +9,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (43,214);
+pos = (63,214);
 ref = tildecomb;
 }
 );
@@ -24,7 +22,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (35,205);
+pos = (54,202);
 ref = tildecomb;
 }
 );
@@ -37,11 +35,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (12,183);
+pos = (53,183);
 ref = tildecomb;
 }
 );
-width = 515;
+width = 516;
 },
 {
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
@@ -50,24 +48,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (262,213);
+pos = (261,213);
 ref = tildecomb;
 }
 );
 width = 879;
-},
-{
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = N;
-},
-{
-pos = (246,184);
-ref = tildecomb;
-}
-);
-width = 973;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -76,7 +61,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (228,204);
+pos = (235,204);
 ref = tildecomb;
 }
 );
@@ -89,7 +74,7 @@ shapes = (
 ref = N;
 },
 {
-pos = (56,184);
+pos = (93,183);
 ref = tildecomb;
 }
 );
@@ -102,11 +87,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (319,213);
+pos = (323,213);
 ref = tildecomb;
 }
 );
-width = 892;
+width = 891;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -115,24 +100,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (287,204);
+pos = (298,204);
 ref = tildecomb;
 }
 );
-width = 898;
-},
-{
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = N;
-},
-{
-pos = (294,184);
-ref = tildecomb;
-}
-);
-width = 992;
+width = 899;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +113,11 @@ shapes = (
 ref = N;
 },
 {
-pos = (88,206);
+pos = (103,202);
 ref = tildecomb;
 }
 );
-width = 454;
+width = 459;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +126,37 @@ shapes = (
 ref = N;
 },
 {
-pos = (103,214);
+pos = (121,214);
 ref = tildecomb;
 }
 );
-width = 438;
+width = 442;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (242,184);
+ref = tildecomb;
+}
+);
+width = 973;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = N;
+},
+{
+pos = (292,184);
+ref = tildecomb;
+}
+);
+width = 991;
 }
 );
 unicode = 209;

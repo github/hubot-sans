@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcedilla" format="2">
+  <advance width="408"/>
+  <unicode hex="0163"/>
+  <anchor x="264" y="0" name="bottom"/>
+  <anchor x="195" y="270" name="center"/>
+  <anchor x="210" y="525" name="top"/>
+  <anchor x="233" y="687" name="topright"/>
+  <outline>
+    <component base="t"/>
+    <component base="cedillacomb" xOffset="109"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

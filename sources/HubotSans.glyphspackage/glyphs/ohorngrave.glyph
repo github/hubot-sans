@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = ohorngrave;
-kernLeft = egrave;
+kernLeft = e;
 kernRight = ohorn;
 layers = (
 {
@@ -57,26 +57,13 @@ ref = gravecomb;
 width = 652;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = ohorn;
-},
-{
-pos = (112,0);
-ref = gravecomb;
-}
-);
-width = 752;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
 ref = ohorn;
 },
 {
-pos = (119,0);
+pos = (123,0);
 ref = gravecomb;
 }
 );
@@ -89,7 +76,7 @@ shapes = (
 ref = ohorn;
 },
 {
-pos = (36,0);
+pos = (38,0);
 ref = gravecomb;
 }
 );
@@ -122,19 +109,6 @@ ref = gravecomb;
 width = 688;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = ohorn;
-},
-{
-pos = (94,0);
-ref = gravecomb;
-}
-);
-width = 767;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -159,6 +133,32 @@ ref = gravecomb;
 }
 );
 width = 374;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (117,0);
+ref = gravecomb;
+}
+);
+width = 751;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = ohorn;
+},
+{
+pos = (95,0);
+ref = gravecomb;
+}
+);
+width = 767;
 }
 );
 unicode = 7901;

@@ -24,9 +24,11 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (411,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (137,166);
+ref = nine.dnom;
 }
 );
 userData = {
@@ -36,7 +38,7 @@ weight = -10;
 width = 62;
 };
 };
-width = 543;
+width = 551;
 },
 {
 background = {
@@ -60,12 +62,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (453,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (137,166);
+ref = nine.dnom;
 }
 );
-width = 595;
+width = 577;
 },
 {
 background = {
@@ -89,12 +93,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (477,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (149,166);
+ref = nine.dnom;
 }
 );
-width = 644;
+width = 614;
 },
 {
 background = {
@@ -119,42 +125,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (677,566);
-ref = six.dnom;
-}
-);
-width = 938;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-1,0);
-ref = whiteCircle;
-},
-{
-alignment = -1;
-angle = 180;
-pos = (667,564);
-ref = six.dnom;
-}
-);
+attr = {
+mask = 1;
 };
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-ref = blackCircle;
-},
-{
-angle = 180;
-pos = (689,566);
-ref = six.dnom;
+pos = (271,166);
+ref = nine.dnom;
 }
 );
-width = 931;
+width = 946;
 },
 {
 background = {
@@ -179,12 +157,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (676,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (250,166);
+ref = nine.dnom;
 }
 );
-width = 917;
+width = 921;
 },
 {
 background = {
@@ -208,12 +188,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (489,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (188,166);
+ref = nine.dnom;
 }
 );
-width = 650;
+width = 618;
 },
 {
 background = {
@@ -238,12 +220,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (705,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (316,166);
+ref = nine.dnom;
 }
 );
-width = 962;
+width = 968;
 },
 {
 background = {
@@ -268,42 +252,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (705,566);
-ref = six.dnom;
-}
-);
-width = 950;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (-1,0);
-ref = whiteCircle;
-},
-{
-alignment = -1;
-angle = 180;
-pos = (694,564);
-ref = six.dnom;
-}
-);
+attr = {
+mask = 1;
 };
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 1;
-ref = blackCircle;
-},
-{
-angle = 180;
-pos = (704,566);
-ref = six.dnom;
+pos = (293,166);
+ref = nine.dnom;
 }
 );
-width = 945;
+width = 948;
 },
 {
 background = {
@@ -327,12 +283,14 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (463,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (175,166);
+ref = nine.dnom;
 }
 );
-width = 599;
+width = 581;
 },
 {
 background = {
@@ -356,12 +314,48 @@ alignment = 1;
 ref = blackCircle;
 },
 {
-angle = 180;
-pos = (428,566);
-ref = six.dnom;
+attr = {
+mask = 1;
+};
+pos = (172,166);
+ref = nine.dnom;
 }
 );
-width = 548;
+width = 554;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+attr = {
+mask = 1;
+};
+pos = (237,166);
+ref = nine.dnom;
+}
+);
+width = 914;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+ref = blackCircle;
+},
+{
+attr = {
+mask = 1;
+};
+pos = (275,166);
+ref = nine.dnom;
+}
+);
+width = 928;
 }
 );
 unicode = 10110;

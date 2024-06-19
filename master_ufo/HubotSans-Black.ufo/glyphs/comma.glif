@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="comma" format="2">
+  <advance width="296"/>
+  <unicode hex="002C"/>
+  <anchor x="-7" y="0" name="#entry"/>
+  <anchor x="274" y="0" name="#exit"/>
+  <anchor x="148" y="545" name="top"/>
+  <outline>
+    <contour>
+      <point x="16" y="-165" type="line"/>
+      <point x="168" y="-165" type="line"/>
+      <point x="264" y="6" type="line"/>
+      <point x="264" y="184" type="line"/>
+      <point x="32" y="184" type="line"/>
+      <point x="32" y="0" type="line"/>
+      <point x="145" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

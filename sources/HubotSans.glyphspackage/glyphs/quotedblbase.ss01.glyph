@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = quotedblbase.ss01;
-kernRight = quotedblbase.ss01;
+kernRight = comma.ss01;
 layers = (
 {
 background = {
@@ -106,34 +106,6 @@ ref = comma.ss01;
 }
 );
 width = 278;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (290,0);
-ref = comma.ss01;
-},
-{
-alignment = -1;
-ref = comma.ss01;
-}
-);
-};
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-ref = comma.ss01;
-},
-{
-alignment = 1;
-pos = (290,0);
-ref = comma.ss01;
-}
-);
-width = 588;
 },
 {
 background = {
@@ -252,34 +224,6 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (305,0);
-ref = comma.ss01;
-},
-{
-alignment = -1;
-ref = comma.ss01;
-}
-);
-};
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 1;
-ref = comma.ss01;
-},
-{
-alignment = 1;
-pos = (305,0);
-ref = comma.ss01;
-}
-);
-width = 613;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
 pos = (170,0);
 ref = comma.ss01;
 },
@@ -330,6 +274,36 @@ ref = comma.ss01;
 }
 );
 width = 250;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+ref = comma.ss01;
+},
+{
+alignment = 1;
+pos = (290,0);
+ref = comma.ss01;
+}
+);
+width = 590;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+ref = comma.ss01;
+},
+{
+alignment = 1;
+pos = (306,0);
+ref = comma.ss01;
+}
+);
+width = 615;
 }
 );
 metricLeft = comma.ss01;

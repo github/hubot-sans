@@ -1,0 +1,159 @@
+{
+color = 6;
+glyphname = parenright.case;
+kernLeft = parenright.case;
+kernRight = parenright.case;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (234,729);
+ref = parenleft.case;
+}
+);
+width = 234;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (254,729);
+ref = parenleft.case;
+}
+);
+width = 254;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (305,729);
+ref = parenleft.case;
+}
+);
+width = 305;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (288,729);
+ref = parenleft.case;
+}
+);
+width = 288;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (316,729);
+ref = parenleft.case;
+}
+);
+width = 316;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (360,729);
+ref = parenleft.case;
+}
+);
+width = 321;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (333,729);
+ref = parenleft.case;
+}
+);
+width = 288;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (358,729);
+ref = parenleft.case;
+}
+);
+width = 315;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (290,729);
+ref = parenleft.case;
+}
+);
+width = 246;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (282,729);
+ref = parenleft.case;
+}
+);
+width = 237;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (392,729);
+ref = parenleft.case;
+}
+);
+width = 392;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (427,729);
+ref = parenleft.case;
+}
+);
+width = 388;
+}
+);
+metricLeft = parenright;
+metricRight = parenright;
+userData = {
+KernOnSpecialSpacing = {
+L = parenthesis;
+};
+};
+}

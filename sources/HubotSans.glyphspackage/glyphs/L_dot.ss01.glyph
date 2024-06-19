@@ -348,74 +348,6 @@ background = {
 anchors = (
 {
 name = _center;
-pos = (184,365);
-},
-{
-name = bottom;
-pos = (376,0);
-},
-{
-name = center;
-pos = (184,365);
-},
-{
-name = top;
-pos = (184,729);
-},
-{
-name = topright;
-pos = (352,729);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(398,313,o),
-(445,268,o),
-(512,268,cs),
-(578,268,o),
-(625,313,o),
-(625,376,cs),
-(625,439,o),
-(578,484,o),
-(512,484,cs),
-(445,484,o),
-(398,439,o),
-(398,376,cs)
-);
-},
-{
-closed = 1;
-nodes = (
-(741,0,l),
-(741,190,l),
-(311,190,l),
-(311,729,l),
-(56,729,l),
-(56,0,l)
-);
-}
-);
-};
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = L;
-},
-{
-alignment = 1;
-pos = (770,0);
-ref = periodcentered.loclCAT.case.ss01;
-}
-);
-width = 770;
-},
-{
-background = {
-anchors = (
-{
-name = _center;
 pos = (103,365);
 },
 {
@@ -752,60 +684,20 @@ ref = periodcentered.loclCAT.case.ss01;
 width = 718;
 },
 {
-background = {
-anchors = (
-{
-name = _center;
-pos = (206,365);
-},
-{
-name = bottom;
-pos = (336,0);
-},
-{
-name = center;
-pos = (206,365);
-},
-{
-name = top;
-pos = (283,729);
-},
-{
-name = topright;
-pos = (488,729);
-}
-);
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
 shapes = (
 {
-closed = 1;
-nodes = (
-(438,322,o),
-(483,278,o),
-(543,278,cs),
-(605,278,o),
-(660,321,o),
-(660,390,cs),
-(660,450,o),
-(615,494,o),
-(555,494,cs),
-(493,494,o),
-(438,451,o),
-(438,382,cs)
-);
+ref = L;
 },
 {
-closed = 1;
-nodes = (
-(700,0,l),
-(740,190,l),
-(300,190,l),
-(413,729,l),
-(153,729,l),
-(0,0,l)
-);
+alignment = 1;
+pos = (769,0);
+ref = periodcentered.loclCAT.case.ss01;
 }
 );
-};
+width = 769;
+},
+{
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
@@ -813,11 +705,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (786,0);
+pos = (785,0);
 ref = periodcentered.loclCAT.case.ss01;
 }
 );
-width = 786;
+width = 785;
 }
 );
 userData = {

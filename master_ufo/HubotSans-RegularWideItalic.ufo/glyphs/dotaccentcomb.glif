@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb" format="2">
+  <unicode hex="0307"/>
+  <anchor x="145" y="525" name="_top"/>
+  <outline>
+    <contour>
+      <point x="115" y="610" type="line"/>
+      <point x="212" y="610" type="line"/>
+      <point x="237" y="728" type="line"/>
+      <point x="139" y="728" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>178</integer>
+    </dict>
+  </lib>
+</glyph>

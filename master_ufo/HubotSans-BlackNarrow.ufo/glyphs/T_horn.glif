@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Thorn" format="2">
+  <advance width="480"/>
+  <unicode hex="00DE"/>
+  <outline>
+    <contour>
+      <point x="33" y="0" type="line"/>
+      <point x="212" y="0" type="line"/>
+      <point x="212" y="729" type="line"/>
+      <point x="33" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="196" y="138" type="line"/>
+      <point x="253" y="138" type="line" smooth="yes"/>
+      <point x="377" y="138"/>
+      <point x="463" y="189"/>
+      <point x="463" y="371" type="curve" smooth="yes"/>
+      <point x="463" y="517"/>
+      <point x="387" y="591"/>
+      <point x="230" y="591" type="curve" smooth="yes"/>
+      <point x="196" y="591" type="line"/>
+      <point x="196" y="458" type="line"/>
+      <point x="237" y="458" type="line" smooth="yes"/>
+      <point x="269" y="458"/>
+      <point x="289" y="449"/>
+      <point x="289" y="403" type="curve" smooth="yes"/>
+      <point x="289" y="329" type="line" smooth="yes"/>
+      <point x="289" y="291"/>
+      <point x="280" y="267"/>
+      <point x="237" y="267" type="curve" smooth="yes"/>
+      <point x="196" y="267" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

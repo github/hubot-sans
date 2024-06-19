@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dieresiscomb.ss01" format="2">
+  <anchor x="299" y="545" name="_top"/>
+  <outline>
+    <contour>
+      <point x="436" y="597" type="curve" smooth="yes"/>
+      <point x="512" y="597"/>
+      <point x="558" y="626"/>
+      <point x="558" y="674" type="curve" smooth="yes"/>
+      <point x="558" y="722"/>
+      <point x="512" y="751"/>
+      <point x="436" y="751" type="curve" smooth="yes"/>
+      <point x="361" y="751"/>
+      <point x="315" y="722"/>
+      <point x="315" y="674" type="curve" smooth="yes"/>
+      <point x="315" y="626"/>
+      <point x="361" y="597"/>
+    </contour>
+    <contour>
+      <point x="162" y="597" type="curve" smooth="yes"/>
+      <point x="236" y="597"/>
+      <point x="284" y="626"/>
+      <point x="284" y="674" type="curve" smooth="yes"/>
+      <point x="284" y="722"/>
+      <point x="236" y="751"/>
+      <point x="162" y="751" type="curve" smooth="yes"/>
+      <point x="86" y="751"/>
+      <point x="40" y="722"/>
+      <point x="40" y="674" type="curve" smooth="yes"/>
+      <point x="40" y="626"/>
+      <point x="86" y="597"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>598</integer>
+    </dict>
+  </lib>
+</glyph>

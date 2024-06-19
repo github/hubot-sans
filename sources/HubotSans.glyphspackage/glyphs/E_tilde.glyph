@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = Etilde;
-kernRight = E;
+kernRight = Eacute;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -10,11 +10,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (-2,214);
+pos = (18,214);
 ref = tildecomb;
 }
 );
-width = 355;
+width = 344;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -23,7 +23,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (-13,205);
+pos = (6,202);
 ref = tildecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (-44,183);
+pos = (-4,183);
 ref = tildecomb;
 }
 );
@@ -49,24 +49,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (199,213);
+pos = (198,213);
 ref = tildecomb;
 }
 );
 width = 752;
-},
-{
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (165,184);
-ref = tildecomb;
-}
-);
-width = 822;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -75,7 +62,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (156,204);
+pos = (163,204);
 ref = tildecomb;
 }
 );
@@ -88,7 +75,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (1,184);
+pos = (38,183);
 ref = tildecomb;
 }
 );
@@ -101,11 +88,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (255,213);
+pos = (259,213);
 ref = tildecomb;
 }
 );
-width = 764;
+width = 770;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -114,24 +101,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (214,204);
+pos = (224,204);
 ref = tildecomb;
 }
 );
 width = 766;
-},
-{
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (220,184);
-ref = tildecomb;
-}
-);
-width = 839;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -140,7 +114,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (41,206);
+pos = (53,202);
 ref = tildecomb;
 }
 );
@@ -153,11 +127,37 @@ shapes = (
 ref = E;
 },
 {
-pos = (63,214);
+pos = (79,214);
 ref = tildecomb;
 }
 );
-width = 356;
+width = 345;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (161,184);
+ref = tildecomb;
+}
+);
+width = 820;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (218,184);
+ref = tildecomb;
+}
+);
+width = 838;
 }
 );
 unicode = 7868;

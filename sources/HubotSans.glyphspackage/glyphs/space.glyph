@@ -18,10 +18,6 @@ layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 width = 207;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-width = 193;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 width = 200;
 },
@@ -38,16 +34,20 @@ layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 width = 200;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-width = 193;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 width = 130;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 width = 120;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+width = 193;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+width = 193;
 }
 );
 unicode = 32;

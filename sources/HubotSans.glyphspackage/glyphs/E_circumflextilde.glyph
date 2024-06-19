@@ -1,7 +1,7 @@
 {
 color = 6;
 glyphname = Ecircumflextilde;
-kernRight = E;
+kernRight = Eacute;
 layers = (
 {
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
@@ -10,11 +10,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (41,214);
+pos = (43,214);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 355;
+width = 344;
 },
 {
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
@@ -23,7 +23,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (31,205);
+pos = (25,205);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (-28,183);
+pos = (-27,183);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -56,26 +56,13 @@ ref = circumflexcomb_tildecomb;
 width = 752;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (112,184);
-ref = circumflexcomb_tildecomb;
-}
-);
-width = 822;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
 ref = E;
 },
 {
-pos = (136,204);
+pos = (141,204);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -88,7 +75,7 @@ shapes = (
 ref = E;
 },
 {
-pos = (30,184);
+pos = (32,184);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -101,11 +88,11 @@ shapes = (
 ref = E;
 },
 {
-pos = (251,213);
+pos = (253,213);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 764;
+width = 770;
 },
 {
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -121,26 +108,13 @@ ref = circumflexcomb_tildecomb;
 width = 766;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = E;
-},
-{
-pos = (166,184);
-ref = circumflexcomb_tildecomb;
-}
-);
-width = 839;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
 ref = E;
 },
 {
-pos = (79,206);
+pos = (74,206);
 ref = circumflexcomb_tildecomb;
 }
 );
@@ -157,7 +131,33 @@ pos = (105,214);
 ref = circumflexcomb_tildecomb;
 }
 );
-width = 356;
+width = 345;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (109,184);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 820;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = E;
+},
+{
+pos = (164,184);
+ref = circumflexcomb_tildecomb;
+}
+);
+width = 838;
 }
 );
 unicode = 7876;

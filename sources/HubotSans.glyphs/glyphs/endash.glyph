@@ -1,0 +1,197 @@
+{
+glyphname = endash;
+kernLeft = hyphen;
+kernRight = hyphen;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(332,336,l),
+(332,361,l),
+(42,361,l),
+(42,336,l)
+);
+}
+);
+width = 374;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,290,l),
+(360,356,l),
+(35,356,l),
+(35,290,l)
+);
+}
+);
+width = 395;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(434,240,l),
+(434,405,l),
+(20,405,l),
+(20,240,l)
+);
+}
+);
+width = 454;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+closed = 1;
+nodes = (
+(468,301,l),
+(468,337,l),
+(46,337,l),
+(46,301,l)
+);
+}
+);
+width = 514;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(491,283,l),
+(491,364,l),
+(42,364,l),
+(42,283,l)
+);
+}
+);
+width = 533;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(427,240,l),
+(463,405,l),
+(49,405,l),
+(13,240,l)
+);
+}
+);
+width = 455;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+closed = 1;
+nodes = (
+(477,301,l),
+(485,337,l),
+(63,337,l),
+(55,301,l)
+);
+}
+);
+width = 514;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(497,283,l),
+(514,364,l),
+(64,364,l),
+(48,283,l)
+);
+}
+);
+width = 535;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+closed = 1;
+nodes = (
+(367,290,l),
+(381,356,l),
+(56,356,l),
+(42,290,l)
+);
+}
+);
+width = 397;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(342,306,l),
+(348,331,l),
+(58,331,l),
+(52,306,l)
+);
+}
+);
+width = 374;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+closed = 1;
+nodes = (
+(569,236,l),
+(569,410,l),
+(32,410,l),
+(32,236,l)
+);
+}
+);
+width = 601;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(563,236,l),
+(600,413,l),
+(60,413,l),
+(23,236,l)
+);
+}
+);
+width = 601;
+}
+);
+metricLeft = hyphen;
+metricRight = hyphen;
+unicode = 8211;
+userData = {
+KernOnName = endash;
+KernOnSpecialSpacing = {
+L = dashes;
+R = dashes;
+};
+};
+}

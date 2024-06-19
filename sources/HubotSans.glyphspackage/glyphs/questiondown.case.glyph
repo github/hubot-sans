@@ -63,18 +63,6 @@ ref = question;
 width = 566;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (645,729);
-ref = question;
-}
-);
-width = 645;
-},
-{
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
 shapes = (
 {
@@ -133,6 +121,18 @@ ref = question;
 }
 );
 width = 584;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (644,729);
+ref = question;
+}
+);
+width = 644;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

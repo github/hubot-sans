@@ -8,7 +8,7 @@ layers = (
 layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 shapes = (
 {
-pos = (0,76);
+pos = (0,16);
 ref = endash;
 }
 );
@@ -18,7 +18,7 @@ width = 374;
 layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
 shapes = (
 {
-pos = (0,72);
+pos = (0,42);
 ref = endash;
 }
 );
@@ -28,7 +28,7 @@ width = 395;
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
 shapes = (
 {
-pos = (0,62);
+pos = (0,42);
 ref = endash;
 }
 );
@@ -38,27 +38,17 @@ width = 454;
 layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
 shapes = (
 {
-pos = (0,85);
+pos = (0,46);
 ref = endash;
 }
 );
 width = 514;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-pos = (0,72);
-ref = endash;
-}
-);
-width = 601;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
-pos = (0,80);
+pos = (0,41);
 ref = endash;
 }
 );
@@ -68,17 +58,17 @@ width = 533;
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
 shapes = (
 {
-pos = (13,62);
+pos = (9,42);
 ref = endash;
 }
 );
-width = 453;
+width = 455;
 },
 {
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
 shapes = (
 {
-pos = (18,85);
+pos = (10,46);
 ref = endash;
 }
 );
@@ -88,41 +78,51 @@ width = 514;
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
 shapes = (
 {
-pos = (17,80);
+pos = (9,41);
 ref = endash;
 }
 );
-width = 534;
+width = 535;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
-pos = (15,72);
+pos = (9,42);
+ref = endash;
+}
+);
+width = 397;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+pos = (10,46);
+ref = endash;
+}
+);
+width = 374;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+pos = (0,42);
 ref = endash;
 }
 );
 width = 601;
 },
 {
-layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
 shapes = (
 {
-pos = (15,72);
+pos = (9,40);
 ref = endash;
 }
 );
-width = 396;
-},
-{
-layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-shapes = (
-{
-pos = (16,76);
-ref = endash;
-}
-);
-width = 375;
+width = 601;
 }
 );
 metricLeft = hyphen;

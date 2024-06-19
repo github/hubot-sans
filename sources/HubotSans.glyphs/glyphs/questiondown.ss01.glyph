@@ -1,0 +1,152 @@
+{
+color = 6;
+glyphname = questiondown.ss01;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (347,515);
+ref = question.ss01;
+}
+);
+width = 347;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (372,524);
+ref = question.ss01;
+}
+);
+width = 372;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (437,546);
+ref = question.ss01;
+}
+);
+width = 437;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (560,516);
+ref = question.ss01;
+}
+);
+width = 560;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (578,525);
+ref = question.ss01;
+}
+);
+width = 578;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (442,545);
+ref = question.ss01;
+}
+);
+width = 442;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (565,516);
+ref = question.ss01;
+}
+);
+width = 565;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (590,525);
+ref = question.ss01;
+}
+);
+width = 590;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (361,523);
+ref = question.ss01;
+}
+);
+width = 361;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (350,515);
+ref = question.ss01;
+}
+);
+width = 350;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (651,545);
+ref = question.ss01;
+}
+);
+width = 651;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (656,545);
+ref = question.ss01;
+}
+);
+width = 656;
+}
+);
+metricLeft = "=|question";
+metricRight = "=|question";
+}

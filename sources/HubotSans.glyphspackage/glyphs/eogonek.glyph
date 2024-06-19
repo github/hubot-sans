@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 6;
 glyphname = eogonek;
 kernLeft = e;
 kernRight = e;
@@ -11,8 +11,8 @@ shapes = (
 ref = e;
 },
 {
-pos = (106,2);
-ref = ogonekcomb;
+pos = (146,2);
+ref = ogonekcomb.e;
 }
 );
 width = 371;
@@ -24,11 +24,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (107,4);
-ref = ogonekcomb;
+pos = (149,4);
+ref = ogonekcomb.e;
 }
 );
-width = 399;
+width = 398;
 },
 {
 layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
@@ -37,8 +37,8 @@ shapes = (
 ref = e;
 },
 {
-pos = (73,10);
-ref = ogonekcomb;
+pos = (170,0);
+ref = ogonekcomb.e;
 }
 );
 width = 470;
@@ -50,24 +50,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (273,0);
-ref = ogonekcomb;
+pos = (329,0);
+ref = ogonekcomb.e;
 }
 );
 width = 638;
-},
-{
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = e;
-},
-{
-pos = (154,0);
-ref = ogonekcomb;
-}
-);
-width = 740;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -76,11 +63,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (233,1);
-ref = ogonekcomb;
+pos = (312,1);
+ref = ogonekcomb.e;
 }
 );
-width = 653;
+width = 657;
 },
 {
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -89,8 +76,8 @@ shapes = (
 ref = e;
 },
 {
-pos = (73,4);
-ref = ogonekcomb;
+pos = (154,4);
+ref = ogonekcomb.e;
 }
 );
 width = 451;
@@ -103,7 +90,7 @@ ref = e;
 },
 {
 pos = (313,0);
-ref = ogonekcomb;
+ref = ogonekcomb.e;
 }
 );
 width = 645;
@@ -115,24 +102,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (287,0);
-ref = ogonekcomb;
+pos = (316,0);
+ref = ogonekcomb.e;
 }
 );
-width = 678;
-},
-{
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = e;
-},
-{
-pos = (216,-1);
-ref = ogonekcomb;
-}
-);
-width = 759;
+width = 679;
 },
 {
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -141,11 +115,11 @@ shapes = (
 ref = e;
 },
 {
-pos = (103,-1);
-ref = ogonekcomb;
+pos = (136,0);
+ref = ogonekcomb.e;
 }
 );
-width = 389;
+width = 388;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -154,11 +128,37 @@ shapes = (
 ref = e;
 },
 {
-pos = (129,0);
-ref = ogonekcomb;
+pos = (143,0);
+ref = ogonekcomb.e;
 }
 );
 width = 367;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (331,0);
+ref = ogonekcomb.e;
+}
+);
+width = 753;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = e;
+},
+{
+pos = (338,0);
+ref = ogonekcomb.e;
+}
+);
+width = 759;
 }
 );
 unicode = 281;

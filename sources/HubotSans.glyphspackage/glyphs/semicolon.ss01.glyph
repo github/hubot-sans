@@ -7,10 +7,11 @@ layers = (
 background = {
 shapes = (
 {
-pos = (1,469);
+pos = (31,469);
 ref = period.ss01;
 },
 {
+pos = (30,0);
 ref = comma.ss01;
 }
 );
@@ -34,10 +35,11 @@ width = 130;
 background = {
 shapes = (
 {
-pos = (1,424);
+pos = (71,424);
 ref = period.ss01;
 },
 {
+pos = (70,0);
 ref = comma.ss01;
 }
 );
@@ -61,10 +63,11 @@ width = 171;
 background = {
 shapes = (
 {
-pos = (1,369);
+pos = (101,369);
 ref = period.ss01;
 },
 {
+pos = (100,0);
 ref = comma.ss01;
 }
 );
@@ -88,10 +91,11 @@ width = 226;
 background = {
 shapes = (
 {
-pos = (1,462);
+pos = (41,462);
 ref = period.ss01;
 },
 {
+pos = (40,0);
 ref = comma.ss01;
 }
 );
@@ -116,40 +120,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (1,368);
+pos = (71,426);
 ref = period.ss01;
 },
 {
 alignment = -1;
-ref = comma.ss01;
-}
-);
-};
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-ref = comma.ss01;
-},
-{
-alignment = 1;
-anchor = top;
-pos = (-7,368);
-ref = period.ss01;
-}
-);
-width = 298;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (1,426);
-ref = period.ss01;
-},
-{
-alignment = -1;
+pos = (70,0);
 ref = comma.ss01;
 }
 );
@@ -174,11 +150,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (79,369);
+pos = (179,369);
 ref = period.ss01;
 },
 {
 alignment = -1;
+pos = (100,0);
 ref = comma.ss01;
 }
 );
@@ -203,11 +180,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (96,462);
+pos = (146,462);
 ref = period.ss01;
 },
 {
 alignment = -1;
+pos = (50,0);
 ref = comma.ss01;
 }
 );
@@ -232,11 +210,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (90,426);
+pos = (180,426);
 ref = period.ss01;
 },
 {
 alignment = -1;
+pos = (90,0);
 ref = comma.ss01;
 }
 );
@@ -261,41 +240,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (78,368);
+pos = (169,424);
 ref = period.ss01;
 },
 {
 alignment = -1;
-pos = (1,0);
-ref = comma.ss01;
-}
-);
-};
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 1;
-ref = comma.ss01;
-},
-{
-alignment = 1;
-anchor = top;
-pos = (71,368);
-ref = period.ss01;
-}
-);
-width = 308;
-},
-{
-background = {
-shapes = (
-{
-alignment = -1;
-pos = (89,424);
-ref = period.ss01;
-},
-{
-alignment = -1;
+pos = (80,0);
 ref = comma.ss01;
 }
 );
@@ -320,11 +270,12 @@ background = {
 shapes = (
 {
 alignment = -1;
-pos = (100,469);
+pos = (150,469);
 ref = period.ss01;
 },
 {
 alignment = -1;
+pos = (50,0);
 ref = comma.ss01;
 }
 );
@@ -343,6 +294,38 @@ ref = period.ss01;
 }
 );
 width = 132;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+ref = comma.ss01;
+},
+{
+alignment = 1;
+anchor = top;
+pos = (-6,367);
+ref = period.ss01;
+}
+);
+width = 300;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+ref = comma.ss01;
+},
+{
+alignment = 1;
+anchor = top;
+pos = (71,367);
+ref = period.ss01;
+}
+);
+width = 309;
 }
 );
 metricLeft = comma.ss01;

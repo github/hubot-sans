@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
+  <advance width="1215"/>
+  <unicode hex="00C6"/>
+  <anchor x="810" y="0" name="#entry"/>
+  <anchor x="810" y="0" name="#exit"/>
+  <anchor x="446" y="0" name="bottom"/>
+  <anchor x="854" y="0" name="ogonek"/>
+  <anchor x="446" y="729" name="top"/>
+  <outline>
+    <component base="A"/>
+    <component base="_AE.E" xOffset="420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

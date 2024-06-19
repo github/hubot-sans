@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oe" format="2">
+  <advance width="732"/>
+  <unicode hex="0153"/>
+  <anchor x="278" y="0" name="#entry"/>
+  <anchor x="278" y="0" name="#exit"/>
+  <anchor x="235" y="0" name="bottom_1"/>
+  <anchor x="500" y="0" name="bottom_2"/>
+  <anchor x="235" y="273" name="center"/>
+  <anchor x="425" y="10" name="ogonek_1"/>
+  <anchor x="642" y="0" name="ogonek_2"/>
+  <anchor x="235" y="546" name="top_1"/>
+  <anchor x="497" y="546" name="top_2"/>
+  <anchor x="335" y="516" name="topright"/>
+  <outline>
+    <component base="o"/>
+    <component base="e" xOffset="262"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>o</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>e</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>e</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

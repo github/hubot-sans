@@ -1,0 +1,171 @@
+{
+color = 7;
+glyphname = arrowright;
+layers = (
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(172,350,l),
+(662,350,l),
+(550,197,l),
+(587,197,l),
+(711,365,l),
+(587,533,l),
+(550,533,l),
+(662,380,l),
+(172,380,l)
+);
+}
+);
+};
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+angle = -90;
+pos = (-25,603);
+ref = arrowup;
+}
+);
+width = 669;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+angle = -90;
+pos = (-36,599);
+ref = arrowup;
+}
+);
+width = 647;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+angle = -90;
+pos = (-58,591);
+ref = arrowup;
+}
+);
+width = 603;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+angle = -90;
+pos = (-5,626);
+ref = arrowup;
+}
+);
+width = 710;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (4,652);
+ref = arrowup;
+}
+);
+width = 727;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (-22,636);
+ref = arrowup;
+}
+);
+width = 619;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (21,693);
+ref = arrowup;
+}
+);
+width = 713;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (34,705);
+ref = arrowup;
+}
+);
+width = 735;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (-7,650);
+ref = arrowup;
+}
+);
+width = 654;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (1,657);
+ref = arrowup;
+}
+);
+width = 672;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (-20,649);
+ref = arrowup;
+}
+);
+width = 680;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = -1;
+angle = -90;
+pos = (20,701);
+ref = arrowup;
+}
+);
+width = 699;
+}
+);
+unicode = 8594;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

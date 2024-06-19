@@ -1,0 +1,161 @@
+{
+color = 6;
+glyphname = quotedblleft;
+kernLeft = quotedblleft;
+kernRight = quotedblleft;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (241,584);
+ref = quotedblbase;
+}
+);
+width = 241;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (303,576);
+ref = quotedblbase;
+}
+);
+width = 303;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (432,562);
+ref = quotedblbase;
+}
+);
+width = 432;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (302,583);
+ref = quotedblbase;
+}
+);
+width = 302;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (394,575);
+ref = quotedblbase;
+}
+);
+width = 394;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (436,562);
+ref = quotedblbase;
+}
+);
+width = 432;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (315,583);
+ref = quotedblbase;
+}
+);
+width = 301;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (403,575);
+ref = quotedblbase;
+}
+);
+width = 392;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (314,576);
+ref = quotedblbase;
+}
+);
+width = 303;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (253,584);
+ref = quotedblbase;
+}
+);
+width = 238;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (577,564);
+ref = quotedblbase;
+}
+);
+width = 577;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (580,564);
+ref = quotedblbase;
+}
+);
+width = 576;
+}
+);
+metricLeft = "=|comma";
+metricRight = "=|comma";
+unicode = 8220;
+userData = {
+KernOnSpecialSpacing = {
+L = quotes;
+R = quotes;
+};
+};
+}

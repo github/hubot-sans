@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fi" format="2">
+  <advance width="742"/>
+  <unicode hex="FB01"/>
+  <anchor x="371" y="0" name="caret_1"/>
+  <outline>
+    <contour>
+      <point x="116" y="0" type="line"/>
+      <point x="352" y="0" type="line"/>
+      <point x="352" y="383" type="line"/>
+      <point x="461" y="383" type="line"/>
+      <point x="461" y="0" type="line"/>
+      <point x="697" y="0" type="line"/>
+      <point x="697" y="545" type="line"/>
+      <point x="352" y="545" type="line"/>
+      <point x="352" y="598" type="line"/>
+      <point x="697" y="598" type="line"/>
+      <point x="697" y="729" type="line"/>
+      <point x="272" y="729" type="line" smooth="yes"/>
+      <point x="179" y="729"/>
+      <point x="116" y="685"/>
+      <point x="116" y="604" type="curve" smooth="yes"/>
+      <point x="116" y="545" type="line"/>
+      <point x="24" y="545" type="line"/>
+      <point x="24" y="383" type="line"/>
+      <point x="116" y="383" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>f</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=l@100</string>
+    </dict>
+  </lib>
+</glyph>

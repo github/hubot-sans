@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless" format="2">
+  <advance width="171"/>
+  <unicode hex="0131"/>
+  <anchor x="31" y="0" name="bottom"/>
+  <anchor x="51" y="0" name="ogonek"/>
+  <anchor x="140" y="516" name="top"/>
+  <outline>
+    <contour>
+      <point x="13" y="0" type="line"/>
+      <point x="51" y="0" type="line"/>
+      <point x="158" y="516" type="line"/>
+      <point x="120" y="516" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>l</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>l</string>
+    </dict>
+  </lib>
+</glyph>

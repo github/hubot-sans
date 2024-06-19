@@ -57,19 +57,6 @@ ref = hungarumlautcomb;
 width = 942;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = O;
-},
-{
-pos = (269,184);
-ref = hungarumlautcomb;
-}
-);
-width = 988;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -89,7 +76,7 @@ shapes = (
 ref = O;
 },
 {
-pos = (79,184);
+pos = (57,184);
 ref = hungarumlautcomb;
 }
 );
@@ -122,30 +109,17 @@ ref = hungarumlautcomb;
 width = 940;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-ref = O;
-},
-{
-pos = (288,184);
-ref = hungarumlautcomb;
-}
-);
-width = 984;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
 ref = O;
 },
 {
-pos = (120,206);
+pos = (118,206);
 ref = hungarumlautcomb;
 }
 );
-width = 461;
+width = 455;
 },
 {
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -159,6 +133,32 @@ ref = hungarumlautcomb;
 }
 );
 width = 445;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (263,184);
+ref = hungarumlautcomb;
+}
+);
+width = 986;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+ref = O;
+},
+{
+pos = (286,184);
+ref = hungarumlautcomb;
+}
+);
+width = 985;
 }
 );
 unicode = 336;

@@ -1,5 +1,5 @@
 {
-color = 0;
+color = 6;
 glyphname = Ohorntilde;
 kernLeft = O;
 layers = (
@@ -10,7 +10,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (41,214);
+pos = (61,214);
 ref = tildecomb;
 }
 );
@@ -23,7 +23,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (30,205);
+pos = (49,202);
 ref = tildecomb;
 }
 );
@@ -36,7 +36,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (4,183);
+pos = (44,183);
 ref = tildecomb;
 }
 );
@@ -49,24 +49,11 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (294,213);
+pos = (293,213);
 ref = tildecomb;
 }
 );
 width = 942;
-},
-{
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-ref = Ohorn;
-},
-{
-pos = (254,184);
-ref = tildecomb;
-}
-);
-width = 988;
 },
 {
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -75,7 +62,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (253,204);
+pos = (260,204);
 ref = tildecomb;
 }
 );
@@ -88,7 +75,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (53,184);
+pos = (68,183);
 ref = tildecomb;
 }
 );
@@ -101,7 +88,7 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (262,213);
+pos = (266,213);
 ref = tildecomb;
 }
 );
@@ -114,11 +101,50 @@ shapes = (
 ref = Ohorn;
 },
 {
-pos = (260,204);
+pos = (270,204);
 ref = tildecomb;
 }
 );
 width = 940;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (80,202);
+ref = tildecomb;
+}
+);
+width = 455;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (112,214);
+ref = tildecomb;
+}
+);
+width = 445;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+ref = Ohorn;
+},
+{
+pos = (250,184);
+ref = tildecomb;
+}
+);
+width = 986;
 },
 {
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
@@ -131,33 +157,7 @@ pos = (271,184);
 ref = tildecomb;
 }
 );
-width = 984;
-},
-{
-layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
-shapes = (
-{
-ref = Ohorn;
-},
-{
-pos = (70,206);
-ref = tildecomb;
-}
-);
-width = 461;
-},
-{
-layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
-shapes = (
-{
-ref = Ohorn;
-},
-{
-pos = (96,214);
-ref = tildecomb;
-}
-);
-width = 445;
+width = 985;
 }
 );
 unicode = 7904;

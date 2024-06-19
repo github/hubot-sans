@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal" format="2">
+  <advance width="500"/>
+  <unicode hex="003D"/>
+  <anchor x="271" y="361" name="center"/>
+  <outline>
+    <contour>
+      <point x="56" y="435" type="line"/>
+      <point x="518" y="435" type="line"/>
+      <point x="531" y="495" type="line"/>
+      <point x="69" y="495" type="line"/>
+    </contour>
+    <contour>
+      <point x="13" y="235" type="line"/>
+      <point x="475" y="235" type="line"/>
+      <point x="488" y="295" type="line"/>
+      <point x="26" y="295" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

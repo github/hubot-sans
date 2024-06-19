@@ -1,5 +1,5 @@
 {
-color = 6;
+color = 9;
 glyphname = nine.tf;
 layers = (
 {
@@ -71,18 +71,6 @@ monoWidth = 700;
 width = 720;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (720,729);
-ref = six.tf;
-}
-);
-width = 720;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -131,18 +119,6 @@ ref = six.tf;
 width = 720;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 1;
-angle = 180;
-pos = (759,729);
-ref = six.tf;
-}
-);
-width = 720;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -165,6 +141,30 @@ ref = six.tf;
 }
 );
 width = 500;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (720,729);
+ref = six.tf;
+}
+);
+width = 720;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (759,729);
+ref = six.tf;
+}
+);
+width = 720;
 }
 );
 userData = {

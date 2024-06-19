@@ -283,75 +283,6 @@ background = {
 anchors = (
 {
 name = bottom;
-pos = (470,0);
-},
-{
-name = top;
-pos = (476,729);
-},
-{
-name = topleft;
-pos = (32,729);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(790,276,l),
-(790,413,l),
-(150,413,l),
-(150,276,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(790,80,l),
-(790,216,l),
-(150,216,l),
-(150,80,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(596,0,l),
-(596,274,l),
-(938,729,l),
-(648,729,l),
-(513,528,l),
-(479,473,l),
-(467,473,l),
-(434,528,l),
-(304,729,l),
-(1,729,l),
-(343,274,l),
-(343,0,l)
-);
-}
-);
-};
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = -1;
-pos = (4,0);
-ref = Y;
-},
-{
-alignment = 1;
-pos = (123,0);
-ref = _yen.bars;
-}
-);
-width = 991;
-},
-{
-background = {
-anchors = (
-{
-name = bottom;
 pos = (400,0);
 },
 {
@@ -628,75 +559,6 @@ background = {
 anchors = (
 {
 name = bottom;
-pos = (424,0);
-},
-{
-name = top;
-pos = (569,729);
-},
-{
-name = topleft;
-pos = (141,729);
-}
-);
-shapes = (
-{
-closed = 1;
-nodes = (
-(805,276,l),
-(835,413,l),
-(194,413,l),
-(165,276,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(764,80,l),
-(793,216,l),
-(152,216,l),
-(123,80,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(553,0,l),
-(611,274,l),
-(1055,729,l),
-(744,729,l),
-(565,528,l),
-(519,473,l),
-(506,473,l),
-(484,528,l),
-(394,729,l),
-(98,729,l),
-(351,274,l),
-(294,0,l)
-);
-}
-);
-};
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = -1;
-pos = (4,0);
-ref = Y;
-},
-{
-alignment = 1;
-pos = (129,0);
-ref = _yen.bars;
-}
-);
-width = 1011;
-},
-{
-background = {
-anchors = (
-{
-name = bottom;
 pos = (150,0);
 },
 {
@@ -829,6 +691,38 @@ ref = _yen.bars;
 }
 );
 width = 427;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = Y;
+},
+{
+alignment = -1;
+pos = (124,0);
+ref = _yen.bars;
+}
+);
+width = 989;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = -1;
+pos = (4,0);
+ref = Y;
+},
+{
+alignment = -1;
+pos = (130,0);
+ref = _yen.bars;
+}
+);
+width = 1010;
 }
 );
 unicode = 165;

@@ -1,0 +1,192 @@
+{
+glyphname = bar;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,-67,l),
+(149,729,l),
+(119,729,l),
+(119,-67,l)
+);
+}
+);
+width = 268;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(168,-67,l),
+(168,729,l),
+(101,729,l),
+(101,-67,l)
+);
+}
+);
+width = 269;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(214,-67,l),
+(214,729,l),
+(56,729,l),
+(56,-67,l)
+);
+}
+);
+width = 269;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+closed = 1;
+nodes = (
+(108,-67,l),
+(108,729,l),
+(71,729,l),
+(71,-67,l)
+);
+}
+);
+width = 179;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(185,-67,l),
+(185,729,l),
+(101,729,l),
+(101,-67,l)
+);
+}
+);
+width = 285;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(142,-67,l),
+(312,729,l),
+(154,729,l),
+(-16,-67,l)
+);
+}
+);
+width = 271;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+closed = 1;
+nodes = (
+(123,-67,l),
+(293,729,l),
+(256,729,l),
+(86,-67,l)
+);
+}
+);
+width = 348;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(127,-67,l),
+(297,729,l),
+(214,729,l),
+(43,-67,l)
+);
+}
+);
+width = 311;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+closed = 1;
+nodes = (
+(98,-67,l),
+(268,729,l),
+(201,729,l),
+(31,-67,l)
+);
+}
+);
+width = 270;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,-67,l),
+(250,729,l),
+(220,729,l),
+(50,-67,l)
+);
+}
+);
+width = 269;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+closed = 1;
+nodes = (
+(285,-67,l),
+(285,729,l),
+(80,729,l),
+(80,-67,l)
+);
+}
+);
+width = 366;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(210,-67,l),
+(380,729,l),
+(174,729,l),
+(5,-67,l)
+);
+}
+);
+width = 359;
+}
+);
+unicode = 124;
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+};
+}

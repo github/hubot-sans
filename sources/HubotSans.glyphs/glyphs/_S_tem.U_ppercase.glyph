@@ -1,0 +1,186 @@
+{
+export = 0;
+glyphname = _Stem.Uppercase;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(119,0,l),
+(119,729,l),
+(88,729,l),
+(88,0,l)
+);
+}
+);
+width = 207;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(144,0,l),
+(144,729,l),
+(71,729,l),
+(71,0,l)
+);
+}
+);
+width = 216;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(208,0,l),
+(208,729,l),
+(29,729,l),
+(29,0,l)
+);
+}
+);
+width = 237;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+closed = 1;
+nodes = (
+(165,0,l),
+(165,729,l),
+(123,729,l),
+(123,0,l)
+);
+}
+);
+width = 262;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,0,l),
+(206,729,l),
+(105,729,l),
+(105,0,l)
+);
+}
+);
+width = 285;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(170,0,l),
+(298,729,l),
+(126,729,l),
+(-1,0,l)
+);
+}
+);
+width = 257;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+closed = 1;
+nodes = (
+(137,0,l),
+(265,729,l),
+(223,729,l),
+(95,0,l)
+);
+}
+);
+width = 289;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(177,0,l),
+(304,729,l),
+(205,729,l),
+(76,0,l)
+);
+}
+);
+width = 311;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+closed = 1;
+nodes = (
+(110,0,l),
+(239,729,l),
+(170,729,l),
+(41,0,l)
+);
+}
+);
+width = 238;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(91,0,l),
+(219,729,l),
+(188,729,l),
+(60,0,l)
+);
+}
+);
+width = 234;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+closed = 1;
+nodes = (
+(330,0,l),
+(330,729,l),
+(69,729,l),
+(69,0,l)
+);
+}
+);
+width = 397;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(300,0,l),
+(428,729,l),
+(166,729,l),
+(38,0,l)
+);
+}
+);
+width = 424;
+}
+);
+}

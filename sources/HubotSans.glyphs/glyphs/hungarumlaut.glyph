@@ -1,0 +1,177 @@
+{
+color = 6;
+glyphname = hungarumlaut;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 279;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 354;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(149,734,l),
+(244,886,l),
+(61,886,l),
+(7,734,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(375,734,l),
+(507,886,l),
+(312,886,l),
+(217,734,l)
+);
+}
+);
+};
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 467;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 321;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 508;
+},
+{
+background = {
+anchors = (
+{
+name = _top;
+pos = (279,679);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(255,734,l),
+(376,886,l),
+(193,886,l),
+(113,734,l)
+);
+},
+{
+closed = 1;
+nodes = (
+(481,734,l),
+(639,886,l),
+(444,886,l),
+(323,734,l)
+);
+}
+);
+};
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 512;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 324;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 512;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 365;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 279;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 625;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = 1;
+ref = hungarumlautcomb;
+}
+);
+width = 625;
+}
+);
+unicode = 733;
+}

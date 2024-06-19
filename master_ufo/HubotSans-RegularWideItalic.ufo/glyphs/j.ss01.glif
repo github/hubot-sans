@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="j.ss01" format="2">
+  <advance width="218"/>
+  <note>
+j
+</note>
+  <anchor x="164" y="525" name="top"/>
+  <outline>
+    <component base="jdotless"/>
+    <component base="dotaccentcomb.ss01"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -53,18 +53,6 @@ ref = comma.ss01;
 width = 148;
 },
 {
-layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
-shapes = (
-{
-alignment = 3;
-angle = 180;
-pos = (298,570);
-ref = comma.ss01;
-}
-);
-width = 298;
-},
-{
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
 shapes = (
 {
@@ -113,18 +101,6 @@ ref = comma.ss01;
 width = 208;
 },
 {
-layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
-shapes = (
-{
-alignment = 3;
-angle = 180;
-pos = (313,570);
-ref = comma.ss01;
-}
-);
-width = 308;
-},
-{
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
 shapes = (
 {
@@ -147,6 +123,30 @@ ref = comma.ss01;
 }
 );
 width = 132;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (300,570);
+ref = comma.ss01;
+}
+);
+width = 300;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 3;
+angle = 180;
+pos = (314,570);
+ref = comma.ss01;
+}
+);
+width = 309;
 }
 );
 metricLeft = "=|comma.ss01";
