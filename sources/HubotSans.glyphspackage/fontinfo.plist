@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -34,6 +34,19 @@ value = 0;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
 }
 );
 date = "2017-05-31 15:56:58 +0000";
@@ -139939,7 +139952,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2021 by GitHub.Inc. All rights reserved.";
+value = "Copyright 2021 The Hubot Sans Project Authors (https://github.com/github/hubot-sans), with Reserved Font Name \"Hubot\"";
 }
 );
 },
@@ -139957,6 +139970,19 @@ key = designerURL;
 value = www.degarism.com;
 },
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
 key = manufacturers;
 values = (
 {
@@ -139968,6 +139994,10 @@ value = "GitHub, Inc., Subsidiary of Microsoft Corporation";
 {
 key = manufacturerURL;
 value = www.github.com;
+},
+{
+key = vendorID;
+value = GTHB;
 }
 );
 stems = (
