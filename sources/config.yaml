@@ -1,5 +1,6 @@
 sources:
   - HubotSans.glyphspackage
+outputDir: "../googlefonts"
 buildOTF: False
 buildWebfont: False
 buildTTF: false
