@@ -1,12 +1,12 @@
 sources:
-  - HubotSans.glyphs
-# buildOTF: False
-# buildWebfont: False
-# buildTTF: false
+  - HubotSans.glyphspackage
+outputDir: "../googlefonts"
+buildOTF: False
+buildWebfont: False
+buildTTF: false
 axisOrder:
   - wdth
   - wght
-  - slnt
 familyName: "Hubot Sans"
 stat:
   - name: Width
@@ -26,8 +26,6 @@ stat:
   - name: Weight
     tag: wght
     values:
-    - name: Thin
-      value: 100
     - name: ExtraLight
       value: 200
     - name: Light
@@ -46,12 +44,12 @@ stat:
       value: 800
     - name: Black
       value: 900
-  - name: Slant
-    tag: slnt
-    values:
-    - name: Default
-      value: 0
-      flags: 2
-      linkedValue: -10
-    - name: Italic
-      value: -10
+  # - name: Slant
+  #   tag: slnt
+  #   values:
+  #   - name: Default
+  #     value: 0
+  #     flags: 2
+  #     linkedValue: -10
+  #   - name: Italic
+  #     value: -10

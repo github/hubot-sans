@@ -1,5 +1,5 @@
 {
-.appVersion = "3260";
+.appVersion = "3309";
 .formatVersion = 3;
 axes = (
 {
@@ -34,6 +34,43 @@ value = 0;
 {
 name = "Use Extension Kerning";
 value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Variable Font Origin";
+value = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+},
+{
+name = "Axis Mappings";
+value = {
+ital = {
+0 = 0;
+1 = 12;
+};
+wdth = {
+75 = 1;
+100 = 7;
+125 = 10;
+};
+wght = {
+200 = 200;
+300 = 300;
+400 = 400;
+500 = 500;
+600 = 600;
+700 = 700;
+800 = 800;
+900 = 900;
+};
+};
 }
 );
 date = "2017-05-31 15:56:58 +0000";
@@ -81,6 +118,15 @@ tag = aalt;
 {
 automatic = 1;
 code = "lookup ccmp_DFLT_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub iogonek' @CombiningTopAccents by iogonek.dotless;
+	sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
+
+lookup ccmp_DFLT_2 {
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -90,30 +136,21 @@ code = "lookup ccmp_DFLT_1 {
 	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
-} ccmp_DFLT_1;
+} ccmp_DFLT_2;
 
 lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub iogonek' @CombiningTopAccents by iogonek.dotless;
-	sub idotbelow' @CombiningTopAccents by idotbelow.dotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
-
-lookup ccmp_Other_2 {
 	lookupflag 0;
 	@Markscomb = [strokeshortcomb slashshortcomb slashlongcomb];
 	@MarkscombCase = [strokeshortcomb.case slashshortcomb.case slashlongcomb.case];
 	sub @Markscomb @Markscomb' by @MarkscombCase;
 	sub @Uppercase @Markscomb' by @MarkscombCase;
-} ccmp_Other_2;
+} ccmp_Other_1;
 
-lookup ccmp_Other_3 {
+lookup ccmp_Other_2 {
 	lookupflag 0;
 	sub @Markscomb' @MarkscombCase by @MarkscombCase;
 	sub @MarkscombCase @Markscomb' by @MarkscombCase;
-} ccmp_Other_3;
+} ccmp_Other_2;
 
 lookup ccmp_latn_1 {
 	lookupflag 0;
@@ -513,6 +550,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -616,7 +654,7 @@ pos = -167;
 {
 }
 );
-name = "ExtraLight Narrow";
+name = "Condensed ExtraLight";
 stemValues = (
 28,
 27,
@@ -753,6 +791,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -859,7 +898,7 @@ pos = -167;
 {
 }
 );
-name = "Regular Narrow";
+name = "Condensed Regular";
 stemValues = (
 62,
 59,
@@ -922,6 +961,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -1028,7 +1068,7 @@ pos = -167;
 {
 }
 );
-name = "Black Narrow";
+name = "Condensed Black";
 stemValues = (
 147,
 139,
@@ -1160,6 +1200,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -1263,7 +1304,7 @@ pos = -167;
 {
 }
 );
-name = "ExtraLight Wide";
+name = "Expanded ExtraLight";
 stemValues = (
 39,
 36,
@@ -1401,6 +1442,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -1507,7 +1549,7 @@ pos = -167;
 {
 }
 );
-name = "Regular Wide";
+name = "Expanded Regular";
 stemValues = (
 88,
 79,
@@ -1570,6 +1612,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -1676,7 +1719,7 @@ pos = -167;
 {
 }
 );
-name = "Black Wide";
+name = "Expanded Black";
 stemValues = (
 191,
 162,
@@ -1808,6 +1851,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -1912,7 +1956,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "ExtraLight Narrow Italic";
+name = "Condensed ExtraLight Italic";
 stemValues = (
 28,
 27,
@@ -2045,6 +2089,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -2149,7 +2194,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "Regular Narrow Italic";
+name = "Condensed Regular Italic";
 stemValues = (
 82,
 62,
@@ -2213,6 +2258,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -2317,7 +2363,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "Black Narrow Italic";
+name = "Condensed Black Italic";
 stemValues = (
 156,
 175,
@@ -2450,6 +2496,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -2554,7 +2601,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "ExtraLight Wide Italic";
+name = "Expanded ExtraLight Italic";
 stemValues = (
 39,
 36,
@@ -2690,6 +2737,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -2794,7 +2842,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "Regular Wide Italic";
+name = "Expanded Regular Italic";
 stemValues = (
 87,
 79,
@@ -2858,6 +2906,7 @@ axesValues = (
 );
 customParameters = (
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -2962,7 +3011,7 @@ pos = -167;
 pos = 12;
 }
 );
-name = "Black Wide Italic";
+name = "Expanded Black Italic";
 stemValues = (
 191,
 162,
@@ -3152,6 +3201,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3219,6 +3269,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3287,6 +3338,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3353,6 +3405,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3421,6 +3474,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3489,6 +3543,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3558,6 +3613,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3626,6 +3682,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3693,6 +3750,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3740,6 +3798,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3789,6 +3848,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3835,6 +3895,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3884,6 +3945,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3933,6 +3995,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -3983,6 +4046,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4032,6 +4096,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4079,6 +4144,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4146,6 +4212,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4214,6 +4281,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4280,6 +4348,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4348,6 +4417,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4416,6 +4486,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4485,6 +4556,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4553,6 +4625,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4620,6 +4693,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4689,6 +4763,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4759,6 +4834,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4827,6 +4903,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4897,6 +4974,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -4967,6 +5045,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5038,6 +5117,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5108,6 +5188,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5177,6 +5258,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5226,6 +5308,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5277,6 +5360,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5325,6 +5409,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5376,6 +5461,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5427,6 +5513,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5479,6 +5566,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5530,6 +5618,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5579,6 +5668,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5648,6 +5738,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5718,6 +5809,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5786,6 +5878,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5856,6 +5949,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5926,6 +6020,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -5997,6 +6092,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -6067,6 +6163,7 @@ s
 );
 },
 {
+disabled = 1;
 name = "Axis Location";
 value = (
 {
@@ -139939,7 +140036,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright © 2021 by GitHub.Inc. All rights reserved.";
+value = "Copyright 2021 The Hubot Sans Project Authors (https://github.com/github/hubot-sans), with Reserved Font Name \"Hubot\"";
 }
 );
 },
@@ -139957,6 +140054,19 @@ key = designerURL;
 value = www.degarism.com;
 },
 {
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://openfontlicense.org";
+}
+);
+},
+{
+key = licenseURL;
+value = "https://openfontlicense.org";
+},
+{
 key = manufacturers;
 values = (
 {
@@ -139968,6 +140078,10 @@ value = "GitHub, Inc., Subsidiary of Microsoft Corporation";
 {
 key = manufacturerURL;
 value = www.github.com;
+},
+{
+key = vendorID;
+value = GTHB;
 }
 );
 stems = (

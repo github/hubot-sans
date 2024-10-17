@@ -48,7 +48,7 @@ shapes = (
 ref = I.ss04;
 },
 {
-pos = (-40,213);
+pos = (-41,213);
 ref = dieresiscomb;
 }
 );
@@ -61,7 +61,7 @@ shapes = (
 ref = I.ss04;
 },
 {
-pos = (-50,204);
+pos = (-51,204);
 ref = dieresiscomb;
 }
 );
@@ -87,7 +87,7 @@ shapes = (
 ref = I.ss04;
 },
 {
-pos = (19,213);
+pos = (18,213);
 ref = dieresiscomb;
 }
 );
@@ -139,7 +139,7 @@ shapes = (
 ref = I.ss04;
 },
 {
-pos = (-77,184);
+pos = (-79,184);
 ref = dieresiscomb;
 }
 );

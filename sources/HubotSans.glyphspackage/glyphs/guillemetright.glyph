@@ -141,7 +141,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (387,518);
+pos = (388,518);
 ref = guillemetleft;
 }
 );
@@ -163,7 +163,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (457,527);
+pos = (458,527);
 ref = guillemetleft;
 }
 );
@@ -185,7 +185,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (436,523);
+pos = (437,523);
 ref = guillemetleft;
 }
 );
@@ -207,7 +207,7 @@ shapes = (
 {
 alignment = -1;
 angle = 180;
-pos = (372,516);
+pos = (373,516);
 ref = guillemetleft;
 }
 );

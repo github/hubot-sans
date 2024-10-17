@@ -6,6 +6,10 @@ anchors = (
 {
 name = _top;
 pos = (156,515);
+},
+{
+name = top;
+pos = (156,684);
 }
 );
 background = {
@@ -71,7 +75,11 @@ width = 312;
 anchors = (
 {
 name = _top;
-pos = (176,527);
+pos = (177,524);
+},
+{
+name = top;
+pos = (177,714);
 }
 );
 background = {
@@ -143,7 +151,11 @@ width = 353;
 anchors = (
 {
 name = _top;
-pos = (205,546);
+pos = (207,546);
+},
+{
+name = top;
+pos = (207,761);
 }
 );
 background = {
@@ -209,7 +221,11 @@ width = 415;
 anchors = (
 {
 name = _top;
-pos = (178,516);
+pos = (179,516);
+},
+{
+name = top;
+pos = (179,690);
 }
 );
 background = {
@@ -281,7 +297,11 @@ width = 358;
 anchors = (
 {
 name = _top;
-pos = (206,525);
+pos = (207,525);
+},
+{
+name = top;
+pos = (207,728);
 }
 );
 layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
@@ -318,7 +338,11 @@ width = 414;
 anchors = (
 {
 name = _top;
-pos = (264,546);
+pos = (266,545);
+},
+{
+name = top;
+pos = (311,761);
 }
 );
 layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
@@ -355,7 +379,11 @@ width = 415;
 anchors = (
 {
 name = _top;
-pos = (233,516);
+pos = (234,516);
+},
+{
+name = top;
+pos = (271,690);
 }
 );
 layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
@@ -392,7 +420,11 @@ width = 358;
 anchors = (
 {
 name = _top;
-pos = (262,525);
+pos = (263,525);
+},
+{
+name = top;
+pos = (306,728);
 }
 );
 layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
@@ -429,7 +461,11 @@ width = 414;
 anchors = (
 {
 name = _top;
-pos = (233,527);
+pos = (232,523);
+},
+{
+name = top;
+pos = (273,714);
 }
 );
 layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
@@ -467,6 +503,10 @@ anchors = (
 {
 name = _top;
 pos = (211,515);
+},
+{
+name = top;
+pos = (247,684);
 }
 );
 layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
@@ -503,7 +543,11 @@ width = 313;
 anchors = (
 {
 name = _top;
-pos = (243,545);
+pos = (246,545);
+},
+{
+name = top;
+pos = (246,784);
 }
 );
 layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
@@ -540,7 +584,11 @@ width = 493;
 anchors = (
 {
 name = _top;
-pos = (302,545);
+pos = (305,545);
+},
+{
+name = top;
+pos = (355,784);
 }
 );
 layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";

@@ -1,0 +1,197 @@
+{
+color = 6;
+glyphname = circumflex;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 249;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 301;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,734,l),
+(181,800,l),
+(204,734,l),
+(355,734,l),
+(275,886,l),
+(86,886,l),
+(8,734,l)
+);
+}
+);
+};
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 458;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 372;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 466;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(277,719,l),
+(323,788,l),
+(330,719,l),
+(465,719,l),
+(436,862,l),
+(232,862,l),
+(121,719,l)
+);
+}
+);
+};
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 458;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 372;
+},
+{
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(206,745,l),
+(310,831,l),
+(383,745,l),
+(464,745,l),
+(358,878,l),
+(281,878,l),
+(124,745,l)
+);
+}
+);
+};
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 458;
+},
+{
+background = {
+anchors = (
+{
+name = _top;
+pos = (222,674);
+}
+);
+shapes = (
+{
+closed = 1;
+nodes = (
+(189,746,l),
+(251,842,l),
+(279,746,l),
+(340,746,l),
+(294,886,l),
+(224,886,l),
+(129,746,l)
+);
+}
+);
+};
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 299;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 257;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 646;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+ref = circumflexcomb;
+}
+);
+width = 647;
+}
+);
+unicode = 710;
+}
