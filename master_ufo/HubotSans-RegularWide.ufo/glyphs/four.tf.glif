@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.tf" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="27" y="176" type="line"/>
+      <point x="694" y="176" type="line"/>
+      <point x="694" y="261" type="line"/>
+      <point x="136" y="261" type="line"/>
+      <point x="136" y="268" type="line"/>
+      <point x="456" y="729" type="line"/>
+      <point x="354" y="729" type="line"/>
+      <point x="27" y="253" type="line"/>
+    </contour>
+    <contour>
+      <point x="449" y="0" type="line"/>
+      <point x="546" y="0" type="line"/>
+      <point x="546" y="418" type="line"/>
+      <point x="465" y="418" type="line"/>
+      <point x="449" y="222" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

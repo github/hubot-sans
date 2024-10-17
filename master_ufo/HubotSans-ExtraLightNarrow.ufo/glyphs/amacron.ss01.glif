@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="amacron.ss01" format="2">
+  <advance width="375"/>
+  <anchor x="183" y="0" name="bottom"/>
+  <anchor x="315" y="0" name="ogonek"/>
+  <anchor x="187" y="515" name="top"/>
+  <outline>
+    <component base="a.ss01"/>
+    <component base="macroncomb" xOffset="25"/>
+  </outline>
+</glyph>

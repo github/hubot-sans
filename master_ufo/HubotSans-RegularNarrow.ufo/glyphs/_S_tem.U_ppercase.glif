@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_Stem.Uppercase" format="2">
+  <advance width="216"/>
+  <outline>
+    <contour>
+      <point x="71" y="0" type="line"/>
+      <point x="144" y="0" type="line"/>
+      <point x="144" y="729" type="line"/>
+      <point x="71" y="729" type="line"/>
+    </contour>
+  </outline>
+</glyph>

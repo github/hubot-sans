@@ -1,0 +1,195 @@
+{
+glyphname = backslash;
+kernLeft = backslash;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+closed = 1;
+nodes = (
+(262,-82,l),
+(57,729,l),
+(28,729,l),
+(233,-82,l)
+);
+}
+);
+width = 272;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+closed = 1;
+nodes = (
+(295,-82,l),
+(94,729,l),
+(26,729,l),
+(228,-82,l)
+);
+}
+);
+width = 302;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+closed = 1;
+nodes = (
+(374,-82,l),
+(182,729,l),
+(18,729,l),
+(212,-82,l)
+);
+}
+);
+width = 373;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+closed = 1;
+nodes = (
+(484,-81,l),
+(69,729,l),
+(33,729,l),
+(445,-81,l)
+);
+}
+);
+width = 487;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+closed = 1;
+nodes = (
+(504,-81,l),
+(117,729,l),
+(32,729,l),
+(417,-81,l)
+);
+}
+);
+width = 506;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+closed = 1;
+nodes = (
+(291,-82,l),
+(271,729,l),
+(112,729,l),
+(134,-82,l)
+);
+}
+);
+width = 365;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+closed = 1;
+nodes = (
+(407,-81,l),
+(164,729,l),
+(131,729,l),
+(371,-81,l)
+);
+}
+);
+width = 482;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+closed = 1;
+nodes = (
+(423,-81,l),
+(208,729,l),
+(128,729,l),
+(340,-81,l)
+);
+}
+);
+width = 499;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+closed = 1;
+nodes = (
+(224,-82,l),
+(195,729,l),
+(130,729,l),
+(160,-82,l)
+);
+}
+);
+width = 304;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+closed = 1;
+nodes = (
+(199,-82,l),
+(166,729,l),
+(138,729,l),
+(171,-82,l)
+);
+}
+);
+width = 281;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+closed = 1;
+nodes = (
+(585,-82,l),
+(245,729,l),
+(29,729,l),
+(371,-82,l)
+);
+}
+);
+width = 586;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+closed = 1;
+nodes = (
+(495,-82,l),
+(326,729,l),
+(120,729,l),
+(291,-82,l)
+);
+}
+);
+width = 571;
+}
+);
+metricLeft = "=|slash";
+metricRight = "=|slash";
+unicode = 92;
+userData = {
+KernOnSpecialSpacing = {
+L = slash;
+R = slash;
+};
+};
+}

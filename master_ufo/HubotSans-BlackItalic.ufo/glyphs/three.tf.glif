@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="three.tf" format="2">
+  <advance width="720"/>
+  <outline>
+    <contour>
+      <point x="338" y="-11" type="curve" smooth="yes"/>
+      <point x="545" y="-11"/>
+      <point x="683" y="77"/>
+      <point x="683" y="208" type="curve" smooth="yes"/>
+      <point x="683" y="281"/>
+      <point x="639" y="339"/>
+      <point x="570" y="360" type="curve"/>
+      <point x="572" y="368" type="line"/>
+      <point x="668" y="392"/>
+      <point x="726" y="460"/>
+      <point x="725" y="546" type="curve" smooth="yes"/>
+      <point x="724" y="679"/>
+      <point x="583" y="741"/>
+      <point x="426" y="741" type="curve" smooth="yes"/>
+      <point x="240" y="741"/>
+      <point x="106" y="659"/>
+      <point x="83" y="516" type="curve"/>
+      <point x="306" y="516" type="line"/>
+      <point x="316" y="555"/>
+      <point x="352" y="577"/>
+      <point x="406" y="577" type="curve" smooth="yes"/>
+      <point x="455" y="577"/>
+      <point x="490" y="555"/>
+      <point x="485" y="512" type="curve" smooth="yes"/>
+      <point x="484" y="504" type="line" smooth="yes"/>
+      <point x="480" y="468"/>
+      <point x="445" y="445"/>
+      <point x="391" y="445" type="curve" smooth="yes"/>
+      <point x="315" y="445" type="line"/>
+      <point x="277" y="299" type="line"/>
+      <point x="353" y="299" type="line" smooth="yes"/>
+      <point x="405" y="299"/>
+      <point x="441" y="278"/>
+      <point x="435" y="231" type="curve" smooth="yes"/>
+      <point x="434" y="223" type="line" smooth="yes"/>
+      <point x="429" y="180"/>
+      <point x="388" y="158"/>
+      <point x="338" y="158" type="curve" smooth="yes"/>
+      <point x="280" y="158"/>
+      <point x="239" y="179"/>
+      <point x="238" y="224" type="curve"/>
+      <point x="10" y="224" type="line"/>
+      <point x="14" y="84"/>
+      <point x="130" y="-11"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.widthMetricsKey</key>
+      <string>zero.tf</string>
+      <key>public.markColor</key>
+      <string>0.98,0.36,0.67,1</string>
+    </dict>
+  </lib>
+</glyph>

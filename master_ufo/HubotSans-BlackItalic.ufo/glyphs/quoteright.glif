@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteright" format="2">
+  <advance width="294"/>
+  <unicode hex="2019"/>
+  <anchor x="109" y="551" name="#entry"/>
+  <anchor x="391" y="551" name="#exit"/>
+  <anchor x="322" y="1096" name="top"/>
+  <outline>
+    <component base="quotesinglbase" xOffset="117" yOffset="551"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>3</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>quotesinglbase</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>quotedblright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>quotedblright</string>
+      <key>public.markColor</key>
+      <string>0,0.67,0.91,1</string>
+    </dict>
+  </lib>
+</glyph>

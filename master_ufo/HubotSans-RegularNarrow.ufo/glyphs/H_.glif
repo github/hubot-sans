@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="H" format="2">
+  <advance width="460"/>
+  <unicode hex="0048"/>
+  <note>
+H
+</note>
+  <anchor x="230" y="0" name="bottom"/>
+  <anchor x="230" y="588" name="center"/>
+  <anchor x="230" y="729" name="top"/>
+  <anchor x="9" y="729" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="61" y="0" type="line"/>
+      <point x="134" y="0" type="line"/>
+      <point x="134" y="729" type="line"/>
+      <point x="61" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="326" y="0" type="line"/>
+      <point x="399" y="0" type="line"/>
+      <point x="399" y="729" type="line"/>
+      <point x="326" y="729" type="line"/>
+    </contour>
+    <contour>
+      <point x="119" y="343" type="line"/>
+      <point x="342" y="343" type="line"/>
+      <point x="342" y="405" type="line"/>
+      <point x="119" y="405" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|</string>
+    </dict>
+  </lib>
+</glyph>

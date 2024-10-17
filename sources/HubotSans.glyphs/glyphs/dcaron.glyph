@@ -1,0 +1,180 @@
+{
+color = 7;
+glyphname = dcaron;
+kernLeft = a;
+kernRight = dcaron;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (341,0);
+ref = caroncomb.alt;
+}
+);
+width = 381;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (362,0);
+ref = caroncomb.alt;
+}
+);
+width = 485;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (446,0);
+ref = caroncomb.alt;
+}
+);
+width = 645;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (572,0);
+ref = caroncomb.alt;
+}
+);
+width = 645;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (634,0);
+ref = caroncomb.alt;
+}
+);
+width = 782;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (427,0);
+ref = caroncomb.alt;
+}
+);
+width = 636;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (604,0);
+ref = caroncomb.alt;
+}
+);
+width = 650;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (651,0);
+ref = caroncomb.alt;
+}
+);
+width = 806;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (364,1);
+ref = caroncomb.alt;
+}
+);
+width = 492;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+pos = (333,0);
+ref = caroncomb.alt;
+}
+);
+width = 375;
+},
+{
+layerId = "6CB3618D-4A4F-4FBC-8FB6-B6C266F9E083";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (731,0);
+ref = caroncomb.alt;
+}
+);
+width = 991;
+},
+{
+layerId = "A49DBD9D-31CC-41B9-AF7E-9ED858C0CFF5";
+shapes = (
+{
+alignment = -1;
+ref = d;
+},
+{
+alignment = -1;
+pos = (741,0);
+ref = caroncomb.alt;
+}
+);
+width = 1019;
+}
+);
+metricLeft = d;
+unicode = 271;
+}

@@ -1,0 +1,179 @@
+{
+color = 9;
+glyphname = nine.tf;
+layers = (
+{
+layerId = "6932EABA-00D8-4526-96D6-87ADD7AC589E";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (500,729);
+ref = six.tf;
+}
+);
+userData = {
+RMXScaler = {
+monoWidth = 400;
+};
+};
+width = 500;
+},
+{
+layerId = "5CD2F84A-2568-4CD8-B351-D9C938FC152A";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (500,729);
+ref = six.tf;
+}
+);
+userData = {
+RMXScaler = {
+monoWidth = 450;
+};
+};
+width = 500;
+},
+{
+layerId = "C27438A8-196C-4C9A-B899-94A1193B83E6";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (500,729);
+ref = six.tf;
+}
+);
+userData = {
+RMXScaler = {
+monoWidth = 500;
+};
+};
+width = 500;
+},
+{
+layerId = "5908592F-1119-4296-AF9E-8219C1C10A44";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (720,729);
+ref = six.tf;
+}
+);
+userData = {
+RMXScaler = {
+monoWidth = 700;
+};
+};
+width = 720;
+},
+{
+layerId = "AE48F426-5A06-4069-851E-B29A4CF5AB7C";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (720,729);
+ref = six.tf;
+}
+);
+width = 720;
+},
+{
+layerId = "3997DD6A-B1DD-4C8E-8076-A32381C7B82F";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (539,729);
+ref = six.tf;
+}
+);
+width = 500;
+},
+{
+layerId = "83818878-ED40-419E-99CD-108DAFFBE778";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (765,729);
+ref = six.tf;
+}
+);
+width = 720;
+},
+{
+layerId = "60C8C1A3-75DB-4AA2-AA92-15A0C8BC52E3";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (763,729);
+ref = six.tf;
+}
+);
+width = 720;
+},
+{
+layerId = "DE16639F-02D9-40F6-995B-45753FE85645";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (544,729);
+ref = six.tf;
+}
+);
+width = 500;
+},
+{
+layerId = "CF2D9F7C-A313-4B1D-9A0D-3EFAA90186C4";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (545,729);
+ref = six.tf;
+}
+);
+width = 500;
+},
+{
+layerId = "B2A2C094-0A8E-4CD4-B0FB-CC77B76A82B9";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (720,729);
+ref = six.tf;
+}
+);
+width = 720;
+},
+{
+layerId = "FFB0BD1F-7FAC-4F91-A9E1-473A5D606C71";
+shapes = (
+{
+alignment = 1;
+angle = 180;
+pos = (759,729);
+ref = six.tf;
+}
+);
+width = 720;
+}
+);
+userData = {
+KernOnSpecialSpacing = {
+L = NoKerning;
+R = NoKerning;
+};
+RMXScaler = {
+source = nine;
+};
+};
+}

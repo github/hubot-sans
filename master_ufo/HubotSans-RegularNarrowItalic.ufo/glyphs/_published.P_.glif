@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="_published.P" format="2">
+  <advance width="302"/>
+  <anchor x="162" y="365" name="_center"/>
+  <outline>
+    <contour>
+      <point x="4" y="93" type="line"/>
+      <point x="61" y="93" type="line"/>
+      <point x="167" y="589" type="line"/>
+      <point x="193" y="589" type="line" smooth="yes"/>
+      <point x="237" y="589"/>
+      <point x="263" y="561"/>
+      <point x="249" y="472" type="curve" smooth="yes"/>
+      <point x="235" y="383"/>
+      <point x="195" y="358"/>
+      <point x="142" y="358" type="curve" smooth="yes"/>
+      <point x="110" y="358" type="line"/>
+      <point x="100" y="310" type="line"/>
+      <point x="146" y="310" type="line" smooth="yes"/>
+      <point x="228" y="310"/>
+      <point x="292" y="357"/>
+      <point x="307" y="478" type="curve" smooth="yes"/>
+      <point x="319" y="575"/>
+      <point x="282" y="636"/>
+      <point x="200" y="636" type="curve" smooth="yes"/>
+      <point x="120" y="636" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=40</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=40</string>
+    </dict>
+  </lib>
+</glyph>

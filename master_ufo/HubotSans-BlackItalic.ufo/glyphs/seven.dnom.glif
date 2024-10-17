@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="seven.dnom" format="2">
+  <advance width="429"/>
+  <anchor x="211" y="201" name="_center"/>
+  <outline>
+    <contour>
+      <point x="200" y="0" type="line"/>
+      <point x="404" y="277" type="line"/>
+      <point x="429" y="401" type="line"/>
+      <point x="54" y="401" type="line"/>
+      <point x="19" y="231" type="line"/>
+      <point x="128" y="231" type="line"/>
+      <point x="140" y="286" type="line"/>
+      <point x="230" y="286" type="line"/>
+      <point x="229" y="276" type="line"/>
+      <point x="14" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>
